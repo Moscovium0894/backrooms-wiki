@@ -1,0 +1,525 @@
+{
+ "$meta": {
+  "count": 12,
+  "fetchedAt": "2026-07-08T12:52:32+00:00",
+  "license": "CC BY-SA 3.0",
+  "source": "https://escapethebackrooms.fandom.com"
+ },
+ "items": [
+  {
+   "id": "abandoned-outpost-guide",
+   "images": [
+    {
+     "file": "guides/abandoned-outpost-guide/hero.png",
+     "height": 263,
+     "role": "hero",
+     "sourceFile": "File:Abandoned Outpost Locker.png",
+     "width": 92
+    },
+    {
+     "file": "guides/abandoned-outpost-guide/thumb.png",
+     "height": 263,
+     "role": "thumb",
+     "sourceFile": "File:Abandoned Outpost Locker.png",
+     "width": 92
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<h3>Get the Concentrate</h3>\n<p>Once you first spawn in, you must proceed on forward to get to the Base. Once in, you'll first find yourself in a room with a cage. When entering this area, a movie will play explaining how to turn a <a href=\"#APP#/entities/wretch/\">Wretch</a> back to normal. Once it's done, you must go around the place and find 4 Bottles of <a href=\"#APP#/items/almond-concentrate/\">Almond Concentrate</a>. There are Lockers scattered around the place that you must hide in if the <a href=\"#APP#/entities/wretch/\">Wretch</a> spots you.\n</p>\n<h3>Collect the Keycard</h3>\n<p>Once you have all the Bottles of Concentrate, put them all into the machine first. (Hold one out in your hand then press F to put it in). Once all 4 are inside lure the Wretch to the cage, and it will close. Then, push the emergency shower forward until you can't move it anymore. Turn it on, and the Wretch will be reverted back into a human. Collect the Keycard, and you can leave the Outpost back to <a href=\"#APP#/guides/level-9-guide/\">Level 9</a> so that you can use it to get to <a href=\"#APP#/guides/level-10-guide/\">Level 10</a>.\n</p>",
+     "title": "Instructions"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Abandoned_Outpost_Guide",
+   "summary": "",
+   "title": "Abandoned Outpost Guide"
+  },
+  {
+   "id": "level-fun-plus-guide",
+   "images": [
+    {
+     "file": "guides/level-fun-plus-guide/hero.png",
+     "height": 395,
+     "role": "hero",
+     "sourceFile": "File:Level Fun+ (3).png",
+     "width": 720
+    },
+    {
+     "file": "guides/level-fun-plus-guide/thumb.png",
+     "height": 176,
+     "role": "thumb",
+     "sourceFile": "File:Level Fun+ (3).png",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<h3>Starting room</h3>\n<p>This level has a main room that has the exit and many items on the tables to keep yourself sane when in the other 4 sectors. As such, you can enter these 4 areas in any order you wish. So what you should do first is grab items and do each sector 1 by 1. \n</p><p>The Sectors you can enter include:\n</p>\n<ul><li>The Party Sector (the bright blue hallway)</li>\n<li>The Playhouse Sector (the pink hallway)</li>\n<li>The Arcade Sector (the red hallway)</li>\n<li>The Funhouse Sector (The dark blue hallway)</li></ul>\n<p><b>NOTE:</b> When you complete a sector it will be closed off so you do not get lost trying to find a key you already have. Every Sector also has a Note to tell you your objective as well. \n</p>\n<h3>The Party Sector</h3>\n<p>This Sector is a massive area with a bunch of walls, tables and chairs, and a party room in the middle containing tables, chairs, and a different wall texture. Your goal here is to go around and pop all of the Balloons scattered around because one of them will contain the Yellow Key. However, the Balloon the Yellow Key will be in is different every time. The sector does have 3 <a href=\"#APP#/entities/partygoer/\">Partygoers</a> roaming around, so keep an eye out for them.\n</p>\n<h3>The Playhouse Sector</h3>\n<p>This Sector starts off with rooms similar to the original Level Fun, just much smaller. Eventually, you can find a room which is a big square room with balloons everywhere, and a hallway that connects to 3 rooms. Your goal in this sector is to find a tape in one of the 3 rooms. The Tape has only 1 spawn for every room though, so it shouldn't be too hard to find. \n</p><p>Once you have the tape, go back to the room with the balloons and insert the tape into the TV. The Video shows a balloon icon, and then the color green will flash. You must then simply pop a green balloon. Then, it will do it again, but after green it will show yellow. Then, you have to pop a green and then yellow balloon. Repeat this game until all the balloons are popped.\n</p><p><b>NOTE:</b> If you get a color wrong, all of the balloons will respawn and you will have to start over. \n</p><p>Once all of the Balloons are popped, the secured vault door will open, and inside is a room with a wooden table. On the wooden table is the green key.\n</p>\n<h3>The Arcade Sector</h3>\n<p>This Sector is a neon-type area with a area that features a bunch of golf courses, and also some tables that contain <a href=\"#APP#/items/glowstick/\">Glowsticks</a> as well as a Bowling Alley. In the Golf Area, there are 4 Glowstick tables, and each one has a different color. The Colors Include Green, Blue, Red, and Yellow. You will need one of every color as well as an extra one for navigation. Then, go up the stairs and enter the dark area.\n</p><p>Get out one of the Glowsticks to bright up the place, and then you must go around the darkness and find 4 different symbols. 3 of the Symbols are on the walls in the halls, and one of them is in a closet in one of the rooms. The Symbols Include Balloons, a Present, an Eye, and a Rainbow. The Rainbow is the one stored in the closet. Once you find a Symbol, you must place down the correct Glowstick right below it. When you are holding the correct Glowstick, the Symbol will light up entirely instead of partially. \n</p><p>The Balloons need a green Glowstick, the Present will need a red one, the Eye will need a yellow one, and the rainbow will need a blue one. There is a Partygoer roaming around the dark area though, so keep an eye out for it. It has poor eyesight because of the darkness so you will see it before it sees you. Hide under a table or exit that area to avoid being killed.\n</p><p>Once all of the Glowsticks are placed down, you can leave the dark area and go to the locked door which is now open. Inside will be the Blue Key.\n</p>\n<h3>The Funhouse Sector</h3>\n<p>This Sector is a cluster of rooms with different fun children activities in them like Trampolines, a Rock Climbing Wall, a Bounce House and more. The Room you start off in has a locked blue door. On the roof of this classroom lies a <a href=\"#APP#/entities/party-host/\">Party Host</a>. In order to move on, you must kill it. In order to kill it, grab a <a href=\"#APP#/items/firework/\">Firework</a> from a table and throw it at the Party Host. Then, the blue door will be unlocked. \n</p><p><b>NOTE:</b> You can kill yourself and teammates if you get caught in the explosion. So throw them from a safe distance to avoid being killed or having your teammate(s) be killed. It will also explode automatically when it makes physical contact with the Party Host.\n</p><p>You will then find yourself in a much bigger room with a wooden pathway as well as other segments. The next Party Host is also above the doors. Every now and then, Partygoers will come out of the doors because of the Party Hosts (even if none currently see you). They'll come out which will force you and all players to hide under a table until they run away.\n</p><p>Once you kill that Party Host, the next room has a rock climbing wall in the middle, and the Party Host is on the top right of the room. Once again, beware of the Partygoers. Once you kill that Party Host, you must go into the room on the right side of the room first. This room has the Party Host above a box with a bunch of presents, and letters reading \"HAPPY BIRTHDAY\".  \n</p><p><b>NOTE:</b> The Partygoers will go into any rooms even if a door is closed to get a player. Remember to hide under a table until they leave.\n</p><p>After killing that Party Host, you can go into the room on the left side. This room is a ballpit with balloons on the wall. Once again, the Party Host is on the ceiling. Kill it, and then you can move onto the next room. The doors to proceed on will be at the top of the room, and this next area is the hardest in this Sector.\n</p><p>It features a pathway to walk on, and a ballpit. The pathway will lead to the Party Host right above the steel door. After killing that Party Host, you can go up a slope that leads down into an area that doesn't have a ballpit, but does have a trampoline and structural support. The Party Host here is quite high, because it's on the ceiling. So you will have to time your throw while jumping to hit it. Make sure to keep an eye on the steel door as well since that is where the Partygoers will come from when summoned. Kill the Party Host, and a room on the bottom right of this area will unlock that has the Red Key. \n</p><p><b>NOTE:</b> Killing all the <a href=\"#APP#/entities/party-host/\">Party Hosts</a> will make the sector safe to traverse. \n</p>\n<h3>Opening the Gate</h3>\n<p>Once you have all 4 Keys, you can go back to the main area and go up to a Key Machine. In the Key Machine, you must move around the \"arm\" in the Machine and go to the Key hole that corresponds with the color of the Key it currently has out. Use, WASD to move it in the 4 direction and Left Click to insert the key into the hole. Once that is done, insert the Key into the Hole, and another Key will pop out and the previous one will fall down. Now, you must go to the Key Hole that corresponds with that Key. Repeat until all 4 keys have been inserted into the machine. However, after using the last Key, the Exit Gate nearby will open and you can get to <a href=\"#APP#/guides/level-52-guide/\">Level 52</a>.\n</p>",
+     "title": "Instructions"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_Fun+_Guide",
+   "summary": "",
+   "title": "Level Fun+ Guide"
+  },
+  {
+   "id": "level-0-2-and-level-0-1-guide",
+   "images": [
+    {
+     "file": "guides/level-0-2-and-level-0-1-guide/hero.jpg",
+     "height": 450,
+     "role": "hero",
+     "sourceFile": "File:Level 0.2 Background.jpg",
+     "width": 800
+    },
+    {
+     "file": "guides/level-0-2-and-level-0-1-guide/thumb.jpg",
+     "height": 180,
+     "role": "thumb",
+     "sourceFile": "File:Level 0.2 Background.jpg",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [
+    "level-0-1"
+   ],
+   "sections": [
+    {
+     "html": "<p>After entering the Level grab some supplies and a <a href=\"#APP#/items/flashlight/\">flashlight</a> then, head to the LEFT. After you enter this area you will need to find a noclippable floor and take a look at the stop light to see how dangerous it is before descending. If the light is red or yellow do NOT enter it. If it is green than you can jump down. This will take you to <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, in this Sub-Level you must look around for the doors that you must unlock so that the corresponding door back on Level 0.2 will be able to be opened up. There is 5 in total you must open. \n</p><p>In the meantime, of finding these 5 doors use the flashlight to kill <a href=\"#APP#/entities/smiler/\">Smilers</a>, turn it on and keep it on and all you have to do is point it at them as they approach you. However, a single <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a> is down there so careful around corners. If you ever need to escape from it or get back to Level 0.2 to proceed, find another noclippable floor to get onto. \n</p><p>After all, 5 doors are opened up, head back to Level 0.2 and enter those rooms and turn on the Electricity Boxes. Interact with it and then click once the meter stick is in the highlighted area. Once all 5 are back on head back to the start of the Level. \n</p><p>Now that all 5 are on, flip the switch. It will <u>temporarily</u> block off the tunnel that the <a href=\"#APP#/entities/bone-thief/\">Bone Thief</a> hides in. Once you flip the switch immediately run straight for the elevator. This will lead you out of this Level and into Level 6.1. \n</p>",
+     "title": "Instructions"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_0.2_and_Level_0.1_Guide",
+   "summary": "",
+   "title": "Level 0.2 and Level 0.1 Guide"
+  },
+  {
+   "id": "level-10-guide",
+   "images": [
+    {
+     "file": "guides/level-10-guide/hero.png",
+     "height": 591,
+     "role": "hero",
+     "sourceFile": "File:Level 10 Layout.png",
+     "width": 800
+    },
+    {
+     "file": "guides/level-10-guide/thumb.png",
+     "height": 236,
+     "role": "thumb",
+     "sourceFile": "File:Level 10 Layout.png",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<p>When spawning in follow the road and every few seconds turn around and look at the <a href=\"#APP#/entities/faceling/\">Faceling</a> Rogue to make it flee back into the wheat fields. Keep doing this until you get to the farm.\n</p><p>At the farm, grab all the items you'll need and if in Multiplayer, grab the walkie talkies just incase you or a teammate get lost for the next area.\n</p><p>Reading the Note you should now know your objective.\n</p><p>Follow what path there is and into the fields and head straight for the red light. When you reach it you will see a Windmill and a generator. Turning it on will turn the light green and turn the next on one (red light). Repeat this process of following what path there is from the Windmill into the field, hug the fence for an opening and keep heading straight for the light until you find the parking lot that leads out of the Level and into Level 3999.\n</p><p>This sounds safe but, it isn't. When you're about to enter the wheat field after the 1st generator a Farmer Faceling will appear, turn the chainsaw on, and chase after you. Do not walk into him. Just run away until you no longer hear the chainsaw, preferably run away towards your objective so you do not risk getting lost or cornered by the Farmer. \n</p>\n<figure> \t<img src=\"#IMG#/images/guides/level-10-guide/hero.png\" alt=\"Map of Level 10 by Conner&#x27;sGaming Corner\" width=\"800\" height=\"591\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t\t\t<p>Map of Level 10 by Conner'sGaming Corner</p> \t\t \t</figcaption> </figure>\n<p>This is one of the easier Levels once you know how to avoid the entities.\n</p><p><b>If all that's too hard for you, you can crouch jump from a haystack onto the fence and walk on top of the fence all the way to the exit and avoid the trouble of the farmer faceling.</b>\n</p>",
+     "title": null
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_10_Guide",
+   "summary": "When spawning in follow the road and every few seconds turn around and look at the Faceling Rogue to make it flee back into the wheat fields. Keep doing this until you get to the farm.",
+   "title": "Level 10 Guide"
+  },
+  {
+   "id": "level-37-2-guide",
+   "images": [
+    {
+     "file": "guides/level-37-2-guide/hero.png",
+     "height": 786,
+     "role": "hero",
+     "sourceFile": "File:Expanded Poolrooms Note.png",
+     "width": 568
+    },
+    {
+     "file": "guides/level-37-2-guide/thumb.png",
+     "height": 443,
+     "role": "thumb",
+     "sourceFile": "File:Expanded Poolrooms Note.png",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [
+    "level-fun-plus"
+   ],
+   "sections": [
+    {
+     "html": "<p>You will be switching back and forth between the new Level 37 area (Expanded Poolrooms) and the multiple Level 37.2 areas (Dark Poolrooms). As such, this will be done in order. \n</p>\n<h3>Expanded Poolrooms 1</h3>\n<p>Once you first spawn in, you will find yourself in a big room with windows, and a hole that you must crouch to enter so you can proceed onto the rest of the Level. When you enter the next area, there will be a Pool that has the <a href=\"#APP#/entities/hydrolitis-plague/\">Hydrolitis Plague</a>. Then, you will be able to find a Floatie Boat. Get in the boat, and start travelling. Shortly in, the path will have no more Water, which means you will have to take a Ladder to go up to the Valves. There are 4 Valves, and all you need to do is turn them all on. They are on the right side as well. Once you turn on all the Valves, the path will fill with Water, and you will be able to continue on.\n</p><p>These Valves are on a timer. Like the Timed Levers, the timer will depend on how many players are alive. You will then go down a very fast Water path. In the next area, the Water will be too low to continue. There will be a nearby Ladder, and when you get up, the entrance to the first Dark Poolrooms will be accessible. There will be 3 Ladders, and you can take any one of them, and you will arrive in the first Dark Poolrooms Area.\n</p>\n<h3>Dark Poolrooms 1</h3>\n<p>In the Dark Poolrooms, you must go around and turn 4 Valves in order to fill up a Tank with Water. Just make sure you keep an eye out for the <a href=\"#APP#/entities/clump/\">Clump</a> in the Level. If he spots you, just hide in the Water and he will leave you alone. Once all of the Valves are turned, you can go back to the Expanded Poolrooms. If you're not sure you got them all, check the Water Tank to see if it's full.\n</p>\n<h3>Expanded Poolrooms 2</h3>\n<p>When you get back to the Expanded Poolrooms, the Water will be filled, and you will be able to get back in the Floatie Boat and continue on. However, shortly into travelling, you run into another obstacle, which is a Giant Pit. You must then once again go up the Ladder on the left or right and turn all the Valves (this time there's 4 on the left and the right) there's also a Bridge that will let you easily get to the other side. However, if you run on it or if too many players are on it at the same time, it will break so be careful. If it does break don't worry because there is a ladder that leads to a back area that connects them.\n</p><p>Once all the Valves are turned, the Pit will be filled and you can get back in the Boat and continue your travelling. However, soon enough, there will be another obstacle. The Path cuts off, so you must get the Boat on the other side. There will be another Ladder that you must go up and the entrance to the second Dark Poolrooms Area will be there.\n</p>\n<h3>Dark Poolrooms 2</h3>\n<p>The Second Dark Poolrooms Area is the exact same thing as the first one, but with a different Map Layout. It's also the easiest. However, there is some <a href=\"#APP#/entities/hydrolitis-plague/\">Hydrolitis Plague</a> in the Level in a parkour-like area. Turn all 3 Valves, then leave.\n</p>\n<h3>Expanded Poolrooms 3</h3>\n<p>After leaving the second Dark Poolrooms Area, go through the Triangular entrance to get to the next part of The Expanded Poolrooms. There will be a hole, and inside is the Floatie Boat. After travelling for a bit, you will run into yet again another obstacle. The Water won't be high enough to proceed. So you will have to take the nearby Ladder, and then you will have to take the stairs and then you will arrive at the above part of this area. In this above part, the entrance to the third and final Dark Poolrooms will be there.\n</p>\n<h3>Dark Poolrooms 3</h3>\n<p>You know how it works. Same thing as last time, but just a different Map layout. Except this time there are <u>7 Valves</u> instead of 4. Turn all 7, then leave.\n</p>\n<h3>Expanded Poolrooms 4</h3>\n<p>Once you return to the Expanded Poolrooms, the Water will be high enough to continue, however they have stairs at the top. At this point, you will no longer need the Boat, so just get on the Stairs and on the other side is a Pool with 3 Entrances to a Big Area. This Big Area has a bunch of Colored Slides with a Staircase leading up to them.\n</p><p>Go up the Staircase and at the top is a room with all 4 of the slides. Enter one of the Slides (doesn't matter which one) and you will find yourself in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>. \n</p>",
+     "title": "Instructions"
+    },
+    {
+     "html": "<h3>Expanded Poolrooms</h3>\n\n<h3>Dark Poolrooms</h3>",
+     "title": "Image to help"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_37.2_Guide",
+   "summary": "",
+   "title": "Level 37.2 Guide"
+  },
+  {
+   "id": "level-3999-guide",
+   "images": [
+    {
+     "file": "guides/level-3999-guide/hero.jpg",
+     "height": 450,
+     "role": "hero",
+     "sourceFile": "File:3999 Elevator.jpg",
+     "width": 800
+    },
+    {
+     "file": "guides/level-3999-guide/thumb.jpg",
+     "height": 180,
+     "role": "thumb",
+     "sourceFile": "File:3999 Elevator.jpg",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<p>Enter the arcade from the revolving door, and then go and find a door in the wall with 2 arrows in facing in both directions, and enter it, Then start going into hallways with arcades, proceed forward until you reach a room with many machines and an elevator. Nearby is a Note telling you that you need to find the code to use the elevator. The code will always be the same no matter what. It is 931 and you can find this on the <a href=\"#APP#/items/ticket/\">tickets</a> in the corner of the room that you can pick up. Once you enter the code you beat the Level however, pay attention to the video that starts playing since you'll need to know that for the next one, Level 0.2 and Level 0.1\n</p>",
+     "title": "Instructions"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_3999_Guide",
+   "summary": "",
+   "title": "Level 3999 Guide"
+  },
+  {
+   "id": "level-52-guide",
+   "images": [
+    {
+     "file": "guides/level-52-guide/hero.png",
+     "height": 461,
+     "role": "hero",
+     "sourceFile": "File:Image 2024-01-26 225310578.png",
+     "width": 800
+    },
+    {
+     "file": "guides/level-52-guide/thumb.png",
+     "height": 185,
+     "role": "thumb",
+     "sourceFile": "File:Image 2024-01-26 225310578.png",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<p>This level is pretty simple to beat. Once you enter, you will spawn in the starting room. Then you need to find a door and open it, which will lead you to a short corridor. Follow this corridor until you are at a school-like room. In that room, you will find a <a href=\"#APP#/entities/partypooper/\">Partypooper</a>, which will start moving. Follow him and his moves (f.e. crouch when he crouches), and he will lead you to the end of the level. It is also worth noting you should uncrouch <b>where</b> he uncrouches, not when. Uncrouching at the same time as him when you're behind could end the run.\n</p>",
+     "title": "Instructions"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_52_Guide",
+   "summary": "",
+   "title": "Level 52 Guide"
+  },
+  {
+   "id": "level-55-1-guide",
+   "images": [
+    {
+     "file": "guides/level-55-1-guide/hero.png",
+     "height": 203,
+     "role": "hero",
+     "sourceFile": "File:A Camera.png",
+     "width": 207
+    },
+    {
+     "file": "guides/level-55-1-guide/thumb.png",
+     "height": 203,
+     "role": "thumb",
+     "sourceFile": "File:A Camera.png",
+     "width": 207
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<p>When you spawn in there are tables nearby with many items to use so grab some to keep yourself sane. Be sure to take a <a href=\"#APP#/items/flashlight/\">flashlight</a>. Proceed forward to the middle of the room and you'll see tables with computers, <a href=\"#APP#/items/camera/\">cameras</a>, and a note. When you pick up the camera and hold it out you will see a photo on it (this is what you must take a picture of). If on Multiplayer your first image will be to take a photo of another player (or multiple). After this first image or if on Singleplayer take the elevator down.\n</p><p>The lever will switch between going up and down. Between it will be to stop it entirely. So remember this since you can use it to escape from any entities you will encounter.\n</p><p>The first layer resembles <a href=\"#APP#/guides/level-0-2-and-level-0-1-guide/\">Level 0.2</a>, your first image if on Singleplayer is to take a picture of the Graffiti on the wall, then search around for an opening into Level 0 and take a picture of that. \n</p><p><b>NOTE:</b> For the photos taken you might need to get closer than you think for it to count, you will know if it counted if the photo on the camera changes to the next one you need to take.\n</p><p>After this layer head down into the 2nd layer that resembles Level 0.3. Down here you will need to locate a Van to take a picture of it. Around the layer is some Lockers you can hide in. You can see where this is going, your next picture is to take one of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>. Which is dangerous since it blends into the darkness. This is 1 reason why I stated to take a flashlight with you. \n</p><p>After this layer head down into the final one, it resembles Level 0.11. Down here is your final 2 pictures. There are many <a href=\"#APP#/entities/smiler/\">Smilers</a> down here so use the flashlight to kill them. They do not respawn so wait by the elevator so they come to you and they will die 1 by 1. Once you don't see anymore Smilers you only have to worry about a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a>. \n</p><p>Look around the layer for some Moai Statues to take a photo of. Your final picture is of the Skin-Stealer itself. Due note that you do NOT need it to be in its true form. If it's disguised and you sneak up to take a photo it will still count. There are some lockers to hide in, as for the previous floor. \n</p><p>After you take this final photo a hatch above the elevator will open up. Take the elevator all the way up and enter this hidden layer. It is an overgrown area and there is a door you can open that leads into a bright pit. Jump down and you will get 1 of the game's endings (Currently it is the ONLY ending).\n</p>",
+     "title": "Instructions"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_55.1_Guide",
+   "summary": "",
+   "title": "Level 55.1 Guide"
+  },
+  {
+   "id": "level-8-guide",
+   "images": [
+    {
+     "file": "guides/level-8-guide/hero.png",
+     "height": 587,
+     "role": "hero",
+     "sourceFile": "File:Level8map.png",
+     "width": 647
+    },
+    {
+     "file": "guides/level-8-guide/thumb.png",
+     "height": 290,
+     "role": "thumb",
+     "sourceFile": "File:Level8map.png",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<p>When entering the Level, gather supplies from the table and proceed forward into the decontamination room. \n</p><p>From here, crouch so you don't upset the <a href=\"#APP#/entities/female-deathmoth/\">Female Death Moths</a> and go left until you find the next decontamination room. \n</p>\n<figure> \t<img src=\"#IMG#/images/guides/level-8-guide/hero.png\" alt=\"Map of Level 8 by Roysbit\" width=\"647\" height=\"587\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t\t\t<p>Map of Level 8 by Roysbit</p> \t\t \t</figcaption> </figure>\n<p>Keep doing this again and go left until you find the bridge. There is a Note on it. From here you either walk or crouch walk across the bridge. If on multiplayer, 1 player at a time. Sprinting or more than 1 player on it will cause the bridge to collapse and will likely result in death. \n</p><p>If this happens there is an alternate path to the right side of the bridge that goes upwards into a small hole. \n</p><p>It is recommended you cross the bridge so you can get more items. \n</p><p>For the final area it isn't Female Death Moths you have to deal with but, <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealers</a> instead. \n</p><p>Hug the right wall until you find the decontamination room, if you see a flashlight hide around a corner and pay attention to where it is pointing since that is where the Skin-Stealer is looking. \n</p><p>If caught try and run around the area and make a dash for the exit or back to the entrance IF you crossed the bridge and turn the valve to be saved from it. \n</p><p>After the 3rd area, head left and up the ladder to head to a new area in Level 0.\n</p>",
+     "title": null
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_8_Guide",
+   "summary": "When entering the Level, gather supplies from the table and proceed forward into the decontamination room.",
+   "title": "Level 8 Guide"
+  },
+  {
+   "id": "level-9-guide",
+   "images": [
+    {
+     "file": "guides/level-9-guide/hero.png",
+     "height": 786,
+     "role": "hero",
+     "sourceFile": "File:Level 9 Note.png",
+     "width": 572
+    },
+    {
+     "file": "guides/level-9-guide/thumb.png",
+     "height": 440,
+     "role": "thumb",
+     "sourceFile": "File:Level 9 Note.png",
+     "width": 320
+    }
+   ],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<p>This level is split into 2 sections. The neighborhood and the abandoned M.E.G. base, which will be explained in different guides. This will be just for Level 9 itself.\n</p>",
+     "title": null
+    },
+    {
+     "html": "<p>You first need to approach the metal gate in front of the abandoned M.E.G. base and find a virtual map that shows all the houses. You will see a few houses that are flashing red. These houses are the houses that you need to go to. Start finding these houses and enter them one by one. Your main goal is to activate something on the computers. There is also a <a href=\"#APP#/entities/the-neighborhood-watch/\">Neighborhood Watch</a> that is extremely fast that roams around the roads of the level, which you need to be careful for. If it chases you, quickly run into a house and close the door. \n</p><p>Inside the houses, you need to also watch out for <a href=\"#APP#/entities/wretch/\">Wretches</a>. There are locks behind nearly every door, which you can use so the wretch cannot open them. You need to repeat that with each house until you get all 3 computers done. After that, you need to go to the M.E.G. base and the door will unlock. Then head inside and follow the arrow on the wall into the basement. \n</p><p>After completing the <a href=\"#APP#/guides/abandoned-outpost-guide/\">Abandoned Outpost</a>, head to the back gate and use the keycard you got to open it using the terminal and head into <a href=\"#APP#/guides/level-10-guide/\">Level 10</a>.\n</p><p><b>NOTE:</b> The map image below has the houses marked that can have them. It is recommended that you do any house that you get that is marked as \"safe\" since that is a free computer you can activate with no worry of a Wretch being inside that house. You could get good luck and have all 3 houses be safe or be unlucky and have all 3 be dangerous. Most of the time you will get 1 house safe however. \n</p>",
+     "title": "Instructions (The Neighborhood)"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_9_Guide",
+   "summary": "This level is split into 2 sections. The neighborhood and the abandoned M.E.G. base, which will be explained in different guides. This will be just for Level 9 itself.",
+   "title": "Level 9 Guide"
+  },
+  {
+   "id": "endings",
+   "images": [
+    {
+     "file": "guides/endings/hero.jpg",
+     "height": 464,
+     "role": "hero",
+     "sourceFile": "File:Endings Layout Teaser.jpg",
+     "width": 800
+    },
+    {
+     "file": "guides/endings/thumb.jpg",
+     "height": 185,
+     "role": "thumb",
+     "sourceFile": "File:Endings Layout Teaser.jpg",
+     "width": 320
+    },
+    {
+     "file": "guides/endings/body-1.png",
+     "height": 388,
+     "role": "body",
+     "sourceFile": "File:Endings Board.png",
+     "width": 640
+    },
+    {
+     "file": "guides/endings/body-2.png",
+     "height": 420,
+     "role": "body",
+     "sourceFile": "File:Endings Board 2.png",
+     "width": 640
+    },
+    {
+     "file": "guides/endings/body-3.png",
+     "height": 457,
+     "role": "body",
+     "sourceFile": "File:Wrong Door Ending.png",
+     "width": 640
+    },
+    {
+     "file": "guides/endings/body-4.png",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:The Pink House Ending.png",
+     "width": 640
+    }
+   ],
+   "relatedLevelIds": [
+    "level-0",
+    "level-1",
+    "the-hub",
+    "level-2",
+    "level-3",
+    "level-4",
+    "level-5",
+    "level-fun",
+    "level-37",
+    "level-exclamation",
+    "the-end",
+    "level-94",
+    "level-6",
+    "level-7",
+    "level-8",
+    "level-0-11",
+    "level-9",
+    "level-10",
+    "level-3999",
+    "level-0-2",
+    "the-snackrooms",
+    "level-exclamation-tilde-exclamation",
+    "level-188",
+    "level-37-2",
+    "level-fun-plus",
+    "level-52",
+    "level-55-1",
+    "the-bunker",
+    "level-974",
+    "level-9223372036854775807",
+    "overgrowth",
+    "the-grassrooms"
+   ],
+   "sections": [
+    {
+     "html": "<figure> \t<img src=\"#IMG#/images/guides/endings/body-1.png\" alt=\" \t \t \t \t\t \t\t\t \t\t \t\t \t\t \t \" width=\"640\" height=\"388\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t\t\t<figure> \t<img src=\"#IMG#/images/guides/endings/body-2.png\" alt=\"Endings Board 2\" width=\"640\" height=\"420\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure> \t\t \t</figcaption> </figure><p><b>Endings</b> are different ways the story of Escape the Backrooms comes to an end.\n</p>",
+     "title": null
+    },
+    {
+     "html": "<p>The main idea on how Endings work is that there's one straightforward path of Levels with this path having the most amount of Levels. Reaching the end of it will give you the alternate ending \"Wrong Door\", however there are other separate and much shorter Level paths to get alternate endings that can only be unlocked after obtaining the Wrong Door Ending.\n</p>",
+     "title": "How it Works"
+    },
+    {
+     "html": "<figure> \t<img src=\"#IMG#/images/guides/endings/body-3.png\" alt=\"Wrong Door Ending\" width=\"640\" height=\"457\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure><p>The path to this ending is:\n</p><ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/the-hub/\">The Hub</a></li>\n<li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/level-2/\">Level 2 - Pipe Dreams</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-2/\">Level 2 - Pipe Dreams</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/level-37/\">Level 37 - The Poolrooms</a></li>\n<li><a href=\"#APP#/levels/level-exclamation/\">Level ! - Run For Your Life!</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-3999/\">Level 3999</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~! - Hotel Chase</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-37-2/\">Level 37.2 - Dark Poolrooms</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>Ending</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li></ul>\n<h3>The Ending</h3>\n<p>The ending follows the player falling from the sky after escaping <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> and returning back to reality. Upon hitting the road, the player stops moving and presumably died due to the fall, and a Car comes up and runs the camera over.\n</p>\n<h3>Trivia</h3>\n<ul><li>This ending is almost identical to the one shown in Kane Pixel's first Backrooms Found Footage video. You can watch it <a href=\"https://www.youtube.com/watch?v=H4dGpz6cnHo\" rel=\"noopener nofollow\" target=\"_blank\">here</a>.</li></ul>",
+     "title": "Wrong Door"
+    },
+    {
+     "html": "<figure> \t<img src=\"#IMG#/images/guides/endings/body-4.png\" alt=\"The Pink House Ending\" width=\"640\" height=\"360\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p>The path to get this ending is:\n</p>\n<ul><li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li>Ending</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li></ul>\n<h3>The Ending</h3>\n<p>After coming across the gas at the end of <a href=\"#APP#/levels/level-974/\">Level 974</a>, the player wakes up in a much cleaner <a href=\"#APP#/levels/level-974/\">Level 974</a>, and then the door opens when Kitty comes in and moves around until he leaves the room.\n</p>",
+     "title": "The Pink House"
+    },
+    {
+     "html": "<figure> \t \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p>The path to get this ending is:\n</p>\n<ul><li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a></li>\n<li>Ending</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li></ul>\n<h3>The Ending</h3>\n<p>The player wakes up in a bed at home seemingly back in reality. They get out of bed, but as soon as they look out the window, it turns out they are in <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n</p>\n<h3>Trivia</h3>\n<ul><li>This is a remastered version of the placeholder ending from the game's Release, and it still showed <a href=\"#APP#/levels/level-94/\">Level 94</a> because it was being worked on at the time of the placeholder ending's addition.</li></ul>",
+     "title": "The Suburbs"
+    },
+    {
+     "html": "<figure> \t \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p>The path to get this ending is:\n</p>\n<ul><li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a></li>\n<li>Ending</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li></ul>\n<h3>The Ending</h3>\n<p>Upon reaching the Elevator at the end of <a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a>, it starts to travel down floors and arrives to the 11th one. The doors open up to a city, which appears to be reality, however strangely enough there's no one in the city.\n</p>\n<h3>Trivia</h3>\n<ul><li>This ending has the longest path of levels to get to the ending excluding the Wrong Door Ending.</li>\n<li>The empty city seen in the ending seems to be of the Backrooms level <a href=\"https://backrooms-wiki.wikidot.com/level-11\" rel=\"noopener nofollow\" target=\"_blank\">Level 11</a>, which is an endless city. This becomes even more clear with the fact that the Elevator arrives on the 11th floor and there is a file in the game files connected to this ending titled \"BP_Level11_Exit\". This might become a full level in the future, or it might just be a way of showing how big the Backrooms really are, which could also mean that the other floors the Elevator went through are other Backrooms levels.</li></ul>",
+     "title": "Empty City"
+    },
+    {
+     "html": "<figure> \t \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p>This is the main ending of the game. To get this ending, you must have obtained the 4 alternate endings first. After this is done, head to the <a href=\"#APP#/levels/level-3999/\">Level 3999</a> ending machine room and a new middle machine will be interactable. Interact with it, and you'll get the ending. If you reload your save after getting this ending, you will be in <a href=\"#APP#/levels/level-3999/\">Level 3999</a> outside of the ending machine room.\n</p>\n<h3>The Ending</h3>\n<p>After looking at the <a href=\"#APP#/levels/level-3999/\">Level 3999</a> arcade machine for a few seconds, the player turns around to see a human informing them that they aren't allowed to keep people in the arcade past 10. The arcade appears as a normal arcade now, and the human says that he'll unlock the doors and that it's been a really long day. After the screen goes dark, the human says, \"Hopefully yours was better\". After this, the credits roll. You'll then be sent to the lobby afterwards.\n</p>",
+     "title": "Final Escape"
+    },
+    {
+     "html": "<p>At the end of each major update was a placeholder ending to show what was next for the game.\n</p>\n<h3>Release</h3>\n<p>This ending occurred right after <a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a>. Upon jumping down the center, a cutscene would play where a man would wake up in a bed and get up and walk to the window only to spot <a href=\"#APP#/levels/level-94/\">Level 94</a> outside. Then, the credits would roll. This ending was remade into The Suburbs Ending.\n</p>\n<h3>Part 2</h3>\n<p>This ending was in <a href=\"#APP#/levels/level-7/\">Level 7</a>. Once getting downstairs, a Boat would be right outside of the front door. Upon touching it, a cutscene would play where the player is rowing away in the boat. Then, the credits would roll.\n</p>\n<h3>Part 3</h3>\n<p>This ending was in <a href=\"#APP#/levels/level-3999/\">Level 3999</a>. The hallway part of the abandoned arcade hall was shrouded in darkness and upon entering it, a cutscene would play where the lights turn on showing a presumably endless hallway. Then, the credits would roll.\n</p>",
+     "title": "Placeholder Endings"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Endings",
+   "summary": "Endings are different ways the story of Escape the Backrooms comes to an end.",
+   "title": "Endings"
+  },
+  {
+   "id": "achievements",
+   "images": [
+    {
+     "file": "guides/achievements/hero.png",
+     "height": 256,
+     "role": "hero",
+     "sourceFile": "File:Lvl0.png",
+     "width": 256
+    },
+    {
+     "file": "guides/achievements/thumb.png",
+     "height": 256,
+     "role": "thumb",
+     "sourceFile": "File:Lvl0.png",
+     "width": 256
+    },
+    {
+     "file": "guides/achievements/body-1.png",
+     "height": 256,
+     "role": "body",
+     "sourceFile": "File:Lvl1.png",
+     "width": 256
+    },
+    {
+     "file": "guides/achievements/body-2.png",
+     "height": 256,
+     "role": "body",
+     "sourceFile": "File:Thehubb.png",
+     "width": 256
+    },
+    {
+     "file": "guides/achievements/body-3.png",
+     "height": 256,
+     "role": "body",
+     "sourceFile": "File:Lvl2.png",
+     "width": 256
+    },
+    {
+     "file": "guides/achievements/body-4.png",
+     "height": 256,
+     "role": "body",
+     "sourceFile": "File:Lvl3.png",
+     "width": 256
+    }
+   ],
+   "relatedLevelIds": [
+    "level-0",
+    "level-1",
+    "the-hub",
+    "level-2",
+    "level-3",
+    "level-4",
+    "level-5",
+    "level-fun",
+    "level-37",
+    "level-exclamation",
+    "the-end",
+    "level-94",
+    "level-6",
+    "level-7",
+    "level-8",
+    "level-188",
+    "level-9",
+    "level-10",
+    "level-3999",
+    "level-0-2",
+    "the-snackrooms",
+    "level-exclamation-tilde-exclamation",
+    "level-52",
+    "level-55-1",
+    "level-9223372036854775807",
+    "overgrowth",
+    "the-grassrooms",
+    "level-974",
+    "level-0-11",
+    "level-37-2",
+    "level-fun-plus",
+    "the-bunker",
+    "level-you-cheated"
+   ],
+   "sections": [
+    {
+     "html": "<p><b>Achievements</b> are unlockable badges through steam by completing certain tasks. In Escape the Backrooms, there are 34 obtainable Achievements, most of which are for escaping levels. Achievements can also be reset through the settings menu in the game category.</p><table>\n\n<tbody><tr>\n<th>\n\t\t\t\n\n\t\t\n\t</th>\n\n<th>Icon\n</th>\n<th>Achievement\n</th>\n<th>Description\n</th></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td><img src=\"#IMG#/images/guides/achievements/hero.png\" alt=\"Lvl0\" width=\"256\" height=\"256\">\n</td>\n<td>Escape <a href=\"#APP#/levels/level-0/\">Level 0</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-0/\">Level 0</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td><img src=\"#IMG#/images/guides/achievements/body-1.png\" alt=\"Lvl1\" width=\"256\" height=\"256\">\n</td>\n<td>Escape the <a href=\"#APP#/levels/level-1/\">Habitable Zone</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/level-1/\">Habitable Zone</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td><img src=\"#IMG#/images/guides/achievements/body-2.png\" alt=\"Thehubb\" width=\"256\" height=\"256\">\n</td>\n<td>Escape <a href=\"#APP#/levels/the-hub/\">The Hub</a>\n</td>\n<td>Enter <a href=\"#APP#/levels/the-hub/\">the hub</a> and activate the outpost power.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td><img src=\"#IMG#/images/guides/achievements/body-3.png\" alt=\"Lvl2\" width=\"256\" height=\"256\">\n</td>\n<td>Escape <a href=\"#APP#/levels/level-2/\">Pipe Dreams</a>\n</td>\n<td>Find the exit door in <a href=\"#APP#/levels/level-2/\">Pipe Dreams</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td><img src=\"#IMG#/images/guides/achievements/body-4.png\" alt=\"Lvl3\" width=\"256\" height=\"256\">\n</td>\n<td>Escape <a href=\"#APP#/levels/level-3/\">Level 3</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/level-3/\">Electrical Station</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-4/\">Level 4</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/level-4/\">Abandoned Office</a>\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-5/\">Level 5</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/level-5/\">Terror Hotel</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-fun/\">Level Fun</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-fun/\">Level Fun</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape the <a href=\"#APP#/levels/level-37/\">Poolrooms</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/level-37/\">Poolrooms</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-exclamation/\">Level !</a>\n</td>\n<td>Find the exit in Level <a href=\"#APP#/levels/level-exclamation/\">Run For Your Life!</a>\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/the-end/\">The End</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/the-end/\">The End</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-94/\">Level 94</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-6/\">Level 6</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-6/\">Lights Out</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-7/\">Level 7</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-7/\">Thalassophobia</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-8/\">Level 8</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/level-8/\">Cave System</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-188/\">Level 188</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-188/\">Level 188</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-9/\">Level 9</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-9/\">Level 9</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-10/\">Level 10</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-10/\">Level 10</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-3999/\">Level 3999</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-3999/\">Level 3999</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/the-snackrooms/\">Snackrooms</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-52/\">Level 52</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-52/\">Level 52</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-9223372036854775807/\">Level 922</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape the <a href=\"#APP#/levels/overgrowth/\">Death Slides</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/overgrowth/\">Death Slides</a>\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape the <a href=\"#APP#/levels/the-grassrooms/\">Grassrooms</a>\n</td>\n<td>Find the exit in the <a href=\"#APP#/levels/the-grassrooms/\">Grassrooms</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escape <a href=\"#APP#/levels/level-974/\">Level 974</a>\n</td>\n<td>Find the exit in <a href=\"#APP#/levels/level-974/\">Level 974</a>.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Escaped!\n</td>\n<td>Complete the <a href=\"#APP#/guides/endings/\">final ending</a> in any difficulty\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Survivalist\n</td>\n<td>Survive in <a href=\"#APP#/levels/level-0/\">Level 0</a> for 15 minutes.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Participation Trophy\n</td>\n<td>Beat the game in Easy difficulty.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Squad\n</td>\n<td>Beat the game in Multiplayer with Normal difficulty.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Group Effort\n</td>\n<td>Beat the game in Multiplayer with Hard difficulty.\n</td></tr>\n<tr>\n<td>\n\t\n\n\t\n</td>\n\n<td>\n</td>\n<td>Nightmare\n</td>\n<td>Beat the game with 4 players in Nightmare difficulty.\n</td></tr></tbody></table>",
+     "title": null
+    },
+    {
+     "html": "<ul><li>The game's Release had 12 Achievements, Part 2 had 20 Achievements, Part 3 had 25 Achievements, Part 4 had 30 Achievements, and Version 1.0 has 34 Achievements.</li>\n<li>The icons of the difficulty Achievements (excluding the Normal one \"Squad\") originate from certain places instead of just a render there for the Achievement.\n<ul><li>The \"Participation Trophy\" Achievement icon originates from Fancy's 3rd Devlog when he was talking about the Survival gamemode.</li>\n<li>The \"Group Effort\" Achievement icon originates from the game's banner artwork on Steam.</li>\n<li>The \"Nightmare\" Achievement icon originates from one of the game's Steam page screenshots, which is a render of something seen in Fancy's 3rd Devlog when he was talking about the Survival gamemode.</li></ul></li>\n<li>Previously, the \"Escape <a href=\"#APP#/levels/level-52/\">Level 52</a>\" Achievement had \"Turn on screen reader support\" in its description for some reason, which made the description \"Find the exit in <a href=\"#APP#/levels/level-52/\">Level 52</a>. Turn on screen reader support\". It is unknown why this was the case, but it has since then been fixed.</li>\n<li>Five levels do not have completion Achievements. These levels are <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a>, <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, <a href=\"#APP#/levels/the-bunker/\">the Bunker</a>, and <a href=\"#APP#/levels/level-you-cheated/\">Level you Cheated</a>.\n<ul><li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> does not have an Achievement because it was initially going to be the rest of the <a href=\"#APP#/levels/level-188/\">Level 188</a> Courtyard at the end of the level. Fancy eventually made <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> the level instead without changing the <a href=\"#APP#/levels/level-188/\">Level 188</a> Courtyard area and seemingly never changed the Achievement.</li>\n<li>It is unknown why <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a> and <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> do not have completion Achievements.</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a> likely does not have a completion Achievement due to its main purpose being to get the player or players to <a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> and to show the location of the secret levels, which makes the level extremely short.</li>\n<li><a href=\"#APP#/levels/level-you-cheated/\">Level You Cheated</a> likely does not have a completion Achievement because you can't even complete the level, and it's supposed to remain hidden in all parts of the game it seems.</li></ul></li>\n<li><a href=\"#APP#/levels/level-1/\">Level 1</a> and <a href=\"#APP#/levels/level-2/\">Level 2's</a> completion Achievements call the levels by their sub-names in the Achievement names, unlike every other Achievement which uses \"Level ?\" if the level has a level number.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth's</a> completion Achievement calls the level the Death Slides instead of <a href=\"#APP#/levels/overgrowth/\">Overgrowth</a>.</li>\n<li>Only one Achievement name has an exclamation mark at the end of it, which is the \"Escaped!\" Achievement.</li>\n<li>Majority of Achievement descriptions have punctuation at the end of their descriptions except for three.\n<ul><li>These three include \"Escape <a href=\"#APP#/levels/level-4/\">Level 4</a>\", \"Escape the <a href=\"#APP#/levels/overgrowth/\">Death Slides</a>\", and \"Escaped!\". \"Escape <a href=\"#APP#/levels/level-exclamation/\">Level !</a>\" could also be considered one because the exclamation mark at the end of its description is apart of the level's sub-name, however an exclamation mark is also a punctuation mark and putting a period after an exclamation mark wouldn't make sense.</li></ul></li></ul>\n<ul><li>Only one Achievement description uses an exclamation mark at the end of its description instead of a period, which is the \"Escape <a href=\"#APP#/levels/level-exclamation/\">Level !</a>\" Achievement.</li>\n<li>There were a few differences to the Achievements before Part 2, those being:\n<ul><li>The \"Survivalist\" Achievement was obtained by surviving in <a href=\"#APP#/levels/level-0/\">Level 0</a> for 10 minutes instead of 15.</li>\n<li>The \"Participation Trophy\" Achievement was misspelled and was titled \"Participation Tropy\".</li>\n<li>The \"Group Effort\" Achievement was obtained for completing the game in Multiplayer in Normal instead of Hard.</li></ul></li></ul>\n<ul><li>Version 1.0 brought a few changes to the Achievements, those being:\n<ul><li>All the level escape Achievements mentioned escaping the levels in Singleplayer were changed because of Singleplayer being changed to not be its own thing.</li>\n<li>Descriptions of <a href=\"#APP#/levels/level-0/\">Level 0</a>, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, and <a href=\"#APP#/levels/the-end/\">The End's</a> completion Achievement were had slightly different wording as opposed to other level escape Achievements, which were changed to match the rest in Version 1.0. The descriptions said \"Escape (level name here) in Singleplayer.\" instead of \"Find the exit in (level name here).\" <a href=\"#APP#/levels/level-0/\">Level 0's</a> Achievement also said complete instead of escape. The \"Survivalist\" Achievement also said \"in Singleplayer\" at the end of it. For some reason, <a href=\"#APP#/levels/level-2/\">Level 2's</a> completion Achievement still does something similar and mentions finding the exit door instead of just the exit.</li></ul></li>\n<li>The only time Achievements have ever been added or changed is during major updates.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Achievements",
+   "summary": "Achievements are unlockable badges through steam by completing certain tasks. In Escape the Backrooms, there are 34 obtainable Achievements, most of which are for escaping levels. Achievements can also be reset through the settings menu in the game category.",
+   "title": "Achievements"
+  }
+ ]
+}

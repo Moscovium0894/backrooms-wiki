@@ -193,6 +193,11 @@ button {
   color: var(--dark);
 }
 
+/* the hidden attribute always wins, even over display:flex components */
+[hidden] {
+  display: none !important;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

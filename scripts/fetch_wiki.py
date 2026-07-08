@@ -126,12 +126,12 @@ def normalize_title(t: str) -> str:
 
 
 def slugify(title: str) -> str:
-    title = title.replace("\ufe0f", "").lower()
+    title = title.replace("\ufe0f", "").replace("+", "-plus-").lower()
     out = []
     for ch in title:
         if ch.isascii() and ch.isalnum():
             out.append(ch)
-        elif ch in " -_./&+":
+        elif ch in " -_./&":
             out.append("-")
         else:
             try:
@@ -170,6 +170,7 @@ def param_text(tpl, name: str):
     v = get_param(tpl, name)
     if v is None:
         return None
+    v = re.sub(r"</?br\s*/?>", " / ", v, flags=re.I)
     return strip_tags(str(mwparserfromhell.parse(v).strip_code())) or None
 
 
@@ -381,6 +382,14 @@ def plan_images_for(page: dict, kind: str, slug: str, infobox, is_level: bool) -
     return plan
 
 
+def download_scaled(client: WikiClient, fi: dict, want_w: int, dest: Path) -> bool:
+    """Download a scaled thumbnail, falling back to the original file."""
+    url = scaled_url(fi["url"], fi["width"], want_w)
+    if client.download(url, dest):
+        return True
+    return url != fi["url"] and client.download(fi["url"], dest)
+
+
 def download_planned(client: WikiClient, plan: ImagePlan, iinfo: dict, kind: str,
                      slug: str, no_images: bool) -> tuple[list[dict], dict]:
     """Download files; return (json image records, file-title -> (path,w,h) map for body resolver)."""
@@ -397,8 +406,7 @@ def download_planned(client: WikiClient, plan: ImagePlan, iinfo: dict, kind: str
         name = role if role in ("hero", "thumb") else f"{role}-{n}"
         rel = f"{kind}/{slug}/{name}.{ext}"
         dest = IMG_DIR / rel
-        url = scaled_url(fi["url"], fi["width"], w["width"])
-        if not no_images and not client.download(url, dest):
+        if not no_images and not download_scaled(client, fi, w["width"], dest):
             continue
         dw, dh = scaled_dims(fi["width"], fi["height"], w["width"])
         rec = {"file": rel, "width": dw, "height": dh, "role": role, "sourceFile": f"File:{w['file']}"}
@@ -465,6 +473,18 @@ def difficulty_from_categories(cats: list[str], infobox) -> tuple[int | None, st
             return int(m.group(1)), f"Class {m.group(1)}"
         return None, sentence_trim(sd, 40)
     return None, "Unknown"
+
+
+def is_junk_section(title: str | None) -> bool:
+    """Navboxes, galleries, and template-doc noise that shouldn't ship."""
+    if title is None:
+        return False
+    t = title.strip().lower()
+    return (
+        t in ("gallery", "references", "site navigation", "level information",
+              "entity information", "item information")
+        or t.endswith("navigation")
+    )
 
 
 def section_bundle(page_html: str, link_resolver, image_resolver) -> list[dict]:
@@ -596,7 +616,8 @@ def main() -> int:
             subtitle = param_text(infobox, "SubName")
             if not subtitle and " - " in display:
                 subtitle = display.split(" - ", 1)[1].strip()
-            if subtitle and subtitle.lower() == name.lower():
+            if subtitle and (subtitle.lower() == name.lower()
+                             or subtitle.lower() in ("n/a", "na", "none", "-", "unknown", "tba")):
                 subtitle = None
 
             part = None
@@ -623,14 +644,14 @@ def main() -> int:
                     appearance = s["html"]
                 elif title_l in WALKTHROUGH_HEADINGS and not walkthrough:
                     walkthrough = s["html"]
-                elif title_l in ("gallery", "references", "navigation", "site navigation"):
+                elif is_junk_section(s["title"]):
                     continue
                 else:
                     extra.append(s)
             for b in pending_body:
                 dest = IMG_DIR / "levels" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
-                if fi and (args.no_images or client.download(scaled_url(fi["url"], fi["width"], BODY_W), dest)):
+                if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
 
@@ -709,7 +730,7 @@ def main() -> int:
             for b in pending_body:
                 dest = IMG_DIR / "entities" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
-                if fi and (args.no_images or client.download(scaled_url(fi["url"], fi["width"], BODY_W), dest)):
+                if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
 
@@ -722,8 +743,8 @@ def main() -> int:
                 "dangerLabel": danger,
                 "species": param_text(infobox, "Species"),
                 "summary": summary,
-                "sections": [s for s in sections if s["title"] is not None
-                             and (s["title"] or "").lower() not in ("gallery", "references", "navigation")],
+                "sections": [s for s in sections
+                             if s["title"] is not None and not is_junk_section(s["title"])],
                 "levels": [],  # filled below from level records
                 "images": img_records,
                 "sourceUrl": f"{WIKI}/wiki/{t.replace(' ', '_')}",
@@ -758,7 +779,7 @@ def main() -> int:
             for b in pending_body:
                 dest = IMG_DIR / "items" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
-                if fi and (args.no_images or client.download(scaled_url(fi["url"], fi["width"], BODY_W), dest)):
+                if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
 
@@ -772,8 +793,8 @@ def main() -> int:
                 "name": t,
                 "rarity": rarity,
                 "summary": summary,
-                "sections": [s for s in sections if s["title"] is not None
-                             and (s["title"] or "").lower() not in ("gallery", "references", "navigation")],
+                "sections": [s for s in sections
+                             if s["title"] is not None and not is_junk_section(s["title"])],
                 "foundInLevels": refs["levels"],
                 "images": img_records,
                 "sourceUrl": f"{WIKI}/wiki/{t.replace(' ', '_')}",
@@ -797,7 +818,7 @@ def main() -> int:
             for b in pending_body:
                 dest = IMG_DIR / "guides" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
-                if fi and (args.no_images or client.download(scaled_url(fi["url"], fi["width"], BODY_W), dest)):
+                if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
             lead = next((s["html"] for s in sections if s["title"] is None), None)
@@ -806,7 +827,7 @@ def main() -> int:
                 "id": slug,
                 "title": t,
                 "summary": sentence_trim(strip_tags((lead or "").split("</p>")[0]) or "", 300),
-                "sections": sections,
+                "sections": [s for s in sections if not is_junk_section(s["title"])],
                 "relatedLevelIds": refs["levels"],
                 "images": img_records,
                 "sourceUrl": f"{WIKI}/wiki/{t.replace(' ', '_')}",

@@ -1,0 +1,1966 @@
+{
+ "$meta": {
+  "count": 24,
+  "fetchedAt": "2026-07-08T12:52:32+00:00",
+  "license": "CC BY-SA 3.0",
+  "source": "https://escapethebackrooms.fandom.com"
+ },
+ "items": [
+  {
+   "foundInLevels": [],
+   "id": "almond-concentrate",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/almond-concentrate/hero.png",
+     "height": 480,
+     "role": "hero",
+     "sourceFile": "File:Almond Concentrate Transparent.png",
+     "width": 161
+    },
+    {
+     "file": "items/almond-concentrate/thumb.png",
+     "height": 480,
+     "role": "thumb",
+     "sourceFile": "File:Almond Concentrate Transparent.png",
+     "width": 161
+    },
+    {
+     "caption": "Icon",
+     "file": "items/almond-concentrate/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Almond Concentrate Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/almond-concentrate/gallery-2.png",
+     "height": 153,
+     "role": "gallery",
+     "sourceFile": "File:Almond Concentrate Icon Transparent.png",
+     "width": 153
+    },
+    {
+     "file": "items/almond-concentrate/body-1.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:The Abandoned Outpost Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Almond Concentrate",
+   "rarity": "Uncommon",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-concentrate/hero.png\" alt=\"Model\" width=\"161\" height=\"480\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-concentrate/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-concentrate/gallery-2.png\" alt=\"Former Icon\" width=\"153\" height=\"153\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Almond Concentrate"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Almond Concentrate</b> is an Item in Escape the Backrooms. It appears to be a bottle.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Almond Concentrate is a white bottle with a blue cap used to seal it. According to the label, the bottle contains \"Raw Almond Concentrate\".\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li>Abandoned Outpost</li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Almond Concentrate cannot be used.\n</p>\n<h3>Purpose</h3>\n<p>In Abandoned Outpost, 4 Bottles of Almond Concentrate can be found. Once you have all 4, put them into the Filtering Unit, and the Emergency Shower will be able to be used to cure the <a href=\"#APP#/entities/wretch/\">Wretch</a> in the Outpost.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<p>On the Bottle, there is a label with words. The label reads:\n</p><p><b>NOT FOR HUMAN CONSUMPTION</b>\n</p><p>This product contains raw almond concentrate which can be fatal if consumed in large quantities. Keep away from pets and small children.\n</p>",
+     "title": "Label"
+    },
+    {
+     "html": "<ul><li>Along with the <a href=\"#APP#/items/thermometer/\">Thermometer</a>, Almond Concentrate is one of the only Items in the Game that cannot be used.<figure><img src=\"#IMG#/images/items/almond-concentrate/body-1.jpg\" alt=\"The Abandoned Outpost Background\" width=\"640\" height=\"360\"><figcaption></figcaption></figure></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Almond_Concentrate",
+   "summary": "Can be used to fill emergency showers"
+  },
+  {
+   "foundInLevels": [
+    "level-1",
+    "overgrowth",
+    "level-3",
+    "level-4",
+    "level-5",
+    "level-fun",
+    "the-end",
+    "level-94",
+    "level-6",
+    "level-7",
+    "level-8",
+    "the-manilla-room",
+    "level-0-11",
+    "level-9",
+    "level-10",
+    "level-0-2",
+    "the-snackrooms",
+    "level-188",
+    "level-fun-plus",
+    "level-52",
+    "level-55-1",
+    "level-37"
+   ],
+   "id": "almond-water",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/almond-water/hero.png",
+     "height": 418,
+     "role": "hero",
+     "sourceFile": "File:New Almond Water Transparent.png",
+     "width": 220
+    },
+    {
+     "file": "items/almond-water/thumb.png",
+     "height": 418,
+     "role": "thumb",
+     "sourceFile": "File:New Almond Water Transparent.png",
+     "width": 220
+    },
+    {
+     "caption": "Icon",
+     "file": "items/almond-water/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Almond Water Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Halloween (2023-2024)",
+     "file": "items/almond-water/gallery-2.png",
+     "height": 388,
+     "role": "gallery",
+     "sourceFile": "File:Pumpkin Almond Water.png",
+     "width": 260
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/almond-water/gallery-3.png",
+     "height": 266,
+     "role": "gallery",
+     "sourceFile": "File:Almond Water Model.png",
+     "width": 153
+    },
+    {
+     "file": "items/almond-water/body-1.png",
+     "height": 151,
+     "role": "body",
+     "sourceFile": "File:Almond Water Icon Transparent.png",
+     "width": 148
+    },
+    {
+     "file": "items/almond-water/body-2.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 1 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Almond Water",
+   "rarity": "Common",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHalloween (2023-2024)\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/hero.png\" alt=\"Model\" width=\"220\" height=\"418\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-2.png\" alt=\"Halloween (2023-2024)\" width=\"260\" height=\"388\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-3.png\" alt=\"Former Model\" width=\"153\" height=\"266\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/body-1.png\" alt=\"Former Icon\" width=\"148\" height=\"151\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Almond Water"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tAlmond_Water_Can_with_texture\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Can\n\n<p><b>Almond Water</b> is an Item in Escape the Backrooms. It appears to be a can with a drink in it.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Almond Water is a liquid stored in a yellow can. The can has the name of the item and a fancy design. At the top there's a gray metal opening, and it's used to restore Sanity.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>Once used, the player opens the can and drinks the Almond Water, then throwing it off to the right. After drinking it, your Sanity will be restored by 50%.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Almond Water was apparently crafted in <a href=\"#APP#/levels/level-37/\">The Poolrooms</a>, which is mentioned on the can.</li>\n<li>Almond Water is the only Item in the game with a Common rarity.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Almond Water can be found, likely due to the fact that it's the only secret level that drains Sanity.</li>\n<li>Almond Water can be found in cans that are about 13.5 cm high and about 5.2 cm wide. For comparison: a 250ml Redbull Energy can has exactly (maybe a few millimeters off) these measurements, whereas the Almond Water cans look similar in size and width to exactly this kind of can.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Almond_Water",
+   "summary": "Restores your sanity levels"
+  },
+  {
+   "foundInLevels": [
+    "level-5",
+    "level-9"
+   ],
+   "id": "bug-spray",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/bug-spray/hero.png",
+     "height": 515,
+     "role": "hero",
+     "sourceFile": "File:New Spray.png",
+     "width": 223
+    },
+    {
+     "file": "items/bug-spray/thumb.png",
+     "height": 515,
+     "role": "thumb",
+     "sourceFile": "File:New Spray.png",
+     "width": 223
+    },
+    {
+     "caption": "Icon",
+     "file": "items/bug-spray/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Bug Spray Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/bug-spray/gallery-2.png",
+     "height": 260,
+     "role": "gallery",
+     "sourceFile": "File:Bug Spray Transparent.png",
+     "width": 130
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/bug-spray/gallery-3.png",
+     "height": 149,
+     "role": "gallery",
+     "sourceFile": "File:Bug Spray Icon Transparent.png",
+     "width": 150
+    },
+    {
+     "file": "items/bug-spray/body-1.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:Level 5 Main Halls Starting Room Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Bug Spray",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/hero.png\" alt=\"Model\" width=\"223\" height=\"515\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-2.png\" alt=\"Former Model\" width=\"130\" height=\"260\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-3.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Bug Spray"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_BugSpray\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_BugSpray\n\n<p><b>Bug Spray</b> is an Item in Escape the Backrooms. It appears to be a spray can.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Bug Spray is a silver spray can with a green label placed over it. On the label is a yellow banner with a bug on it. The bug has a red mark over it to indicate that it can kill bugs.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-5/\">Level 5</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the substance inside the can will be sprayed out for a couple seconds. Bug Spray can be used as many times as you'd like.\n</p>\n<h3>Purpose</h3>\n<p>If the substance comes into contact with <a href=\"#APP#/entities/male-deathmoth/\">Male Deathmoths</a>, they will turn into <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a>.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>While <a href=\"#APP#/entities/male-deathmoth/\">Male Deathmoths</a> are small enough to be killed with a simple Bug Spray can, <a href=\"#APP#/entities/female-deathmoth/\">Female Deathmoths</a> cannot, and require a lot more Bug Spray just to be fended off.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Bug_Spray",
+   "summary": "Kills swarms of bugs"
+  },
+  {
+   "foundInLevels": [
+    "level-55-1"
+   ],
+   "id": "camera",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/camera/hero.png",
+     "height": 268,
+     "role": "hero",
+     "sourceFile": "File:Camera Transparent.png",
+     "width": 350
+    },
+    {
+     "file": "items/camera/thumb.png",
+     "height": 245,
+     "role": "thumb",
+     "sourceFile": "File:Camera Transparent.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/camera/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Camera Icon.png.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/camera/gallery-2.png",
+     "height": 149,
+     "role": "gallery",
+     "sourceFile": "File:Camera Icon Transparent.png",
+     "width": 149
+    },
+    {
+     "file": "items/camera/body-1.jpg",
+     "height": 482,
+     "role": "body",
+     "sourceFile": "File:Level 55.1 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Camera",
+   "rarity": "Unknown",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/camera/hero.png\" alt=\"Model\" width=\"350\" height=\"268\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/camera/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/camera/gallery-2.png\" alt=\"Former Icon\" width=\"149\" height=\"149\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Camera"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Cameras</b> are an Item in Escape the Backrooms. It appears to be a classic camera.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Cameras resemble a classic vintage camera from the 2010's. It is made of metal and plastic, and it comes with a built-in light. The Camera's light is not as strong as a <a href=\"#APP#/items/flashlight/\">Flashlight</a>, but it can still be useful if you need to see an area without switching the Item you are holding. The Camera also has an image attached to the back side.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player will snap a photo of what's Infront of them.\n</p>\n<h3>Purpose</h3>\n<p>The main purpose of Cameras is to take a photo of what is shown in the picture on the back side. After capturing what's shown, a different photo will appear, and the player has to capture that new image. The player needs to take 6 photos of different objects. It can also be used to kill <a href=\"#APP#/entities/smiler/\">Smilers</a> by facing them since the Camera has a light.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>If you're in other Levels than <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>, the Camera glitches and the player can see the first photo that needs to be taken.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Camera",
+   "summary": "Used to take photos and upload them to the M.E.G. network"
+  },
+  {
+   "foundInLevels": [
+    "the-manilla-room",
+    "level-0-11",
+    "level-exclamation-tilde-exclamation"
+   ],
+   "id": "chainsaw",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/chainsaw/hero.png",
+     "height": 213,
+     "role": "hero",
+     "sourceFile": "File:Chainsaw Transparent.png",
+     "width": 729
+    },
+    {
+     "file": "items/chainsaw/thumb.png",
+     "height": 93,
+     "role": "thumb",
+     "sourceFile": "File:Chainsaw Transparent.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/chainsaw/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Chainsaw Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/chainsaw/gallery-2.png",
+     "height": 120,
+     "role": "gallery",
+     "sourceFile": "File:Chainsaw Icon Transparent.png",
+     "width": 120
+    },
+    {
+     "file": "items/chainsaw/body-1.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:The Manila Room.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Chainsaw",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/hero.png\" alt=\"Model\" width=\"729\" height=\"213\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/gallery-2.png\" alt=\"Former Icon\" width=\"120\" height=\"120\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Chainsaw"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Chainsaws</b> are an Item in Escape the Backrooms. It appears to simply be a Chainsaw.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Chainsaws looks like a typical Chainsaw with an orange handle. It cannot be used as a Weapon, despite being a Chainsaw, but it can be used to break boards.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~! - Hotel Chase</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the Chainsaw will start moving for a short amount of time.\n</p>\n<h3>Purpose</h3>\n<p>If the Chainsaw comes into contact with certain wood if near it when in use, the wood will break. Some wood needs multiple uses of the Chainsaw to break.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Farmer <a href=\"#APP#/entities/faceling/\">Facelings</a> can be seen holding Chainsaws.</li></ul>\n<figure><img src=\"#IMG#/images/items/chainsaw/body-1.jpg\" alt=\"The Manila Room\" width=\"640\" height=\"483\"><figcaption></figcaption></figure>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Chainsaw",
+   "summary": "Can be used to tear down wooden barriers"
+  },
+  {
+   "foundInLevels": [
+    "level-4"
+   ],
+   "id": "crowbar",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/crowbar/hero.png",
+     "height": 396,
+     "role": "hero",
+     "sourceFile": "File:New Crowbar.png",
+     "width": 186
+    },
+    {
+     "file": "items/crowbar/thumb.png",
+     "height": 396,
+     "role": "thumb",
+     "sourceFile": "File:New Crowbar.png",
+     "width": 186
+    },
+    {
+     "caption": "Icon",
+     "file": "items/crowbar/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Crowbar Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/crowbar/gallery-2.png",
+     "height": 505,
+     "role": "gallery",
+     "sourceFile": "File:Crowbar Transparent.png",
+     "width": 143
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/crowbar/gallery-3.png",
+     "height": 150,
+     "role": "gallery",
+     "sourceFile": "File:Crowbar Icon Transparent.png",
+     "width": 150
+    },
+    {
+     "file": "items/crowbar/body-1.jpg",
+     "height": 482,
+     "role": "body",
+     "sourceFile": "File:Level 4 Security Office Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Crowbar",
+   "rarity": "Uncommon",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/crowbar/hero.png\" alt=\"Model\" width=\"186\" height=\"396\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/crowbar/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/crowbar/gallery-2.png\" alt=\"Former Model\" width=\"143\" height=\"505\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/crowbar/gallery-3.png\" alt=\"Former Icon\" width=\"150\" height=\"150\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Crowbar"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tCrowbar_BP\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Crowbar\n\n<p><b>Crowbars</b> are an Item in Escape the Backrooms. It appears to be a silver stick.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Crowbars are rusty, red-colored sticks, bent on its sides. The top and bottom of the Crowbar has a gray coloring instead of red.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li>Abandoned Outpost</li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the Crowbar is swung by the player.\n</p>\n<h3>Purpose</h3>\n<p>If the Crowbar is nearby any breakable Vent, the Vent will break open, allowing players to crouch and enter it.\n</p>",
+     "title": "Use"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Crowbar",
+   "summary": "Can be used to break open vents"
+  },
+  {
+   "foundInLevels": [
+    "level-7"
+   ],
+   "id": "diving-helmet",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/diving-helmet/hero.png",
+     "height": 603,
+     "role": "hero",
+     "sourceFile": "File:Diving Helmet.png",
+     "width": 377
+    },
+    {
+     "file": "items/diving-helmet/thumb.png",
+     "height": 512,
+     "role": "thumb",
+     "sourceFile": "File:Diving Helmet.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/diving-helmet/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Diving Helmet Icon.png.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/diving-helmet/gallery-2.png",
+     "height": 152,
+     "role": "gallery",
+     "sourceFile": "File:Diving Helmet Icon Transparent.png",
+     "width": 150
+    },
+    {
+     "file": "items/diving-helmet/body-1.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:Level 7 Final House Dock Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Diving Helmet",
+   "rarity": "Unknown",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/hero.png\" alt=\"Model\" width=\"377\" height=\"603\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"152\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Diving Helmet"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Diving Helmets</b> are an Item in Escape the Backrooms. It appears to be a standard Diving Helmet.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Diving Helmets are simply standard Diving Helmets that can be used for aquatic explorations.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player will put the Diving Helmet onto their head. Once it's on, that player will be unable to view your Inventory and use Items.\n</p>\n<h3>Purpose</h3><p>\nWhen wearing the Diving Helmet, you will be able to swim underwater. The only water that is only swimmable with the Diving Helmet though is the ocean of <a href=\"#APP#/levels/level-7/\">Level 7</a>.</p><figure><img src=\"#IMG#/images/items/diving-helmet/body-1.jpg\" alt=\"Level 7 Final House Dock Background\" width=\"640\" height=\"483\"><figcaption></figcaption></figure>",
+     "title": "Use"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Diving_Helmet",
+   "summary": "Allows you to dive underwater"
+  },
+  {
+   "foundInLevels": [
+    "overgrowth",
+    "level-3",
+    "level-4",
+    "level-5",
+    "level-fun",
+    "the-end",
+    "level-6",
+    "level-7",
+    "level-8",
+    "the-manilla-room",
+    "level-0-11",
+    "level-9",
+    "level-10",
+    "level-0-2",
+    "the-snackrooms",
+    "level-188",
+    "level-fun-plus",
+    "level-52",
+    "level-55-1",
+    "the-hub",
+    "level-exclamation-tilde-exclamation",
+    "level-9223372036854775807",
+    "level-0",
+    "level-2",
+    "level-37",
+    "level-exclamation",
+    "level-94",
+    "level-3999",
+    "level-0-1",
+    "level-37-2",
+    "level-1"
+   ],
+   "id": "energy-bar",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/energy-bar/hero.png",
+     "height": 204,
+     "role": "hero",
+     "sourceFile": "File:New Energy.png",
+     "width": 388
+    },
+    {
+     "file": "items/energy-bar/thumb.png",
+     "height": 168,
+     "role": "thumb",
+     "sourceFile": "File:New Energy.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/energy-bar/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Energy Bar Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/energy-bar/gallery-2.png",
+     "height": 161,
+     "role": "gallery",
+     "sourceFile": "File:Energy Bar Transparent.png",
+     "width": 350
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/energy-bar/gallery-3.png",
+     "height": 147,
+     "role": "gallery",
+     "sourceFile": "File:Energy Bar Icon Transparent.png",
+     "width": 149
+    },
+    {
+     "file": "items/energy-bar/body-1.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 3 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Energy Bar",
+   "rarity": "Uncommon",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/hero.png\" alt=\"Model\" width=\"388\" height=\"204\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-2.png\" alt=\"Former Model\" width=\"350\" height=\"161\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-3.png\" alt=\"Former Icon\" width=\"149\" height=\"147\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Energy Bar"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_EnergyBar\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_EnergyBar\n\n<p><b>Energy Bars</b> are an Item in Escape the Backrooms. It appears to be a chocolate bar.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Energy Bars are chocolate bars that give one energy. The wrapper is half red and half brown and says, \"Dark Chocolate Cacao\", seemingly being the flavor of the bar. It also says that there is a 35g source of protein in the bar. On the inside is a chocolate bar with little bits of chocolate.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:  \n</p>\n<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>Upon using, the player opens up the Energy Bar and eats it. After consumption, your Sanity is restored by 25%. You'll also receive a Stamina Boost.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<p>The Stamina boost allows the player to run for a total of 12.5 seconds and only goes away as the player uses their Stamina through running. Extra Stamina does not regenerate back (Extra stamina = stamina over the default stamina threshold. For example, in <a href=\"#APP#/levels/the-hub/\">The Hub</a> your default stamina threshold is 4 seconds, meaning you can sprint for a total of 4 seconds before running out of breath. Once you eat an energy bar in <a href=\"#APP#/levels/the-hub/\">The Hub</a>, your stamina will increase to 12.5 seconds, however, it will not regenerate until it is below 4 seconds. For information on the stamina threshold of every level, see Base Stamina) Energy Bars do not stack, which means the maximum number of stamina you can have at a time is 12.5 seconds. In addition, an Energy Bar replenishes 25% Sanity.\n</p><p>The Player's Base Stamina is slightly different depending on the Level they are on. The recovery speed after completely running out of Stamina is always 7 seconds, but the regeneration speed is sometimes different, allowing you to run more if you wait for your Stamina to regenerate without allowing it to completely deplete.\n</p>\n<ul><li>Infinite: <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a></li>\n<li>~7.5 seconds: <a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+ (sectors)</a></li>\n<li>~5.5 seconds: <a href=\"#APP#/levels/level-3/\">Level 3</a></li>\n<li>~4.5 seconds: <a href=\"#APP#/levels/level-0/\">Level 0</a>, <a href=\"#APP#/levels/level-2/\">Level 2</a>, <a href=\"#APP#/levels/level-5/\">Level 5</a>, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-37/\">Level 37</a> <a href=\"#APP#/levels/level-exclamation/\">Level !</a> , <a href=\"#APP#/levels/the-end/\">The End</a>, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-6/\">Level 6</a>, <a href=\"#APP#/levels/level-7/\">Level 7</a>, <a href=\"#APP#/levels/level-8/\">Level 8</a>, <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> <a href=\"#APP#/levels/level-9/\">Level 9</a>, Abandoned Outpost, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-3999/\">Level 3999</a>, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, <a href=\"#APP#/levels/level-188/\">Level 188</a>, <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a> , <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, <a href=\"#APP#/levels/level-52/\">Level 52</a>, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>~4 seconds: <a href=\"#APP#/levels/the-hub/\">The Hub</a>, <a href=\"#APP#/levels/level-4/\">Level 4</a></li>\n<li>~3.5 seconds: <a href=\"#APP#/levels/level-1/\">Level 1</a></li></ul>\n<p>This only applies to the main areas in the listed Levels. Some Levels like <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> have other areas that have different values. <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> in this case has your base Stamina last for ~7.5 seconds when you're in one of the Sectors. More cases like this might be present but not tested.\n</p>",
+     "title": "Stamina Boost"
+    },
+    {
+     "html": "<p>Whole Milk Powder, Maltose Syrup, Coating Sugar, Vegetable Fat (Fully Hydrogenated Palm Kernel), Whey Powder, Skim Milk Powder, Cocoa Powder, Stabilizer, Lecithin, Flavoring, Sucrose, Egg Albumen, (Egg Albumen, Food Acid), Flavorings, Glycerol, Food Acid, Colorant, Vitamins, Calcium Carbonate, and Magnesium Oxide.\n</p>",
+     "title": "Ingredients"
+    },
+    {
+     "html": "<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Energy Bars can be found, likely due to the fact that it's the only secret level that drains Sanity.</li>\n<li>Energy Bars grant stamina upon consumption, which might be a bit hard to tell since there's no stamina bar or indication (excluding the item description and the name energy bar) that it gives you a stamina boost or the stamina boost was given.</li>\n<li>The flavor of the Energy Bar \"Dark Chocolate Cacao\" mentions cacao (also known as a cocoa bean or cocoa) in the name, which is the thing that chocolate comes from.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Energy_Bar",
+   "summary": "Gives you a temporary stamina boost"
+  },
+  {
+   "foundInLevels": [
+    "level-7",
+    "level-fun-plus"
+   ],
+   "id": "firework",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/firework/hero.png",
+     "height": 325,
+     "role": "hero",
+     "sourceFile": "File:Firework Transparent.png",
+     "width": 285
+    },
+    {
+     "file": "items/firework/thumb.png",
+     "height": 325,
+     "role": "thumb",
+     "sourceFile": "File:Firework Transparent.png",
+     "width": 285
+    },
+    {
+     "caption": "Icon",
+     "file": "items/firework/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Firework Icon.png.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/firework/gallery-2.png",
+     "height": 149,
+     "role": "gallery",
+     "sourceFile": "File:Firework Icon Transparent.png",
+     "width": 150
+    },
+    {
+     "file": "items/firework/body-1.jpg",
+     "height": 481,
+     "role": "body",
+     "sourceFile": "File:Funhouse Sector Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Firework",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/hero.png\" alt=\"Model\" width=\"285\" height=\"325\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Firework"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Fireworks</b> are an Item in Escape the Backrooms. It appears to be a red Firework.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Fireworks are normal Fireworks that are wrapped with a shiny red clingfilm that has white stars. \n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-7/\">Level Fun+</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player lights the Firework and throw it forward. After a couple seconds, the Firework explodes. \n</p>\n<h3>Purpose</h3>\n<h4>Death to Players</h4>\n<p>If a player is too close to a Firework upon blowing up, it will kill the player.\n</p>\n<h4>Death to Party Hosts</h4>\n<p>If a Firework touches a <a href=\"#APP#/entities/party-host/\">Party Host</a>, it will kill the <a href=\"#APP#/entities/party-host/\">Party Host</a>, allowing progression of the Funhouse Sector in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> and for the <a href=\"#APP#/entities/party-host/\">Party Host</a> that was killed to permanently close its eye.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Along with <a href=\"#APP#/items/bug-spray/\">Bug Spray</a>, Fireworks are one of the only Items in the game that can kill certain entities.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Firework",
+   "summary": "Can be used to stun Party Hosts"
+  },
+  {
+   "foundInLevels": [
+    "level-7"
+   ],
+   "id": "flare-gun",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/flare-gun/hero.png",
+     "height": 314,
+     "role": "hero",
+     "sourceFile": "File:Flare Gun Transparent.png",
+     "width": 417
+    },
+    {
+     "file": "items/flare-gun/thumb.png",
+     "height": 241,
+     "role": "thumb",
+     "sourceFile": "File:Flare Gun Transparent.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/flare-gun/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Flare Gun Icon.png.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/flare-gun/gallery-2.png",
+     "height": 150,
+     "role": "gallery",
+     "sourceFile": "File:Flare Gun Icon Transparent.png",
+     "width": 152
+    },
+    {
+     "file": "items/flare-gun/body-1.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:Level 7 Flare Gun House Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Flare Gun",
+   "rarity": "Rare",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flare-gun/hero.png\" alt=\"Model\" width=\"417\" height=\"314\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flare-gun/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flare-gun/gallery-2.png\" alt=\"Former Icon\" width=\"152\" height=\"150\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Flare Gun"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><br>\n<b>Flare Guns</b> are an Item in Escape the Backrooms. It appears to be a orange gun.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Flare Guns are orange guns that shoots flares to clear out fog.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, a Flare is shot out of the gun.\n</p>\n<h3>Purpose</h3>\n<p>The purpose of Flare Guns is for 2 or more players so you can let your teammates know where you're at using one, since the Flare shot out of the gun can be seen in the fog.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>When The Flare Gun was first shown in Fancy's 6th Devlog, it had a Rarity of Epic, however this was changed for unknown reasons.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Flare_Gun",
+   "summary": "Fires a flare to let your teammates let you know where you are"
+  },
+  {
+   "foundInLevels": [
+    "level-0",
+    "level-1",
+    "the-bunker",
+    "overgrowth",
+    "level-2",
+    "level-3",
+    "level-4",
+    "level-5",
+    "level-fun",
+    "the-end",
+    "level-94",
+    "level-6",
+    "level-974",
+    "level-8",
+    "level-0-11",
+    "level-9",
+    "level-10",
+    "level-0-2",
+    "level-188",
+    "level-37-2",
+    "level-fun-plus",
+    "level-52",
+    "level-55-1"
+   ],
+   "id": "flashlight",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/flashlight/hero.png",
+     "height": 299,
+     "role": "hero",
+     "sourceFile": "File:New Flashlight.png",
+     "width": 81
+    },
+    {
+     "file": "items/flashlight/thumb.png",
+     "height": 299,
+     "role": "thumb",
+     "sourceFile": "File:New Flashlight.png",
+     "width": 81
+    },
+    {
+     "caption": "Icon",
+     "file": "items/flashlight/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Flashlight Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/flashlight/gallery-2.png",
+     "height": 307,
+     "role": "gallery",
+     "sourceFile": "File:Flashlight Model.png",
+     "width": 169
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/flashlight/gallery-3.png",
+     "height": 153,
+     "role": "gallery",
+     "sourceFile": "File:Flashlight Icon with Light.png",
+     "width": 153
+    },
+    {
+     "file": "items/flashlight/body-1.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 0 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Flashlight",
+   "rarity": "Rare",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flashlight/hero.png\" alt=\"Model\" width=\"81\" height=\"299\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flashlight/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flashlight/gallery-2.png\" alt=\"Former Model\" width=\"169\" height=\"307\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/flashlight/gallery-3.png\" alt=\"Former Icon\" width=\"153\" height=\"153\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Flashlight"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_Flashlight\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Flashlight\n\n<p><b>Flashlights</b> are an Item in Escape the Backrooms. It appears to simply be a Flashlight.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Flashlights are 1990's to 2010-sized flashlights. It can be used to see in Dark Areas and to stun <a href=\"#APP#/entities/hound/\">Hounds</a> or make <a href=\"#APP#/entities/smiler/\">Smilers</a> disappear.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-2/\">Level 2 - Pipe Dreams</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-37-2/\">Level 37.2 - Dark Poolrooms</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player turns on the Flashlight and a Light is shined through the Flashlight.\n</p>\n<h3>Purpose</h3>\n<p>The main purpose of Flashlights is to allow players to see in dark areas using the light, but a Flashlight can also be used to stun Hounds and keep them in place, and to make Smilers in <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> and <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> disappear.\n</p>",
+     "title": "Use"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Flashlight",
+   "summary": "Lights up Dark Areas"
+  },
+  {
+   "foundInLevels": [
+    "level-fun-plus",
+    "level-8",
+    "level-fun"
+   ],
+   "id": "glowstick",
+   "images": [
+    {
+     "caption": "Green Model",
+     "file": "items/glowstick/hero.png",
+     "height": 464,
+     "role": "hero",
+     "sourceFile": "File:Green Stick Transparent.png",
+     "width": 350
+    },
+    {
+     "file": "items/glowstick/thumb.png",
+     "height": 424,
+     "role": "thumb",
+     "sourceFile": "File:Green Stick Transparent.png",
+     "width": 320
+    },
+    {
+     "caption": "Red Model",
+     "file": "items/glowstick/gallery-1.png",
+     "height": 351,
+     "role": "gallery",
+     "sourceFile": "File:Red Stick Transparent.png",
+     "width": 205
+    },
+    {
+     "caption": "Blue Model",
+     "file": "items/glowstick/gallery-2.png",
+     "height": 324,
+     "role": "gallery",
+     "sourceFile": "File:Blue Stick Transparent.png",
+     "width": 350
+    },
+    {
+     "caption": "Yellow Model",
+     "file": "items/glowstick/gallery-3.png",
+     "height": 302,
+     "role": "gallery",
+     "sourceFile": "File:Yellow Stick Transparent.png",
+     "width": 306
+    },
+    {
+     "file": "items/glowstick/body-1.png",
+     "height": 640,
+     "role": "body",
+     "sourceFile": "File:New Green Glowstick Icon.png.png",
+     "width": 640
+    },
+    {
+     "file": "items/glowstick/body-2.png",
+     "height": 640,
+     "role": "body",
+     "sourceFile": "File:New Red Glowstick Icon.png.png",
+     "width": 640
+    },
+    {
+     "file": "items/glowstick/body-3.png",
+     "height": 640,
+     "role": "body",
+     "sourceFile": "File:New Blue Glowstick Icon.png.png",
+     "width": 640
+    }
+   ],
+   "name": "Glowstick",
+   "rarity": "Rare",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tGreen Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tRed Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tBlue Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tYellow Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tGreen Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tRed Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tBlue Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tYellow Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Green Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Red Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Blue Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Yellow Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/hero.png\" alt=\"Green Model\" width=\"350\" height=\"464\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/gallery-1.png\" alt=\"Red Model\" width=\"205\" height=\"351\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/gallery-2.png\" alt=\"Blue Model\" width=\"350\" height=\"324\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/gallery-3.png\" alt=\"Yellow Model\" width=\"306\" height=\"302\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/body-1.png\" alt=\"Green Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/body-2.png\" alt=\"Red Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/glowstick/body-3.png\" alt=\"Blue Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Glowstick"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Glowsticks</b> are an Item in Escape the Backrooms. It appears to be a tube.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Glowsticks are plastic tubes that glow different colors. They can be found in 4 different colors: Green, Red, Blue, and Yellow.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player drops the Glowstick on the ground.\n</p>\n<h3>Purpose</h3>\n<p>In the Arcade Sector of <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, different symbols can be found in the dark zone. If you are holding a certain Glowstick in front of each one, the respective symbol will light up. If you place down all of the correct colors in front of all 4 of the symbols, the locked door in the Sector will open.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Glowsticks are the only Item in the game with variations.</li>\n<li>Glowsticks can be found at the ditch in the final area of <a href=\"#APP#/levels/level-8/\">Level 8</a> with the color Orange, however they cannot be picked up.</li>\n<li>If you drop all 4 Glowstick Colors in the same spot, they will glow up as white.</li>\n<li>Glowsticks were first seen in Part 2, when they were found underneath the Tables in the locked door room at the end of <a href=\"#APP#/levels/level-fun/\">Level Fun</a>.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Glowstick",
+   "summary": "Lights up areas and can be dropped to remember your path"
+  },
+  {
+   "foundInLevels": [
+    "overgrowth",
+    "level-4",
+    "level-5",
+    "level-fun",
+    "level-6",
+    "level-7",
+    "level-8",
+    "level-0-11",
+    "level-9",
+    "level-10",
+    "level-0-2",
+    "the-snackrooms",
+    "level-188",
+    "level-fun-plus",
+    "level-52",
+    "level-55-1",
+    "the-hub",
+    "level-0-1",
+    "level-exclamation",
+    "the-end",
+    "level-94"
+   ],
+   "id": "juice",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/juice/hero.png",
+     "height": 700,
+     "role": "hero",
+     "sourceFile": "File:New Juice.png",
+     "width": 232
+    },
+    {
+     "file": "items/juice/thumb.png",
+     "height": 700,
+     "role": "thumb",
+     "sourceFile": "File:New Juice.png",
+     "width": 232
+    },
+    {
+     "caption": "Icon",
+     "file": "items/juice/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Juice Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/juice/gallery-2.png",
+     "height": 760,
+     "role": "gallery",
+     "sourceFile": "File:1943950 34-removebg-preview.png",
+     "width": 313
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/juice/gallery-3.png",
+     "height": 153,
+     "role": "gallery",
+     "sourceFile": "File:Juice icon Transparent.png",
+     "width": 153
+    },
+    {
+     "file": "items/juice/body-1.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:Level 4 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Juice",
+   "rarity": "Rare",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/juice/hero.png\" alt=\"Model\" width=\"232\" height=\"700\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/juice/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/juice/gallery-2.png\" alt=\"Former Model\" width=\"313\" height=\"760\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/juice/gallery-3.png\" alt=\"Former Icon\" width=\"153\" height=\"153\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Juice"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Juice\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Juice_v2png\n\n<p><b>Juice</b> is an Item in Escape the Backrooms. It appears to be a Juice in a bottle.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Juice is a green liquid stored in a plastic bottle with a blue bottle cap.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>Upon using, the player will take off the cap and drink the Juice. Then, you'll receive a Speed Boost for a temporary amount of time (10 seconds), and your Sanity will go up by 25%. During the time of the Speed Boost, your Stamina is not drained.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<p>In some Levels, the Speed Boost is slightly different. Because Juice sets your Speed to a specific value (rather than increasing it by a percentage), the Speed Boost lasts longer or shorter depending on what Level or location you're in.\n</p>\n<ul><li>50%: Level 52</li>\n<li>35%: Level 3, Level 37, Level 6, Level 37.2</li>\n<li>22.7%: Level 0, <a href=\"#APP#/levels/the-hub/\">The Hub</a>, Level 4, Level 5, Level 7, Level 8, Level 0.11, <a href=\"#APP#/levels/level-9/\">Level 9</a>, Abandoned Outpost, Level 3999, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, Level !~!, Level 188, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>12.5%: Level 1, Level 2, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, <a href=\"#APP#/levels/the-end/\">The End</a>, Level 9223372036854775807, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
+     "title": "Speed Boost"
+    },
+    {
+     "html": "<ul><li>The liquid in the bottle moves around with the player's movements.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Juice can be found, likely due to the fact that it's the only secret level that drains Sanity.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Juice",
+   "summary": "Gives you a temporary speed boost"
+  },
+  {
+   "foundInLevels": [
+    "the-grassrooms"
+   ],
+   "id": "knife",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/knife/hero.png",
+     "height": 124,
+     "role": "hero",
+     "sourceFile": "File:Knife.png",
+     "width": 127
+    },
+    {
+     "file": "items/knife/thumb.png",
+     "height": 124,
+     "role": "thumb",
+     "sourceFile": "File:Knife.png",
+     "width": 127
+    },
+    {
+     "caption": "Icon",
+     "file": "items/knife/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:Knife Icon.png",
+     "width": 640
+    },
+    {
+     "file": "items/knife/body-1.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:The Grassrooms Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Knife",
+   "rarity": "Legendary",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/knife/hero.png\" alt=\"Model\" width=\"127\" height=\"124\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/knife/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Knife"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Knifes</b> are an Item in Escape the Backrooms. It appears to be a knife.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Knifes resemble a metal combat knife with a wooden handle. It can be used to cut down ropes and Vines tangling players.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player swings the Knife.\n</p>\n<h3>Purpose</h3>\n<h4>Cutting the Ropes</h4>\n<p>If a swung Knife interacts with 3 different ropes around <a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a>, the ropes will break, allowing progression of the level.\n</p>\n<h4>Vine-Free Knifes</h4>\n<p>If you are playing with 2 or more people and a player gets stuck in Vines, it will take a few seconds before they die which gives other players time to use a Knife on them which will cut down the Vines, allowing the trapped player to become free.\n</p>\n<h4>Teammate Death</h4>\n<p>If you're playing with 2 or more people, the Knife can kill other players if they are hit by it, which will cause them to fall over and remain lifeless on the ground.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>A player's hazmat suit after getting killed by a Knife will become a ragdoll after a short death animation where they fall down.</li>\n<li>In Fancy's 11th Devlog, he showed a player killing a player stuck in Vines with the Knife. Despite the fact that you can kill other players with a Knife, this would've freed the player from the Vines in-game.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Knife",
+   "summary": "Can be used to cut ropes and vines"
+  },
+  {
+   "foundInLevels": [
+    "level-6"
+   ],
+   "id": "lidar-scanner",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/lidar-scanner/hero.png",
+     "height": 599,
+     "role": "hero",
+     "sourceFile": "File:Lidar Scanner Transparent.png",
+     "width": 376
+    },
+    {
+     "file": "items/lidar-scanner/thumb.png",
+     "height": 510,
+     "role": "thumb",
+     "sourceFile": "File:Lidar Scanner Transparent.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/lidar-scanner/gallery-1.png",
+     "height": 148,
+     "role": "gallery",
+     "sourceFile": "File:LiDAR Scanner Icon Transparent.png",
+     "width": 149
+    },
+    {
+     "file": "items/lidar-scanner/body-1.jpg",
+     "height": 482,
+     "role": "body",
+     "sourceFile": "File:Level 6 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "LiDAR Scanner",
+   "rarity": "Unknown",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/lidar-scanner/hero.png\" alt=\"Model\" width=\"376\" height=\"599\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/lidar-scanner/gallery-1.png\" alt=\"Icon\" width=\"149\" height=\"148\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "LiDAR Scanner"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>LiDAR Scanners</b> are an Item in Escape the Backrooms. It appears to be a scanner.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>LiDAR Scanners are a yellowish/orange scanner with a screen connected to it, which shows a radar tracker. On the side of the Scanner, there is a keypad and a fingerprint scanner underneath. The keypad and fingerprint scanner currently have no use.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, a bunch of dots get placed on walls for a few seconds, which only works in the 2 mazes of <a href=\"#APP#/levels/level-6/\">Level 6</a>.\n</p>\n<h3>Purpose</h3>\n<h4>Multiple Dot Colors</h4>\n<p>The dots that come out of the Scanner can be a bunch of different colors, and the colors change whenever you stop holding the Scanner and hold it again.\n</p>\n<h4>Tracker</h4>\n<p>When you're holding the Scanner, you can see the screen that shows the radar tracker. Every couple seconds, light will go around the area on the screen, and the <a href=\"#APP#/entities/wretch/\">Wretch</a> in <a href=\"#APP#/levels/level-6/\">Level 6</a> will be shown as a red dot if it is within the area. Other players can be seen as green dots.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>There is no limit to how many dots can be on the walls at once.</li>\n<li>The LiDAR Scanner is the only Item to not have an updated icon after Version 1.0.\n<ul><li>The reason it doesn't have an updated icon is unknown.</li></ul></li>\n<li>The LiDAR Scanner was added so <a href=\"#APP#/levels/level-6/\">Level 6</a> isn't just bumping into walls in a pitch-black level until you find the exit.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/LiDAR_Scanner",
+   "summary": "Fires glow in the dark dots"
+  },
+  {
+   "foundInLevels": [
+    "level-fun",
+    "level-94",
+    "level-0-11",
+    "level-9",
+    "level-52"
+   ],
+   "id": "liquid-pain",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/liquid-pain/hero.png",
+     "height": 520,
+     "role": "hero",
+     "sourceFile": "File:New Pain.png",
+     "width": 300
+    },
+    {
+     "file": "items/liquid-pain/thumb.png",
+     "height": 520,
+     "role": "thumb",
+     "sourceFile": "File:New Pain.png",
+     "width": 300
+    },
+    {
+     "caption": "Icon",
+     "file": "items/liquid-pain/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Liquid Pain Icon.png.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Model",
+     "file": "items/liquid-pain/gallery-2.png",
+     "height": 325,
+     "role": "gallery",
+     "sourceFile": "File:Transparent Liquid Pain.png",
+     "width": 136
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/liquid-pain/gallery-3.png",
+     "height": 153,
+     "role": "gallery",
+     "sourceFile": "File:Liquid Pain Icon Transparent.png",
+     "width": 153
+    },
+    {
+     "file": "items/liquid-pain/body-1.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level Fun Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Liquid Pain",
+   "rarity": "Legendary",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/liquid-pain/hero.png\" alt=\"Model\" width=\"300\" height=\"520\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/liquid-pain/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/liquid-pain/gallery-2.png\" alt=\"Former Model\" width=\"136\" height=\"325\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/liquid-pain/gallery-3.png\" alt=\"Former Icon\" width=\"153\" height=\"153\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Liquid Pain"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Liquid_Pain\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Juice\n\n<p><b>Liquid Pain</b> is an Item in Escape the Backrooms. It appears to be a red liquid in a Bottle.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Liquid pain is a red liquid stored in a plastic bottle with a blue bottle cap. Liquid Pain is a deadly Item, so do not drink it under any circumstance.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>Upon using, the player drinks the Liquid Pain. After consumption, the player will stop, and your screen will slowly go to black until the player dies.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Liquid Pain is the only Item in the game with a Legendary rarity that can be found in more than one Level.</li>\n<li>The liquid in the bottle moves around with the player's movements.</li>\n<li>Liquid Pain is almost completely pointless, as all it is useful for is for an automatic death.</li>\n<li>Liquid Pain has some details about it on its Backrooms Wikidot <a href=\"https://backrooms-wiki.wikidot.com/object-48/offset/1\" rel=\"noopener nofollow\" target=\"_blank\">page</a> that aren't mentioned anywhere in-game:\n<ul><li>It is the product of a chemical reaction, resulting in the hydrogen cyanide reacting with the potassium chloride and creating hydrochloric acid and potassium cyanide.</li>\n<li>The products mentioned above are the causes of its fatal effect.</li>\n<li>It's stated that Liquid Pain is a variation of <a href=\"#APP#/items/almond-water/\">Almond Water</a>.</li>\n<li>Liquid Pain's object number is 48, because on the Wikidot all objects are sorted with numbers, similar to Entities and Levels on the original Backrooms wikis.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Liquid_Pain",
+   "summary": "Causes you a lot of pain..."
+  },
+  {
+   "foundInLevels": [
+    "level-5",
+    "level-9"
+   ],
+   "id": "moth-jelly",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/moth-jelly/hero.png",
+     "height": 238,
+     "role": "hero",
+     "sourceFile": "File:Moth Jelly Transparent.png",
+     "width": 336
+    },
+    {
+     "file": "items/moth-jelly/thumb.png",
+     "height": 227,
+     "role": "thumb",
+     "sourceFile": "File:Moth Jelly Transparent.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/moth-jelly/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Moth Jelly Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/moth-jelly/gallery-2.png",
+     "height": 151,
+     "role": "gallery",
+     "sourceFile": "File:Moth Jelly Icon Transparent.png",
+     "width": 151
+    },
+    {
+     "file": "items/moth-jelly/body-1.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:Level 5 Main Halls Starting Room Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Moth Jelly",
+   "rarity": "Rare",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/hero.png\" alt=\"Model\" width=\"336\" height=\"238\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/gallery-2.png\" alt=\"Former Icon\" width=\"151\" height=\"151\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Moth Jelly"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\t<a href=\"#APP#/items/wax-bar/\">Wax_bar</a>\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_WaxBar\n\n<p><b>Moth Jelly</b> is an Item in Escape the Backrooms. It appears to be rectangular piece of purple jelly.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Moth jelly is a shiny purple rectangle made of Jelly, and it closely resembles grape Jelly. It can only be obtained by using <a href=\"#APP#/items/bug-spray/\">Bug Spray</a> on <a href=\"#APP#/entities/male-deathmoth/\">Male Deathmoths</a>.                                                \n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>Upon using, the player eats the Moth Jelly. After this, you receive a Speed Boost for a temporary amount of time. Your Sanity and Stamina will also be restored.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<p>Moth Jelly provides the player with the benefits of an <a href=\"#APP#/items/energy-bar/\">Energy Bar</a> and <a href=\"#APP#/items/juice/\">Juice</a> combined, meaning an increase in Speed for 10 seconds, fully restoring your Stamina and granting an additional, temporary 12.5 seconds of Stamina that will not regenerate, but is only used while the player is Running (the Stamina will start regenerating once it reaches the Base Stamina threshold for that specific Level). Additionally, Moth Jelly restores 35% Sanity upon consumption.\n</p>",
+     "title": "Speed Boost"
+    },
+    {
+     "html": "<ul><li>Moth Jelly is the rarest edible Item in the game, despite <a href=\"#APP#/items/liquid-pain/\">Liquid Pain</a> having a rarity of Legendary.\n<ul><li>This is because <a href=\"#APP#/items/liquid-pain/\">Liquid Pain</a> can be found in 5 levels while Moth Jelly can only be found in 2.</li></ul></li>\n<li>In the original Backrooms lore, Moth Jelly is produced by <a href=\"#APP#/entities/female-deathmoth/\">Female Deathmoths</a>, instead of <a href=\"#APP#/entities/male-deathmoth/\">Male Deathmoths</a>.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Moth_Jelly",
+   "summary": "Gives you a temporary speed and stamina boost"
+  },
+  {
+   "foundInLevels": [
+    "level-0",
+    "the-grassrooms"
+   ],
+   "id": "rope",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/rope/hero.png",
+     "height": 481,
+     "role": "hero",
+     "sourceFile": "File:Rope Model.png",
+     "width": 328
+    },
+    {
+     "file": "items/rope/thumb.png",
+     "height": 469,
+     "role": "thumb",
+     "sourceFile": "File:Rope Model.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/rope/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Rope Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/rope/gallery-2.png",
+     "height": 150,
+     "role": "gallery",
+     "sourceFile": "File:The Rope Icon Transparent.png",
+     "width": 149
+    },
+    {
+     "file": "items/rope/body-1.jpg",
+     "height": 482,
+     "role": "body",
+     "sourceFile": "File:Level 0 Other Side of Pitfalls Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Rope",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/rope/hero.png\" alt=\"Model\" width=\"328\" height=\"481\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/rope/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/rope/gallery-2.png\" alt=\"Former Icon\" width=\"149\" height=\"150\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Rope"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Rope\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Rope\n\n<p><b>Rope</b> is an Item in Escape the Backrooms. It appears to be a brown rope.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Rope is a thick weaved brown rope, similar to ones used for hiking.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, a climbable rope line comes down, which can be retracted.  \n</p>\n<h3>Purpose</h3>\n<p>If you're playing with 2 or more people, Rope lines can be dropped off ledges which other players can interact with to climb up them. This allows to help them get out of pits or to scale up walls. The item is pointless if you're playing alone.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>This is the earliest on item you can find in the game, since the <a href=\"#APP#/items/flashlight/\">Flashlight</a> in the liminal house of <a href=\"#APP#/levels/level-0/\">Level 0</a> takes a bit longer to get to.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Rope",
+   "summary": "Pull your teammates out of lower elevations."
+  },
+  {
+   "foundInLevels": [
+    "level-0-1"
+   ],
+   "id": "spray-paint",
+   "images": [
+    {
+     "file": "items/spray-paint/hero.png",
+     "height": 348,
+     "role": "hero",
+     "sourceFile": "File:Spray Paint In-Hand.png",
+     "width": 339
+    },
+    {
+     "file": "items/spray-paint/thumb.png",
+     "height": 328,
+     "role": "thumb",
+     "sourceFile": "File:Spray Paint In-Hand.png",
+     "width": 320
+    },
+    {
+     "file": "items/spray-paint/body-1.gif",
+     "height": 203,
+     "role": "body",
+     "sourceFile": "File:Spoiler Content Image.gif",
+     "width": 360
+    },
+    {
+     "file": "items/spray-paint/body-2.jpg",
+     "height": 483,
+     "role": "body",
+     "sourceFile": "File:Level 0.1 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Spray Paint",
+   "rarity": "Unknown",
+   "sections": [
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><br>\n<b>Spray Paint</b> is an Upcoming Item in Escape the Backrooms. It appears to be a spray can.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Spray Paint resembles <a href=\"#APP#/items/bug-spray/\">Bug Spray</a> but with text on the back and it has the ability to Spray Paint arrows on the wall.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item is planned to be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0-1/\">Level 0.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>From what has been seen of Spray Paint, upon using, a preview of an Arrow will appear on the wall and can be moved anywhere. Upon clicking again, an Arrow will be formed.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>The reason this Item is being added is to have a way to find your Items if you die.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Spray_Paint",
+   "summary": "N/A"
+  },
+  {
+   "foundInLevels": [
+    "level-5"
+   ],
+   "id": "thermometer",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/thermometer/hero.png",
+     "height": 285,
+     "role": "hero",
+     "sourceFile": "File:Thermometer Transparent.png",
+     "width": 160
+    },
+    {
+     "file": "items/thermometer/thumb.png",
+     "height": 285,
+     "role": "thumb",
+     "sourceFile": "File:Thermometer Transparent.png",
+     "width": 160
+    },
+    {
+     "caption": "Icon",
+     "file": "items/thermometer/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Thermometer Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/thermometer/gallery-2.png",
+     "height": 149,
+     "role": "gallery",
+     "sourceFile": "File:Thermometer Icon Transparent.png",
+     "width": 150
+    },
+    {
+     "file": "items/thermometer/body-1.jpg",
+     "height": 484,
+     "role": "body",
+     "sourceFile": "File:Boiler Room.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Thermometer",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/thermometer/hero.png\" alt=\"Model\" width=\"160\" height=\"285\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/thermometer/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/thermometer/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Thermometer"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Thermometer\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Thermometer\n\n<p><b>Thermometers</b> are an Item in Escape the Backrooms. It appears to be a temperature measurer tool.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Thermometers appear as yellow boxes with some black buttons and a screen that reads the temperature of the room you're in using Fahrenheit.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>The Thermometer cannot be used.\n</p>\n<h3>Purpose</h3>\n<h4>Temperature</h4>\n<p>On the screen of the Thermometer is a temperature reading. It will change depending on what kind of room you're in, which can be useful for detecting <a href=\"#APP#/entities/female-deathmoth/\">Female Deathmoths</a>.\n</p>\n<ul><li>72°F: Nothing is nearby</li>\n<li>120°F-133°F: A <a href=\"#APP#/entities/female-deathmoth/\">Female Deathmoth</a> is nearby. A Hive may also be nearby, but not always</li>\n<li>140°F: A Hive is nearby</li>\n<li>788°F. You are being taken to a Hive by a <a href=\"#APP#/entities/female-deathmoth/\">Female Deathmoth</a></li></ul>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Along with <a href=\"#APP#/items/almond-concentrate/\">Almond Concentrate</a>, the Thermometer is one of the only Items in the Game that cannot be used.</li>\n<li>The Thermometer may be based on a removed object on the Backrooms Fandom Wiki. This Object is <a href=\"https://backrooms.fandom.com/wiki/User:Thr_Sntchr/Object_71\" rel=\"noopener nofollow\" target=\"_blank\">Object 71</a>.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Thermometer",
+   "summary": "Detects the temperature of the environment"
+  },
+  {
+   "foundInLevels": [
+    "level-3999",
+    "level-0-2"
+   ],
+   "id": "ticket",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/ticket/hero.png",
+     "height": 137,
+     "role": "hero",
+     "sourceFile": "File:Ticket Transparent.png",
+     "width": 228
+    },
+    {
+     "file": "items/ticket/thumb.png",
+     "height": 137,
+     "role": "thumb",
+     "sourceFile": "File:Ticket Transparent.png",
+     "width": 228
+    },
+    {
+     "caption": "Icon",
+     "file": "items/ticket/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Ticket Icon.png.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/ticket/gallery-2.png",
+     "height": 150,
+     "role": "gallery",
+     "sourceFile": "File:Ticket Icon Transparent.png",
+     "width": 151
+    },
+    {
+     "file": "items/ticket/body-1.jpg",
+     "height": 482,
+     "role": "body",
+     "sourceFile": "File:Level 3999 Miniature Arcade Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Ticket",
+   "rarity": "Legendary",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/ticket/hero.png\" alt=\"Model\" width=\"228\" height=\"137\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/ticket/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/ticket/gallery-2.png\" alt=\"Former Icon\" width=\"151\" height=\"150\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Ticket"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Tickets</b> are an Item in Escape the Backrooms. It appears to be a red Ticket.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>The Ticket is a old red Ticket with the word \"Ticket\" and 3 numbers written on it. The numbers are 931.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-3999/\">Level 3999</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>The Ticket cannot be used.\n</p>\n<h3>Purpose</h3>\n<p>The numbers written on the Ticket are the code to the Elevator in the miniature arcade in <a href=\"#APP#/levels/level-3999/\">Level 3999</a>. Put in the numbers (931) and the Elevator will send you to <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a>.\n</p>",
+     "title": "Use"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Ticket",
+   "summary": "Contains the code for something..."
+  },
+  {
+   "foundInLevels": [
+    "level-974"
+   ],
+   "id": "toy",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/toy/hero.png",
+     "height": 480,
+     "role": "hero",
+     "sourceFile": "File:Toy.png",
+     "width": 391
+    },
+    {
+     "file": "items/toy/thumb.png",
+     "height": 393,
+     "role": "thumb",
+     "sourceFile": "File:Toy.png",
+     "width": 320
+    },
+    {
+     "caption": "Icon",
+     "file": "items/toy/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:Toy Icon.png",
+     "width": 640
+    },
+    {
+     "file": "items/toy/body-1.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 974 New Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Toy",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/toy/hero.png\" alt=\"Model\" width=\"391\" height=\"480\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/toy/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Toy"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Toys</b> are an Item in Escape the Backrooms. It appears to be a teddy bear.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>The Toy is a small stuffed teddy bear plushie with frequent glowing purple eyes. The purple eyes seem to occur to let the player know where the Toy is at, since a little song also plays whenever one's eyes are purple. \n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-974/\">Level 974</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player drops the Toy on the ground.\n</p>\n<h3>Purpose</h3>\n<p>In <a href=\"#APP#/levels/level-974/\">Level 974</a>, you must collect 12 Toys and put them into chairs in the stage room. This is required for escaping <a href=\"#APP#/levels/level-974/\">Level 974</a>.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Although it is a bear, it makes cat sounds when it is picked up and placed on a chair.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Toy",
+   "summary": "A cute stuffed animal"
+  },
+  {
+   "foundInLevels": [
+    "the-grassrooms",
+    "level-8",
+    "level-0-11",
+    "level-9",
+    "level-10",
+    "level-0-2",
+    "level-188",
+    "level-55-1"
+   ],
+   "id": "walkie-talkie",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/walkie-talkie/hero.png",
+     "height": 294,
+     "role": "hero",
+     "sourceFile": "File:Walkie Talkie Transparent.png",
+     "width": 144
+    },
+    {
+     "file": "items/walkie-talkie/thumb.png",
+     "height": 294,
+     "role": "thumb",
+     "sourceFile": "File:Walkie Talkie Transparent.png",
+     "width": 144
+    },
+    {
+     "caption": "Icon",
+     "file": "items/walkie-talkie/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:New Walkie Talkie Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Former Icon",
+     "file": "items/walkie-talkie/gallery-2.png",
+     "height": 150,
+     "role": "gallery",
+     "sourceFile": "File:Walkie Talkie Icon Transparent.png",
+     "width": 149
+    },
+    {
+     "file": "items/walkie-talkie/body-1.jpg",
+     "height": 481,
+     "role": "body",
+     "sourceFile": "File:Level 8 Background.jpg",
+     "width": 640
+    }
+   ],
+   "name": "Walkie Talkie",
+   "rarity": "Epic",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/hero.png\" alt=\"Model\" width=\"144\" height=\"294\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/gallery-2.png\" alt=\"Former Icon\" width=\"149\" height=\"150\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Walkie Talkie"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Walkie Talkies</b> are an Item in Escape the Backrooms. It appears to simply be a Walkie Talkie.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Walkie Talkies resemble a typical walkie talkie but with the M.E.G. logo on it. Walkie Talkies are made for when playing with 2 or more people.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>Upon using, the player will press the button on the Walkie Talkie and an Alarm will play for a few seconds. If you're playing with 2 or more people, you can also use it to communicate with your teammates.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<ul><li>Walkie-Talkies are the most useless item when playing alone, but more or less used with 2 or more people.</li>\n<li>This is one of the glitchiest items, due to its weird in-game physics when the player comes in contact with it.\n<ul><li>This strategy is used by most speedrunners to bypass the level without solving the puzzles, specifically in <a href=\"#APP#/levels/level-9/\">Level 9</a>.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Walkie_Talkie",
+   "summary": "Allows you to communicate with your teammates from a distance."
+  },
+  {
+   "foundInLevels": [],
+   "id": "wax-bar",
+   "images": [
+    {
+     "file": "items/wax-bar/hero.jpg",
+     "height": 533,
+     "role": "hero",
+     "sourceFile": "File:WaxBarLol.jpg",
+     "width": 800
+    },
+    {
+     "file": "items/wax-bar/thumb.jpg",
+     "height": 213,
+     "role": "thumb",
+     "sourceFile": "File:WaxBarLol.jpg",
+     "width": 320
+    }
+   ],
+   "name": "Wax Bar",
+   "rarity": "Unknown",
+   "sections": [
+    {
+     "html": "<figure>\n\t\n\t\t<img src=\"#IMG#/images/items/wax-bar/hero.jpg\" alt=\"WaxBarLol\" width=\"800\" height=\"533\">\n\t\t\n\t\n\t<figcaption>What a Wax Bar Item might look like</figcaption>\n</figure>",
+     "title": "Wax Bar"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tWax_bar (Moth Jelly name)\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_WaxBar (Moth Jelly name)\n\n<p><b>The Wax Bar</b> is the name of what was once believed to be an upcoming Item in Escape the Backrooms.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>If you look in the game files of Escape the Backrooms using the UE Viewer, you might find files for <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a>. The file names for <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> do not call it <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a>, but instead Wax Bar. Because of this, it was once believed to be a new Item, however this was not true. A Wax Bar Item might come to the game in the future, however for now, this does not seem planned. It is also not known why <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> is called Wax Bar in the game files.\n</p>",
+     "title": "Information"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Use"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Wax_Bar",
+   "summary": ""
+  }
+ ]
+}

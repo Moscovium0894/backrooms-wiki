@@ -109,60 +109,76 @@ export function buildMapLayout(): MapLayout {
     });
   }
 
-  // secret branches
+  // secret branches; chained secrets (secret -> secret) attach to the placed
+  // parent one lane further out, so we resolve in passes
   const laneUsed: Record<number, number[]> = { 1: [], 2: [] };
-  for (const s of secretLevels) {
-    const parentId = s.secretParentId ?? s.entrances[0] ?? null;
-    const py = parentId ? rowY.get(parentId) : undefined;
-    if (py === undefined || !parentId) {
-      detached.push(s);
-      continue;
-    }
-    const sy = py + ROW_H * 0.5;
-    let lane = 1;
-    if (laneUsed[1]!.some((used) => Math.abs(used - sy) < ROW_H)) lane = 2;
-    if (laneUsed[2]!.some((used) => Math.abs(used - sy) < ROW_H) && lane === 2) {
-      detached.push(s);
-      continue;
-    }
-    laneUsed[lane]!.push(sy);
-    const sx = LANE_X[lane]!;
-    const px = LANE_X[0]!;
+  const placed = new Map<string, { y: number; lane: number; x: number }>();
+  const queue = [...secretLevels];
+  let progressed = true;
+  while (progressed && queue.length) {
+    progressed = false;
+    for (let qi = queue.length - 1; qi >= 0; qi--) {
+      const s = queue[qi]!;
+      const parentId = s.secretParentId ?? s.entrances[0] ?? null;
+      if (!parentId) continue;
+      const mainY = rowY.get(parentId);
+      const parentSecret = placed.get(parentId);
+      if (mainY === undefined && !parentSecret) continue;
 
-    nodes.push({
-      id: s.id,
-      name: s.name,
-      subtitle: s.subtitle,
-      code: shortCode(s),
-      difficultyLabel: s.difficultyLabel,
-      kind: 'secret',
-      x: sx,
-      y: sy,
-      order: null,
-      parentId,
-    });
+      const py = mainY ?? parentSecret!.y;
+      const minLane = parentSecret ? parentSecret.lane + 1 : 1;
+      const sy = py + ROW_H * 0.5;
+      let lane = minLane;
+      while (lane <= 2 && laneUsed[lane]!.some((used) => Math.abs(used - sy) < ROW_H)) {
+        lane++;
+      }
+      if (lane > 2) continue;
+      laneUsed[lane]!.push(sy);
+      queue.splice(qi, 1);
+      progressed = true;
 
-    // parent -> secret elbow (down, corner, across)
-    edges.push({
-      d: `M ${px} ${py + NODE_R} L ${px} ${sy - 14} Q ${px} ${sy} ${px + 14} ${sy} L ${sx - NODE_R - 3} ${sy}`,
-      kind: 'branch',
-    });
+      const sx = LANE_X[lane]!;
+      const px = parentSecret ? parentSecret.x : LANE_X[0]!;
+      placed.set(s.id, { y: sy, lane, x: sx });
 
-    // return edge if the secret exits back onto the spine
-    const back = s.exits.find((x) => rowY.has(x) && x !== parentId);
-    if (back) {
-      const by = rowY.get(back)!;
-      const midX = px + (sx - px) * 0.55;
-      edges.push({
-        d: `M ${sx - NODE_R - 3} ${sy + 10} L ${midX} ${sy + 10} Q ${midX - 14} ${sy + 10} ${midX - 14} ${sy + 24} L ${midX - 14} ${by - 14} Q ${midX - 14} ${by} ${midX - 28} ${by} L ${px + NODE_R + 3} ${by}`,
-        kind: 'return',
+      nodes.push({
+        id: s.id,
+        name: s.name,
+        subtitle: s.subtitle,
+        code: shortCode(s),
+        difficultyLabel: s.difficultyLabel,
+        kind: 'secret',
+        x: sx,
+        y: sy,
+        order: null,
+        parentId,
       });
+
+      // parent -> secret elbow (down, corner, across)
+      edges.push({
+        d: `M ${px} ${py + NODE_R} L ${px} ${sy - 14} Q ${px} ${sy} ${px + 14} ${sy} L ${sx - NODE_R - 3} ${sy}`,
+        kind: 'branch',
+      });
+
+      // return edge if the secret exits back onto the spine
+      const back = s.exits.find((x) => rowY.has(x) && x !== parentId);
+      if (back) {
+        const by = rowY.get(back)!;
+        const midX = px + (sx - px) * 0.55;
+        edges.push({
+          d: `M ${sx - NODE_R - 3} ${sy + 10} L ${midX} ${sy + 10} Q ${midX - 14} ${sy + 10} ${midX - 14} ${sy + 24} L ${midX - 14} ${by - 14} Q ${midX - 14} ${by} ${midX - 28} ${by} L ${px + NODE_R + 3} ${by}`,
+          kind: 'return',
+        });
+      }
     }
   }
+  detached.push(...queue);
+
+  const maxY = Math.max(y, ...nodes.map((n) => n.y + ROW_H * 0.6));
 
   return {
     width: VIEW_W,
-    height: y + 30,
+    height: maxY + 30,
     nodes,
     edges,
     dividers,

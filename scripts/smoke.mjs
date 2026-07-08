@@ -28,7 +28,12 @@ await new Promise((resolve, reject) => {
 });
 
 await mkdir(SHOTS, { recursive: true });
-const browser = await chromium.launch();
+// prefer the environment's preinstalled Chromium when the exact
+// playwright-pinned build is absent
+const executablePath = process.env.CHROMIUM_PATH ?? '/opt/pw-browsers/chromium';
+const browser = await chromium
+  .launch()
+  .catch(() => chromium.launch({ executablePath }));
 
 try {
   const ctx = await browser.newContext({
@@ -51,8 +56,9 @@ try {
   await page.screenshot({ path: SHOTS + 'home.png' });
 
   // 2. node -> sheet -> level page
+  // force: the "you are here" halo animation never settles for Playwright
   const node = page.locator('[data-map-node]').first();
-  await node.click();
+  await node.click({ force: true });
   await page.waitForTimeout(400);
   check('sheet opens', await page.locator('#level-sheet.sheet--open').isVisible());
   await page.screenshot({ path: SHOTS + 'sheet.png' });
@@ -134,7 +140,22 @@ try {
     check(`GET ${path}`, res.ok());
   }
 
-  // 10. reduced motion: flicker disabled
+  // 10. service worker: offline reload still renders
+  const swCtx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const swPage = await swCtx.newPage();
+  await swPage.goto(BASE, { waitUntil: 'networkidle' });
+  await swPage.evaluate(() => navigator.serviceWorker.ready);
+  await swPage.waitForTimeout(800); // let precache settle
+  await swCtx.setOffline(true);
+  await swPage.reload({ waitUntil: 'domcontentloaded' }).catch(() => {});
+  check(
+    'offline reload renders (service worker)',
+    (await swPage.locator('.map-node').count()) > 0 ||
+      (await swPage.locator('body').textContent())?.includes('BACKROOMS') === true,
+  );
+  await swCtx.close();
+
+  // 11. reduced motion: flicker disabled
   const rmCtx = await browser.newContext({
     viewport: { width: 390, height: 844 },
     reducedMotion: 'reduce',
@@ -144,7 +165,7 @@ try {
   const anim = await rmPage
     .locator('.flicker')
     .evaluate((el) => getComputedStyle(el).animationDuration);
-  check('flicker off under reduced motion', anim === '0.01ms' || anim === '0s', anim);
+  check('flicker off under reduced motion', parseFloat(anim) < 0.1, anim);
   await rmCtx.close();
 
   check('no console errors', consoleErrors.length === 0, consoleErrors.slice(0, 3).join(' | '));

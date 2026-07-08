@@ -59,6 +59,14 @@ const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
           style={`--node-c:${difficultyColorVar(n.difficultyLabel)}`}
           transform={`translate(${n.x} ${n.y})`}
         >
+          <rect
+            class="hit"
+            x={n.kind === 'secret' ? -64 : -26}
+            y={n.kind === 'secret' ? -44 : -26}
+            width={n.kind === 'secret' ? 128 : 240}
+            height={n.kind === 'secret' ? 88 : 52}
+            fill="transparent"
+          />
           <circle class="halo" r="26" />
           <circle class="node-ring" r="17" />
           <text class="node-code" text-anchor="middle" dy="0.36em">
@@ -68,7 +76,13 @@ const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
             <circle r="17" />
             <path d="M -6 0.5 L -1.5 5 L 7 -5" />
           </g>
-          <text class={`node-name ${n.kind === 'secret' ? 'node-name--above' : ''}`} x={n.kind === 'secret' ? 0 : 30} y={n.kind === 'secret' ? -26 : 0} text-anchor={n.kind === 'secret' ? 'middle' : 'start'} dy={n.kind === 'secret' ? 0 : '-0.1em'}>
+          <text
+            class="node-name"
+            x={n.kind === 'secret' ? 0 : 30}
+            y={n.kind === 'secret' ? 36 : 0}
+            text-anchor={n.kind === 'secret' ? 'middle' : 'start'}
+            dy={n.kind === 'secret' ? 0 : '-0.1em'}
+          >
             {n.name}
           </text>
           {n.subtitle && n.kind === 'main' && (

@@ -29,9 +29,12 @@ DROP_CLASS_RE = re.compile(
     r"(?:^|\s)(?:toc|navbox|mw-editsection|reference|references|noprint|"
     r"portable-infobox|infobox|wikia-gallery|gallery|notice[a-z-]*|mbox|"
     r"hatnote|dablink|mw-empty-elt|cquote|quote|printfooter|catlinks|"
-    r"mw-references-wrap|reflist)(?:\s|$)",
+    r"mw-references-wrap|reflist|kbox|import-css|sdtext|mobile-hidden)(?:\s|$)",
     re.I,
 )
+# wiki-widget subtrees identified by id (difficulty class banner etc.)
+DROP_ID_RE = re.compile(r"^(?:class-|toc$)", re.I)
+HIDDEN_STYLE_RE = re.compile(r"display\s*:\s*none", re.I)
 
 WIKI_LINK_RE = re.compile(r"^(?:https?://escapethebackrooms\.fandom\.com)?/wiki/([^?]+)$")
 
@@ -73,7 +76,14 @@ class _Sanitizer(HTMLParser):
                 self.skip_depth += 1
             return
         cls = self._attr(attrs, "class") or ""
-        if tag in DROP_TAGS or DROP_CLASS_RE.search(cls):
+        elem_id = self._attr(attrs, "id") or ""
+        style = self._attr(attrs, "style") or ""
+        if (
+            tag in DROP_TAGS
+            or DROP_CLASS_RE.search(cls)
+            or DROP_ID_RE.match(elem_id)
+            or HIDDEN_STYLE_RE.search(style)
+        ):
             if tag in VOID_TAGS:
                 return
             self.skip_depth = 1

@@ -45,7 +45,10 @@ await walk(dist);
 const swPath = path.join(dist, 'sw.js');
 let sw = await readFile(swPath, 'utf8');
 sw = sw
-  .replace('__BUILD__', version)
-  .replace('__PRECACHE__', JSON.stringify([...precache], null, 0));
+  .replaceAll('__BUILD__', version)
+  .replaceAll('__PRECACHE__', JSON.stringify([...precache], null, 0));
+if (sw.includes('__BUILD__') || sw.includes('__PRECACHE__')) {
+  throw new Error('sw.js placeholders not fully replaced');
+}
 await writeFile(swPath, sw);
 console.log(`sw.js finalized: version ${version}, ${precache.size} precached URLs`);

@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import RouteMap from '../components/RouteMap.astro';
 import BottomSheet from '../components/BottomSheet.astro';
 import { mainPath, secretLevels } from '../lib/data';
+import { withBase } from '../lib/url';
 ---
 
 <BaseLayout title="Route Map" activeTab="map" dark>
@@ -19,6 +20,16 @@ import { mainPath, secretLevels } from '../lib/data';
   </div>
 
   <RouteMap />
+
+  <section class="panel panel--dim" style="position:relative;z-index:2">
+    <span class="panel-label">Also on file</span>
+    <div class="rail">
+      <a class="chip" href={withBase('guides/')}>Field guides</a>
+      <a class="chip" href={withBase('items/')}>Item registry</a>
+      <a class="chip" href={withBase('entities/')}>Threat registry</a>
+    </div>
+  </section>
+
   <BottomSheet />
 
   <script>

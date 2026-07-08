@@ -1,6 +1,6 @@
 /* Backrooms Field Manual service worker.
- * __BUILD__ and __PRECACHE__ are injected by scripts/finalize_sw.mjs at build
- * time; a new deploy gets a new VERSION and old caches are purged.
+ * The build/precache placeholders below are injected by scripts/finalize_sw.mjs
+ * at build time; a new deploy gets a new VERSION and old caches are purged.
  */
 
 const VERSION = '__BUILD__';
