@@ -1911,3 +1911,87 @@ body.theme-dark .crumbs a {
   color: var(--ink-soft);
   font-size: 1rem;
 }
+
+/* ---------- personal record (deaths + notes) ---------- */
+.death-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.death-label {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.death-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.death-btn {
+  min-width: var(--tap);
+  min-height: var(--tap);
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.death-btn:active {
+  background: var(--paper-down);
+  transform: translateY(1px);
+}
+
+.death-count {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 1.15rem;
+  min-width: 2ch;
+  text-align: center;
+  color: var(--hazard);
+}
+
+.field-notes {
+  width: 100%;
+  font-family: var(--mono);
+  font-size: 16px; /* prevents iOS zoom-on-focus */
+  line-height: 1.5;
+  color: var(--ink);
+  background:
+    repeating-linear-gradient(transparent 0 1.45em, var(--line-soft) 1.45em calc(1.45em + 1px)) 0 4px,
+    var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.field-notes::placeholder {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
+/* ---------- expedition report ---------- */
+.report-out {
+  margin-top: 14px;
+}
+
+.report-out img {
+  width: 100%;
+  border: 1px solid var(--line);
+  box-shadow: 2px 3px 0 rgba(28, 25, 16, 0.15);
+  margin-bottom: 10px;
+}

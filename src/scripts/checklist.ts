@@ -2,6 +2,12 @@
 // ring, and fire the CLEARED stamp when everything is checked.
 
 import { levelState, setChecks, setDone } from './progress';
+import { showToast } from './toast';
+
+const MILESTONES: Record<string, string> = {
+  'the-end': 'ENDING REACHED — THE END',
+  'level-3999': 'TRUE ENDING — YOU ESCAPED',
+};
 
 const reducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -35,6 +41,9 @@ export function initChecklist(): void {
     }
     if (markAll) {
       markAll.textContent = st.done ? 'Reopen level file' : 'Mark level cleared';
+    }
+    if (st.done && !wasDone && MILESTONES[levelId]) {
+      showToast(MILESTONES[levelId]!);
     }
     wasDone = st.done;
   };

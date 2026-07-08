@@ -58,6 +58,27 @@ const parts = [...new Set(mainPath.map((l) => l.part).filter((p) => p !== null))
   </section>
 
   <section class="panel">
+    <span class="panel-label">Expedition statistics</span>
+    <dl class="kv" id="stats-kv">
+      <div><dt>Cleared</dt><span class="dots"></span><dd data-stat="cleared">—</dd></div>
+      <div><dt>Secrets found</dt><span class="dots"></span><dd data-stat="secrets">—</dd></div>
+      <div><dt>Total deaths</dt><span class="dots"></span><dd data-stat="deaths">—</dd></div>
+      <div><dt>First clear</dt><span class="dots"></span><dd data-stat="first">—</dd></div>
+      <div><dt>Latest clear</dt><span class="dots"></span><dd data-stat="latest">—</dd></div>
+    </dl>
+    <button id="btn-report" class="btn" type="button" style="width:100%;margin-top:14px">
+      Generate expedition report card
+    </button>
+    <div id="report-out" class="report-out" hidden>
+      <img id="report-img" alt="Expedition report card" />
+      <div class="transfer-actions">
+        <button id="btn-report-share" class="btn btn--ghost" type="button" hidden>Share card</button>
+        <a id="btn-report-save" class="btn btn--ghost" download="backrooms-expedition-report.png">Save image</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
     <span class="panel-label">Transfer record — move progress between devices</span>
     <p class="progress-note">
       Progress lives only in this browser. Copy the record below to move it, or paste a
@@ -74,6 +95,7 @@ const parts = [...new Set(mainPath.map((l) => l.part).filter((p) => p !== null))
     <div class="transfer-actions">
       <button id="btn-export" class="btn btn--ghost" type="button">Export</button>
       <button id="btn-copy" class="btn btn--ghost" type="button">Copy</button>
+      <button id="btn-link" class="btn btn--ghost" type="button">Copy link</button>
       <button id="btn-share" class="btn btn--ghost" type="button" hidden>Share</button>
       <button id="btn-import" class="btn" type="button">Apply record</button>
     </div>
@@ -86,7 +108,9 @@ const parts = [...new Set(mainPath.map((l) => l.part).filter((p) => p !== null))
   <script type="application/json" id="progress-data" set:html={JSON.stringify(embed)} />
 
   <script>
-    import { load, replaceStore, subscribe, type Store } from '../scripts/progress';
+    import { load, replaceStore, subscribe, totalDeaths, type Store } from '../scripts/progress';
+    import { drawReport } from '../scripts/report';
+    import { showToast } from '../scripts/toast';
 
     type Row = { id: string; name: string; sub: string | null; part: number | null };
     const data = JSON.parse(
@@ -140,8 +164,85 @@ const parts = [...new Set(mainPath.map((l) => l.part).filter((p) => p !== null))
       }
     }
 
+    // expedition statistics
+    const statsPaint = () => {
+      const store = load();
+      const doneMain = data.main.filter((l) => store.levels[l.id]?.done);
+      const doneSecret = data.secret.filter((l) => store.levels[l.id]?.done);
+      const dates = [...doneMain, ...doneSecret]
+        .map((l) => store.levels[l.id]?.completedAt)
+        .filter((d): d is string => Boolean(d))
+        .sort();
+      const set = (k: string, v: string) => {
+        const el = document.querySelector(`[data-stat="${k}"]`);
+        if (el) el.textContent = v;
+      };
+      set('cleared', `${doneMain.length} / ${data.main.length}`);
+      set('secrets', `${doneSecret.length} / ${data.secret.length}`);
+      set('deaths', String(totalDeaths()));
+      set('first', dates[0] ? fmt(dates[0]) || '—' : '—');
+      set('latest', dates.length ? fmt(dates[dates.length - 1]) || '—' : '—');
+    };
+
     paint();
+    statsPaint();
     subscribe(paint);
+    subscribe(statsPaint);
+
+    // expedition report card
+    const siteUrl = window.location.host + import.meta.env.BASE_URL.replace(/\/$/, '');
+    document.getElementById('btn-report')?.addEventListener('click', async () => {
+      const canvas = await drawReport({ main: data.main, secret: data.secret, siteUrl });
+      const out = document.getElementById('report-out')!;
+      const img = document.getElementById('report-img') as HTMLImageElement;
+      const url = canvas.toDataURL('image/png');
+      img.src = url;
+      (document.getElementById('btn-report-save') as HTMLAnchorElement).href = url;
+      out.hidden = false;
+      canvas.toBlob((blob) => {
+        if (!blob) return;
+        const file = new File([blob], 'backrooms-expedition-report.png', { type: 'image/png' });
+        const shareBtn = document.getElementById('btn-report-share')!;
+        if (navigator.canShare?.({ files: [file] })) {
+          shareBtn.hidden = false;
+          shareBtn.addEventListener('click', () => {
+            void navigator.share({ files: [file], title: 'Backrooms expedition report' }).catch(() => {});
+          });
+        }
+      });
+      out.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+
+    // progress-by-link: #log=<base64> imports on load; COPY LINK exports
+    const encodeStore = () =>
+      btoa(unescape(encodeURIComponent(JSON.stringify(load())))).replace(/=+$/, '');
+    document.getElementById('btn-link')?.addEventListener('click', async () => {
+      const url = `${window.location.origin}${window.location.pathname}#log=${encodeStore()}`;
+      try {
+        await navigator.clipboard.writeText(url);
+        showToast('LINK COPIED — SEND IT TO A FELLOW WANDERER');
+      } catch {
+        box.value = url;
+        showToast('LINK PLACED IN THE BOX BELOW');
+      }
+    });
+    if (window.location.hash.startsWith('#log=')) {
+      try {
+        const json = decodeURIComponent(escape(atob(window.location.hash.slice(5))));
+        const parsed = JSON.parse(json) as Store;
+        if (
+          parsed.version === 1 &&
+          parsed.levels &&
+          window.confirm('Apply the progress record from this link? It overwrites this device.')
+        ) {
+          replaceStore({ ...parsed, spoilers: parsed.spoilers === 'full' ? 'full' : 'light' });
+          showToast('RECORD APPLIED FROM LINK.');
+        }
+      } catch {
+        showToast('LINK RECORD UNREADABLE.');
+      }
+      history.replaceState(null, '', window.location.pathname);
+    }
 
     // transfer record
     const box = document.getElementById('transfer-box') as HTMLTextAreaElement;

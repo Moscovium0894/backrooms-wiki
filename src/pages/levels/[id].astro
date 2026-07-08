@@ -235,6 +235,31 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
     <ChecklistPanel levelId={level.id} items={checklist} />
   )}
 
+  {level.kind !== 'upcoming' && level.kind !== 'nonplayable' && (
+    <section class="panel personal" data-personal={level.id}>
+      <span class="panel-label">Personal record — stays on this device</span>
+      <div class="death-row">
+        <span class="death-label">Deaths on this level</span>
+        <div class="death-controls">
+          <button class="death-btn" type="button" data-death-minus aria-label="Remove a death">−</button>
+          <span class="death-count" data-death-count>0</span>
+          <button class="death-btn death-btn--add" type="button" data-death-plus aria-label="Add a death">
+            + 💀
+          </button>
+        </div>
+      </div>
+      <label class="visually-hidden" for="field-notes">Field notes</label>
+      <textarea
+        id="field-notes"
+        class="field-notes"
+        data-field-notes
+        rows="3"
+        placeholder="FIELD NOTES — codes, routes, warnings for next time…"
+        autocomplete="off"
+        autocapitalize="sentences"></textarea>
+    </section>
+  )}
+
   <PrevNextNav prev={prev} next={next} />
 
   <script>
@@ -251,6 +276,9 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
       window.location.pathname.replace(/\/$/, '').split('/').pop() ??
       '';
     if (pageLevelId) markSeen(pageLevelId);
+
+    // personal record: death tally + autosaved field notes
+    import('../../scripts/personal').then(({ initPersonal }) => initPersonal());
 
     // slim sticky bar with level code + escape-log count once the masthead scrolls away
     const minibar = document.getElementById('minibar');

@@ -13,6 +13,8 @@ export interface Store {
   spoilers: 'light' | 'full';
   levels: Record<string, LevelProgress>;
   seen?: string[]; // level ids whose file has been opened (secret discovery)
+  notes?: Record<string, string>; // per-level field notes
+  deaths?: Record<string, number>; // per-level death tally
 }
 
 const KEY = 'etb.v1';
@@ -35,6 +37,8 @@ export function load(): Store {
       spoilers: parsed.spoilers === 'full' ? 'full' : 'light',
       levels: parsed.levels as Record<string, LevelProgress>,
       seen: Array.isArray(parsed.seen) ? parsed.seen.filter((s) => typeof s === 'string') : [],
+      notes: typeof parsed.notes === 'object' && parsed.notes ? parsed.notes : {},
+      deaths: typeof parsed.deaths === 'object' && parsed.deaths ? parsed.deaths : {},
     };
   } catch {
     console.warn('[etb] corrupt progress store, resetting');
@@ -101,6 +105,34 @@ export function markSeen(id: string): void {
 
 export function isSeen(id: string): boolean {
   return (load().seen ?? []).includes(id);
+}
+
+export function getNote(id: string): string {
+  return (load().notes ?? {})[id] ?? '';
+}
+
+export function setNote(id: string, text: string): void {
+  const store = load();
+  store.notes = { ...(store.notes ?? {}) };
+  if (text.trim()) store.notes[id] = text;
+  else delete store.notes[id];
+  save(store);
+}
+
+export function getDeaths(id: string): number {
+  return (load().deaths ?? {})[id] ?? 0;
+}
+
+export function setDeaths(id: string, n: number): void {
+  const store = load();
+  store.deaths = { ...(store.deaths ?? {}) };
+  if (n > 0) store.deaths[id] = n;
+  else delete store.deaths[id];
+  save(store);
+}
+
+export function totalDeaths(): number {
+  return Object.values(load().deaths ?? {}).reduce((a, b) => a + b, 0);
 }
 
 export function setSpoilers(mode: 'light' | 'full'): void {
