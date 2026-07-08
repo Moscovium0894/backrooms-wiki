@@ -475,6 +475,25 @@ def difficulty_from_categories(cats: list[str], infobox) -> tuple[int | None, st
     return None, "Unknown"
 
 
+def first_good_paragraph(sections: list[dict], min_len: int = 40) -> str:
+    """First real descriptive paragraph: skips infobox residue like
+    'Danger Level: Moderate'. Prefers the lead, then Appearance/Description."""
+    preferred = ("appearance", "description")
+    ordered = [s for s in sections if s["title"] is None]
+    ordered += [s for s in sections if (s["title"] or "").lower() in preferred]
+    ordered += [s for s in sections if s not in ordered]
+    for s in ordered:
+        for chunk in s["html"].split("</p>"):
+            txt = strip_tags(chunk)
+            if (
+                len(txt) >= min_len
+                and not re.match(r"(?i)\s*(danger\s*level|rarity|found\s*in)\s*:", txt)
+                and not re.search(r"(?i)this (page|article) (discusses|is about|describes)", txt)
+            ):
+                return txt
+    return ""
+
+
 def is_junk_section(title: str | None) -> bool:
     """Navboxes, galleries, and template-doc noise that shouldn't ship."""
     if title is None:
@@ -734,8 +753,7 @@ def main() -> int:
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
 
-            lead = next((s["html"] for s in sections if s["title"] is None), None)
-            summary = sentence_trim(strip_tags((lead or "").split("</p>")[0]) or "", 400)
+            summary = sentence_trim(first_good_paragraph(sections), 320)
 
             entities.append({
                 "id": slug,
@@ -783,9 +801,8 @@ def main() -> int:
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
 
-            lead = next((s["html"] for s in sections if s["title"] is None), None)
             desc = param_text(infobox, "ItemDescription")
-            summary = sentence_trim(desc or strip_tags((lead or "").split("</p>")[0]) or "", 400)
+            summary = sentence_trim(desc or first_good_paragraph(sections), 320)
             refs = link_targets(wc)
 
             items.append({

@@ -45,7 +45,12 @@ body {
 body.theme-dark {
   color: var(--paper);
   background-color: var(--dark);
-  background-image: var(--noise);
+  /* faint blueprint dot grid under the paper grain */
+  background-image: radial-gradient(rgba(216, 194, 94, 0.06) 1px, transparent 1.4px),
+    var(--noise);
+  background-size:
+    24px 24px,
+    140px 140px;
 }
 
 main {

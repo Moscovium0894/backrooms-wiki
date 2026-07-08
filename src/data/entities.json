@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-08T12:52:32+00:00",
+  "fetchedAt": "2026-07-08T14:07:10+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -41,9 +41,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-94"
-   ],
+   "levels": [],
    "name": "Animation",
    "sections": [
     {
@@ -81,7 +79,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Animation",
    "species": "Wooden Puppet",
-   "summary": "Danger Level: Dangerous"
+   "summary": "Animations resemble childlike wooden puppets built for kids in the 1930s with red glowing eyes. They spawn during the night to kill those who do not hide in the houses of Level 94 . They aren't the smartest entities, because while they know how to break into a house, they can't figure out hiding places."
   },
   {
    "dangerLabel": "Deadly",
@@ -118,10 +116,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-188",
-    "level-you-cheated"
-   ],
+   "levels": [],
    "name": "Aranea Membri",
    "sections": [
     {
@@ -155,7 +150,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Aranea_Membri",
    "species": "Spider-Like Tetrapod",
-   "summary": "Danger Level: Deadly"
+   "summary": "The Aranea Membri is a massive, spider-like creature with a skull of an unknown animal for a head. It has 4 large legs that gives it a high level of speed."
   },
   {
    "dangerLabel": "Moderate",
@@ -192,14 +187,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0",
-    "level-0-11",
-    "level-0-3",
-    "level-37",
-    "level-55-1",
-    "overgrowth"
-   ],
+   "levels": [],
    "name": "Bacteria",
    "sections": [
     {
@@ -237,7 +225,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Bacteria",
    "species": "Bacteria",
-   "summary": "Danger Level: Moderate"
+   "summary": "Bacterias appear to be a skeletal creature made up of thin lines of an unknown substance. A chunky head with holes in it is attached to the humanoid body, and their skin is rough and dingy."
   },
   {
    "dangerLabel": "Minimal",
@@ -265,11 +253,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0-2",
-    "overgrowth",
-    "the-snackrooms"
-   ],
+   "levels": [],
    "name": "Bone Thief",
    "sections": [
     {
@@ -299,7 +283,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Bone_Thief",
    "species": "Unknown",
-   "summary": "Danger Level: Minimal"
+   "summary": "Bone Thieves are large entities with yellow skin and eyes inside of its mouth. They are weirdly shaped and are stationary entities that live inside dark holes in the wall. They kill any wanderers that come near their hole."
   },
   {
    "dangerLabel": "Dangerous",
@@ -327,10 +311,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-exclamation-tilde-exclamation",
-    "level-37-2"
-   ],
+   "levels": [],
    "name": "Clump",
    "sections": [
     {
@@ -356,7 +337,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Clump",
    "species": "Creature with a large amount of arms",
-   "summary": "Danger Level: Dangerous"
+   "summary": "Clumps are large, fleshy beasts that appear to have tons of human arms on their bodies. They have a torso solely made out of their mouth, and a tail on the back of them. Their mouths have round teeth and a large tongue, and they devour their victims upon finding them."
   },
   {
    "dangerLabel": "Moderate",
@@ -393,10 +374,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1",
-    "level-10"
-   ],
+   "levels": [],
    "name": "Faceling",
    "sections": [
     {
@@ -426,7 +404,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Faceling",
    "species": "Faceless Humanoid",
-   "summary": "Danger Level: Moderate"
+   "summary": "Facelings are humanoid Entities that look like humans however they lack faces and shoes."
   },
   {
    "dangerLabel": "Dangerous",
@@ -454,10 +432,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-5",
-    "level-8"
-   ],
+   "levels": [],
    "name": "Female Deathmoth",
    "sections": [
     {
@@ -487,7 +462,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Female_Deathmoth",
    "species": "Giant Moth",
-   "summary": "Danger Level: Dangerous"
+   "summary": "Female Deathmoths are black, white, and gray Moths that are massive in size and have a mark on their back that vaguely resembles a skull."
   },
   {
    "dangerLabel": "Minimal",
@@ -515,9 +490,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1"
-   ],
+   "levels": [],
    "name": "Ghost Smiler",
    "sections": [
     {
@@ -543,7 +516,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Ghost_Smiler",
    "species": "Smiling Face",
-   "summary": "\"I just went through the whole map and deleted all of them.\" This page discusses something that was once in the game but no longer is."
+   "summary": "The Ghost Smiler is an entity only appearing in Level 1 . It does not possess any physical form, only appearing in an event which results in the player's immediate death. During that appearance it resembles a regular smiler ."
   },
   {
    "dangerLabel": "Moderate",
@@ -571,12 +544,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1",
-    "level-3",
-    "level-5",
-    "level-8"
-   ],
+   "levels": [],
    "name": "Hound",
    "sections": [
     {
@@ -610,7 +578,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Hound",
    "species": "Humanoid Dog",
-   "summary": "Danger Level: Moderate"
+   "summary": "Hounds are Skinny Humanoid Dogs with medium length black hair going down on both sides of their head and black eyes with white pupils."
   },
   {
    "dangerLabel": "Minimal",
@@ -638,10 +606,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-37",
-    "level-37-2"
-   ],
+   "levels": [],
    "name": "Hydrolitis Plague",
    "sections": [
     {
@@ -667,7 +632,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Hydrolitis_Plague",
    "species": "Bacteria-Like Plague",
-   "summary": "Danger Level: Minimal"
+   "summary": "The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in Level 37 and in some of the water in Level 37.2. It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it."
   },
   {
    "dangerLabel": "Unknown",
@@ -702,9 +667,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-9"
-   ],
+   "levels": [],
    "name": "Jerry",
    "sections": [
     {
@@ -726,7 +689,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Jerry",
    "species": "Hyacinth Macaw",
-   "summary": "\"I'm definitely not going to add this to my game.\" This page is about content that was planned to be in the game but was scrapped due to various reasons."
+   "summary": "Jerry resembles a large blue parrot with resemblance to the hyacinth macaw, which is a bird has a black beak and red eyes, and its feathers is blue."
   },
   {
    "dangerLabel": "Moderate",
@@ -761,9 +724,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-2"
-   ],
+   "levels": [],
    "name": "Lighthead",
    "sections": [
     {
@@ -785,7 +746,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Lighthead",
    "species": "Humanoid with a Streetlight for a Head",
-   "summary": "\"I'm definitely not going to add this to my game.\" This page is about content that was planned to be in the game but was scrapped due to various reasons."
+   "summary": "Lighthead is a tall, skinny Entity that has a streetlight as a head. It is mostly brownish, and you would also be able to see it's light shining in the dark meaning you would know when it would be coming."
   },
   {
    "dangerLabel": "Friendly",
@@ -813,10 +774,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-5",
-    "level-9"
-   ],
+   "levels": [],
    "name": "Male Deathmoth",
    "sections": [
     {
@@ -842,7 +800,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Male_Deathmoth",
    "species": "Moths",
-   "summary": "Danger Level: Friendly"
+   "summary": "Male Deathmoths are a much smaller species of greyish moths. The Male Deathmoths do not attack the Player."
   },
   {
    "dangerLabel": "Unknown",
@@ -870,11 +828,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0-11",
-    "level-55-1",
-    "level-moyai"
-   ],
+   "levels": [],
    "name": "Moai Statue",
    "sections": [
     {
@@ -896,7 +850,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Moai_Statue",
    "species": "Statue",
-   "summary": "Danger Level: Unknown"
+   "summary": "Moai Statues are Large Statues carved out to resemble a human head. The Statues originate from Easter Island."
   },
   {
    "dangerLabel": "Dangerous",
@@ -941,9 +895,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-974"
-   ],
+   "levels": [],
    "name": "Mr. Kitty",
    "sections": [
     {
@@ -977,7 +929,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Mr._Kitty",
    "species": "Tall Black Humanoid",
-   "summary": "Danger Level: Dangerous"
+   "summary": "Mr. Kitty appears to be a tall lanky humanoid figure with pointed limbs and black skin. He has 2 white eyes, wrinkled skin and lacks a mouth. He is the main entity that resides in Level 974 ."
   },
   {
    "dangerLabel": "Indirectly Deadly",
@@ -1005,10 +957,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-fun",
-    "level-fun-plus"
-   ],
+   "levels": [],
    "name": "Party Host",
    "sections": [
     {
@@ -1034,7 +983,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Party_Host",
    "species": "Cake with Eyeball",
-   "summary": "Danger Level: Indirectly Deadly"
+   "summary": "Party Hosts are cakes with bright green icing with an Eyeball in the middle. The color of the eye is blue. Party Hosts are immobile and will always be on the wall or the ceiling."
   },
   {
    "dangerLabel": "Dangerous",
@@ -1071,13 +1020,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-exclamation",
-    "level-52",
-    "level-fun",
-    "level-fun-plus",
-    "the-afterparty"
-   ],
+   "levels": [],
    "name": "Partygoer",
    "sections": [
     {
@@ -1115,7 +1058,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Partygoer",
    "species": "Yellow Humanoid",
-   "summary": "Danger Level: Dangerous"
+   "summary": "Partygoers are yellow humanoid creatures with blood being easily noticeable on the mouth, hands, and legs. They hold Balloons and they stay in the same position, but if they spot you they will start chasing you. In Level Fun+ , they walk around the place and don't just stand in one place."
   },
   {
    "dangerLabel": "Friendly",
@@ -1143,13 +1086,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-52",
-    "level-55-1",
-    "level-fun-plus",
-    "level-you-cheated",
-    "the-afterparty"
-   ],
+   "levels": [],
    "name": "Partypooper",
    "sections": [
     {
@@ -1179,7 +1116,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Partypooper",
    "species": "Humanoid",
-   "summary": "Danger Level: Friendly"
+   "summary": "Partypoopers are friendly humanoid entities that wear black jeans, a black hoodie, and black gloves. They also wear a blue mask with a sad face on it, but their actual face can never be seen by normal means. Majority of Partypoopers are dead after the events of The Fun War and only one is still seen alive in-game."
   },
   {
    "dangerLabel": "Moderate",
@@ -1216,10 +1153,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1",
-    "the-end"
-   ],
+   "levels": [],
    "name": "Scratcher",
    "sections": [
     {
@@ -1253,7 +1187,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Scratcher",
    "species": "Quadrupedal Grey Humanoid",
-   "summary": "Danger Level: Moderate"
+   "summary": "The Scratcher is a skinny gray humanoid with red glowing eyes. It crawls on all fours and has disproportionately large hands and legs. The Scratcher also lacks facial features."
   },
   {
    "dangerLabel": "Deadly",
@@ -1281,14 +1215,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0-1",
-    "level-1",
-    "level-5",
-    "level-55-1",
-    "level-8",
-    "the-bunker"
-   ],
+   "levels": [],
    "name": "Skin-Stealer",
    "sections": [
     {
@@ -1322,7 +1249,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Skin-Stealer",
    "species": "Humanoid",
-   "summary": "Danger Level: Deadly"
+   "summary": "Skin-Stealers are humanoids with a mouth that goes down to their body. Its skin is gray, and it has 2 glowing white eyes. There are also various blood spots on it mainly around its mouth. Skin-Stealers possess the unique ability to steal a player's skin after killing them and disguise itself as a wanderer."
   },
   {
    "dangerLabel": "Moderate",
@@ -1375,15 +1302,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-exclamation",
-    "level-exclamation-tilde-exclamation",
-    "level-0-1",
-    "level-1",
-    "level-2",
-    "level-55-1",
-    "level-94"
-   ],
+   "levels": [],
    "name": "Smiler",
    "sections": [
     {
@@ -1417,7 +1336,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Smiler",
    "species": "Floating Face",
-   "summary": "Danger Level: Moderate"
+   "summary": "Smilers are floating smiling faces with sharp teeth with dark shadowy fog surrounding their bodies. Smilers are mysterious and shadow-like entities that are typically seen in pitch black places where only their smiling faces can be seen."
   },
   {
    "dangerLabel": "Very Deadly",
@@ -1454,10 +1373,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-94",
-    "level-6"
-   ],
+   "levels": [],
    "name": "The Animated King",
    "sections": [
     {
@@ -1491,7 +1407,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Animated_King",
    "species": "Clown Humanoid",
-   "summary": "Danger Level: Very Deadly"
+   "summary": "The Animated King is a plastic clown with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the Boss Entity of Level 94 ."
   },
   {
    "dangerLabel": "Dangerous",
@@ -1526,9 +1442,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-9"
-   ],
+   "levels": [],
    "name": "The Neighborhood Watch",
    "sections": [
     {
@@ -1558,7 +1472,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Neighborhood_Watch",
    "species": "Giant Eyeball with Legs",
-   "summary": "Danger Level: Dangerous"
+   "summary": "The Neighborhood Watch is a giant walking eyeball with four legs and a brown eye. Instead of having feet, its feet are hands. The legs are green while the area around the eye is red/brown. It's legs and area around its eye has been stained with blood."
   },
   {
    "dangerLabel": "Minimal",
@@ -1603,9 +1517,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-7"
-   ],
+   "levels": [],
    "name": "The Thing on Level 7",
    "sections": [
     {
@@ -1639,7 +1551,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Thing_on_Level_7",
    "species": "Angler Fish Viper Fish",
-   "summary": "Danger Level: Minimal"
+   "summary": "The Thing on Level 7 strangely enough has 2 different appearances, one of which matches an older Backrooms Fandom Wiki interpretation of The Thing, and the other matching the more commonly recognized appearance of The Thing."
   },
   {
    "dangerLabel": "Unknown",
@@ -1703,7 +1615,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Unknown_Bird_Entity",
    "species": "N/A",
-   "summary": "\"Then I suggest looking away because this is what it looks like in-game.\" This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!"
+   "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed."
   },
   {
    "dangerLabel": "Friendly",
@@ -1740,12 +1652,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0",
-    "level-974",
-    "overgrowth",
-    "the-bunker"
-   ],
+   "levels": [],
    "name": "Wanderer",
    "sections": [
     {
@@ -1771,7 +1678,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Wanderer",
    "species": "Human",
-   "summary": "Danger Level: Friendly"
+   "summary": "Wanderers are humans that are trapped in the Backrooms who are always seen wearing a hazmat suit, the design of which can be changed in the Character Select screen. All Wanderers are about 1.8m tall (~5'10.87ft). In the game, you play as a Wanderer, whom the identity of is currently unknown."
   },
   {
    "dangerLabel": "Minimal",
@@ -1799,10 +1706,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-188",
-    "level-4"
-   ],
+   "levels": [],
    "name": "Windows",
    "sections": [
     {
@@ -1828,7 +1732,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Windows",
    "species": "Humanoid Reptile",
-   "summary": "Danger Level: Minimal"
+   "summary": "Window entities are grey humanoid entities with bright red eyes and long claws. They seem to be very bony and skinny with reptile-like skin. This entity stays behind a window and will attempt to lure the player closer to them."
   },
   {
    "dangerLabel": "Moderate",
@@ -1856,12 +1760,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-8",
-    "level-9",
-    "level-6",
-    "the-hub"
-   ],
+   "levels": [],
    "name": "Wretch",
    "sections": [
     {
@@ -1887,7 +1786,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Wretch",
    "species": "Skinless Humanoid Human (formerly)",
-   "summary": "Danger Level: Moderate"
+   "summary": "Wretches are past wanderers that have gone insane due to loss of Sanity. Wretches still have their human shape, but they have no skin, leading for their outer layer to be bright red and exposing their flesh and tissue."
   }
  ]
 }

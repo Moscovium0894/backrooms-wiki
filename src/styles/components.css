@@ -14,6 +14,7 @@
   gap: 10px;
   min-height: var(--header-h);
   border-bottom: 2px solid var(--wall);
+  box-shadow: 0 5px 0 -3px rgba(184, 162, 72, 0.4); /* thin double rule */
 }
 
 .wordmark {
@@ -33,7 +34,7 @@
 .wordmark .tag {
   font-weight: 400;
   color: var(--paper-dim);
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 0.68rem;
 }
 
@@ -65,7 +66,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--paper-dim);
-  opacity: 0.72;
+  opacity: 0.88;
   position: relative;
 }
 
@@ -74,7 +75,7 @@
   height: 22px;
   stroke: currentColor;
   fill: none;
-  stroke-width: 1.6;
+  stroke-width: 1.8;
 }
 
 .tabbar a:active,
@@ -101,25 +102,41 @@
 /* ---------- paper panels ---------- */
 .panel {
   position: relative;
-  background: var(--paper);
+  background: var(--paper-bright);
+  color: var(--ink); /* stays readable on dark pages too */
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 14px;
-  margin: 18px 0;
-  box-shadow: 1px 2px 0 rgba(28, 25, 16, 0.12);
+  padding: 16px;
+  margin: 20px 0;
+  box-shadow: 2px 3px 0 rgba(28, 25, 16, 0.14);
+}
+
+/* inner hairline frame — dossier-form look */
+.panel::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--line-soft);
+  border-radius: 1px;
+  pointer-events: none;
 }
 
 .panel-label {
   display: block;
   font-family: var(--mono);
   font-weight: 600;
-  font-size: 0.62rem;
-  letter-spacing: 0.14em;
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--ink-soft);
-  margin-bottom: 8px;
-  padding-bottom: 6px;
-  border-bottom: 1px dotted var(--line);
+  color: var(--ink);
+  margin-bottom: 10px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--line);
+}
+
+.panel-label::before {
+  content: "▸ ";
+  color: var(--hazard);
 }
 
 .panel--dim {
@@ -128,16 +145,24 @@
 
 /* ---------- case-file header ---------- */
 .case-header {
-  padding: 18px 0 4px;
+  padding: 20px 0 14px;
+  border-bottom: 2px solid var(--ink);
+  box-shadow: 0 4px 0 -3px var(--line); /* thin double rule, masthead style */
+  margin-bottom: 6px;
+}
+
+body.theme-dark .case-header {
+  border-bottom-color: var(--wall);
+  box-shadow: 0 4px 0 -3px rgba(184, 162, 72, 0.4);
 }
 
 .case-header .code {
   font-family: var(--mono);
   font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: 0.02em;
+  font-size: 1.55rem;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
-  line-height: 1.15;
+  line-height: 1.18;
   margin: 0;
 }
 
@@ -151,12 +176,18 @@
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-soft);
-  opacity: 0.75;
   margin-bottom: 6px;
 }
 
 body.theme-dark .filecode {
   color: var(--paper-dim);
+}
+
+/* paper surfaces keep ink text even inside dark pages */
+.panel .filecode,
+.sheet .filecode,
+.search-overlay .filecode {
+  color: var(--ink-soft);
 }
 
 .case-header .meta-row {
@@ -332,13 +363,13 @@ body.theme-dark .filecode {
   display: flex;
   gap: 12px;
   align-items: stretch;
-  background: var(--paper);
+  background: var(--paper-bright);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   text-decoration: none;
   color: var(--ink);
   overflow: hidden;
-  box-shadow: 1px 2px 0 rgba(28, 25, 16, 0.1);
+  box-shadow: 2px 3px 0 rgba(28, 25, 16, 0.13);
 }
 
 .card:active {
@@ -347,13 +378,13 @@ body.theme-dark .filecode {
 }
 
 .card .thumb {
-  width: 92px;
+  width: 104px;
   flex: none;
   object-fit: cover;
   border: 0;
   border-right: 1px solid var(--line);
   border-radius: 0;
-  min-height: 84px;
+  min-height: 88px;
 }
 
 .card .thumb--empty {
@@ -487,7 +518,7 @@ body.theme-dark .filecode {
 
 body.theme-dark .attribution {
   color: var(--paper-dim);
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 /* ---------- spoiler toggle (header) ---------- */
@@ -508,8 +539,8 @@ body.theme-dark .attribution {
 }
 
 .spoiler-toggle .mode {
-  color: var(--hazard);
-  background: rgba(195, 59, 34, 0.12);
+  color: var(--hazard-bright);
+  background: rgba(195, 59, 34, 0.18);
   padding: 2px 6px;
 }
 
@@ -540,32 +571,38 @@ body.theme-dark .attribution {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   width: 100%;
-  min-height: 120px;
-  padding: 22px 16px;
-  border: 1px solid var(--line);
+  min-height: 132px;
+  padding: 24px 16px;
+  border: 1px solid var(--dark);
   border-radius: var(--radius);
+  /* solid censor plate with faint hazard hatching — label stays fully legible */
   background:
     repeating-linear-gradient(
-      0deg,
-      rgba(20, 18, 12, 0.92) 0 10px,
-      rgba(20, 18, 12, 0.06) 10px 17px
+      -45deg,
+      rgba(232, 226, 206, 0.05) 0 14px,
+      transparent 14px 28px
     ),
-    var(--paper-dim);
+    var(--dark-2);
+  box-shadow: inset 0 0 0 1px rgba(232, 226, 206, 0.14), 2px 3px 0 rgba(28, 25, 16, 0.18);
   font-family: var(--mono);
   font-weight: 600;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--paper);
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.redaction .redaction-cover:active {
+  background-color: var(--dark);
+  transform: translateY(1px);
 }
 
 .redaction .redaction-cover .sub {
   font-weight: 400;
-  font-size: 0.56rem;
-  letter-spacing: 0.14em;
+  font-size: 0.58rem;
+  letter-spacing: 0.16em;
   color: var(--wall-bright);
 }
 
@@ -585,6 +622,7 @@ html[data-spoilers="full"] .redaction .redaction-cover {
   position: fixed;
   inset: 0;
   z-index: 100;
+  color: var(--ink); /* readable even when opened over a dark page */
   background-color: var(--paper);
   background-image: var(--noise);
   display: flex;
@@ -668,8 +706,8 @@ html[data-spoilers="full"] .redaction .redaction-cover {
   border-radius: var(--radius);
 }
 
-.hit-kind--level { background: var(--carpet); }
-.hit-kind--entity { background: var(--hazard); }
+.hit-kind--level { background: var(--class-2); }
+.hit-kind--entity { background: var(--class-5); }
 .hit-kind--item { background: var(--info); }
 .hit-kind--guide { background: var(--safe); }
 
@@ -689,8 +727,10 @@ html[data-spoilers="full"] .redaction .redaction-cover {
 /* ---------- level detail ---------- */
 .hero {
   width: 100%;
-  margin: 14px 0 4px;
-  box-shadow: 2px 3px 0 rgba(28, 25, 16, 0.15);
+  margin: 16px 0 6px;
+  border: 6px solid var(--paper-bright);
+  outline: 1px solid var(--line);
+  box-shadow: 3px 4px 0 rgba(28, 25, 16, 0.18);
 }
 
 .lede {
@@ -987,9 +1027,10 @@ html[data-spoilers="full"] .redaction .redaction-cover {
 
 .map-divider text {
   font-family: var(--mono);
+  font-weight: 600;
   font-size: 10px;
   letter-spacing: 0.16em;
-  fill: rgba(232, 226, 206, 0.55);
+  fill: rgba(232, 226, 206, 0.78);
   text-transform: uppercase;
 }
 
@@ -1008,14 +1049,16 @@ html[data-spoilers="full"] .redaction .redaction-cover {
 .map-node .node-ring {
   fill: var(--dark-2);
   stroke: var(--node-c, var(--class-unknown));
-  stroke-width: 3;
+  stroke-width: 3.5;
+  /* the class palette is tuned for paper; brighten it for the dark wall */
+  filter: brightness(1.65) saturate(1.05);
 }
 
 .map-node .node-code {
   font-family: var(--mono);
   font-weight: 600;
-  font-size: 11px;
-  fill: var(--paper);
+  font-size: 11.5px;
+  fill: var(--paper-bright);
   letter-spacing: 0.02em;
   pointer-events: none;
 }
@@ -1025,7 +1068,7 @@ html[data-spoilers="full"] .redaction .redaction-cover {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.04em;
-  fill: var(--paper);
+  fill: var(--paper-bright);
   text-transform: uppercase;
   pointer-events: none;
 }
@@ -1034,13 +1077,13 @@ html[data-spoilers="full"] .redaction .redaction-cover {
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 0.06em;
-  fill: rgba(232, 226, 206, 0.6);
+  fill: rgba(232, 226, 206, 0.75);
   pointer-events: none;
 }
 
 .map-node--secret .node-name {
   font-size: 10px;
-  fill: rgba(232, 226, 206, 0.8);
+  fill: rgba(232, 226, 206, 0.9);
 }
 
 .map-node .node-check {
@@ -1146,10 +1189,11 @@ html[data-spoilers="full"] .redaction .redaction-cover {
   right: 0;
   bottom: 0;
   z-index: 95;
-  background-color: var(--paper);
+  color: var(--ink); /* never inherit the dark page's paper-colored text */
+  background-color: var(--paper-bright);
   background-image: var(--noise);
   border-top: 3px solid var(--wall);
-  border-radius: 10px 10px 0 0;
+  border-radius: 12px 12px 0 0;
   padding: 0 max(16px, var(--sal)) calc(16px + var(--sab)) max(16px, var(--sar));
   transform: translateY(105%);
   transition: transform 240ms cubic-bezier(0.2, 0.9, 0.3, 1);
@@ -1189,9 +1233,12 @@ html[data-spoilers="full"] .redaction .redaction-cover {
 
 .sheet-thumb {
   flex: none;
-  width: 96px;
-  height: 72px;
+  width: 104px;
+  height: 78px;
   object-fit: cover;
+  border: 3px solid var(--paper-bright);
+  outline: 1px solid var(--line);
+  box-shadow: 2px 2px 0 rgba(28, 25, 16, 0.15);
 }
 
 .sheet-text {
@@ -1201,17 +1248,19 @@ html[data-spoilers="full"] .redaction .redaction-cover {
 .sheet-title {
   font-family: var(--mono);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  color: var(--ink);
   text-transform: uppercase;
   border: 0;
-  margin: 2px 0 4px;
+  margin: 2px 0 5px;
   padding: 0;
 }
 
 .sheet-summary {
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   color: var(--ink-soft);
-  margin: 0 0 6px;
+  margin: 0 0 8px;
 }
 
 .sheet-badges {
