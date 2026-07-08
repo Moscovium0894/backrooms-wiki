@@ -15,6 +15,7 @@ export interface Store {
   seen?: string[]; // level ids whose file has been opened (secret discovery)
   notes?: Record<string, string>; // per-level field notes
   deaths?: Record<string, number>; // per-level death tally
+  sighted?: string[]; // entity ids marked as encountered (bestiary)
 }
 
 const KEY = 'etb.v1';
@@ -39,6 +40,9 @@ export function load(): Store {
       seen: Array.isArray(parsed.seen) ? parsed.seen.filter((s) => typeof s === 'string') : [],
       notes: typeof parsed.notes === 'object' && parsed.notes ? parsed.notes : {},
       deaths: typeof parsed.deaths === 'object' && parsed.deaths ? parsed.deaths : {},
+      sighted: Array.isArray(parsed.sighted)
+        ? parsed.sighted.filter((s) => typeof s === 'string')
+        : [],
     };
   } catch {
     console.warn('[etb] corrupt progress store, resetting');
@@ -133,6 +137,23 @@ export function setDeaths(id: string, n: number): void {
 
 export function totalDeaths(): number {
   return Object.values(load().deaths ?? {}).reduce((a, b) => a + b, 0);
+}
+
+export function isSighted(id: string): boolean {
+  return (load().sighted ?? []).includes(id);
+}
+
+export function toggleSighted(id: string): void {
+  const store = load();
+  const set = new Set(store.sighted ?? []);
+  if (set.has(id)) set.delete(id);
+  else set.add(id);
+  store.sighted = [...set];
+  save(store);
+}
+
+export function sightedCount(): number {
+  return (load().sighted ?? []).length;
 }
 
 export function setSpoilers(mode: 'light' | 'full'): void {

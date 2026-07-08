@@ -27,7 +27,20 @@ const sorted = [...entities].sort((a, b) => {
   <div class="case-header">
     <p class="filecode">THREAT REGISTRY · {entities.length} KNOWN ENTITIES</p>
     <h2 style="border:0;margin:0" class="code">Entities</h2>
+    <p class="filecode" style="margin:8px 0 0">
+      <span id="bestiary-count" data-total={entities.length}>0</span> CATALOGUED IN YOUR BESTIARY
+    </p>
   </div>
+
+  <script>
+    import { sightedCount, subscribe } from '../../scripts/progress';
+    const el = document.getElementById('bestiary-count');
+    const paint = () => {
+      if (el) el.textContent = `${sightedCount()} / ${el.dataset.total}`;
+    };
+    paint();
+    subscribe(paint);
+  </script>
 
   <div class="rail filter-rail" role="group" aria-label="Filter by danger">
     <button class="chip on" type="button" data-filter-danger="*" aria-pressed="true">All</button>

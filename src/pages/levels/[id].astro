@@ -85,7 +85,17 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
 
   {level.summary && <p class="lede">{level.summary}</p>}
 
-  <section class="panel">
+  <nav class="rail jump-rail" aria-label="Jump to section">
+    <a class="chip" href="#glance">At a glance</a>
+    {level.appearanceHtml && <a class="chip" href="#appearance">Appearance</a>}
+    {level.walkthroughHtml && <a class="chip" href="#objective">Objective</a>}
+    {maps.length > 0 && <a class="chip" href="#maps">Maps</a>}
+    {level.kind !== 'upcoming' && level.kind !== 'nonplayable' && (
+      <a class="chip" href="#log">Escape log</a>
+    )}
+  </nav>
+
+  <section class="panel" id="glance">
     <span class="panel-label">At a glance</span>
     <dl class="kv">
       <div>
@@ -149,15 +159,26 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
       relEntities.length > 0 && (
         <>
           <span class="panel-label" style="margin-top:14px">Threat assessment</span>
-          <div class="rail">
+          <div class="threat-list">
             {relEntities.map((e) => (
-              <a
-                class="chip"
-                href={withBase(`entities/${e!.id}/`)}
-                style={`border-color:${dangerColorVar(e!.dangerLabel)}`}
-              >
-                {e!.name}
-              </a>
+              <details class="threat-row">
+                <summary>
+                  <span
+                    class="threat-dot"
+                    style={`background:${dangerColorVar(e!.dangerLabel)}`}
+                    aria-hidden="true"
+                  />
+                  <span class="threat-name">{e!.name}</span>
+                  <span class="threat-danger">{e!.dangerLabel}</span>
+                </summary>
+                <div class="threat-body">
+                  {e!.summary && <p>{e!.summary}</p>}
+                  {e!.survival?.dos[0] && <p class="threat-tip">FIELD TIP — {e!.survival.dos[0]}</p>}
+                  <a class="btn btn--ghost" href={withBase(`entities/${e!.id}/`)}>
+                    Open threat file →
+                  </a>
+                </div>
+              </details>
             ))}
           </div>
         </>
@@ -181,7 +202,7 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
 
   {
     level.appearanceHtml && (
-      <section>
+      <section id="appearance">
         <h2>Appearance</h2>
         <div set:html={resolveHtml(level.appearanceHtml)} />
       </section>
@@ -190,7 +211,7 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
 
   {
     level.walkthroughHtml && (
-      <section>
+      <section id="objective">
         <h2>Objective</h2>
         <SpoilerBlock label="WALKTHROUGH">
           <div set:html={resolveHtml(level.walkthroughHtml)} />
@@ -201,7 +222,7 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
 
   {
     maps.length > 0 && (
-      <section>
+      <section id="maps">
         <h2>Recovered maps</h2>
         <SpoilerBlock label="MAP INTEL">
           {maps.map((m) => (
@@ -232,8 +253,25 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
   }
 
   {level.kind !== 'upcoming' && level.kind !== 'nonplayable' && (
-    <ChecklistPanel levelId={level.id} items={checklist} />
+    <div id="log">
+      <ChecklistPanel levelId={level.id} items={checklist} />
+    </div>
   )}
+
+  {
+    next && (
+      <a class="card upnext" href={withBase(`levels/${next.id}/`)}>
+        <span class="card-body" style="padding-left:12px">
+          <span class="filecode" style="margin:0">Up next on the route</span>
+          <span class="card-title">
+            {next.name}
+            {next.subtitle && <span> — {next.subtitle}</span>}
+          </span>
+        </span>
+        <span class="upnext-arrow" aria-hidden="true">→</span>
+      </a>
+    )
+  }
 
   {level.kind !== 'upcoming' && level.kind !== 'nonplayable' && (
     <section class="panel personal" data-personal={level.id}>

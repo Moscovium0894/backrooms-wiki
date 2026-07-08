@@ -1,16 +1,36 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { withBase } from '../lib/url';
+import { heroOf, levelById } from '../lib/data';
+import { imageUrl, withBase } from '../lib/url';
+
+const lobby = levelById.get('level-0');
+const hero = lobby ? heroOf(lobby) : undefined;
 ---
 
-<BaseLayout title="File not found">
-  <div class="case-header">
+<BaseLayout title="File not found" dark>
+  <div class="flicker" aria-hidden="true"></div>
+  <div class="case-header" style="position:relative;z-index:2">
     <p class="filecode">ERROR 404 · FILE MISSING</p>
     <h1 class="code">You noclipped out of the manual</h1>
   </div>
-  <p class="lede">
-    There’s no page at this address. The file may have been moved, renamed, or
-    it never existed in the first place. Don’t trust the walls.
+  {
+    hero && (
+      <img
+        class="hero"
+        src={imageUrl(hero.file)}
+        alt="The yellow rooms. You know where you are."
+        width={hero.width}
+        height={hero.height}
+        decoding="async"
+        style="position:relative;z-index:2;filter:saturate(0.85) brightness(0.9)"
+      />
+    )
+  }
+  <p class="lede" style="position:relative;z-index:2">
+    There's no page at this address — just damp carpet and the hum of
+    fluorescent lights. If you hear anything else, do not investigate.
   </p>
-  <p><a class="btn" href={withBase('')}>← Back to the route map</a></p>
+  <p style="position:relative;z-index:2">
+    <a class="btn" href={withBase('')}>← Return to the route map</a>
+  </p>
 </BaseLayout>

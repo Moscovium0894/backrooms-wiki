@@ -30,7 +30,33 @@ const seenIn = entity.levels.map((id) => levelById.get(id)).filter(Boolean);
       {entity.dangerLabel}
     </span>
     {entity.species && <span class="badge" style="--badge-c:var(--ink-soft)">{entity.species}</span>}
+    <button
+      class="chip sighted-toggle"
+      type="button"
+      data-sighted-toggle={entity.id}
+      aria-pressed="false"
+    >
+      ◉ Mark sighted
+    </button>
   </CaseFileHeader>
+
+  <script>
+    import { isSighted, toggleSighted } from '../../scripts/progress';
+    const btn = document.querySelector<HTMLButtonElement>('[data-sighted-toggle]');
+    if (btn) {
+      const id = btn.dataset.sightedToggle!;
+      const sync = () => {
+        const on = isSighted(id);
+        btn.setAttribute('aria-pressed', String(on));
+        btn.textContent = on ? '✓ Sighted' : '◉ Mark sighted';
+      };
+      btn.addEventListener('click', () => {
+        toggleSighted(id);
+        sync();
+      });
+      sync();
+    }
+  </script>
 
   {
     hero && (

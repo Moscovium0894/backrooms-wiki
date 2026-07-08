@@ -2045,3 +2045,121 @@ body.theme-dark .crumbs a {
   text-decoration-color: rgba(216, 194, 94, 0.4);
   cursor: pointer;
 }
+
+/* ---------- inline threat disclosures ---------- */
+.threat-list {
+  display: grid;
+  gap: 8px;
+}
+
+.threat-row {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+}
+
+.threat-row summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--tap);
+  padding: 6px 12px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.threat-row summary::-webkit-details-marker {
+  display: none;
+}
+
+.threat-row summary::after {
+  content: "+";
+  margin-left: auto;
+  font-family: var(--mono);
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.threat-row[open] summary::after {
+  content: "–";
+}
+
+.threat-dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.threat-name {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.threat-danger {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.threat-body {
+  padding: 2px 12px 12px;
+  border-top: 1px dotted var(--line-soft);
+  font-size: 0.86rem;
+}
+
+.threat-body p {
+  margin: 8px 0;
+}
+
+.threat-tip {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--safe);
+}
+
+/* ---------- up-next card ---------- */
+.upnext {
+  margin: 18px 0;
+  align-items: center;
+}
+
+.upnext-arrow {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0 16px;
+  color: var(--hazard);
+}
+
+/* ---------- jump rail + sighted toggle ---------- */
+.jump-rail {
+  padding-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+section[id],
+div[id="log"] {
+  scroll-margin-top: 110px; /* clear the sticky header + minibar */
+}
+
+.sighted-toggle[aria-pressed="true"] {
+  background: var(--safe);
+  color: var(--paper);
+  border-color: var(--safe);
+}
