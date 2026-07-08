@@ -7,13 +7,15 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +25,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      # branch mode: serves when Pages Source is "Deploy from a branch" (gh-pages)
       - name: Push dist/ to the gh-pages branch
         run: |
           cd dist
@@ -33,3 +36,18 @@ jobs:
           git add -A
           git commit -m "Deploy ${GITHUB_SHA::7}"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
+      # artifact mode: serves when Pages Source is "GitHub Actions"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy-artifact:
+    needs: build
+    runs-on: ubuntu-latest
+    continue-on-error: true # no-op when Pages is set to branch mode
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
