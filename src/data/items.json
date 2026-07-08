@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 24,
-  "fetchedAt": "2026-07-08T15:38:07+00:00",
+  "fetchedAt": "2026-07-08T16:28:58+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -158,13 +158,6 @@
      "role": "body",
      "sourceFile": "File:Almond Water Icon Transparent.png",
      "width": 148
-    },
-    {
-     "file": "items/almond-water/body-2.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level 1 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Almond Water",
@@ -243,13 +236,6 @@
      "role": "gallery",
      "sourceFile": "File:Bug Spray Icon Transparent.png",
      "width": 150
-    },
-    {
-     "file": "items/bug-spray/body-1.jpg",
-     "height": 483,
-     "role": "body",
-     "sourceFile": "File:Level 5 Main Halls Starting Room Background.jpg",
-     "width": 640
     }
    ],
    "name": "Bug Spray",
@@ -319,13 +305,6 @@
      "role": "gallery",
      "sourceFile": "File:Camera Icon Transparent.png",
      "width": 149
-    },
-    {
-     "file": "items/camera/body-1.jpg",
-     "height": 482,
-     "role": "body",
-     "sourceFile": "File:Level 55.1 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Camera",
@@ -482,13 +461,6 @@
      "role": "gallery",
      "sourceFile": "File:Crowbar Icon Transparent.png",
      "width": 150
-    },
-    {
-     "file": "items/crowbar/body-1.jpg",
-     "height": 482,
-     "role": "body",
-     "sourceFile": "File:Level 4 Security Office Background.jpg",
-     "width": 640
     }
    ],
    "name": "Crowbar",
@@ -665,13 +637,6 @@
      "role": "gallery",
      "sourceFile": "File:Energy Bar Icon Transparent.png",
      "width": 149
-    },
-    {
-     "file": "items/energy-bar/body-1.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level 3 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Energy Bar",
@@ -750,13 +715,6 @@
      "role": "gallery",
      "sourceFile": "File:Firework Icon Transparent.png",
      "width": 150
-    },
-    {
-     "file": "items/firework/body-1.jpg",
-     "height": 481,
-     "role": "body",
-     "sourceFile": "File:Funhouse Sector Background.jpg",
-     "width": 640
     }
    ],
    "name": "Firework",
@@ -826,13 +784,6 @@
      "role": "gallery",
      "sourceFile": "File:Flare Gun Icon Transparent.png",
      "width": 152
-    },
-    {
-     "file": "items/flare-gun/body-1.jpg",
-     "height": 483,
-     "role": "body",
-     "sourceFile": "File:Level 7 Flare Gun House Background.jpg",
-     "width": 640
     }
    ],
    "name": "Flare Gun",
@@ -932,13 +883,6 @@
      "role": "gallery",
      "sourceFile": "File:Flashlight Icon with Light.png",
      "width": 153
-    },
-    {
-     "file": "items/flashlight/body-1.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level 0 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Flashlight",
@@ -1133,13 +1077,6 @@
      "role": "gallery",
      "sourceFile": "File:Juice icon Transparent.png",
      "width": 153
-    },
-    {
-     "file": "items/juice/body-1.jpg",
-     "height": 483,
-     "role": "body",
-     "sourceFile": "File:Level 4 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Juice",
@@ -1205,13 +1142,6 @@
      "role": "gallery",
      "sourceFile": "File:Knife Icon.png",
      "width": 640
-    },
-    {
-     "file": "items/knife/body-1.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:The Grassrooms Background.jpg",
-     "width": 640
     }
    ],
    "name": "Knife",
@@ -1273,13 +1203,6 @@
      "role": "gallery",
      "sourceFile": "File:LiDAR Scanner Icon Transparent.png",
      "width": 149
-    },
-    {
-     "file": "items/lidar-scanner/body-1.jpg",
-     "height": 482,
-     "role": "body",
-     "sourceFile": "File:Level 6 Background.jpg",
-     "width": 640
     }
    ],
    "name": "LiDAR Scanner",
@@ -1361,13 +1284,6 @@
      "role": "gallery",
      "sourceFile": "File:Liquid Pain Icon Transparent.png",
      "width": 153
-    },
-    {
-     "file": "items/liquid-pain/body-1.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level Fun Background.jpg",
-     "width": 640
     }
    ],
    "name": "Liquid Pain",
@@ -1438,13 +1354,6 @@
      "role": "gallery",
      "sourceFile": "File:Moth Jelly Icon Transparent.png",
      "width": 151
-    },
-    {
-     "file": "items/moth-jelly/body-1.jpg",
-     "height": 483,
-     "role": "body",
-     "sourceFile": "File:Level 5 Main Halls Starting Room Background.jpg",
-     "width": 640
     }
    ],
    "name": "Moth Jelly",
@@ -1519,13 +1428,6 @@
      "role": "gallery",
      "sourceFile": "File:The Rope Icon Transparent.png",
      "width": 149
-    },
-    {
-     "file": "items/rope/body-1.jpg",
-     "height": 482,
-     "role": "body",
-     "sourceFile": "File:Level 0 Other Side of Pitfalls Background.jpg",
-     "width": 640
     }
    ],
    "name": "Rope",
@@ -1578,20 +1480,6 @@
      "role": "thumb",
      "sourceFile": "File:Spray Paint In-Hand.png",
      "width": 320
-    },
-    {
-     "file": "items/spray-paint/body-1.gif",
-     "height": 203,
-     "role": "body",
-     "sourceFile": "File:Spoiler Content Image.gif",
-     "width": 360
-    },
-    {
-     "file": "items/spray-paint/body-2.jpg",
-     "height": 483,
-     "role": "body",
-     "sourceFile": "File:Level 0.1 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Spray Paint",
@@ -1657,13 +1545,6 @@
      "role": "gallery",
      "sourceFile": "File:Thermometer Icon Transparent.png",
      "width": 150
-    },
-    {
-     "file": "items/thermometer/body-1.jpg",
-     "height": 484,
-     "role": "body",
-     "sourceFile": "File:Boiler Room.jpg",
-     "width": 640
     }
    ],
    "name": "Thermometer",
@@ -1734,13 +1615,6 @@
      "role": "gallery",
      "sourceFile": "File:Ticket Icon Transparent.png",
      "width": 151
-    },
-    {
-     "file": "items/ticket/body-1.jpg",
-     "height": 482,
-     "role": "body",
-     "sourceFile": "File:Level 3999 Miniature Arcade Background.jpg",
-     "width": 640
     }
    ],
    "name": "Ticket",
@@ -1797,13 +1671,6 @@
      "height": 640,
      "role": "gallery",
      "sourceFile": "File:Toy Icon.png",
-     "width": 640
-    },
-    {
-     "file": "items/toy/body-1.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level 974 New Background.jpg",
      "width": 640
     }
    ],
@@ -1881,13 +1748,6 @@
      "role": "gallery",
      "sourceFile": "File:Walkie Talkie Icon Transparent.png",
      "width": 149
-    },
-    {
-     "file": "items/walkie-talkie/body-1.jpg",
-     "height": 481,
-     "role": "body",
-     "sourceFile": "File:Level 8 Background.jpg",
-     "width": 640
     }
    ],
    "name": "Walkie Talkie",

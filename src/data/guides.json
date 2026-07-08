@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 15,
-  "fetchedAt": "2026-07-08T15:38:07+00:00",
+  "fetchedAt": "2026-07-08T16:28:58+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -539,34 +539,6 @@
      "role": "thumb",
      "sourceFile": "File:Level 7 Map.png",
      "width": 320
-    },
-    {
-     "file": "guides/full-game-guide/body-1.png",
-     "height": 473,
-     "role": "body",
-     "sourceFile": "File:Level 0 Map.png",
-     "width": 640
-    },
-    {
-     "file": "guides/full-game-guide/body-2.png",
-     "height": 504,
-     "role": "body",
-     "sourceFile": "File:HowlerIngame.png",
-     "width": 363
-    },
-    {
-     "file": "guides/full-game-guide/body-3.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level 1 first section.jpg",
-     "width": 640
-    },
-    {
-     "file": "guides/full-game-guide/body-4.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:Level 1 second section (1).jpg",
-     "width": 640
     }
    ],
    "relatedLevelIds": [

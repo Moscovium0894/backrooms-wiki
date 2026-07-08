@@ -701,7 +701,13 @@ def main() -> int:
                     continue
                 else:
                     extra.append(s)
+            # only keep body images that appear in HTML we actually ship
+            # (lead is summary-source only — the page never renders it)
+            kept_html = "".join(filter(None, [appearance, walkthrough]))
+            kept_html += "".join(s["html"] for s in extra)
             for b in pending_body:
+                if b["rel"] not in kept_html:
+                    continue
                 dest = IMG_DIR / "levels" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
                 if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
@@ -739,7 +745,9 @@ def main() -> int:
                 "exitsRaw": param_text(infobox, "NextLevel"),
                 "secretParentId": entrances[0] if entrances else None,
                 "summary": summary,
-                "leadHtml": lead,
+                # lead is unrendered (summary source only); drop its images so
+                # they can be pruned from disk
+                "leadHtml": re.sub(r"<figure>.*?</figure>|<img[^>]*>", "", lead, flags=re.S) if lead else None,
                 "appearanceHtml": appearance,
                 "walkthroughHtml": walkthrough,
                 "extraSections": extra,
@@ -780,7 +788,12 @@ def main() -> int:
             budget = [0 if args.no_images else 4]
             image_resolver, pending_body = make_image_resolver(p, iinfo, "entities", slug, resolver_map, budget)
             sections = section_bundle(p["html"], link_resolver, image_resolver)
+            kept_sections = [s for s in sections
+                             if s["title"] is not None and not is_junk_section(s["title"])]
+            kept_html = "".join(s["html"] for s in kept_sections)
             for b in pending_body:
+                if b["rel"] not in kept_html:
+                    continue
                 dest = IMG_DIR / "entities" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
                 if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
@@ -796,8 +809,7 @@ def main() -> int:
                 "survival": extract_survival(sections),
                 "species": param_text(infobox, "Species"),
                 "summary": summary,
-                "sections": [s for s in sections
-                             if s["title"] is not None and not is_junk_section(s["title"])],
+                "sections": kept_sections,
                 "levels": [],  # filled below from level records
                 "images": img_records,
                 "sourceUrl": f"{WIKI}/wiki/{t.replace(' ', '_')}",
@@ -829,7 +841,12 @@ def main() -> int:
             budget = [0 if args.no_images else 3]
             image_resolver, pending_body = make_image_resolver(p, iinfo, "items", slug, resolver_map, budget)
             sections = section_bundle(p["html"], link_resolver, image_resolver)
+            kept_sections = [s for s in sections
+                             if s["title"] is not None and not is_junk_section(s["title"])]
+            kept_html = "".join(s["html"] for s in kept_sections)
             for b in pending_body:
+                if b["rel"] not in kept_html:
+                    continue
                 dest = IMG_DIR / "items" / slug / Path(b["rel"]).name
                 fi = iinfo.get(b["file"])
                 if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
@@ -845,8 +862,7 @@ def main() -> int:
                 "name": t,
                 "rarity": rarity,
                 "summary": summary,
-                "sections": [s for s in sections
-                             if s["title"] is not None and not is_junk_section(s["title"])],
+                "sections": kept_sections,
                 "foundInLevels": refs["levels"],
                 "images": img_records,
                 "sourceUrl": f"{WIKI}/wiki/{t.replace(' ', '_')}",
@@ -867,12 +883,6 @@ def main() -> int:
             img_records, resolver_map = download_planned(client, plan, iinfo, "guides", slug, args.no_images)
             image_resolver, pending_body = make_image_resolver(p, iinfo, "guides", slug, resolver_map, budget)
             sections = section_bundle(p["html"], link_resolver, image_resolver)
-            for b in pending_body:
-                dest = IMG_DIR / "guides" / slug / Path(b["rel"]).name
-                fi = iinfo.get(b["file"])
-                if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
-                    img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
-                                        "role": "body", "sourceFile": f"File:{b['file']}"})
             title = t
             if t == "Full Game Guide":
                 # keep only the general-tactics intro; the per-level guide
@@ -883,13 +893,24 @@ def main() -> int:
                     sections = sections[:cut]
                 title = "Field Tactics"
 
+            kept_sections = [s for s in sections if not is_junk_section(s["title"])]
+            kept_html = "".join(s["html"] for s in kept_sections)
+            for b in pending_body:
+                if b["rel"] not in kept_html:
+                    continue
+                dest = IMG_DIR / "guides" / slug / Path(b["rel"]).name
+                fi = iinfo.get(b["file"])
+                if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
+                    img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
+                                        "role": "body", "sourceFile": f"File:{b['file']}"})
+
             lead = next((s["html"] for s in sections if s["title"] is None), None)
             refs = link_targets(wc)
             guides.append({
                 "id": slug,
                 "title": title,
                 "summary": sentence_trim(strip_tags((lead or "").split("</p>")[0]) or "", 300),
-                "sections": [s for s in sections if not is_junk_section(s["title"])],
+                "sections": kept_sections,
                 "relatedLevelIds": refs["levels"],
                 "images": img_records,
                 "sourceUrl": f"{WIKI}/wiki/{t.replace(' ', '_')}",

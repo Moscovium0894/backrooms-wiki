@@ -8,7 +8,7 @@
     "dev": "astro dev",
     "build": "astro build && node scripts/finalize_sw.mjs",
     "preview": "astro preview",
-    "fetch": "python3 scripts/fetch_wiki.py",
+    "fetch": "python3 scripts/fetch_wiki.py && node scripts/optimize_images.mjs",
     "validate": "python3 scripts/validate_data.py",
     "icons": "node scripts/make_icons.mjs",
     "smoke": "node scripts/smoke.mjs"

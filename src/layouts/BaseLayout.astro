@@ -85,11 +85,13 @@ const {
       import { initSearch } from '../scripts/search';
       import { initLightbox } from '../scripts/lightbox';
       import { initConnectivityToasts, watchServiceWorkerUpdate } from '../scripts/toast';
+      import { requestPersistence } from '../scripts/progress';
       initSpoilerToggle();
       initSpoilerBlocks();
       initSearch();
       initLightbox();
       initConnectivityToasts();
+      requestPersistence();
 
       if ('serviceWorker' in navigator && !import.meta.env.DEV) {
         window.addEventListener('load', () => {

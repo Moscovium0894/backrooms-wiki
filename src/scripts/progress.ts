@@ -19,20 +19,34 @@ export interface Store {
 }
 
 const KEY = 'etb.v1';
+const KEY_BAK = 'etb.v1.bak'; // last-known-good copy, used if the main key corrupts
 const EVENT = 'etb:progress';
 
 function fresh(): Store {
   return { version: 1, spoilers: 'light', levels: {} };
 }
 
-export function load(): Store {
+function parseStore(raw: string | null): Partial<Store> | null {
+  if (!raw) return null;
   try {
-    const raw = localStorage.getItem(KEY);
-    if (!raw) return fresh();
     const parsed = JSON.parse(raw) as Partial<Store>;
     if (parsed.version !== 1 || typeof parsed.levels !== 'object' || !parsed.levels) {
-      return fresh();
+      return null;
     }
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
+export function load(): Store {
+  try {
+    let parsed = parseStore(localStorage.getItem(KEY));
+    if (!parsed) {
+      parsed = parseStore(localStorage.getItem(KEY_BAK));
+      if (parsed) console.warn('[etb] main record corrupt — restored from backup');
+    }
+    if (!parsed) return fresh();
     return {
       version: 1,
       spoilers: parsed.spoilers === 'full' ? 'full' : 'light',
@@ -45,18 +59,29 @@ export function load(): Store {
         : [],
     };
   } catch {
-    console.warn('[etb] corrupt progress store, resetting');
+    console.warn('[etb] progress store unreadable, starting fresh');
     return fresh();
   }
 }
 
 export function save(store: Store): void {
   try {
-    localStorage.setItem(KEY, JSON.stringify(store));
+    const json = JSON.stringify(store);
+    localStorage.setItem(KEY, json);
+    localStorage.setItem(KEY_BAK, json);
   } catch {
     /* private mode / quota: state stays in-memory for the session */
   }
   document.dispatchEvent(new CustomEvent(EVENT));
+}
+
+/** Ask the browser to protect our storage from eviction (best effort). */
+export function requestPersistence(): void {
+  try {
+    void navigator.storage?.persist?.().catch(() => {});
+  } catch {
+    /* unsupported */
+  }
 }
 
 export function subscribe(fn: () => void): void {
