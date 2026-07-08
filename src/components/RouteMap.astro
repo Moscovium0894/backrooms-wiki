@@ -22,9 +22,12 @@ for (const n of layout.nodes) {
     thumb: thumb ? imageUrl(thumb.file) : null,
     kind: n.kind,
     parentId: n.parentId ?? null,
+    y: n.y,
+    x: n.x,
   };
 }
 const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
+const spineX = layout.nodes.find((n) => n.kind === 'main')?.x ?? 64;
 ---
 
 <div class="route-map">
@@ -36,6 +39,8 @@ const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
     aria-label="Route map of all levels"
   >
     {layout.edges.map((e) => <path class={`map-edge map-edge--${e.kind}`} d={e.d}></path>)}
+    <path class="map-edge map-edge--progress" data-spine-progress d="" />
+    <path class="map-edge map-edge--objective" data-spine-objective d="" />
 
     {
       layout.dividers.map((d) => (
@@ -76,6 +81,11 @@ const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
             <circle r="17" />
             <path d="M -6 0.5 L -1.5 5 L 7 -5" />
           </g>
+          {n.kind === 'secret' && (
+            <text class="node-mystery" text-anchor="middle" dy="0.36em" aria-hidden="true">
+              ?
+            </text>
+          )}
           <text
             class="node-name"
             x={n.kind === 'secret' ? 0 : 30}
@@ -111,4 +121,8 @@ const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
   }
 </div>
 
-<script type="application/json" id="map-data" set:html={JSON.stringify({ sheet: sheetData, mainIds })} />
+<script
+  type="application/json"
+  id="map-data"
+  set:html={JSON.stringify({ sheet: sheetData, mainIds, spineX })}
+/>

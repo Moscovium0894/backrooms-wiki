@@ -12,6 +12,7 @@ export interface Store {
   version: 1;
   spoilers: 'light' | 'full';
   levels: Record<string, LevelProgress>;
+  seen?: string[]; // level ids whose file has been opened (secret discovery)
 }
 
 const KEY = 'etb.v1';
@@ -33,6 +34,7 @@ export function load(): Store {
       version: 1,
       spoilers: parsed.spoilers === 'full' ? 'full' : 'light',
       levels: parsed.levels as Record<string, LevelProgress>,
+      seen: Array.isArray(parsed.seen) ? parsed.seen.filter((s) => typeof s === 'string') : [],
     };
   } catch {
     console.warn('[etb] corrupt progress store, resetting');
@@ -87,6 +89,18 @@ export function setDone(id: string, done: boolean, allChecks: string[] = []): vo
 export function completedCount(ids: string[]): number {
   const store = load();
   return ids.filter((id) => store.levels[id]?.done).length;
+}
+
+export function markSeen(id: string): void {
+  const store = load();
+  const seen = store.seen ?? [];
+  if (seen.includes(id)) return;
+  store.seen = [...seen, id];
+  save(store);
+}
+
+export function isSeen(id: string): boolean {
+  return (load().seen ?? []).includes(id);
 }
 
 export function setSpoilers(mode: 'light' | 'full'): void {

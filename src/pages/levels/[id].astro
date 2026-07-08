@@ -240,9 +240,17 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
   <script>
     import { initChecklist } from '../../scripts/checklist';
     import { initSwipeNav } from '../../scripts/swipe';
-    import { levelState, subscribe } from '../../scripts/progress';
+    import { levelState, markSeen, subscribe } from '../../scripts/progress';
     initChecklist();
     initSwipeNav();
+
+    // opening a level file "discovers" it — reveals secret nodes on the map
+    const checklistPanel = document.querySelector<HTMLElement>('[data-checklist]');
+    const pageLevelId =
+      checklistPanel?.dataset.checklist ??
+      window.location.pathname.replace(/\/$/, '').split('/').pop() ??
+      '';
+    if (pageLevelId) markSeen(pageLevelId);
 
     // slim sticky bar with level code + escape-log count once the masthead scrolls away
     const minibar = document.getElementById('minibar');

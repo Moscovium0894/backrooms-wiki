@@ -21,6 +21,20 @@ import { withBase } from '../lib/url';
 
   <RouteMap />
 
+  <button id="map-continue" class="map-continue" type="button" hidden>CONTINUE ↓</button>
+
+  <details class="panel panel--dim map-legend" style="position:relative;z-index:2">
+    <summary class="panel-label" style="margin:0;border:0;padding:0">Map legend</summary>
+    <ul class="legend-list" role="list">
+      <li><span class="lg lg-ring"></span> Ring colour = survival class (green safe → red deadly)</li>
+      <li><span class="lg lg-done">✓</span> Cleared level</li>
+      <li><span class="lg lg-halo"></span> You are here — next objective</li>
+      <li><span class="lg lg-dash"></span> Secret branch route</li>
+      <li><span class="lg lg-q">?</span> Unidentified secret (reveal by opening its file, or set INTEL: FULL)</li>
+      <li><span class="lg lg-hold">⊙</span> Press &amp; hold a level to mark it cleared</li>
+    </ul>
+  </details>
+
   <section class="panel panel--dim" style="position:relative;z-index:2">
     <span class="panel-label">Also on file</span>
     <div class="rail">
