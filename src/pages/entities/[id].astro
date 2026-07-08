@@ -48,6 +48,36 @@ const seenIn = entity.levels.map((id) => levelById.get(id)).filter(Boolean);
   {entity.summary && <p class="lede">{entity.summary}</p>}
 
   {
+    entity.survival && (
+      <section class="panel survival-card">
+        <span class="panel-label">Survival card</span>
+        <div class="survival-cols">
+          {entity.survival.dos.length > 0 && (
+            <div>
+              <p class="survival-head survival-head--do">DO</p>
+              <ul role="list">
+                {entity.survival.dos.map((d) => (
+                  <li>{d}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {entity.survival.donts.length > 0 && (
+            <div>
+              <p class="survival-head survival-head--dont">DON'T</p>
+              <ul role="list">
+                {entity.survival.donts.map((d) => (
+                  <li>{d}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      </section>
+    )
+  }
+
+  {
     seenIn.length > 0 && (
       <section class="panel">
         <span class="panel-label">Sighted in</span>

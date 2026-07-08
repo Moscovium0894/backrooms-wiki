@@ -1995,3 +1995,53 @@ body.theme-dark .crumbs a {
   box-shadow: 2px 3px 0 rgba(28, 25, 16, 0.15);
   margin-bottom: 10px;
 }
+
+/* ---------- entity survival card ---------- */
+.survival-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 540px) {
+  .survival-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.survival-head {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  margin: 0 0 6px;
+  padding: 3px 8px;
+  display: inline-block;
+  border-radius: var(--radius);
+}
+
+.survival-head--do {
+  color: var(--paper);
+  background: var(--safe);
+}
+
+.survival-head--dont {
+  color: var(--paper);
+  background: var(--hazard);
+}
+
+.survival-card ul {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 0.88rem;
+}
+
+.survival-card li {
+  margin: 4px 0;
+}
+
+.map-divider a text {
+  text-decoration: underline;
+  text-decoration-color: rgba(216, 194, 94, 0.4);
+  cursor: pointer;
+}

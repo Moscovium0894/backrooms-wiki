@@ -1,13 +1,15 @@
 {
  "$meta": {
   "count": 24,
-  "fetchedAt": "2026-07-08T15:17:54+00:00",
+  "fetchedAt": "2026-07-08T15:38:07+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
  "items": [
   {
-   "foundInLevels": [],
+   "foundInLevels": [
+    "abandoned-outpost"
+   ],
    "id": "almond-concentrate",
    "images": [
     {
@@ -65,11 +67,11 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:\n</p>\n<ul><li>Abandoned Outpost</li></ul>",
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a></li></ul>",
      "title": "Location"
     },
     {
-     "html": "<h3>Using the Item</h3>\n<p>Almond Concentrate cannot be used.\n</p>\n<h3>Purpose</h3>\n<p>In Abandoned Outpost, 4 Bottles of Almond Concentrate can be found. Once you have all 4, put them into the Filtering Unit, and the Emergency Shower will be able to be used to cure the <a href=\"#APP#/entities/wretch/\">Wretch</a> in the Outpost.\n</p>",
+     "html": "<h3>Using the Item</h3>\n<p>Almond Concentrate cannot be used.\n</p>\n<h3>Purpose</h3>\n<p>In <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>, 4 Bottles of Almond Concentrate can be found. Once you have all 4, put them into the Filtering Unit, and the Emergency Shower will be able to be used to cure the <a href=\"#APP#/entities/wretch/\">Wretch</a> in the Outpost.\n</p>",
      "title": "Use"
     },
     {
@@ -177,7 +179,7 @@
      "title": "Files"
     },
     {
-     "html": "<p>Almond Water is a liquid stored in a yellow can. The can has the name of the item and a fancy design. At the top there's a gray metal opening, and it's used to restore Sanity.\n</p>",
+     "html": "<p>Almond Water is a liquid stored in a yellow can. The can has the name of the item and a fancy design. At the top there's a gray metal opening, and it's used to restore <a href=\"#APP#/guides/sanity/\">Sanity</a>.\n</p>",
      "title": "Appearance"
     },
     {
@@ -185,11 +187,11 @@
      "title": "Location"
     },
     {
-     "html": "<p>Once used, the player opens the can and drinks the Almond Water, then throwing it off to the right. After drinking it, your Sanity will be restored by 50%.\n</p>",
+     "html": "<p>Once used, the player opens the can and drinks the Almond Water, then throwing it off to the right. After drinking it, your <a href=\"#APP#/guides/sanity/\">Sanity</a> will be restored by 50%.\n</p>",
      "title": "Use"
     },
     {
-     "html": "<ul><li>Almond Water was apparently crafted in <a href=\"#APP#/levels/level-37/\">The Poolrooms</a>, which is mentioned on the can.</li>\n<li>Almond Water is the only Item in the game with a Common rarity.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Almond Water can be found, likely due to the fact that it's the only secret level that drains Sanity.</li>\n<li>Almond Water can be found in cans that are about 13.5 cm high and about 5.2 cm wide. For comparison: a 250ml Redbull Energy can has exactly (maybe a few millimeters off) these measurements, whereas the Almond Water cans look similar in size and width to exactly this kind of can.</li></ul>",
+     "html": "<ul><li>Almond Water was apparently crafted in <a href=\"#APP#/levels/level-37/\">The Poolrooms</a>, which is mentioned on the can.</li>\n<li>Almond Water is the only Item in the game with a Common rarity.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Almond Water can be found, likely due to the fact that it's the only secret level that drains <a href=\"#APP#/guides/sanity/\">Sanity</a>.</li>\n<li>Almond Water can be found in cans that are about 13.5 cm high and about 5.2 cm wide. For comparison: a 250ml Redbull Energy can has exactly (maybe a few millimeters off) these measurements, whereas the Almond Water cans look similar in size and width to exactly this kind of can.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -437,7 +439,8 @@
   },
   {
    "foundInLevels": [
-    "level-4"
+    "level-4",
+    "abandoned-outpost"
    ],
    "id": "crowbar",
    "images": [
@@ -504,7 +507,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li>Abandoned Outpost</li></ul>",
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a></li></ul>",
      "title": "Location"
     },
     {
@@ -616,6 +619,7 @@
     "level-37",
     "level-exclamation",
     "level-94",
+    "abandoned-outpost",
     "level-3999",
     "level-0-1",
     "level-37-2",
@@ -690,11 +694,11 @@
      "title": "Location"
     },
     {
-     "html": "<p>Upon using, the player opens up the Energy Bar and eats it. After consumption, your Sanity is restored by 25%. You'll also receive a Stamina Boost.\n</p>",
+     "html": "<p>Upon using, the player opens up the Energy Bar and eats it. After consumption, your <a href=\"#APP#/guides/sanity/\">Sanity</a> is restored by 25%. You'll also receive a Stamina Boost.\n</p>",
      "title": "Use"
     },
     {
-     "html": "<p>The Stamina boost allows the player to run for a total of 12.5 seconds and only goes away as the player uses their Stamina through running. Extra Stamina does not regenerate back (Extra stamina = stamina over the default stamina threshold. For example, in <a href=\"#APP#/levels/the-hub/\">The Hub</a> your default stamina threshold is 4 seconds, meaning you can sprint for a total of 4 seconds before running out of breath. Once you eat an energy bar in <a href=\"#APP#/levels/the-hub/\">The Hub</a>, your stamina will increase to 12.5 seconds, however, it will not regenerate until it is below 4 seconds. For information on the stamina threshold of every level, see Base Stamina) Energy Bars do not stack, which means the maximum number of stamina you can have at a time is 12.5 seconds. In addition, an Energy Bar replenishes 25% Sanity.\n</p><p>The Player's Base Stamina is slightly different depending on the Level they are on. The recovery speed after completely running out of Stamina is always 7 seconds, but the regeneration speed is sometimes different, allowing you to run more if you wait for your Stamina to regenerate without allowing it to completely deplete.\n</p>\n<ul><li>Infinite: <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a></li>\n<li>~7.5 seconds: <a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+ (sectors)</a></li>\n<li>~5.5 seconds: <a href=\"#APP#/levels/level-3/\">Level 3</a></li>\n<li>~4.5 seconds: <a href=\"#APP#/levels/level-0/\">Level 0</a>, <a href=\"#APP#/levels/level-2/\">Level 2</a>, <a href=\"#APP#/levels/level-5/\">Level 5</a>, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-37/\">Level 37</a> <a href=\"#APP#/levels/level-exclamation/\">Level !</a> , <a href=\"#APP#/levels/the-end/\">The End</a>, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-6/\">Level 6</a>, <a href=\"#APP#/levels/level-7/\">Level 7</a>, <a href=\"#APP#/levels/level-8/\">Level 8</a>, <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> <a href=\"#APP#/levels/level-9/\">Level 9</a>, Abandoned Outpost, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-3999/\">Level 3999</a>, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, <a href=\"#APP#/levels/level-188/\">Level 188</a>, <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a> , <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, <a href=\"#APP#/levels/level-52/\">Level 52</a>, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>~4 seconds: <a href=\"#APP#/levels/the-hub/\">The Hub</a>, <a href=\"#APP#/levels/level-4/\">Level 4</a></li>\n<li>~3.5 seconds: <a href=\"#APP#/levels/level-1/\">Level 1</a></li></ul>\n<p>This only applies to the main areas in the listed Levels. Some Levels like <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> have other areas that have different values. <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> in this case has your base Stamina last for ~7.5 seconds when you're in one of the Sectors. More cases like this might be present but not tested.\n</p>",
+     "html": "<p>The Stamina boost allows the player to run for a total of 12.5 seconds and only goes away as the player uses their Stamina through running. Extra Stamina does not regenerate back (Extra stamina = stamina over the default stamina threshold. For example, in <a href=\"#APP#/levels/the-hub/\">The Hub</a> your default stamina threshold is 4 seconds, meaning you can sprint for a total of 4 seconds before running out of breath. Once you eat an energy bar in <a href=\"#APP#/levels/the-hub/\">The Hub</a>, your stamina will increase to 12.5 seconds, however, it will not regenerate until it is below 4 seconds. For information on the stamina threshold of every level, see Base Stamina) Energy Bars do not stack, which means the maximum number of stamina you can have at a time is 12.5 seconds. In addition, an Energy Bar replenishes 25% <a href=\"#APP#/guides/sanity/\">Sanity</a>.\n</p><p>The Player's Base Stamina is slightly different depending on the Level they are on. The recovery speed after completely running out of Stamina is always 7 seconds, but the regeneration speed is sometimes different, allowing you to run more if you wait for your Stamina to regenerate without allowing it to completely deplete.\n</p>\n<ul><li>Infinite: <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a></li>\n<li>~7.5 seconds: <a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+ (sectors)</a></li>\n<li>~5.5 seconds: <a href=\"#APP#/levels/level-3/\">Level 3</a></li>\n<li>~4.5 seconds: <a href=\"#APP#/levels/level-0/\">Level 0</a>, <a href=\"#APP#/levels/level-2/\">Level 2</a>, <a href=\"#APP#/levels/level-5/\">Level 5</a>, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-37/\">Level 37</a> <a href=\"#APP#/levels/level-exclamation/\">Level !</a> , <a href=\"#APP#/levels/the-end/\">The End</a>, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-6/\">Level 6</a>, <a href=\"#APP#/levels/level-7/\">Level 7</a>, <a href=\"#APP#/levels/level-8/\">Level 8</a>, <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> <a href=\"#APP#/levels/level-9/\">Level 9</a>, <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-3999/\">Level 3999</a>, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, <a href=\"#APP#/levels/level-188/\">Level 188</a>, <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a> , <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, <a href=\"#APP#/levels/level-52/\">Level 52</a>, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>~4 seconds: <a href=\"#APP#/levels/the-hub/\">The Hub</a>, <a href=\"#APP#/levels/level-4/\">Level 4</a></li>\n<li>~3.5 seconds: <a href=\"#APP#/levels/level-1/\">Level 1</a></li></ul>\n<p>This only applies to the main areas in the listed Levels. Some Levels like <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> have other areas that have different values. <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> in this case has your base Stamina last for ~7.5 seconds when you're in one of the Sectors. More cases like this might be present but not tested.\n</p>",
      "title": "Stamina Boost"
     },
     {
@@ -702,7 +706,7 @@
      "title": "Ingredients"
     },
     {
-     "html": "<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Energy Bars can be found, likely due to the fact that it's the only secret level that drains Sanity.</li>\n<li>Energy Bars grant stamina upon consumption, which might be a bit hard to tell since there's no stamina bar or indication (excluding the item description and the name energy bar) that it gives you a stamina boost or the stamina boost was given.</li>\n<li>The flavor of the Energy Bar \"Dark Chocolate Cacao\" mentions cacao (also known as a cocoa bean or cocoa) in the name, which is the thing that chocolate comes from.</li></ul>",
+     "html": "<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Energy Bars can be found, likely due to the fact that it's the only secret level that drains <a href=\"#APP#/guides/sanity/\">Sanity</a>.</li>\n<li>Energy Bars grant stamina upon consumption, which might be a bit hard to tell since there's no stamina bar or indication (excluding the item description and the name energy bar) that it gives you a stamina boost or the stamina boost was given.</li>\n<li>The flavor of the Energy Bar \"Dark Chocolate Cacao\" mentions cacao (also known as a cocoa bean or cocoa) in the name, which is the thing that chocolate comes from.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -1083,6 +1087,7 @@
     "level-52",
     "level-55-1",
     "the-hub",
+    "abandoned-outpost",
     "level-0-1",
     "level-exclamation",
     "the-end",
@@ -1157,15 +1162,15 @@
      "title": "Location"
     },
     {
-     "html": "<p>Upon using, the player will take off the cap and drink the Juice. Then, you'll receive a Speed Boost for a temporary amount of time (10 seconds), and your Sanity will go up by 25%. During the time of the Speed Boost, your Stamina is not drained.\n</p>",
+     "html": "<p>Upon using, the player will take off the cap and drink the Juice. Then, you'll receive a Speed Boost for a temporary amount of time (10 seconds), and your <a href=\"#APP#/guides/sanity/\">Sanity</a> will go up by 25%. During the time of the Speed Boost, your Stamina is not drained.\n</p>",
      "title": "Use"
     },
     {
-     "html": "<p>In some Levels, the Speed Boost is slightly different. Because Juice sets your Speed to a specific value (rather than increasing it by a percentage), the Speed Boost lasts longer or shorter depending on what Level or location you're in.\n</p>\n<ul><li>50%: Level 52</li>\n<li>35%: Level 3, Level 37, Level 6, Level 37.2</li>\n<li>22.7%: Level 0, <a href=\"#APP#/levels/the-hub/\">The Hub</a>, Level 4, Level 5, Level 7, Level 8, Level 0.11, <a href=\"#APP#/levels/level-9/\">Level 9</a>, Abandoned Outpost, Level 3999, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, Level !~!, Level 188, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>12.5%: Level 1, Level 2, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, <a href=\"#APP#/levels/the-end/\">The End</a>, Level 9223372036854775807, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
+     "html": "<p>In some Levels, the Speed Boost is slightly different. Because Juice sets your Speed to a specific value (rather than increasing it by a percentage), the Speed Boost lasts longer or shorter depending on what Level or location you're in.\n</p>\n<ul><li>50%: Level 52</li>\n<li>35%: Level 3, Level 37, Level 6, Level 37.2</li>\n<li>22.7%: Level 0, <a href=\"#APP#/levels/the-hub/\">The Hub</a>, Level 4, Level 5, Level 7, Level 8, Level 0.11, <a href=\"#APP#/levels/level-9/\">Level 9</a>, <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>, Level 3999, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, Level !~!, Level 188, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>12.5%: Level 1, Level 2, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, <a href=\"#APP#/levels/the-end/\">The End</a>, Level 9223372036854775807, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
      "title": "Speed Boost"
     },
     {
-     "html": "<ul><li>The liquid in the bottle moves around with the player's movements.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Juice can be found, likely due to the fact that it's the only secret level that drains Sanity.</li></ul>",
+     "html": "<ul><li>The liquid in the bottle moves around with the player's movements.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Juice can be found, likely due to the fact that it's the only secret level that drains <a href=\"#APP#/guides/sanity/\">Sanity</a>.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -1462,11 +1467,11 @@
      "title": "Location"
     },
     {
-     "html": "<p>Upon using, the player eats the Moth Jelly. After this, you receive a Speed Boost for a temporary amount of time. Your Sanity and Stamina will also be restored.\n</p>",
+     "html": "<p>Upon using, the player eats the Moth Jelly. After this, you receive a Speed Boost for a temporary amount of time. Your <a href=\"#APP#/guides/sanity/\">Sanity</a> and Stamina will also be restored.\n</p>",
      "title": "Use"
     },
     {
-     "html": "<p>Moth Jelly provides the player with the benefits of an <a href=\"#APP#/items/energy-bar/\">Energy Bar</a> and <a href=\"#APP#/items/juice/\">Juice</a> combined, meaning an increase in Speed for 10 seconds, fully restoring your Stamina and granting an additional, temporary 12.5 seconds of Stamina that will not regenerate, but is only used while the player is Running (the Stamina will start regenerating once it reaches the Base Stamina threshold for that specific Level). Additionally, Moth Jelly restores 35% Sanity upon consumption.\n</p>",
+     "html": "<p>Moth Jelly provides the player with the benefits of an <a href=\"#APP#/items/energy-bar/\">Energy Bar</a> and <a href=\"#APP#/items/juice/\">Juice</a> combined, meaning an increase in Speed for 10 seconds, fully restoring your Stamina and granting an additional, temporary 12.5 seconds of Stamina that will not regenerate, but is only used while the player is Running (the Stamina will start regenerating once it reaches the Base Stamina threshold for that specific Level). Additionally, Moth Jelly restores 35% <a href=\"#APP#/guides/sanity/\">Sanity</a> upon consumption.\n</p>",
      "title": "Speed Boost"
     },
     {

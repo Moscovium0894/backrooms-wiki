@@ -133,6 +133,7 @@ def main() -> int:
     for e in entities:
         check_types("entity", e, {"id": str, "name": str, "dangerLabel": str,
                                   "summary": str, "sections": list, "levels": list,
+                                  "survival": (dict, none),
                                   "images": list, "sourceUrl": str})
         for lid in e.get("levels", []):
             if lid not in level_ids:

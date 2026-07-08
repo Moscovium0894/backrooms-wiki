@@ -46,9 +46,11 @@ const spineX = layout.nodes.find((n) => n.kind === 'main')?.x ?? 64;
       layout.dividers.map((d) => (
         <g class="map-divider">
           <line x1="18" y1={d.y} x2={layout.width - 18} y2={d.y} />
-          <text x="18" y={d.y - 8}>
-            {d.label}
-          </text>
+          <a href={withBase('guides/endings/')} aria-label={`${d.label} — open the endings file`}>
+            <text x="18" y={d.y - 8}>
+              {d.label} →
+            </text>
+          </a>
         </g>
       ))
     }

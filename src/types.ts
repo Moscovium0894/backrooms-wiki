@@ -53,6 +53,7 @@ export interface Entity {
   id: string;
   name: string;
   dangerLabel: string;
+  survival: { dos: string[]; donts: string[] } | null;
   species: string | null;
   summary: string;
   sections: Section[];

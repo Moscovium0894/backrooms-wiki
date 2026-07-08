@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-08T15:17:54+00:00",
+  "fetchedAt": "2026-07-08T15:39:09+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -41,9 +41,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-94"
-   ],
+   "levels": [],
    "name": "Animation",
    "sections": [
     {
@@ -81,7 +79,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Animation",
    "species": "Wooden Puppet",
-   "summary": "Animations resemble childlike wooden puppets built for kids in the 1930s with red glowing eyes. They spawn during the night to kill those who do not hide in the houses of Level 94 . They aren't the smartest entities, because while they know how to break into a house, they can't figure out hiding places."
+   "summary": "Animations resemble childlike wooden puppets built for kids in the 1930s with red glowing eyes. They spawn during the night to kill those who do not hide in the houses of Level 94 . They aren't the smartest entities, because while they know how to break into a house, they can't figure out hiding places.",
+   "survival": {
+    "donts": [
+     "Stay outside after the sun goes down.",
+     "Stand around in the houses at night due to Animations being able to break into houses.",
+     "Stay near the exit door of a Truck."
+    ],
+    "dos": [
+     "Hide in houses as soon as you see the sun going down.",
+     "Turn off the Lights in a house at night.",
+     "Move quickly through the Level."
+    ]
+   }
   },
   {
    "dangerLabel": "Deadly",
@@ -118,10 +128,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-188",
-    "level-you-cheated"
-   ],
+   "levels": [],
    "name": "Aranea Membri",
    "sections": [
     {
@@ -155,7 +162,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Aranea_Membri",
    "species": "Spider-Like Tetrapod",
-   "summary": "The Aranea Membri is a massive, spider-like creature with a skull of an unknown animal for a head. It has 4 large legs that gives it a high level of speed."
+   "summary": "The Aranea Membri is a massive, spider-like creature with a skull of an unknown animal for a head. It has 4 large legs that gives it a high level of speed.",
+   "survival": {
+    "donts": [
+     "Roam hallways for long periods of time.",
+     "Try to hide in one of the smaller rooms.",
+     "Take too long to enter a room due to its high speed."
+    ],
+    "dos": [
+     "Run as fast as you can away from it into a hotel room if seen.",
+     "Keep nearby doors open so you can have an easier and faster time hiding.",
+     "Peek around a corner before going towards it."
+    ]
+   }
   },
   {
    "dangerLabel": "Moderate",
@@ -192,14 +211,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0",
-    "level-0-11",
-    "level-0-3",
-    "level-37",
-    "level-55-1",
-    "overgrowth"
-   ],
+   "levels": [],
    "name": "Bacteria",
    "sections": [
     {
@@ -237,7 +249,18 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Bacteria",
    "species": "Bacteria",
-   "summary": "Bacterias appear to be a skeletal creature made up of thin lines of an unknown substance. A chunky head with holes in it is attached to the humanoid body, and their skin is rough and dingy."
+   "summary": "Bacterias appear to be a skeletal creature made up of thin lines of an unknown substance. A chunky head with holes in it is attached to the humanoid body, and their skin is rough and dingy.",
+   "survival": {
+    "donts": [
+     "Run away in a straight line.",
+     "Follow knocking sounds."
+    ],
+    "dos": [
+     "Turn corners as much as you can to break line of sight.",
+     "Try locating the nearest exit.",
+     "Run away and don't look back until you can't hear it anymore."
+    ]
+   }
   },
   {
    "dangerLabel": "Minimal",
@@ -265,11 +288,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0-2",
-    "overgrowth",
-    "the-snackrooms"
-   ],
+   "levels": [],
    "name": "Bone Thief",
    "sections": [
     {
@@ -299,7 +318,15 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Bone_Thief",
    "species": "Unknown",
-   "summary": "Bone Thieves are large entities with yellow skin and eyes inside of its mouth. They are weirdly shaped and are stationary entities that live inside dark holes in the wall. They kill any wanderers that come near their hole."
+   "summary": "Bone Thieves are large entities with yellow skin and eyes inside of its mouth. They are weirdly shaped and are stationary entities that live inside dark holes in the wall. They kill any wanderers that come near their hole.",
+   "survival": {
+    "donts": [
+     "Go into its area."
+    ],
+    "dos": [
+     "Flip the switch when powered on and run quickly to the exit."
+    ]
+   }
   },
   {
    "dangerLabel": "Dangerous",
@@ -327,10 +354,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-exclamation-tilde-exclamation",
-    "level-37-2"
-   ],
+   "levels": [],
    "name": "Clump",
    "sections": [
     {
@@ -356,7 +380,18 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Clump",
    "species": "Creature with a large amount of arms",
-   "summary": "Clumps are large, fleshy beasts that appear to have tons of human arms on their bodies. They have a torso solely made out of their mouth, and a tail on the back of them. Their mouths have round teeth and a large tongue, and they devour their victims upon finding them."
+   "summary": "Clumps are large, fleshy beasts that appear to have tons of human arms on their bodies. They have a torso solely made out of their mouth, and a tail on the back of them. Their mouths have round teeth and a large tongue, and they devour their victims upon finding them.",
+   "survival": {
+    "donts": [
+     "Enter the red hallways when you see blue ones.",
+     "Walk through the level instead of run."
+    ],
+    "dos": [
+     "Run away from it in the red hallways.",
+     "Stay in the blue hallways whenever you get the chance, the Clump can't enter them.",
+     "Drink Juice or eat some Moth Jelly for a speed boost to increase your distance away from it."
+    ]
+   }
   },
   {
    "dangerLabel": "Moderate",
@@ -393,10 +428,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1",
-    "level-10"
-   ],
+   "levels": [],
    "name": "Faceling",
    "sections": [
     {
@@ -426,7 +458,17 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Faceling",
    "species": "Faceless Humanoid",
-   "summary": "Facelings are humanoid Entities that look like humans however they lack faces and shoes."
+   "summary": "Facelings are humanoid Entities that look like humans however they lack faces and shoes.",
+   "survival": {
+    "donts": [
+     "Keep walking and never turn around.",
+     "Walk, since you will have less time to turn around and look at it before it grabs you."
+    ],
+    "dos": [
+     "Turn around every few seconds and stare at them until you see them walk towards the fields.",
+     "Run away so you have more time to look at it before it catches up and grabs you."
+    ]
+   }
   },
   {
    "dangerLabel": "Dangerous",
@@ -454,10 +496,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-5",
-    "level-8"
-   ],
+   "levels": [],
    "name": "Female Deathmoth",
    "sections": [
     {
@@ -487,7 +526,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Female_Deathmoth",
    "species": "Giant Moth",
-   "summary": "Female Deathmoths are black, white, and gray Moths that are massive in size and have a mark on their back that vaguely resembles a skull."
+   "summary": "Female Deathmoths are black, white, and gray Moths that are massive in size and have a mark on their back that vaguely resembles a skull.",
+   "survival": {
+    "donts": [
+     "Run near them, it will cause them to chase you.",
+     "Get them to chase you without knowing where the nearest Bug Spray Valve is.",
+     "Crouch too close to them."
+    ],
+    "dos": [
+     "Crouch if you're in a room with a Female Deathmoth inside.",
+     "If spotted, run to the nearest Bug Spray Valve and turn it on.",
+     "If you hear scuttling, run and turn on the nearest Bug Spray Valve."
+    ]
+   }
   },
   {
    "dangerLabel": "Minimal",
@@ -515,9 +566,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1"
-   ],
+   "levels": [],
    "name": "Ghost Smiler",
    "sections": [
     {
@@ -543,7 +592,15 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Ghost_Smiler",
    "species": "Smiling Face",
-   "summary": "The Ghost Smiler is an entity only appearing in Level 1 . It does not possess any physical form, only appearing in an event which results in the player's immediate death. During that appearance it resembles a regular smiler ."
+   "summary": "The Ghost Smiler is an entity only appearing in Level 1 . It does not possess any physical form, only appearing in an event which results in the player's immediate death. During that appearance it resembles a regular smiler .",
+   "survival": {
+    "donts": [
+     "Go up the ramp leading to the second floor of Level 1 ."
+    ],
+    "dos": [
+     "Stay in the main floor in level 1 at all costs."
+    ]
+   }
   },
   {
    "dangerLabel": "Moderate",
@@ -571,12 +628,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1",
-    "level-3",
-    "level-5",
-    "level-8"
-   ],
+   "levels": [],
    "name": "Hound",
    "sections": [
     {
@@ -610,7 +662,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Hound",
    "species": "Humanoid Dog",
-   "summary": "Hounds are Skinny Humanoid Dogs with medium length black hair going down on both sides of their head and black eyes with white pupils."
+   "summary": "Hounds are Skinny Humanoid Dogs with medium length black hair going down on both sides of their head and black eyes with white pupils.",
+   "survival": {
+    "donts": [
+     "Try to outrun the Hounds (this can work sometimes, but not always so don't take the risk if you're not that good)",
+     "Try to jump over the Hounds.",
+     "Attempt to crouch around the Hound."
+    ],
+    "dos": [
+     "Use a Flashlight to blind the Hounds.",
+     "Shut a door if a Hound sees you.",
+     "Be as quick as possible to react if a Hound is near you."
+    ]
+   }
   },
   {
    "dangerLabel": "Minimal",
@@ -638,10 +702,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-37",
-    "level-37-2"
-   ],
+   "levels": [],
    "name": "Hydrolitis Plague",
    "sections": [
     {
@@ -667,7 +728,17 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Hydrolitis_Plague",
    "species": "Bacteria-Like Plague",
-   "summary": "The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in Level 37 and in some of the water in Level 37.2. It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it."
+   "summary": "The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in Level 37 and in some of the water in Level 37.2. It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it.",
+   "survival": {
+    "donts": [
+     "Enter it upon seeing it."
+    ],
+    "dos": [
+     "Stay in the Floatie Boat if it is in the water of the Expanded Poolrooms .",
+     "Avoid bodies of water that are infected with the Hydrolitis Plague, unless you have an item such as Juice .",
+     "If you fall into a body of water with it, leave the area as fast as possible."
+    ]
+   }
   },
   {
    "dangerLabel": "Unknown",
@@ -702,9 +773,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-9"
-   ],
+   "levels": [],
    "name": "Jerry",
    "sections": [
     {
@@ -726,7 +795,8 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Jerry",
    "species": "Hyacinth Macaw",
-   "summary": "Jerry resembles a large blue parrot with resemblance to the hyacinth macaw, which is a bird has a black beak and red eyes, and its feathers is blue."
+   "summary": "Jerry resembles a large blue parrot with resemblance to the hyacinth macaw, which is a bird has a black beak and red eyes, and its feathers is blue.",
+   "survival": null
   },
   {
    "dangerLabel": "Moderate",
@@ -761,9 +831,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-2"
-   ],
+   "levels": [],
    "name": "Lighthead",
    "sections": [
     {
@@ -785,7 +853,8 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Lighthead",
    "species": "Humanoid with a Streetlight for a Head",
-   "summary": "Lighthead is a tall, skinny Entity that has a streetlight as a head. It is mostly brownish, and you would also be able to see it's light shining in the dark meaning you would know when it would be coming."
+   "summary": "Lighthead is a tall, skinny Entity that has a streetlight as a head. It is mostly brownish, and you would also be able to see it's light shining in the dark meaning you would know when it would be coming.",
+   "survival": null
   },
   {
    "dangerLabel": "Friendly",
@@ -813,10 +882,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-5",
-    "level-9"
-   ],
+   "levels": [],
    "name": "Male Deathmoth",
    "sections": [
     {
@@ -832,7 +898,7 @@
      "title": "Behavior"
     },
     {
-     "html": "<p>Since Male Deathmoths are harmless, they are easy to kill. The <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> is used to access The Hotel in <a href=\"#APP#/levels/level-5/\">Level 5</a>. <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> is a pretty useful Item for Sanity and Speed. When you enter The Main Halls, 4 Male Deathmoths will be in selected locations. Every time you kill a group of them (except for the first), a new Male Deathmoth will appear in a different selected location, so after killing one Male Deathmoth, only 3 will ever be in The Main Hall at once.\n</p>",
+     "html": "<p>Since Male Deathmoths are harmless, they are easy to kill. The <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> is used to access The Hotel in <a href=\"#APP#/levels/level-5/\">Level 5</a>. <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> is a pretty useful Item for <a href=\"#APP#/guides/sanity/\">Sanity</a> and Speed. When you enter The Main Halls, 4 Male Deathmoths will be in selected locations. Every time you kill a group of them (except for the first), a new Male Deathmoth will appear in a different selected location, so after killing one Male Deathmoth, only 3 will ever be in The Main Hall at once.\n</p>",
      "title": "Tips & Advice"
     },
     {
@@ -842,7 +908,8 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Male_Deathmoth",
    "species": "Moths",
-   "summary": "Male Deathmoths are a much smaller species of greyish moths. The Male Deathmoths do not attack the Player."
+   "summary": "Male Deathmoths are a much smaller species of greyish moths. The Male Deathmoths do not attack the Player.",
+   "survival": null
   },
   {
    "dangerLabel": "Unknown",
@@ -870,11 +937,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0-11",
-    "level-55-1",
-    "level-moyai"
-   ],
+   "levels": [],
    "name": "Moai Statue",
    "sections": [
     {
@@ -896,7 +959,8 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Moai_Statue",
    "species": "Statue",
-   "summary": "Moai Statues are Large Statues carved out to resemble a human head. The Statues originate from Easter Island."
+   "summary": "Moai Statues are Large Statues carved out to resemble a human head. The Statues originate from Easter Island.",
+   "survival": null
   },
   {
    "dangerLabel": "Dangerous",
@@ -941,9 +1005,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-974"
-   ],
+   "levels": [],
    "name": "Mr. Kitty",
    "sections": [
     {
@@ -977,7 +1039,17 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Mr._Kitty",
    "species": "Tall Black Humanoid",
-   "summary": "Mr. Kitty appears to be a tall lanky humanoid figure with pointed limbs and black skin. He has 2 white eyes, wrinkled skin and lacks a mouth. He is the main entity that resides in Level 974 ."
+   "summary": "Mr. Kitty appears to be a tall lanky humanoid figure with pointed limbs and black skin. He has 2 white eyes, wrinkled skin and lacks a mouth. He is the main entity that resides in Level 974 .",
+   "survival": {
+    "donts": [
+     "Look away from him if he's nearby or right next to you.",
+     "Roam around Level 974 without knowing where he is for too long.",
+     "Carelessly lock yourself in a room thinking he won’t reach you, he can always spawn behind you to kill you and he can open doors."
+    ],
+    "dos": [
+     "Keep your eyes on him."
+    ]
+   }
   },
   {
    "dangerLabel": "Indirectly Deadly",
@@ -1005,10 +1077,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-fun",
-    "level-fun-plus"
-   ],
+   "levels": [],
    "name": "Party Host",
    "sections": [
     {
@@ -1034,7 +1103,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Party_Host",
    "species": "Cake with Eyeball",
-   "summary": "Party Hosts are cakes with bright green icing with an Eyeball in the middle. The color of the eye is blue. Party Hosts are immobile and will always be on the wall or the ceiling."
+   "summary": "Party Hosts are cakes with bright green icing with an Eyeball in the middle. The color of the eye is blue. Party Hosts are immobile and will always be on the wall or the ceiling.",
+   "survival": {
+    "donts": [
+     "Stand still when spotted, they will always alert the Partygoers .",
+     "Throw a Firework when too close to them.",
+     "Stand out in the open with no intent of hiding or killing one, Partygoers will come after you."
+    ],
+    "dos": [
+     "Throw a Firework directly at them from a safe distance to kill them and not kill yourself from the blast.",
+     "Kill them so you can proceed through the Funhouse Sector.",
+     "Take note of the closest Table to hide under when one alerts the Partygoers of your location."
+    ]
+   }
   },
   {
    "dangerLabel": "Dangerous",
@@ -1071,13 +1152,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-exclamation",
-    "level-52",
-    "level-fun",
-    "level-fun-plus",
-    "the-afterparty"
-   ],
+   "levels": [],
    "name": "Partygoer",
    "sections": [
     {
@@ -1115,7 +1190,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Partygoer",
    "species": "Yellow Humanoid",
-   "summary": "Partygoers are yellow humanoid creatures with blood being easily noticeable on the mouth, hands, and legs. They hold Balloons and they stay in the same position, but if they spot you they will start chasing you. In Level Fun+ , they walk around the place and don't just stand in one place."
+   "summary": "Partygoers are yellow humanoid creatures with blood being easily noticeable on the mouth, hands, and legs. They hold Balloons and they stay in the same position, but if they spot you they will start chasing you. In Level Fun+ , they walk around the place and don't just stand in one place.",
+   "survival": {
+    "donts": [
+     "Walk/sprint behind or near it.",
+     "Pop a Balloon Cluster with no intention of getting under a Table.",
+     "Trigger a chase without knowing where the nearest Table is."
+    ],
+    "dos": [
+     "Crouch when trying to get around one.",
+     "If spotted, run for the nearest Table and crouch underneath it.",
+     "Peek around a corner before going."
+    ]
+   }
   },
   {
    "dangerLabel": "Friendly",
@@ -1143,13 +1230,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-52",
-    "level-55-1",
-    "level-fun-plus",
-    "level-you-cheated",
-    "the-afterparty"
-   ],
+   "levels": [],
    "name": "Partypooper",
    "sections": [
     {
@@ -1179,7 +1260,18 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Partypooper",
    "species": "Humanoid",
-   "summary": "Partypoopers are friendly humanoid entities that wear black jeans, a black hoodie, and black gloves. They also wear a blue mask with a sad face on it, but their actual face can never be seen by normal means. Majority of Partypoopers are dead after the events of The Fun War and only one is still seen alive in-game."
+   "summary": "Partypoopers are friendly humanoid entities that wear black jeans, a black hoodie, and black gloves. They also wear a blue mask with a sad face on it, but their actual face can never be seen by normal means. Majority of Partypoopers are dead after the events of The Fun War and only one is still seen alive in-game.",
+   "survival": {
+    "donts": [
+     "Try to wander away from it, as it'll be harder to find the exit.",
+     "Walk or run if it's not also walking or running.",
+     "Get it killed by the Partygoers , it will be much harder to escape."
+    ],
+    "dos": [
+     "Follow the Partypooper's directions.",
+     "Copy its behavior when moving through Level 52 ."
+    ]
+   }
   },
   {
    "dangerLabel": "Moderate",
@@ -1216,10 +1308,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-1",
-    "the-end"
-   ],
+   "levels": [],
    "name": "Scratcher",
    "sections": [
     {
@@ -1253,7 +1342,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Scratcher",
    "species": "Quadrupedal Grey Humanoid",
-   "summary": "The Scratcher is a skinny gray humanoid with red glowing eyes. It crawls on all fours and has disproportionately large hands and legs. The Scratcher also lacks facial features."
+   "summary": "The Scratcher is a skinny gray humanoid with red glowing eyes. It crawls on all fours and has disproportionately large hands and legs. The Scratcher also lacks facial features.",
+   "survival": {
+    "donts": [
+     "Walk or Run near it.",
+     "Look away for long enough, as it can walk into you or near you.",
+     "If using in-game voice chat, do not talk anywhere near it."
+    ],
+    "dos": [
+     "Stay far away from it.",
+     "Keep an eye on it at all times so you know where it's at.",
+     "Crouch and get near a wall if it gets close."
+    ]
+   }
   },
   {
    "dangerLabel": "Deadly",
@@ -1281,14 +1382,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0-1",
-    "level-1",
-    "level-5",
-    "level-55-1",
-    "level-8",
-    "the-bunker"
-   ],
+   "levels": [],
    "name": "Skin-Stealer",
    "sections": [
     {
@@ -1322,7 +1416,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Skin-Stealer",
    "species": "Humanoid",
-   "summary": "Skin-Stealers are humanoids with a mouth that goes down to their body. Its skin is gray, and it has 2 glowing white eyes. There are also various blood spots on it mainly around its mouth. Skin-Stealers possess the unique ability to steal a player's skin after killing them and disguise itself as a wanderer."
+   "summary": "Skin-Stealers are humanoids with a mouth that goes down to their body. Its skin is gray, and it has 2 glowing white eyes. There are also various blood spots on it mainly around its mouth. Skin-Stealers possess the unique ability to steal a player's skin after killing them and disguise itself as a wanderer.",
+   "survival": {
+    "donts": [
+     "Attempt to ask someone running at you to see their ID Card, they won't stop.",
+     "Leave Doors behind you open.",
+     "Attempt to Fight the Skin-Stealer."
+    ],
+    "dos": [
+     "Run away from any Players that appear to be chasing you.",
+     "Shut the doors behind you to lose the Skin-Stealer's aggression.",
+     "Keep communication with your team in Multiplayer to avoid being tricked."
+    ]
+   }
   },
   {
    "dangerLabel": "Moderate",
@@ -1375,15 +1481,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-exclamation",
-    "level-exclamation-tilde-exclamation",
-    "level-0-1",
-    "level-1",
-    "level-2",
-    "level-55-1",
-    "level-94"
-   ],
+   "levels": [],
    "name": "Smiler",
    "sections": [
     {
@@ -1417,7 +1515,17 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Smiler",
    "species": "Floating Face",
-   "summary": "Smilers are floating smiling faces with sharp teeth with dark shadowy fog surrounding their bodies. Smilers are mysterious and shadow-like entities that are typically seen in pitch black places where only their smiling faces can be seen."
+   "summary": "Smilers are floating smiling faces with sharp teeth with dark shadowy fog surrounding their bodies. Smilers are mysterious and shadow-like entities that are typically seen in pitch black places where only their smiling faces can be seen.",
+   "survival": {
+    "donts": [
+     "Stay or go into the area while the lights are turned off.",
+     "Try to outrun the Smilers, they are faster than you."
+    ],
+    "dos": [
+     "Try to stay in the light.",
+     "Run when the lights turn on."
+    ]
+   }
   },
   {
    "dangerLabel": "Very Deadly",
@@ -1454,10 +1562,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-94",
-    "level-6"
-   ],
+   "levels": [],
    "name": "The Animated King",
    "sections": [
     {
@@ -1473,7 +1578,7 @@
      "title": "Location"
     },
     {
-     "html": "<p>When you first find it in the Animated Kingdom in <a href=\"#APP#/levels/level-94/\">Level 94</a>, it will be standing still on a Podium and won't move. Once you look away for a couple seconds, it will laugh and disappear. A few seconds after it disappears, the lights will turn off, and The Animated King will be after you. It will only attempt to attack wherever you aren't looking and will sneak up behind you. The Animated King is always faster than you, and if it reaches you, it will crush you with its Hammer. If you spot it sneaking up behind you, it will disappear and wait some more time until attacking again.\n</p>",
+     "html": "<p>When you first find it in the <a href=\"#APP#/levels/the-animated-kingdom/\">Animated Kingdom</a> in <a href=\"#APP#/levels/level-94/\">Level 94</a>, it will be standing still on a Podium and won't move. Once you look away for a couple seconds, it will laugh and disappear. A few seconds after it disappears, the lights will turn off, and The Animated King will be after you. It will only attempt to attack wherever you aren't looking and will sneak up behind you. The Animated King is always faster than you, and if it reaches you, it will crush you with its Hammer. If you spot it sneaking up behind you, it will disappear and wait some more time until attacking again.\n</p>",
      "title": "Behavior"
     },
     {
@@ -1491,7 +1596,18 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Animated_King",
    "species": "Clown Humanoid",
-   "summary": "The Animated King is a plastic clown with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the Boss Entity of Level 94 ."
+   "summary": "The Animated King is a plastic clown with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the Boss Entity of Level 94 .",
+   "survival": {
+    "donts": [
+     "Stay still for long periods of time.",
+     "Wait more than 100 seconds."
+    ],
+    "dos": [
+     "Turn around all the time and look out for it.",
+     "Move continuously.",
+     "Stand in a corner with your FOV high so The Animated King can't get to you."
+    ]
+   }
   },
   {
    "dangerLabel": "Dangerous",
@@ -1526,9 +1642,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-9"
-   ],
+   "levels": [],
    "name": "The Neighborhood Watch",
    "sections": [
     {
@@ -1558,7 +1672,19 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Neighborhood_Watch",
    "species": "Giant Eyeball with Legs",
-   "summary": "The Neighborhood Watch is a giant walking eyeball with four legs and a brown eye. Instead of having feet, its feet are hands. The legs are green while the area around the eye is red/brown. It's legs and area around its eye has been stained with blood."
+   "summary": "The Neighborhood Watch is a giant walking eyeball with four legs and a brown eye. Instead of having feet, its feet are hands. The legs are green while the area around the eye is red/brown. It's legs and area around its eye has been stained with blood.",
+   "survival": {
+    "donts": [
+     "Run towards any loud footsteps you hear.",
+     "Get too close to it from behind.",
+     "Refrain from entering a House if it spots you."
+    ],
+    "dos": [
+     "Keep an eye out on the streets incase it's nearby.",
+     "Start running if you hear loud footsteps and look for a House.",
+     "Listen for its loud footsteps to decide where to hide."
+    ]
+   }
   },
   {
    "dangerLabel": "Minimal",
@@ -1603,9 +1729,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-7"
-   ],
+   "levels": [],
    "name": "The Thing on Level 7",
    "sections": [
     {
@@ -1639,7 +1763,17 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Thing_on_Level_7",
    "species": "Angler Fish Viper Fish",
-   "summary": "The Thing on Level 7 strangely enough has 2 different appearances, one of which matches an older Backrooms Fandom Wiki interpretation of The Thing, and the other matching the more commonly recognized appearance of The Thing."
+   "summary": "The Thing on Level 7 strangely enough has 2 different appearances, one of which matches an older Backrooms Fandom Wiki interpretation of The Thing, and the other matching the more commonly recognized appearance of The Thing.",
+   "survival": {
+    "donts": [
+     "Be in the water during the fog event.",
+     "Try to reach the edge of the surface of Level 7 during the fog event."
+    ],
+    "dos": [
+     "Stay in your Boat.",
+     "Stay close to your team unless you're playing alone so you don't have to swim to them."
+    ]
+   }
   },
   {
    "dangerLabel": "Unknown",
@@ -1703,7 +1837,8 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Unknown_Bird_Entity",
    "species": "N/A",
-   "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed."
+   "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.",
+   "survival": null
   },
   {
    "dangerLabel": "Friendly",
@@ -1740,12 +1875,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-0",
-    "level-974",
-    "overgrowth",
-    "the-bunker"
-   ],
+   "levels": [],
    "name": "Wanderer",
    "sections": [
     {
@@ -1757,11 +1887,11 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a> (cutscene)</li>\n<li>Every Level (players)</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a> (empty hazmat suits)</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> (known as \"Explorers\")</li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li>Abandoned Outpost</li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a> (cutscene)</li>\n<li>Every Level (players)</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a> (empty hazmat suits)</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> (known as \"Explorers\")</li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li><a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a></li></ul>",
      "title": "Location"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added the Wanderer.\n</td></tr>\n<tr>\n<td>Hotfix #1\n</td>\n<td>Fixed an issue with getting stuck on <a href=\"#APP#/levels/level-exclamation/\">Level !</a> at the last door.\n<p>Fixed an issue with players being able to enter some doors to escape the horde in <a href=\"#APP#/levels/level-exclamation/\">Level !</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #2\n</td>\n<td>Added an option to hide your body.\n<p>Fixed an issue with players jumping out of windows in the <a href=\"#APP#/levels/level-37/\">Poolrooms</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #3\n</td>\n<td>Nerfed <a href=\"#APP#/entities/hound/\">Hounds</a> by allowing you to stun them multiple times.\n</td></tr>\n<tr>\n<td>Hotfix #5\n</td>\n<td>Fixed player counts always showing 1 in the server list.\n</td></tr>\n<tr>\n<td>Hotfix #6\n</td>\n<td>Fixed a bug where incorrect fuseboxes would show for some players.\n<p>Fixed a glitch where 2 people could climb a <a href=\"#APP#/items/rope/\">Rope</a> at once.\n</p><p>Added a hint for players to sneak near <a href=\"#APP#/entities/wretch/\">Wretches</a>.\n</p><p>Added a hint for players to use Valves to stop <a href=\"#APP#/entities/female-deathmoth/\">Moths</a>.\n</p><p>Fixed <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealers</a> being able to hear you through walls.\n</p><p>Prevented players from jumping on top of Roller Coaster carts.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #7\n</td>\n<td>Stopped players from getting killed while on the rope in <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n<p>Fixed an issue where players would have different props in the Office.\n</p><p>Fixed an issue where players would have different keys spawned.\n</p><p>Fixed a bug where players would still lose sanity after going down the poolrooms slide.\n</p><p>Fixed a bug where players were spawning at the exit in <a href=\"#APP#/levels/level-6/\">Level 6</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #8\n</td>\n<td>Fixed a bug where players would sometimes crash if they used items and weren't the host.\n</td></tr>\n<tr>\n<td>Hotfix #9\n</td>\n<td>Fixed a bug that showed black bars in the main menu for some players.\n</td></tr>\n<tr>\n<td>VR Update\n</td>\n<td>Both VR and desktop players can seamlessly play in the same lobby.\n<p>Fixed a bug where you could walk through a wall in the <a href=\"#APP#/levels/level-5/\">Hotel</a> lobby.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #11\n</td>\n<td>Fixed an issue where holding a scanner gave you 3 arms.\n<p>Fixed a bug that would make players stuck in spectator mode if the game was restarted.\n</p><p>Hopefully maybe fixed the input issue causing players to delete config files in VR.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #12\n</td>\n<td>Fixed an issue where going <a href=\"#APP#/levels/level-7/\">underwater</a> with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> around the barriers made you fall under the map.\n</td></tr>\n<tr>\n<td>Hotfix #14\n</td>\n<td>Fixed a bug where you would lose sanity in Level 188 in Easy mode.\n<p>Fixed a bug where you wouldn't get <a href=\"#APP#/guides/achievements/\">achievements</a> for certain levels.\nFixed an issue where connected players with high ping couldn't see windmill lights in <a href=\"#APP#/levels/level-10/\">Level 10</a> when restarting a game.\n</p><p>Fixed a bug where players wouldn't spawn at their last checkpoint in level 10.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #15\n</td>\n<td>Added a lighthouse to Level 7 that helps guide players where to go.\n<p>Fixed a bug where connected players with high ping couldn't hear <a href=\"#APP#/entities/faceling/\">Facelings</a>.\n</p><p>Fixed a bug where players could swim really fast by sprinting right before entering water.\n</p><p>Fixed an issue where players would lose sanity with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> on.\n</p><p>Fixed a bug in <a href=\"#APP#/levels/the-manilla-room/\">the manilla room</a> where players sometimes wouldn't continue to the next level.\n</p><p>Fixed a bug where VR players couldn't enter the code to access a locker.\n</p><p>Fixed an issue where moths would chase players if they dropped off a rock in the <a href=\"#APP#/levels/level-8/\">Cave System</a>.\n</p><p>Fixed an issue where players couldn't close a door if it was locked.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #16\n</td>\n<td>Fixed an issue where players could skip <a href=\"#APP#/levels/level-10/\">Level 10</a>.\n</td></tr>\n<tr>\n<td>Hotfix #19\n</td>\n<td>Fixed an issue where <a href=\"#APP#/items/walkie-talkie/\">walkie talkie</a> physics would affect players.\n<p>Fixed an issue where players would die if every player didn't no-clip at the same time.\n</p><p>Fixed an issue where the current equipped item wouldn't be in a player's hand when starting a level if they weren't the host.\n</p><p>Fixed an issue where the voice chat icon wouldn't show on the player's screen if they weren't the host.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #20\n</td>\n<td>Added notes to help out players on some puzzles.\n<p>Fixed an issue where players could fly around the pitfalls.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #21\n</td>\n<td>Fixed an issue where new players couldn't join lobbies after games were ended.\n</td></tr>\n<tr>\n<td>Hotfix #22\n</td>\n<td>Fixed an issue where the error message would show when players were kicked.\n</td></tr>\n<tr>\n<td>Christmas Event\n</td>\n<td>Added the ability to create lobbies with 8 players.\n</td></tr>\n<tr>\n<td>Silent Patch #2\n</td>\n<td>Made 2nd <a href=\"#APP#/entities/clump/\">clump</a> chase the player if they run to it instead of the boarded up door.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Added a new retextured model for player Wanderers and a new model for any other Wanderer aside from a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a> disguise.\n<p>Added a new jumping animation for players.\nAny Wanderer that isn't a player now has a completely new model.\nIf playing with other people, they can now see other players holding and using Items.\nAdded a new <a href=\"#APP#/items/flashlight/\">Flashlight</a> holding animation seen out of 1st person view.\n</p>\n</td></tr>\n<tr>\n<td>Winter Wanderer\n</td>\n<td>Added 11 new player outfits to select – eight festive themed outfits, along with red, blue, and green versions of the default Wanderer outfit\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added the Wanderer.\n</td></tr>\n<tr>\n<td>Hotfix #1\n</td>\n<td>Fixed an issue with getting stuck on <a href=\"#APP#/levels/level-exclamation/\">Level !</a> at the last door.\n<p>Fixed an issue with players being able to enter some doors to escape the horde in <a href=\"#APP#/levels/level-exclamation/\">Level !</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #2\n</td>\n<td>Added an option to hide your body.\n<p>Fixed an issue with players jumping out of windows in the <a href=\"#APP#/levels/level-37/\">Poolrooms</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #3\n</td>\n<td>Nerfed <a href=\"#APP#/entities/hound/\">Hounds</a> by allowing you to stun them multiple times.\n</td></tr>\n<tr>\n<td>Hotfix #5\n</td>\n<td>Fixed player counts always showing 1 in the server list.\n</td></tr>\n<tr>\n<td>Hotfix #6\n</td>\n<td>Fixed a bug where incorrect fuseboxes would show for some players.\n<p>Fixed a glitch where 2 people could climb a <a href=\"#APP#/items/rope/\">Rope</a> at once.\n</p><p>Added a hint for players to sneak near <a href=\"#APP#/entities/wretch/\">Wretches</a>.\n</p><p>Added a hint for players to use Valves to stop <a href=\"#APP#/entities/female-deathmoth/\">Moths</a>.\n</p><p>Fixed <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealers</a> being able to hear you through walls.\n</p><p>Prevented players from jumping on top of Roller Coaster carts.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #7\n</td>\n<td>Stopped players from getting killed while on the rope in <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n<p>Fixed an issue where players would have different props in the Office.\n</p><p>Fixed an issue where players would have different keys spawned.\n</p><p>Fixed a bug where players would still lose <a href=\"#APP#/guides/sanity/\">sanity</a> after going down the poolrooms slide.\n</p><p>Fixed a bug where players were spawning at the exit in <a href=\"#APP#/levels/level-6/\">Level 6</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #8\n</td>\n<td>Fixed a bug where players would sometimes crash if they used items and weren't the host.\n</td></tr>\n<tr>\n<td>Hotfix #9\n</td>\n<td>Fixed a bug that showed black bars in the main menu for some players.\n</td></tr>\n<tr>\n<td>VR Update\n</td>\n<td>Both VR and desktop players can seamlessly play in the same lobby.\n<p>Fixed a bug where you could walk through a wall in the <a href=\"#APP#/levels/level-5/\">Hotel</a> lobby.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #11\n</td>\n<td>Fixed an issue where holding a scanner gave you 3 arms.\n<p>Fixed a bug that would make players stuck in spectator mode if the game was restarted.\n</p><p>Hopefully maybe fixed the input issue causing players to delete config files in VR.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #12\n</td>\n<td>Fixed an issue where going <a href=\"#APP#/levels/level-7/\">underwater</a> with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> around the barriers made you fall under the map.\n</td></tr>\n<tr>\n<td>Hotfix #14\n</td>\n<td>Fixed a bug where you would lose sanity in Level 188 in Easy mode.\n<p>Fixed a bug where you wouldn't get <a href=\"#APP#/guides/achievements/\">achievements</a> for certain levels.\nFixed an issue where connected players with high ping couldn't see windmill lights in <a href=\"#APP#/levels/level-10/\">Level 10</a> when restarting a game.\n</p><p>Fixed a bug where players wouldn't spawn at their last checkpoint in level 10.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #15\n</td>\n<td>Added a lighthouse to Level 7 that helps guide players where to go.\n<p>Fixed a bug where connected players with high ping couldn't hear <a href=\"#APP#/entities/faceling/\">Facelings</a>.\n</p><p>Fixed a bug where players could swim really fast by sprinting right before entering water.\n</p><p>Fixed an issue where players would lose sanity with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> on.\n</p><p>Fixed a bug in <a href=\"#APP#/levels/the-manilla-room/\">the manilla room</a> where players sometimes wouldn't continue to the next level.\n</p><p>Fixed a bug where VR players couldn't enter the code to access a locker.\n</p><p>Fixed an issue where moths would chase players if they dropped off a rock in the <a href=\"#APP#/levels/level-8/\">Cave System</a>.\n</p><p>Fixed an issue where players couldn't close a door if it was locked.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #16\n</td>\n<td>Fixed an issue where players could skip <a href=\"#APP#/levels/level-10/\">Level 10</a>.\n</td></tr>\n<tr>\n<td>Hotfix #19\n</td>\n<td>Fixed an issue where <a href=\"#APP#/items/walkie-talkie/\">walkie talkie</a> physics would affect players.\n<p>Fixed an issue where players would die if every player didn't no-clip at the same time.\n</p><p>Fixed an issue where the current equipped item wouldn't be in a player's hand when starting a level if they weren't the host.\n</p><p>Fixed an issue where the voice chat icon wouldn't show on the player's screen if they weren't the host.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #20\n</td>\n<td>Added notes to help out players on some puzzles.\n<p>Fixed an issue where players could fly around the pitfalls.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #21\n</td>\n<td>Fixed an issue where new players couldn't join lobbies after games were ended.\n</td></tr>\n<tr>\n<td>Hotfix #22\n</td>\n<td>Fixed an issue where the error message would show when players were kicked.\n</td></tr>\n<tr>\n<td>Christmas Event\n</td>\n<td>Added the ability to create lobbies with 8 players.\n</td></tr>\n<tr>\n<td>Silent Patch #2\n</td>\n<td>Made 2nd <a href=\"#APP#/entities/clump/\">clump</a> chase the player if they run to it instead of the boarded up door.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Added a new retextured model for player Wanderers and a new model for any other Wanderer aside from a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a> disguise.\n<p>Added a new jumping animation for players.\nAny Wanderer that isn't a player now has a completely new model.\nIf playing with other people, they can now see other players holding and using Items.\nAdded a new <a href=\"#APP#/items/flashlight/\">Flashlight</a> holding animation seen out of 1st person view.\n</p>\n</td></tr>\n<tr>\n<td>Winter Wanderer\n</td>\n<td>Added 11 new player outfits to select – eight festive themed outfits, along with red, blue, and green versions of the default Wanderer outfit\n</td></tr></tbody></table>",
      "title": "Update History"
     },
     {
@@ -1771,7 +1901,8 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Wanderer",
    "species": "Human",
-   "summary": "Wanderers are humans that are trapped in the Backrooms who are always seen wearing a hazmat suit, the design of which can be changed in the Character Select screen. All Wanderers are about 1.8m tall (~5'10.87ft). In the game, you play as a Wanderer, whom the identity of is currently unknown."
+   "summary": "Wanderers are humans that are trapped in the Backrooms who are always seen wearing a hazmat suit, the design of which can be changed in the Character Select screen. All Wanderers are about 1.8m tall (~5'10.87ft). In the game, you play as a Wanderer, whom the identity of is currently unknown.",
+   "survival": null
   },
   {
    "dangerLabel": "Minimal",
@@ -1799,10 +1930,7 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-188",
-    "level-4"
-   ],
+   "levels": [],
    "name": "Windows",
    "sections": [
     {
@@ -1828,7 +1956,17 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Windows",
    "species": "Humanoid Reptile",
-   "summary": "Window entities are grey humanoid entities with bright red eyes and long claws. They seem to be very bony and skinny with reptile-like skin. This entity stays behind a window and will attempt to lure the player closer to them."
+   "summary": "Window entities are grey humanoid entities with bright red eyes and long claws. They seem to be very bony and skinny with reptile-like skin. This entity stays behind a window and will attempt to lure the player closer to them.",
+   "survival": {
+    "donts": [
+     "Get too close to a window if the entity is there.",
+     "Run straight towards a window when entering any hotel room."
+    ],
+    "dos": [
+     "Stay away from the window until you know that there isn't a window entity there.",
+     "Walk into rooms in Level 188 instead of sprinting so you don't get caught off guard if you reach the window before the entity opens the curtains to show itself."
+    ]
+   }
   },
   {
    "dangerLabel": "Moderate",
@@ -1856,24 +1994,19 @@
      "width": 640
     }
    ],
-   "levels": [
-    "level-8",
-    "level-9",
-    "level-6",
-    "the-hub"
-   ],
+   "levels": [],
    "name": "Wretch",
    "sections": [
     {
-     "html": "<p>Wretches are past wanderers that have gone insane due to loss of Sanity. Wretches still have their human shape, but they have no skin, leading for their outer layer to be bright red and exposing their flesh and tissue. \n</p>",
+     "html": "<p>Wretches are past wanderers that have gone insane due to loss of <a href=\"#APP#/guides/sanity/\">Sanity</a>. Wretches still have their human shape, but they have no skin, leading for their outer layer to be bright red and exposing their flesh and tissue. \n</p>",
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li>Abandoned Outpost</li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a></li></ul>",
      "title": "Location"
     },
     {
-     "html": "<h3>Level 6</h3>\n<p>When exploring the <a href=\"#APP#/items/flashlight/\">Flashlight</a> Area in <a href=\"#APP#/levels/level-6/\">Level 6</a>, shortly in, you will spot a Wretch walking through a hallway. It will not harm you, and it is possible to see it reach the end of the hallway in which it disappears. Once you reach the Maze, there will be a Wretch roaming around. Luckily, <a href=\"#APP#/items/lidar-scanner/\">LiDAR Scanners</a> have a built-in feature that Tracks the Wretch. Pick up a <a href=\"#APP#/items/lidar-scanner/\">LiDAR Scanner</a>, and you will see a screen on it. If there is a Red Dot, that is the Wretch. The Dot will get closer to the center as it gets closer to you, and the noise will get louder. If the Wretch is close, you will hear its breathing. In order to avoid it finding you, you must hide on the sides of the Maze, and it won't be able to find you. Due to the darkness of <a href=\"#APP#/levels/level-6/\">Level 6</a>, the Wretch cannot see you.\n</p>\n<h3>Level 9</h3>\n<p>In <a href=\"#APP#/levels/level-9/\">Level 9</a>, Wretches live in 6 different Houses and they hold <a href=\"#APP#/items/crowbar/\">Crowbars</a>. If one sees you, it will start to chase you. They do not breath in <a href=\"#APP#/levels/level-9/\">Level 9</a>, meaning you will have to listen for their footsteps. In order to hide from it, you must hide in a room and close the door. Wretches know how to open doors, so you will have to lock the door and they won't be able to get in.\n</p>\n<h3>Abandoned Outpost</h3>\n<p>In Abandoned Outpost, there is a Wretch roaming around. It has an Administrator Card and a <a href=\"#APP#/items/crowbar/\">Crowbar</a>, and you have to collect the Card to escape <a href=\"#APP#/levels/level-9/\">Level 9</a>. Unlike <a href=\"#APP#/levels/level-9/\">Level 9</a>, It breathes in Abandoned Outpost. There are Lockers scattered throughout the Outpost, and if the Wretch spots you, hide in a Locker and it will go away. You can also hide in the Vent, since it cannot enter the Vent.\n</p>",
+     "html": "<h3>Level 6</h3>\n<p>When exploring the <a href=\"#APP#/items/flashlight/\">Flashlight</a> Area in <a href=\"#APP#/levels/level-6/\">Level 6</a>, shortly in, you will spot a Wretch walking through a hallway. It will not harm you, and it is possible to see it reach the end of the hallway in which it disappears. Once you reach the Maze, there will be a Wretch roaming around. Luckily, <a href=\"#APP#/items/lidar-scanner/\">LiDAR Scanners</a> have a built-in feature that Tracks the Wretch. Pick up a <a href=\"#APP#/items/lidar-scanner/\">LiDAR Scanner</a>, and you will see a screen on it. If there is a Red Dot, that is the Wretch. The Dot will get closer to the center as it gets closer to you, and the noise will get louder. If the Wretch is close, you will hear its breathing. In order to avoid it finding you, you must hide on the sides of the Maze, and it won't be able to find you. Due to the darkness of <a href=\"#APP#/levels/level-6/\">Level 6</a>, the Wretch cannot see you.\n</p>\n<h3>Level 9</h3>\n<p>In <a href=\"#APP#/levels/level-9/\">Level 9</a>, Wretches live in 6 different Houses and they hold <a href=\"#APP#/items/crowbar/\">Crowbars</a>. If one sees you, it will start to chase you. They do not breath in <a href=\"#APP#/levels/level-9/\">Level 9</a>, meaning you will have to listen for their footsteps. In order to hide from it, you must hide in a room and close the door. Wretches know how to open doors, so you will have to lock the door and they won't be able to get in.\n</p>\n<h3>Abandoned Outpost</h3>\n<p>In <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>, there is a Wretch roaming around. It has an Administrator Card and a <a href=\"#APP#/items/crowbar/\">Crowbar</a>, and you have to collect the Card to escape <a href=\"#APP#/levels/level-9/\">Level 9</a>. Unlike <a href=\"#APP#/levels/level-9/\">Level 9</a>, It breathes in <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>. There are Lockers scattered throughout the <a href=\"#APP#/levels/abandoned-outpost/\">Outpost</a>, and if the Wretch spots you, hide in a Locker and it will go away. You can also hide in the Vent, since it cannot enter the Vent.\n</p>",
      "title": "Behavior"
     },
     {
@@ -1881,13 +2014,24 @@
      "title": "Tips & Advice"
     },
     {
-     "html": "<ul><li>The Wretch has 2 different Jumpscares: one in <a href=\"#APP#/levels/level-6/\">Level 6</a> and one for <a href=\"#APP#/levels/level-9/\">Level 9</a> and Abandoned Outpost.</li>\n<li>There are multiple Sounds the Wretch can make in the <a href=\"#APP#/levels/level-9/\">Level 9</a> and Abandoned Outpost Jumpscare.</li></ul>",
+     "html": "<ul><li>The Wretch has 2 different Jumpscares: one in <a href=\"#APP#/levels/level-6/\">Level 6</a> and one for <a href=\"#APP#/levels/level-9/\">Level 9</a> and <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>.</li>\n<li>There are multiple Sounds the Wretch can make in the <a href=\"#APP#/levels/level-9/\">Level 9</a> and <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a> Jumpscare.</li></ul>",
      "title": "Trivia"
     }
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Wretch",
    "species": "Skinless Humanoid Human (formerly)",
-   "summary": "Wretches are past wanderers that have gone insane due to loss of Sanity. Wretches still have their human shape, but they have no skin, leading for their outer layer to be bright red and exposing their flesh and tissue."
+   "summary": "Wretches are past wanderers that have gone insane due to loss of Sanity . Wretches still have their human shape, but they have no skin, leading for their outer layer to be bright red and exposing their flesh and tissue.",
+   "survival": {
+    "donts": [
+     "Walk or Run when a Wretch is nearby.",
+     "Freak out when the Wretch is bumping into you.",
+     "Stay in the path of the Wretch."
+    ],
+    "dos": [
+     "Crouch whenever you hear a Wretch coming close to you using the LiDAR Scanner .",
+     "Use a LiDAR Scanner to know when a Wretch is close."
+    ]
+   }
   }
  ]
 }

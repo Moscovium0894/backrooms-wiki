@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 13,
-  "fetchedAt": "2026-07-08T15:17:54+00:00",
+  "count": 15,
+  "fetchedAt": "2026-07-08T15:38:07+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -293,10 +293,12 @@
      "width": 320
     }
    ],
-   "relatedLevelIds": [],
+   "relatedLevelIds": [
+    "abandoned-outpost"
+   ],
    "sections": [
     {
-     "html": "<p>This level is split into 2 sections. The neighborhood and the abandoned M.E.G. base, which will be explained in different guides. This will be just for Level 9 itself.\n</p>",
+     "html": "<p>This level is split into 2 sections. The neighborhood and the <a href=\"#APP#/levels/abandoned-outpost/\">abandoned M.E.G. base</a>, which will be explained in different guides. This will be just for Level 9 itself.\n</p>",
      "title": null
     },
     {
@@ -305,7 +307,7 @@
     }
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_9_Guide",
-   "summary": "This level is split into 2 sections. The neighborhood and the abandoned M.E.G. base, which will be explained in different guides. This will be just for Level 9 itself.",
+   "summary": "This level is split into 2 sections. The neighborhood and the abandoned M.E.G. base , which will be explained in different guides. This will be just for Level 9 itself.",
    "title": "Level 9 Guide"
   },
   {
@@ -587,6 +589,7 @@
     "level-fun-plus",
     "level-52",
     "level-6",
+    "abandoned-outpost",
     "level-8",
     "level-3999",
     "level-0-2",
@@ -611,6 +614,102 @@
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Full_Game_Guide",
    "summary": "Note: This guide is currently outdated as it doesn't document any Version 1.0 levels or additions!",
    "title": "Field Tactics"
+  },
+  {
+   "id": "sanity",
+   "images": [
+    {
+     "file": "guides/sanity/hero.png",
+     "height": 411,
+     "role": "hero",
+     "sourceFile": "File:Sanitymeter.png",
+     "width": 261
+    },
+    {
+     "file": "guides/sanity/thumb.png",
+     "height": 411,
+     "role": "thumb",
+     "sourceFile": "File:Sanitymeter.png",
+     "width": 261
+    }
+   ],
+   "relatedLevelIds": [
+    "level-0",
+    "the-hub",
+    "level-2",
+    "level-4",
+    "level-37",
+    "level-94",
+    "the-animated-kingdom",
+    "the-manilla-room",
+    "level-0-11",
+    "abandoned-outpost",
+    "level-3999",
+    "the-snackrooms",
+    "level-exclamation-tilde-exclamation",
+    "level-37-2",
+    "level-fun-plus",
+    "level-9223372036854775807",
+    "level-974",
+    "the-bunker",
+    "the-grassrooms",
+    "level-you-cheated",
+    "level-1",
+    "level-3",
+    "level-5",
+    "level-fun",
+    "level-exclamation",
+    "the-end",
+    "level-6",
+    "level-7",
+    "level-8",
+    "level-9",
+    "level-10",
+    "level-0-2",
+    "level-188",
+    "level-52",
+    "level-55-1",
+    "overgrowth"
+   ],
+   "sections": [
+    {
+     "html": "<figure> \t<img src=\"#IMG#/images/guides/sanity/hero.png\" alt=\"Sanitymeter\" width=\"261\" height=\"411\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p><b>Sanity</b> is a mechanic in Escape the Backrooms. It involves slowly going insane.\n</p>",
+     "title": null
+    },
+    {
+     "html": "<p>Each player has a Sanity bar that is viewable in the Inventory. There is a brain on the bar, and it gets more deteriorated the lower your Sanity gets. Sanity will go down over time, draining by a set percentage every 5 seconds, and in order to restore Sanity, you can drink <a href=\"#APP#/items/almond-water/\">Almond Water</a> or <a href=\"#APP#/items/juice/\">Juice</a> or eat an <a href=\"#APP#/items/energy-bar/\">Energy Bar</a> or <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a>. Once your Sanity is nearly gone, the player will hallucinate <a href=\"#APP#/entities/smiler/\">Smilers</a> around you for a second. The player blinks, making the hallucination disappear, and say \"What happened? I must be low on sanity...\". If you don't restore your Sanity at this point, the player hallucinates another time, but the <a href=\"#APP#/entities/smiler/\">Smilers</a> won't go away and instead just increase, and then you will die from going insane.\n</p>",
+     "title": "How it Works"
+    },
+    {
+     "html": "<h3>Sanity can't go down in:</h3>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/the-hub/\">The Hub</a></li>\n<li><a href=\"#APP#/levels/level-2/\">Level 2</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4</a></li>\n<li><a href=\"#APP#/levels/level-37/\">Level 37</a> (fully restored upon entering)</li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a> (<a href=\"#APP#/levels/the-animated-kingdom/\">The Animated Kingdom</a>)</li>\n<li><a href=\"#APP#/levels/level-0/\">Level 0</a> (<a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a>)</li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/abandoned-outpost/\">The Abandoned Outpost</a></li>\n<li><a href=\"#APP#/levels/level-3999/\">Level 3999</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a></li>\n<li><a href=\"#APP#/levels/level-37-2/\">Expanded Poolrooms</a> (fully restored upon entering)</li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+ (Main Area)</a></li>\n<li><a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li>\n<li><a href=\"#APP#/levels/the-grassrooms/\">The Grassrooms</a></li>\n<li><a href=\"#APP#/levels/level-you-cheated/\">Level You Cheated</a></li></ul>\n<h3>Sanity drains in:</h3>\n<p>Sanity drain occurs every 5 seconds and goes down by a set percentage. This percentage is multiplied by 1.5x in Nightmare.\n</p>\n<ul><li><a href=\"#APP#/levels/level-1/\">Level 1</a> - 0.5%</li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3</a> - 1%</li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5</a>\n<ul><li>The Main Hall - 1.5%</li>\n<li>The Hotel - 1.75%</li>\n<li>The Boiler Room - 1%</li></ul></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a> - 2%</li>\n<li><a href=\"#APP#/levels/level-exclamation/\">Level !</a> - 1%</li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a> - 1%</li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94 (Town area)</a> - 2.25%</li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6</a> - 1.5%</li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7</a> - 1.75%\n<ul><li>Sanity doesn't drain while in a boat.</li></ul></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8</a> - 1.37%</li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9</a> - 2.5%</li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a> - 1%</li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> - 0.3%</li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a> - 1%</li>\n<li><a href=\"#APP#/levels/level-37-2/\">Level 37.2</a> - 1%\n<ul><li>Since Sanity restores in the bright area, this is usually not noticeable.</li></ul></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+ (Sectors)</a> - 0.5%</li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a> - 1%</li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> - 0.5%</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> - 0.75%</li></ul>",
+     "title": "Sanity drain speed on every Level"
+    },
+    {
+     "html": "<ul><li>The speed of Sanity drain is level dependent. It goes down faster in levels like <a href=\"#APP#/levels/level-94/\">Level 94</a> or <a href=\"#APP#/levels/level-9/\">Level 9</a>, however, in levels like <a href=\"#APP#/levels/level-0/\">Level 0</a> or <a href=\"#APP#/levels/level-4/\">Level 4</a>, it does not drain at all. <a href=\"#APP#/levels/level-37/\">Level 37</a> and its <a href=\"#APP#/levels/level-37-2/\">Expanded Version</a> will also restore Sanity.</li>\n<li>Sanity drops in <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a>, but once you go to the Expanded Poolrooms, it will be instantly restored.</li>\n<li><a href=\"#APP#/items/almond-water/\">Almond Water</a> restores 50% of your Sanity.</li>\n<li><a href=\"#APP#/items/juice/\">Juice</a> restores 25% of your Sanity.</li>\n<li><a href=\"#APP#/items/energy-bar/\">Energy Bar</a> restores 25% of your Sanity.</li>\n<li><a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> restores 35% of your Sanity.</li></ul>",
+     "title": "Tips & Advice"
+    },
+    {
+     "html": "<ul><li>Sanity cannot drain in Easy.</li>\n<li>Sanity drains at a normal speed in Normal and Hard.</li>\n<li>Sanity will drain 1.5x faster in Nightmare.</li></ul>",
+     "title": "Difficulty Changes"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Sanity",
+   "summary": "Sanity is a mechanic in Escape the Backrooms. It involves slowly going insane.",
+   "title": "Sanity"
+  },
+  {
+   "id": "controls",
+   "images": [],
+   "relatedLevelIds": [],
+   "sections": [
+    {
+     "html": "<ul><li>Move - WASD</li>\n<li>Crouch - Left Control</li>\n<li>Sprint - Shift</li>\n<li>Lean Left - Q</li>\n<li>Lean Right - E</li>\n<li>Interact - F</li>\n<li>Use Item - Left Click</li>\n<li>Chat - Enter</li>\n<li>Talk - V</li>\n<li>Player List - Tab</li>\n<li>Inventory - i</li>\n<li>1,2,3 - Hotbars</li>\n<li>Show Card - C</li></ul>",
+     "title": "Controls"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Controls",
+   "summary": "",
+   "title": "Controls"
   }
  ]
 }

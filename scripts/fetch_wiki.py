@@ -49,7 +49,8 @@ WALKTHROUGH_HEADINGS = {"objective", "objectives", "walkthrough", "guide",
 # Guide pages fetched in addition to the Guides / Level Guides categories.
 # "Full Game Guide" is trimmed to its general-tactics intro (per-level content
 # already lives on the level pages).
-EXTRA_GUIDE_TITLES = ["Endings", "Achievements", "Full Game Guide"]
+EXTRA_GUIDE_TITLES = ["Endings", "Achievements", "Full Game Guide",
+                      "Sanity", "Gamemodes", "Controls"]
 
 
 class WikiClient:
@@ -496,6 +497,30 @@ def first_good_paragraph(sections: list[dict], min_len: int = 40) -> str:
     return ""
 
 
+def extract_survival(sections: list[dict], max_each: int = 3) -> dict | None:
+    """Pull the first Do's / Don'ts bullet lists into a survival card."""
+    joined = "\n".join(s["html"] for s in sections)
+
+    def bullets_after(heading_re: str) -> list[str]:
+        m = re.search(heading_re + r".{0,200}?<ul>(.*?)</ul>", joined, re.S | re.I)
+        if not m:
+            return []
+        items = re.findall(r"<li>(.*?)</li>", m.group(1), re.S)
+        out = []
+        for it in items[:max_each]:
+            txt = strip_tags(it)
+            if txt:
+                out.append(sentence_trim(txt, 160))
+        return out
+
+    apo = "['’ʼ]?"
+    dos = bullets_after(rf"<h[34]>\s*Do{apo}s\s*:?\s*</h[34]>")
+    donts = bullets_after(rf"<h[34]>\s*Don{apo}ts?\s*:?\s*</h[34]>")
+    if not dos and not donts:
+        return None
+    return {"dos": dos, "donts": donts}
+
+
 def is_junk_section(title: str | None) -> bool:
     """Navboxes, galleries, and template-doc noise that shouldn't ship."""
     if title is None:
@@ -541,7 +566,14 @@ def main() -> int:
     guide_titles += [t for t in EXTRA_GUIDE_TITLES if t not in guide_titles]
 
     buckets = parse_levels_page(client)
-    main_order = [t for t in buckets["main"] if t in set(level_titles)]
+    # areas/bases listed on the Levels page but missing from Category:Levels
+    # (e.g. The M.E.G. Base, Abandoned Outpost) still deserve files
+    known = set(level_titles)
+    for t in buckets["base"] + buckets["area"]:
+        if t not in known:
+            level_titles.append(t)
+            known.add(t)
+    main_order = [t for t in buckets["main"] if t in known]
     print(f"   levels={len(level_titles)} (main path {len(main_order)}), "
           f"entities={len(entity_titles)}, items={len(item_titles)}, guides={len(guide_titles)}")
 
@@ -761,6 +793,7 @@ def main() -> int:
                 "id": slug,
                 "name": t,
                 "dangerLabel": danger,
+                "survival": extract_survival(sections),
                 "species": param_text(infobox, "Species"),
                 "summary": summary,
                 "sections": [s for s in sections
