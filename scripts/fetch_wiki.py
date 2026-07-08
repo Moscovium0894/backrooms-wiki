@@ -47,7 +47,9 @@ WALKTHROUGH_HEADINGS = {"objective", "objectives", "walkthrough", "guide",
                         "how to escape", "escaping", "how to beat"}
 
 # Guide pages fetched in addition to the Guides / Level Guides categories.
-EXTRA_GUIDE_TITLES = ["Endings", "Achievements"]
+# "Full Game Guide" is trimmed to its general-tactics intro (per-level content
+# already lives on the level pages).
+EXTRA_GUIDE_TITLES = ["Endings", "Achievements", "Full Game Guide"]
 
 
 class WikiClient:
@@ -838,11 +840,21 @@ def main() -> int:
                 if fi and (args.no_images or download_scaled(client, fi, BODY_W, dest)):
                     img_records.append({"file": b["rel"], "width": b["w"], "height": b["h"],
                                         "role": "body", "sourceFile": f"File:{b['file']}"})
+            title = t
+            if t == "Full Game Guide":
+                # keep only the general-tactics intro; the per-level guide
+                # content duplicates the level pages
+                cut = next((i for i, s in enumerate(sections)
+                            if (s["title"] or "").strip().lower() in ("levels", "level 0")), None)
+                if cut is not None:
+                    sections = sections[:cut]
+                title = "Field Tactics"
+
             lead = next((s["html"] for s in sections if s["title"] is None), None)
             refs = link_targets(wc)
             guides.append({
                 "id": slug,
-                "title": t,
+                "title": title,
                 "summary": sentence_trim(strip_tags((lead or "").split("</p>")[0]) or "", 300),
                 "sections": [s for s in sections if not is_junk_section(s["title"])],
                 "relatedLevelIds": refs["levels"],

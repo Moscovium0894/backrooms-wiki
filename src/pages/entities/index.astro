@@ -28,7 +28,47 @@ const sorted = [...entities].sort((a, b) => {
     <p class="filecode">THREAT REGISTRY · {entities.length} KNOWN ENTITIES</p>
     <h2 style="border:0;margin:0" class="code">Entities</h2>
   </div>
+
+  <div class="rail filter-rail" role="group" aria-label="Filter by danger">
+    <button class="chip on" type="button" data-filter-danger="*" aria-pressed="true">All</button>
+    <button class="chip" type="button" data-filter-danger="deadly" aria-pressed="false">Deadly</button>
+    <button class="chip" type="button" data-filter-danger="dangerous" aria-pressed="false">Dangerous</button>
+    <button class="chip" type="button" data-filter-danger="moderate" aria-pressed="false">Moderate</button>
+    <button class="chip" type="button" data-filter-danger="harmless" aria-pressed="false">Harmless</button>
+  </div>
+
   <div class="card-grid">
     {sorted.map((e) => <EntityCard entity={e} />)}
   </div>
+  <p class="filter-empty" id="entity-filter-empty" hidden>NO ENTITIES MATCH THE FILTER.</p>
+
+  <script>
+    const BUCKETS: Record<string, string[]> = {
+      deadly: ['deadly', 'very deadly', 'extreme'],
+      dangerous: ['dangerous', 'high'],
+      moderate: ['moderate', 'medium'],
+      harmless: ['harmless', 'friendly', 'cannot harm you', 'minimal', 'low', 'none'],
+    };
+    const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-filter-danger]')];
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-entity-card]')];
+    const empty = document.getElementById('entity-filter-empty')!;
+
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        const key = chip.dataset.filterDanger ?? '*';
+        for (const c of chips) {
+          const on = c === chip;
+          c.classList.toggle('on', on);
+          c.setAttribute('aria-pressed', String(on));
+        }
+        let shown = 0;
+        for (const card of cards) {
+          const on = key === '*' || (BUCKETS[key] ?? []).includes(card.dataset.danger ?? '');
+          card.style.display = on ? '' : 'none';
+          if (on) shown++;
+        }
+        empty.hidden = shown > 0;
+      });
+    }
+  </script>
 </BaseLayout>

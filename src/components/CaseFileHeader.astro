@@ -5,11 +5,21 @@ interface Props {
   code: string; // "Level 0"
   sub?: string | null; // "The Lobby"
   fileTag?: string; // small mono file reference line
+  crumb?: { href: string; label: string }; // parent index link
 }
-const { code, sub, fileTag } = Astro.props;
+const { code, sub, fileTag, crumb } = Astro.props;
 ---
 
 <div class="case-header">
+  {
+    crumb && (
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href={crumb.href}>{crumb.label}</a>
+        <span aria-hidden="true"> / </span>
+        <span>{code}</span>
+      </nav>
+    )
+  }
   {fileTag && <p class="filecode">{fileTag}</p>}
   <h1 class="code">
     {code}

@@ -20,7 +20,11 @@ const seenIn = entity.levels.map((id) => levelById.get(id)).filter(Boolean);
   activeTab="entities"
   sourceUrl={entity.sourceUrl}
 >
-  <CaseFileHeader code={entity.name} fileTag={`THREAT FILE · ${entity.id.toUpperCase()}`}>
+  <CaseFileHeader
+    code={entity.name}
+    fileTag={`THREAT FILE · ${entity.id.toUpperCase()}`}
+    crumb={{ href: withBase('entities/'), label: 'Entities' }}
+  >
     <span class="badge badge--fill" style={`--badge-c:${dangerColorVar(entity.dangerLabel)}`}>
       <span class="dot" aria-hidden="true"></span>
       {entity.dangerLabel}

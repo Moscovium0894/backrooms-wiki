@@ -20,7 +20,11 @@ const foundIn = item.foundInLevels.map((id) => levelById.get(id)).filter(Boolean
   activeTab="entities"
   sourceUrl={item.sourceUrl}
 >
-  <CaseFileHeader code={item.name} fileTag={`SUPPLY FILE · ${item.id.toUpperCase()}`}>
+  <CaseFileHeader
+    code={item.name}
+    fileTag={`SUPPLY FILE · ${item.id.toUpperCase()}`}
+    crumb={{ href: withBase('items/'), label: 'Items' }}
+  >
     <span class="badge badge--fill" style="--badge-c:var(--info)">{item.rarity}</span>
   </CaseFileHeader>
 

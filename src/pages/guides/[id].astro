@@ -22,7 +22,11 @@ const related = guide.relatedLevelIds
   activeTab="guides"
   sourceUrl={guide.sourceUrl}
 >
-  <CaseFileHeader code={guide.title} fileTag={`FIELD DOCUMENT · ${guide.id.toUpperCase()}`} />
+  <CaseFileHeader
+    code={guide.title}
+    fileTag={`FIELD DOCUMENT · ${guide.id.toUpperCase()}`}
+    crumb={{ href: withBase('guides/'), label: 'Guides' }}
+  />
 
   {
     guide.sections.map((s) => (

@@ -54,6 +54,7 @@ const {
     </script>
   </head>
   <body class={dark ? 'theme-dark' : undefined}>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="app-header">
       <a class="wordmark" href={withBase('')}>
         <span>Backrooms</span>
@@ -71,7 +72,7 @@ const {
       </button>
     </header>
 
-    <main>
+    <main id="main">
       <slot />
     </main>
 
@@ -82,15 +83,20 @@ const {
     <script>
       import { initSpoilerToggle, initSpoilerBlocks } from '../scripts/spoiler';
       import { initSearch } from '../scripts/search';
+      import { initLightbox } from '../scripts/lightbox';
+      import { initConnectivityToasts, watchServiceWorkerUpdate } from '../scripts/toast';
       initSpoilerToggle();
       initSpoilerBlocks();
       initSearch();
+      initLightbox();
+      initConnectivityToasts();
 
       if ('serviceWorker' in navigator && !import.meta.env.DEV) {
         window.addEventListener('load', () => {
-          void navigator.serviceWorker.register(
-            import.meta.env.BASE_URL.replace(/\/?$/, '/') + 'sw.js',
-          );
+          void navigator.serviceWorker
+            .register(import.meta.env.BASE_URL.replace(/\/?$/, '/') + 'sw.js')
+            .then(watchServiceWorkerUpdate)
+            .catch(() => {});
         });
       }
     </script>

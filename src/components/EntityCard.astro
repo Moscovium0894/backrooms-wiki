@@ -10,7 +10,12 @@ const { entity } = Astro.props;
 const thumb = thumbOf(entity);
 ---
 
-<a class="card" href={withBase(`entities/${entity.id}/`)}>
+<a
+  class="card"
+  href={withBase(`entities/${entity.id}/`)}
+  data-entity-card
+  data-danger={entity.dangerLabel.toLowerCase()}
+>
   {
     thumb ? (
       <img

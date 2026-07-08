@@ -21,4 +21,6 @@ const { sourceUrl } = Astro.props;
   licensed <a href={meta.licenseUrl} rel="noopener nofollow" target="_blank">{meta.license}</a>.
   <br />
   Unofficial fan guide for Escape the Backrooms (Fancy Games). Not affiliated.
+  <br />
+  Content synced {meta.fetchedAt?.slice(0, 10) ?? '—'}
 </footer>

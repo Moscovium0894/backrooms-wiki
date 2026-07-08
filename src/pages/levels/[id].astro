@@ -50,7 +50,12 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
   activeTab="levels"
   sourceUrl={level.sourceUrl}
 >
-  <CaseFileHeader code={level.name} sub={level.subtitle} fileTag={fileTag}>
+  <CaseFileHeader
+    code={level.name}
+    sub={level.subtitle}
+    fileTag={fileTag}
+    crumb={{ href: withBase('levels/'), label: 'Levels' }}
+  >
     <DifficultyBadge label={level.difficultyLabel} fill />
     {level.part && <span class="badge" style="--badge-c:var(--ink-soft)">PART {level.part}</span>}
     {level.kind === 'secret' && <span class="badge" style="--badge-c:var(--class-deadzone)">SECRET</span>}
@@ -58,6 +63,11 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
       <span class="badge" style="--badge-c:var(--ink-soft)">FILE PENDING</span>
     )}
   </CaseFileHeader>
+
+  <div class="minibar" id="minibar" hidden>
+    <span class="minibar-code">{level.name}{level.subtitle ? ` · ${level.subtitle}` : ''}</span>
+    <span class="minibar-count" data-minibar-count></span>
+  </div>
 
   {
     hero && (
@@ -68,6 +78,7 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
         width={hero.width}
         height={hero.height}
         decoding="async"
+        fetchpriority="high"
       />
     )
   }
@@ -229,7 +240,38 @@ const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `RO
   <script>
     import { initChecklist } from '../../scripts/checklist';
     import { initSwipeNav } from '../../scripts/swipe';
+    import { levelState, subscribe } from '../../scripts/progress';
     initChecklist();
     initSwipeNav();
+
+    // slim sticky bar with level code + escape-log count once the masthead scrolls away
+    const minibar = document.getElementById('minibar');
+    const masthead = document.querySelector('.case-header');
+    const header = document.querySelector<HTMLElement>('.app-header');
+    const panel = document.querySelector<HTMLElement>('[data-checklist]');
+    if (minibar && masthead && header) {
+      const place = () => {
+        minibar.style.top = `${header.getBoundingClientRect().height}px`;
+      };
+      place();
+      window.addEventListener('resize', place, { passive: true });
+      new IntersectionObserver(
+        ([entry]) => {
+          minibar.hidden = false;
+          minibar.classList.toggle('minibar--show', !entry!.isIntersecting);
+        },
+        { rootMargin: '-60px 0px 0px 0px' },
+      ).observe(masthead);
+
+      const count = minibar.querySelector('[data-minibar-count]');
+      const paint = () => {
+        if (!count || !panel) return;
+        const st = levelState(panel.dataset.checklist!);
+        const total = Number(panel.dataset.total ?? '0');
+        count.textContent = st.done ? '✓ CLEARED' : `${st.checks.length}/${total}`;
+      };
+      paint();
+      subscribe(paint);
+    }
   </script>
 </BaseLayout>

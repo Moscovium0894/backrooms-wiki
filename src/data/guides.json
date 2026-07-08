@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 12,
-  "fetchedAt": "2026-07-08T14:06:49+00:00",
+  "count": 13,
+  "fetchedAt": "2026-07-08T15:17:54+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -238,7 +238,7 @@
    "relatedLevelIds": [],
    "sections": [
     {
-     "html": "<p>When you spawn in there are tables nearby with many items to use so grab some to keep yourself sane. Be sure to take a <a href=\"#APP#/items/flashlight/\">flashlight</a>. Proceed forward to the middle of the room and you'll see tables with computers, <a href=\"#APP#/items/camera/\">cameras</a>, and a note. When you pick up the camera and hold it out you will see a photo on it (this is what you must take a picture of). If on Multiplayer your first image will be to take a photo of another player (or multiple). After this first image or if on Singleplayer take the elevator down.\n</p><p>The lever will switch between going up and down. Between it will be to stop it entirely. So remember this since you can use it to escape from any entities you will encounter.\n</p><p>The first layer resembles <a href=\"#APP#/guides/level-0-2-and-level-0-1-guide/\">Level 0.2</a>, your first image if on Singleplayer is to take a picture of the Graffiti on the wall, then search around for an opening into Level 0 and take a picture of that. \n</p><p><b>NOTE:</b> For the photos taken you might need to get closer than you think for it to count, you will know if it counted if the photo on the camera changes to the next one you need to take.\n</p><p>After this layer head down into the 2nd layer that resembles Level 0.3. Down here you will need to locate a Van to take a picture of it. Around the layer is some Lockers you can hide in. You can see where this is going, your next picture is to take one of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>. Which is dangerous since it blends into the darkness. This is 1 reason why I stated to take a flashlight with you. \n</p><p>After this layer head down into the final one, it resembles Level 0.11. Down here is your final 2 pictures. There are many <a href=\"#APP#/entities/smiler/\">Smilers</a> down here so use the flashlight to kill them. They do not respawn so wait by the elevator so they come to you and they will die 1 by 1. Once you don't see anymore Smilers you only have to worry about a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a>. \n</p><p>Look around the layer for some Moai Statues to take a photo of. Your final picture is of the Skin-Stealer itself. Due note that you do NOT need it to be in its true form. If it's disguised and you sneak up to take a photo it will still count. There are some lockers to hide in, as for the previous floor. \n</p><p>After you take this final photo a hatch above the elevator will open up. Take the elevator all the way up and enter this hidden layer. It is an overgrown area and there is a door you can open that leads into a bright pit. Jump down and you will get 1 of the game's endings (Currently it is the ONLY ending).\n</p>",
+     "html": "<p>When you spawn in there are tables nearby with many items to use so grab some to keep yourself sane. Be sure to take a <a href=\"#APP#/items/flashlight/\">flashlight</a>. Proceed forward to the middle of the room and you'll see tables with computers, <a href=\"#APP#/items/camera/\">cameras</a>, and a note. When you pick up the camera and hold it out you will see a photo on it (this is what you must take a picture of). If on Multiplayer your first image will be to take a photo of another player (or multiple). After this first image or if on Singleplayer take the elevator down.\n</p><p>The lever will switch between going up and down. Between it will be to stop it entirely. So remember this since you can use it to escape from any entities you will encounter.\n</p><p>The first layer resembles <a href=\"#APP#/guides/level-0-2-and-level-0-1-guide/\">Level 0.2</a>, your first image if on Singleplayer is to take a picture of the Graffiti on the wall, then search around for an opening into Level 0 and take a picture of that. \n</p><p><b>NOTE:</b> For the photos taken you might need to get closer than you think for it to count, you will know if it counted if the photo on the camera changes to the next one you need to take.\n</p><p>After this layer head down into the 2nd layer that resembles Level 0.3. Down here you will need to locate a Van to take a picture of it. Around the layer is some Lockers you can hide in. You can see where this is going, your next picture is to take one of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>. Which is dangerous since it blends into the darkness. This is 1 reason why I stated to take a flashlight with you. \n</p><p>After this layer head down into the final one, it resembles Level 0.11. Down here is your final 2 pictures. There are many <a href=\"#APP#/entities/smiler/\">Smilers</a> down here so use the flashlight to kill them. They do not respawn so wait by the elevator so they come to you and they will die 1 by 1. Once you don't see anymore Smilers you only have to worry about a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a>. \n</p><p>Look around the layer for some <a href=\"#APP#/entities/moai-statue/\">Moai Statues</a> to take a photo of. Your final picture is of the Skin-Stealer itself. Due note that you do NOT need it to be in its true form. If it's disguised and you sneak up to take a photo it will still count. There are some lockers to hide in, as for the previous floor. \n</p><p>After you take this final photo a hatch above the elevator will open up. Take the elevator all the way up and enter this hidden layer. It is an overgrown area and there is a door you can open that leads into a bright pit. Jump down and you will get 1 of the game's endings (Currently it is the ONLY ending).\n</p>",
      "title": "Instructions"
     }
    ],
@@ -520,6 +520,97 @@
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Achievements",
    "summary": "Achievements are unlockable badges through steam by completing certain tasks. In Escape the Backrooms, there are 34 obtainable Achievements, most of which are for escaping levels. Achievements can also be reset through the settings menu in the game category.",
    "title": "Achievements"
+  },
+  {
+   "id": "full-game-guide",
+   "images": [
+    {
+     "file": "guides/full-game-guide/hero.png",
+     "height": 666,
+     "role": "hero",
+     "sourceFile": "File:Level 7 Map.png",
+     "width": 800
+    },
+    {
+     "file": "guides/full-game-guide/thumb.png",
+     "height": 266,
+     "role": "thumb",
+     "sourceFile": "File:Level 7 Map.png",
+     "width": 320
+    },
+    {
+     "file": "guides/full-game-guide/body-1.png",
+     "height": 473,
+     "role": "body",
+     "sourceFile": "File:Level 0 Map.png",
+     "width": 640
+    },
+    {
+     "file": "guides/full-game-guide/body-2.png",
+     "height": 504,
+     "role": "body",
+     "sourceFile": "File:HowlerIngame.png",
+     "width": 363
+    },
+    {
+     "file": "guides/full-game-guide/body-3.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 1 first section.jpg",
+     "width": 640
+    },
+    {
+     "file": "guides/full-game-guide/body-4.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 1 second section (1).jpg",
+     "width": 640
+    }
+   ],
+   "relatedLevelIds": [
+    "level-10",
+    "level-37",
+    "level-94",
+    "level-9",
+    "level-1",
+    "level-0",
+    "level-0-11",
+    "level-55-1",
+    "the-hub",
+    "level-0-1",
+    "level-2",
+    "level-exclamation",
+    "level-exclamation-tilde-exclamation",
+    "level-3",
+    "level-5",
+    "level-fun",
+    "level-fun-plus",
+    "level-52",
+    "level-6",
+    "level-8",
+    "level-3999",
+    "level-0-2",
+    "the-snackrooms",
+    "level-188",
+    "level-37-2"
+   ],
+   "sections": [
+    {
+     "html": "<p><i>Note: This guide is currently outdated as it doesn't document any Version 1.0 levels or additions!</i>\n</p>",
+     "title": null
+    },
+    {
+     "html": "<p>Escape The Backrooms is an indie game made by Fancy Games. It first released on August 11th, 2022. Part 2 released on January 12th, 2023, Part 3 released on June 15th, 2023, Part 4 released on January 25th, 2024 and Part 5 released on October 23rd, 2025. In this guide, you will understand general information on every level, how to beat every level, how to handle threats, as well as information on each item. There are also a few movement techs to learn that will assist your game. If you are interested in speedrunning the game, you can find a guide for that here. This guide will only be covering information relevant to the latest version of the game, so older versions may have more or less things to be aware of.\n</p><p><b>A big part of the guide is made by Roystbit with help from Ghost, The, and CROSSANT.</b>\n</p>",
+     "title": "Prologue"
+    },
+    {
+     "html": "<p><b><u>Stamina:</u></b> The duration of time you can run before you are exhausted. By default (no stamina boosts), you can run for 4 seconds straight, after which you will not be able to run for 4 seconds. Stamina is also expended as long as you are moving and holding the run key, so if you hold down the run key while you are sneaking (crouching and walking at the same time), you will become exhausted even though you did not actually move at a running speed.\n</p><p>There are items such as the <a href=\"#APP#/items/energy-bar/\">Energy Bar</a> and <a href=\"#APP#/items/juice/\">Juice</a> that improve your stamina and running speed. The Energy Bar gives you 125 stamina points allowing you to run for 12.5 seconds straight, and the Juice allows you to sprint, running 30% faster, for 10 seconds. <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a> has the benefits of both the Energy Bar and Juice.\n</p><p>It should also be noted that when you are in a chase sequence, you have infinite stamina until the chase is over. You should be careful expending all of your stamina when there are entities nearby (and you are not in a chase sequence yet), since if you exhaust yourself, you will need to wait to recover your stamina, even if you end up being chased while you are tired.\n</p><p><b><u>Sanity:</u></b> A meter found in your inventory that depletes when you are in dangerous levels (but the meter does not deplete on Easy mode). Some levels deplete sanity faster than other levels, making management of your time and items essential to beating the level.\n</p><p>You can restore your sanity by consuming food items like <a href=\"#APP#/items/almond-water/\">Almond Water</a>, <a href=\"#APP#/items/juice/\">Juice</a>, <a href=\"#APP#/items/energy-bar/\">Energy Bars</a>, and <a href=\"#APP#/items/moth-jelly/\">Moth Jelly</a>. Almond Water is the only food item that restores 50% sanity; every other food item restores 25% sanity.\n</p><p>If your sanity is at 15%, <a href=\"#APP#/entities/smiler/\">Smilers</a> will appear as hallucinations around you as a warning. If your sanity runs out, then you will die even if you finish consuming something to gain sanity.\n</p><p><b><u>Bunny-hopping:</u></b> A movement-tech that allows you to travel, such that you lose minimal stamina. You press the run key (Shift by default), jump, then you release the run key as soon as you are in the air. Once you land back on the ground, you repeat the process cyclically. Level 2 (Pipe Dreams) is a good level to practice bunny-hopping (abbreviated to \"b-hopping\"). With enough practice, you will be able to reach the end of the level without expending all of your stamina.\n</p><p>A guide for b-hopping in Escape The Backrooms can be found <a href=\"https://www.youtube.com/watch?v=SEhV697lZVU\" rel=\"noopener nofollow\" target=\"_blank\">here</a>.\n</p><p><b><u>Crouch-jumping:</u></b> A movement tech that allows you to crouch after jumping, while you're in the air. You jump, then press the crouch key (Ctrl by default). You can use crouch-jumping to reach slightly higher spaces that the player is not able to land on by jumping normally.\n</p><p>Crouch-jumping can also be combined with b-hopping to allow you to reach more previously inaccessible areas.\n</p><p><b><u>View Distance at Low:</u></b> By turning your View Distance all the way to the Low setting, you will have the ability to see through some walls and floors. A good example is <a href=\"#APP#/levels/level-10/\">Level 10</a>, where the wheat-field will not render wheat until you get near it, allowing you to see some of the field, and will allow you to see <a href=\"#APP#/entities/faceling/\">Facelings</a> that try to nab you in the beginning of the level.\n</p><p><b><u>Shadows at Low or Medium:</u></b> By turning your Shadows all the way to the Low setting, some areas will be much easier to see due to lack of ambient lighting and shadows caused by high visual settings, and the game's performance can improve (if lag was an issue). This does also present some visual bugs, like in The Manilla Room where the shadow puzzle does not render any shadows projected by the sculpture.   \n</p>\n<h4>Recommended Shadows settings for different levels:</h4>\n<p><a href=\"#APP#/levels/level-37/\">Level 37 (The Poolrooms)</a> - Medium\n</p><p>Reason: Visibility - limited visibility due to thick ambient \"fog\"\n</p><p><a href=\"#APP#/levels/level-94/\">Level 94</a> - Medium\n</p><p>Reason: Visibility - limited visibility due to thick ambient fog\n</p><p><a href=\"#APP#/levels/level-9/\">Level 9 (Darkened Suburbs)</a> - Medium\n</p><p>Reason: Visibility - limited visibility due to thick ambient fog on Low Settings\n</p><p><a href=\"#APP#/levels/level-10/\">Level 10</a> - Low\n</p><p>Reason: Visibility - limited visibility due to thick ambient fog on Medium settings or higher \n</p><p><b><u>Hitboxes:</u></b> Although many areas are safe behind closed doors, entities can still manage to kill you if you and the entity are both against a wall or door that is thin enough. This is because the wall only prevents pathing, not attacks (especially the <a href=\"#APP#/entities/aranea-membri/\">Aranea Membri</a> and the <a href=\"#APP#/entities/the-neighborhood-watch/\">Neighborhood Watch</a>). Therefore, after reprieve from a chase you should stay away from doors and walls that the entity shares with you. \n</p><p><b><u>Keybinds:</u></b> It is recommended to re-bind your controls if you find that the default controls are not convenient for you to use.\n</p><p>Potential re-binds that may benefit you are <u>Interact: Right-Mouse Button</u> (F key by default) and <u>Inventory: Tab key</u> (I key by default).\n</p>",
+     "title": "Useful Knowledge And Tactics"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Full_Game_Guide",
+   "summary": "Note: This guide is currently outdated as it doesn't document any Version 1.0 levels or additions!",
+   "title": "Field Tactics"
   }
  ]
 }

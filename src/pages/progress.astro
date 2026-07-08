@@ -5,9 +5,10 @@ import ProgressRing from '../components/ProgressRing.astro';
 import { mainPath, secretLevels } from '../lib/data';
 
 const embed = {
-  main: mainPath.map((l) => ({ id: l.id, name: l.name, sub: l.subtitle })),
-  secret: secretLevels.map((l) => ({ id: l.id, name: l.name, sub: l.subtitle })),
+  main: mainPath.map((l) => ({ id: l.id, name: l.name, sub: l.subtitle, part: l.part })),
+  secret: secretLevels.map((l) => ({ id: l.id, name: l.name, sub: l.subtitle, part: l.part })),
 };
+const parts = [...new Set(mainPath.map((l) => l.part).filter((p) => p !== null))].sort() as number[];
 ---
 
 <BaseLayout title="Progress" activeTab="progress">
@@ -27,6 +28,27 @@ const embed = {
       </div>
     </div>
   </section>
+
+  {
+    parts.length > 1 && (
+      <section class="panel">
+        <span class="panel-label">By content drop</span>
+        <div class="part-bars">
+          {parts.map((p) => (
+            <div class="part-row" data-part-row={p}>
+              <span class="part-name">Part {p}</span>
+              <span class="part-track">
+                <span class="part-fill" data-part-fill />
+              </span>
+              <span class="part-count" data-part-count>
+                —
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  }
 
   <section class="panel">
     <span class="panel-label">Cleared level files</span>
@@ -66,7 +88,7 @@ const embed = {
   <script>
     import { load, replaceStore, subscribe, type Store } from '../scripts/progress';
 
-    type Row = { id: string; name: string; sub: string | null };
+    type Row = { id: string; name: string; sub: string | null; part: number | null };
     const data = JSON.parse(
       document.getElementById('progress-data')?.textContent ?? '{"main":[],"secret":[]}',
     ) as { main: Row[]; secret: Row[] };
@@ -95,6 +117,16 @@ const embed = {
         '--frac',
         data.main.length ? String(doneMain.length / data.main.length) : '0',
       );
+      for (const row of document.querySelectorAll<HTMLElement>('[data-part-row]')) {
+        const p = Number(row.dataset.partRow);
+        const all = data.main.filter((l) => l.part === p);
+        const done = all.filter((l) => store.levels[l.id]?.done).length;
+        row
+          .querySelector<HTMLElement>('[data-part-fill]')
+          ?.style.setProperty('width', all.length ? `${(done / all.length) * 100}%` : '0%');
+        const count = row.querySelector('[data-part-count]');
+        if (count) count.textContent = `${done}/${all.length}`;
+      }
       if (list) {
         const all = [...doneMain, ...doneSecret];
         list.innerHTML = all.length

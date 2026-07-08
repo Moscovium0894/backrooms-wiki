@@ -7,6 +7,7 @@ export interface SearchRecord {
   s: string; // subtitle / summary head
   u: string; // app-relative url (no base)
   k: 'level' | 'entity' | 'item' | 'guide';
+  a?: string; // extra alias text (species, subtitle) matched at title weight
 }
 
 function head(text: string, n = 90): string {
@@ -24,7 +25,13 @@ export function buildSearchIndex(): SearchRecord[] {
     });
   }
   for (const e of entities) {
-    recs.push({ t: e.name, s: head(e.summary), u: `entities/${e.id}/`, k: 'entity' });
+    recs.push({
+      t: e.name,
+      s: head(e.summary),
+      u: `entities/${e.id}/`,
+      k: 'entity',
+      ...(e.species ? { a: e.species } : {}),
+    });
   }
   for (const i of items) {
     recs.push({ t: i.name, s: head(i.summary), u: `items/${i.id}/`, k: 'item' });

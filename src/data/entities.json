@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-08T14:07:10+00:00",
+  "fetchedAt": "2026-07-08T15:17:54+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -41,7 +41,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-94"
+   ],
    "name": "Animation",
    "sections": [
     {
@@ -116,7 +118,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-188",
+    "level-you-cheated"
+   ],
    "name": "Aranea Membri",
    "sections": [
     {
@@ -187,7 +192,14 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-0",
+    "level-0-11",
+    "level-0-3",
+    "level-37",
+    "level-55-1",
+    "overgrowth"
+   ],
    "name": "Bacteria",
    "sections": [
     {
@@ -253,7 +265,11 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-0-2",
+    "overgrowth",
+    "the-snackrooms"
+   ],
    "name": "Bone Thief",
    "sections": [
     {
@@ -311,7 +327,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-exclamation-tilde-exclamation",
+    "level-37-2"
+   ],
    "name": "Clump",
    "sections": [
     {
@@ -374,7 +393,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-1",
+    "level-10"
+   ],
    "name": "Faceling",
    "sections": [
     {
@@ -432,7 +454,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-5",
+    "level-8"
+   ],
    "name": "Female Deathmoth",
    "sections": [
     {
@@ -490,7 +515,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-1"
+   ],
    "name": "Ghost Smiler",
    "sections": [
     {
@@ -544,7 +571,12 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-1",
+    "level-3",
+    "level-5",
+    "level-8"
+   ],
    "name": "Hound",
    "sections": [
     {
@@ -606,7 +638,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-37",
+    "level-37-2"
+   ],
    "name": "Hydrolitis Plague",
    "sections": [
     {
@@ -667,7 +702,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-9"
+   ],
    "name": "Jerry",
    "sections": [
     {
@@ -724,7 +761,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-2"
+   ],
    "name": "Lighthead",
    "sections": [
     {
@@ -774,7 +813,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-5",
+    "level-9"
+   ],
    "name": "Male Deathmoth",
    "sections": [
     {
@@ -828,7 +870,11 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-0-11",
+    "level-55-1",
+    "level-moyai"
+   ],
    "name": "Moai Statue",
    "sections": [
     {
@@ -895,7 +941,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-974"
+   ],
    "name": "Mr. Kitty",
    "sections": [
     {
@@ -957,7 +1005,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-fun",
+    "level-fun-plus"
+   ],
    "name": "Party Host",
    "sections": [
     {
@@ -1020,7 +1071,13 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-exclamation",
+    "level-52",
+    "level-fun",
+    "level-fun-plus",
+    "the-afterparty"
+   ],
    "name": "Partygoer",
    "sections": [
     {
@@ -1086,7 +1143,13 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-52",
+    "level-55-1",
+    "level-fun-plus",
+    "level-you-cheated",
+    "the-afterparty"
+   ],
    "name": "Partypooper",
    "sections": [
     {
@@ -1153,7 +1216,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-1",
+    "the-end"
+   ],
    "name": "Scratcher",
    "sections": [
     {
@@ -1215,7 +1281,14 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-0-1",
+    "level-1",
+    "level-5",
+    "level-55-1",
+    "level-8",
+    "the-bunker"
+   ],
    "name": "Skin-Stealer",
    "sections": [
     {
@@ -1302,7 +1375,15 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-exclamation",
+    "level-exclamation-tilde-exclamation",
+    "level-0-1",
+    "level-1",
+    "level-2",
+    "level-55-1",
+    "level-94"
+   ],
    "name": "Smiler",
    "sections": [
     {
@@ -1373,7 +1454,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-94",
+    "level-6"
+   ],
    "name": "The Animated King",
    "sections": [
     {
@@ -1442,7 +1526,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-9"
+   ],
    "name": "The Neighborhood Watch",
    "sections": [
     {
@@ -1517,7 +1603,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-7"
+   ],
    "name": "The Thing on Level 7",
    "sections": [
     {
@@ -1652,7 +1740,12 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-0",
+    "level-974",
+    "overgrowth",
+    "the-bunker"
+   ],
    "name": "Wanderer",
    "sections": [
     {
@@ -1706,7 +1799,10 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-188",
+    "level-4"
+   ],
    "name": "Windows",
    "sections": [
     {
@@ -1760,7 +1856,12 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-8",
+    "level-9",
+    "level-6",
+    "the-hub"
+   ],
    "name": "Wretch",
    "sections": [
     {
