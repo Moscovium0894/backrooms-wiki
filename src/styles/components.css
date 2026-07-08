@@ -2163,3 +2163,14 @@ div[id="log"] {
   color: var(--paper);
   border-color: var(--safe);
 }
+
+/* ---------- installed (standalone) mode ---------- */
+@media (display-mode: standalone) {
+  .app-header {
+    min-height: 44px;
+  }
+
+  .wordmark .tag {
+    display: none; /* tighter header when running as an installed app */
+  }
+}

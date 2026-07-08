@@ -1,0 +1,53 @@
+name: Refresh wiki content
+
+# Nightly re-scrape of the Escape the Backrooms wiki. Commits new data only
+# when it changed AND validation passes, then dispatches the Pages deploy
+# (pushes made with GITHUB_TOKEN don't trigger workflows on their own).
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-content
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Scrape wiki
+        run: python3 scripts/fetch_wiki.py
+      - name: Validate data
+        run: python3 scripts/validate_data.py
+      - name: Commit and push if content changed
+        id: commit
+        run: |
+          git add src/data public/images
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No content changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Nightly content refresh from the wiki"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main --repo "$GITHUB_REPOSITORY"

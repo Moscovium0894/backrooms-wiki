@@ -42,6 +42,20 @@ async function walk(dir, rel = '') {
 }
 await walk(dist);
 
+// main-path level thumbnails: the map's bottom-sheet previews work offline
+try {
+  const levels = JSON.parse(
+    await readFile(path.join(root, 'src', 'data', 'levels.json'), 'utf8'),
+  ).items;
+  for (const l of levels) {
+    if (l.kind !== 'main') continue;
+    const thumb = l.images.find((i) => i.role === 'thumb') ?? l.images.find((i) => i.role === 'hero');
+    if (thumb) precache.add(BASE + 'images/' + thumb.file);
+  }
+} catch {
+  /* levels.json empty during scaffold builds */
+}
+
 const swPath = path.join(dist, 'sw.js');
 let sw = await readFile(swPath, 'utf8');
 sw = sw
