@@ -61,6 +61,24 @@ try {
   await node.click({ force: true });
   await page.waitForTimeout(400);
   check('sheet opens', await page.locator('#level-sheet.sheet--open').isVisible());
+  // sheet text must be dark ink on the paper panel, not inherited cream
+  const sheetContrast = await page.evaluate(() => {
+    const lum = (el) => {
+      const [r, g, b] = getComputedStyle(el)
+        .color.match(/\d+/g)
+        .map(Number);
+      return (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+    };
+    return {
+      kind: lum(document.getElementById('sheet-kind')),
+      title: lum(document.getElementById('sheet-title')),
+    };
+  });
+  check(
+    'sheet text is dark on paper',
+    sheetContrast.kind < 0.45 && sheetContrast.title < 0.45,
+    JSON.stringify(sheetContrast),
+  );
   await page.screenshot({ path: SHOTS + 'sheet.png' });
   await page.locator('#sheet-open').click();
   await page.waitForURL('**/levels/**');

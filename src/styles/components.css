@@ -183,10 +183,14 @@ body.theme-dark .filecode {
   color: var(--paper-dim);
 }
 
-/* paper surfaces keep ink text even inside dark pages */
+/* paper surfaces keep ink text even inside dark pages — must outrank
+   the body.theme-dark rule above */
 .panel .filecode,
 .sheet .filecode,
-.search-overlay .filecode {
+.search-overlay .filecode,
+body.theme-dark .panel .filecode,
+body.theme-dark .sheet .filecode,
+body.theme-dark .search-overlay .filecode {
   color: var(--ink-soft);
 }
 
