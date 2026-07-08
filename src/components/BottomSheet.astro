@@ -1,0 +1,30 @@
+---
+// Level preview bottom sheet for the route map. Logic in scripts/sheet.ts.
+---
+
+<div id="sheet-backdrop" class="sheet-backdrop" hidden></div>
+<section
+  id="level-sheet"
+  class="sheet"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Level preview"
+  hidden
+>
+  <button class="sheet-handle" type="button" aria-label="Close preview">
+    <span></span>
+  </button>
+  <div class="sheet-body">
+    <img id="sheet-thumb" class="sheet-thumb" alt="" width="96" height="72" hidden />
+    <div class="sheet-text">
+      <p class="filecode" id="sheet-kind">LEVEL FILE</p>
+      <h2 id="sheet-title" class="sheet-title">—</h2>
+      <p id="sheet-summary" class="sheet-summary"></p>
+      <p class="sheet-badges"><span id="sheet-badge" class="badge">—</span></p>
+    </div>
+  </div>
+  <div class="sheet-actions">
+    <a id="sheet-open" class="btn" href="#">Open file →</a>
+    <button id="sheet-done" class="btn btn--ghost" type="button">Mark cleared</button>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+---
+// Wraps spoiler content behind a tap-to-reveal redaction panel.
+// Global reveal: html[data-spoilers="full"] (see spoiler.ts + components.css).
+
+interface Props {
+  label?: string;
+}
+const { label = 'WALKTHROUGH' } = Astro.props;
+---
+
+<div class="redaction">
+  <button class="redaction-cover" type="button">
+    <span>▮▮ {label} — REDACTED ▮▮</span>
+    <span class="sub">TAP TO REVEAL · OR SET INTEL: FULL</span>
+  </button>
+  <div class="redaction-body">
+    <slot />
+  </div>
+</div>

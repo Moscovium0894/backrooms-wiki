@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { guides } from '../../lib/data';
+import { withBase } from '../../lib/url';
+---
+
+<BaseLayout title="Guides" activeTab="guides">
+  <h1 class="visually-hidden">Guides</h1>
+  <div class="case-header">
+    <p class="filecode">FIELD DOCUMENTS · {guides.length} ON RECORD</p>
+    <h2 style="border:0;margin:0" class="code">Guides</h2>
+  </div>
+  <div class="card-grid">
+    {
+      guides.map((g) => (
+        <a class="card" href={withBase(`guides/${g.id}/`)}>
+          <span class="card-body" style="padding-left:12px">
+            <span class="card-title">{g.title}</span>
+            {g.summary && <span class="card-sub">{g.summary}</span>}
+          </span>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>

@@ -1,0 +1,64 @@
+---
+import type { Level } from '../types';
+import { thumbOf } from '../lib/data';
+import { imageUrl, withBase } from '../lib/url';
+import DifficultyBadge from './DifficultyBadge.astro';
+
+interface Props {
+  level: Level;
+}
+const { level } = Astro.props;
+const thumb = thumbOf(level);
+const kindTag =
+  level.kind === 'secret'
+    ? 'SECRET'
+    : level.kind === 'joke'
+      ? 'JOKE FILE'
+      : level.kind === 'upcoming' || level.kind === 'nonplayable'
+        ? 'FILE PENDING'
+        : null;
+---
+
+<a
+  class="card level-card"
+  href={withBase(`levels/${level.id}/`)}
+  data-level-card={level.id}
+  data-name={`${level.name} ${level.subtitle ?? ''}`.toLowerCase()}
+  data-difficulty={level.difficultyLabel}
+  data-kind={level.kind}
+  data-part={level.part ?? ''}
+>
+  {
+    thumb ? (
+      <img
+        class="thumb"
+        src={imageUrl(thumb.file)}
+        alt=""
+        width={thumb.width}
+        height={thumb.height}
+        loading="lazy"
+        decoding="async"
+      />
+    ) : (
+      <span class="thumb thumb--empty">No photograph on file</span>
+    )
+  }
+  <span class="card-body">
+    <span class="card-title">
+      {level.name}
+      {level.subtitle && <span class="quoted"> — {level.subtitle}</span>}
+    </span>
+    {level.summary && <span class="card-sub">{level.summary}</span>}
+    <span class="card-meta">
+      <DifficultyBadge label={level.difficultyLabel} />
+      {kindTag && <span class="badge" style="--badge-c:var(--ink-soft)">{kindTag}</span>}
+      {
+        level.entities.length > 0 && (
+          <span class="badge" style="--badge-c:var(--hazard)">
+            {level.entities.length} ENT
+          </span>
+        )
+      }
+    </span>
+  </span>
+</a>

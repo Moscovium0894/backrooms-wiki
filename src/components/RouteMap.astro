@@ -1,0 +1,100 @@
+---
+// The signature page: a vertical, thumb-scrollable subway map of the route
+// through the Backrooms. Rendered as one inline SVG laid out at build time.
+
+import { buildMapLayout } from '../lib/mapLayout';
+import { difficultyColorVar, levelById, thumbOf } from '../lib/data';
+import { imageUrl, withBase } from '../lib/url';
+
+const layout = buildMapLayout();
+
+// data for the bottom-sheet previews + keyboard nav, embedded once
+const sheetData: Record<string, unknown> = {};
+for (const n of layout.nodes) {
+  const l = levelById.get(n.id)!;
+  const thumb = thumbOf(l);
+  sheetData[n.id] = {
+    name: l.name,
+    subtitle: l.subtitle,
+    difficultyLabel: l.difficultyLabel,
+    summary: l.summary.split('. ')[0] + (l.summary.includes('. ') ? '.' : ''),
+    href: withBase(`levels/${l.id}/`),
+    thumb: thumb ? imageUrl(thumb.file) : null,
+    kind: n.kind,
+    parentId: n.parentId ?? null,
+  };
+}
+const mainIds = layout.nodes.filter((n) => n.kind === 'main').map((n) => n.id);
+---
+
+<div class="route-map">
+  <svg
+    viewBox={`0 0 ${layout.width} ${layout.height}`}
+    width={layout.width}
+    height={layout.height}
+    role="group"
+    aria-label="Route map of all levels"
+  >
+    {layout.edges.map((e) => <path class={`map-edge map-edge--${e.kind}`} d={e.d}></path>)}
+
+    {
+      layout.dividers.map((d) => (
+        <g class="map-divider">
+          <line x1="18" y1={d.y} x2={layout.width - 18} y2={d.y} />
+          <text x="18" y={d.y - 8}>
+            {d.label}
+          </text>
+        </g>
+      ))
+    }
+
+    {
+      layout.nodes.map((n) => (
+        <g
+          class={`map-node map-node--${n.kind}`}
+          data-map-node={n.id}
+          tabindex="0"
+          role="button"
+          aria-label={`${n.name}${n.subtitle ? `, ${n.subtitle}` : ''}, ${n.difficultyLabel}`}
+          style={`--node-c:${difficultyColorVar(n.difficultyLabel)}`}
+          transform={`translate(${n.x} ${n.y})`}
+        >
+          <circle class="halo" r="26" />
+          <circle class="node-ring" r="17" />
+          <text class="node-code" text-anchor="middle" dy="0.36em">
+            {n.code}
+          </text>
+          <g class="node-check" aria-hidden="true">
+            <circle r="17" />
+            <path d="M -6 0.5 L -1.5 5 L 7 -5" />
+          </g>
+          <text class={`node-name ${n.kind === 'secret' ? 'node-name--above' : ''}`} x={n.kind === 'secret' ? 0 : 30} y={n.kind === 'secret' ? -26 : 0} text-anchor={n.kind === 'secret' ? 'middle' : 'start'} dy={n.kind === 'secret' ? 0 : '-0.1em'}>
+            {n.name}
+          </text>
+          {n.subtitle && n.kind === 'main' && (
+            <text class="node-sub" x="30" y="14">
+              {n.subtitle}
+            </text>
+          )}
+        </g>
+      ))
+    }
+  </svg>
+
+  {
+    layout.detached.length > 0 && (
+      <div class="panel panel--dim detached">
+        <span class="panel-label">Detached files — location unconfirmed</span>
+        <div class="rail">
+          {layout.detached.map((l) => (
+            <a class="chip" href={withBase(`levels/${l.id}/`)}>
+              {l.name}
+            </a>
+          ))}
+        </div>
+      </div>
+    )
+  }
+</div>
+
+<script type="application/json" id="map-data" set:html={JSON.stringify({ sheet: sheetData, mainIds })} />

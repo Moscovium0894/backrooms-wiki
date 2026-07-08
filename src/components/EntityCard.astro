@@ -1,0 +1,46 @@
+---
+import type { Entity } from '../types';
+import { dangerColorVar, thumbOf } from '../lib/data';
+import { imageUrl, withBase } from '../lib/url';
+
+interface Props {
+  entity: Entity;
+}
+const { entity } = Astro.props;
+const thumb = thumbOf(entity);
+---
+
+<a class="card" href={withBase(`entities/${entity.id}/`)}>
+  {
+    thumb ? (
+      <img
+        class="thumb"
+        src={imageUrl(thumb.file)}
+        alt=""
+        width={thumb.width}
+        height={thumb.height}
+        loading="lazy"
+        decoding="async"
+      />
+    ) : (
+      <span class="thumb thumb--empty">No photograph on file</span>
+    )
+  }
+  <span class="card-body">
+    <span class="card-title">{entity.name}</span>
+    {entity.summary && <span class="card-sub">{entity.summary}</span>}
+    <span class="card-meta">
+      <span class="badge" style={`--badge-c:${dangerColorVar(entity.dangerLabel)}`}>
+        <span class="dot" aria-hidden="true"></span>
+        {entity.dangerLabel}
+      </span>
+      {
+        entity.levels.length > 0 && (
+          <span class="badge" style="--badge-c:var(--ink-soft)">
+            {entity.levels.length} {entity.levels.length === 1 ? 'LEVEL' : 'LEVELS'}
+          </span>
+        )
+      }
+    </span>
+  </span>
+</a>

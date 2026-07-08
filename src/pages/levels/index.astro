@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LevelCard from '../../components/LevelCard.astro';
+import { bonusLevels, mainPath, secretLevels } from '../../lib/data';
+
+const classes = [
+  ...new Set(
+    [...mainPath, ...secretLevels, ...bonusLevels].map((l) => l.difficultyLabel),
+  ),
+].sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
+
+const groups = [
+  { key: 'main', label: 'Main route', levels: mainPath },
+  { key: 'secret', label: 'Secret levels', levels: secretLevels },
+  { key: 'bonus', label: 'Annex — areas, jokes & pending files', levels: bonusLevels },
+];
+---
+
+<BaseLayout title="Levels" activeTab="levels">
+  <h1 class="visually-hidden">Levels</h1>
+
+  <div class="filters" id="level-filters">
+    <input
+      id="level-filter-name"
+      class="filter-input"
+      type="search"
+      placeholder="FILTER BY NAME…"
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck="false"
+    />
+    <div class="rail filter-rail" role="group" aria-label="Filter by difficulty">
+      <button class="chip on" type="button" data-filter-class="*" aria-pressed="true">All</button>
+      {
+        classes.map((c) => (
+          <button class="chip" type="button" data-filter-class={c} aria-pressed="false">
+            {c}
+          </button>
+        ))
+      }
+    </div>
+  </div>
+
+  {
+    groups.map(
+      (g) =>
+        g.levels.length > 0 && (
+          <section data-level-group={g.key}>
+            <h2>{g.label}</h2>
+            <div class="card-grid">
+              {g.levels.map((l) => (
+                <LevelCard level={l} />
+              ))}
+            </div>
+          </section>
+        ),
+    )
+  }
+  <p class="filter-empty" id="filter-empty" hidden>NO FILES MATCH THE FILTER.</p>
+
+  <script>
+    const name = document.getElementById('level-filter-name') as HTMLInputElement;
+    const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-filter-class]')];
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-level-card]')];
+    const groups = [...document.querySelectorAll<HTMLElement>('[data-level-group]')];
+    const empty = document.getElementById('filter-empty')!;
+    let cls = '*';
+
+    function apply() {
+      const q = name.value.trim().toLowerCase();
+      let shown = 0;
+      for (const card of cards) {
+        const okName = !q || (card.dataset.name ?? '').includes(q);
+        const okClass = cls === '*' || card.dataset.difficulty === cls;
+        const on = okName && okClass;
+        card.style.display = on ? '' : 'none';
+        if (on) shown++;
+      }
+      for (const g of groups) {
+        const any = [...g.querySelectorAll<HTMLElement>('[data-level-card]')].some(
+          (c) => c.style.display !== 'none',
+        );
+        g.style.display = any ? '' : 'none';
+      }
+      empty.hidden = shown > 0;
+    }
+
+    name.addEventListener('input', apply);
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        cls = chip.dataset.filterClass ?? '*';
+        for (const c of chips) {
+          const on = c === chip;
+          c.classList.toggle('on', on);
+          c.setAttribute('aria-pressed', String(on));
+        }
+        apply();
+      });
+    }
+  </script>
+</BaseLayout>

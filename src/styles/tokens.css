@@ -1,0 +1,53 @@
+/* Design tokens — "field manual recovered from inside the Backrooms" */
+
+:root {
+  /* palette */
+  --wall: #b8a248;
+  --wall-bright: #d8c25e;
+  --carpet: #8a7b3a;
+  --dark: #14120c;
+  --dark-2: #1e1b12;
+  --paper: #e8e2ce;
+  --paper-dim: #ddd5bc;
+  --paper-down: #d2c9ac;
+  --ink: #1c1910;
+  --ink-soft: #55503c;
+  --line: rgba(28, 25, 16, 0.3);
+  --line-soft: rgba(28, 25, 16, 0.14);
+  --hazard: #c33b22;
+  --hazard-down: #9c2f1b;
+  --safe: #4c7a4c;
+  --info: #3d6b8a;
+
+  /* difficulty ramp (Class 0 → 5) + special classes */
+  --class-0: #4c7a4c;
+  --class-1: #6e8f4e;
+  --class-2: #98883a;
+  --class-3: #b07a2e;
+  --class-4: #c05a26;
+  --class-5: #c33b22;
+  --class-variable: #3d6b8a;
+  --class-habitable: #4c7a4c;
+  --class-deadzone: #7a3a8a;
+  --class-unknown: #6e6754;
+
+  /* type */
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  /* metrics */
+  --tap: 44px;
+  --radius: 2px;
+  --tabbar-h: 58px;
+  --header-h: 50px;
+  --content-max: 44rem;
+
+  /* iOS safe areas */
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+
+  /* paper grain: tiny SVG turbulence tile, rendered once by the compositor */
+  --noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.055 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}

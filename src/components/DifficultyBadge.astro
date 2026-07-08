@@ -1,0 +1,17 @@
+---
+import { difficultyColorVar } from '../lib/data';
+
+interface Props {
+  label: string; // "Class 2" | "Habitable" | ...
+  fill?: boolean;
+}
+const { label, fill = false } = Astro.props;
+---
+
+<span
+  class:list={['badge', { 'badge--fill': fill }]}
+  style={`--badge-c:${difficultyColorVar(label)}`}
+>
+  <span class="dot" aria-hidden="true"></span>
+  {label}
+</span>

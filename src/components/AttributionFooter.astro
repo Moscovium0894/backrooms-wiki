@@ -1,0 +1,24 @@
+---
+import { meta } from '../lib/data';
+
+interface Props {
+  sourceUrl?: string | undefined;
+}
+const { sourceUrl } = Astro.props;
+---
+
+<footer class="attribution">
+  {
+    sourceUrl && (
+      <>
+        Source file: <a href={sourceUrl} rel="noopener nofollow" target="_blank">wiki original</a>
+        <br />
+      </>
+    )
+  }
+  Content adapted from the{' '}
+  <a href={meta.source} rel="noopener nofollow" target="_blank">{meta.sourceName}</a> on Fandom,
+  licensed <a href={meta.licenseUrl} rel="noopener nofollow" target="_blank">{meta.license}</a>.
+  <br />
+  Unofficial fan guide for Escape the Backrooms (Fancy Games). Not affiliated.
+</footer>

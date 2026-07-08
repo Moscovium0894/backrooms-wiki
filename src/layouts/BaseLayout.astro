@@ -1,0 +1,98 @@
+---
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/components.css';
+import { withBase } from '../lib/url';
+import TabBar from '../components/TabBar.astro';
+import AttributionFooter from '../components/AttributionFooter.astro';
+import SearchOverlay from '../components/SearchOverlay.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  activeTab?: 'map' | 'levels' | 'entities' | 'progress' | 'guides';
+  sourceUrl?: string;
+  dark?: boolean; // dark page frame (the map)
+}
+
+const {
+  title,
+  description = 'Field manual for Escape the Backrooms: levels, walkthroughs, entities, and progress tracking.',
+  activeTab,
+  sourceUrl,
+  dark = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-spoilers="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title} · Backrooms Field Manual</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#14120c" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Backrooms" />
+    <link rel="manifest" href={withBase('manifest.webmanifest')} />
+    <link rel="icon" href={withBase('icons/icon.svg')} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={withBase('icons/apple-touch-icon.png')} />
+    <link
+      rel="preload"
+      href={withBase('fonts/ibm-plex-mono-latin-600.woff2')}
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script is:inline>
+      // pre-paint: restore spoiler mode so redactions never flash
+      try {
+        var s = JSON.parse(localStorage.getItem('etb.v1') || '{}');
+        if (s.spoilers === 'full') document.documentElement.dataset.spoilers = 'full';
+      } catch (e) {}
+    </script>
+  </head>
+  <body class={dark ? 'theme-dark' : undefined}>
+    <header class="app-header">
+      <a class="wordmark" href={withBase('')}>
+        <span>Backrooms</span>
+        <span class="tag">Field Manual</span>
+      </a>
+      <button
+        id="spoiler-toggle"
+        class="spoiler-toggle"
+        type="button"
+        aria-pressed="false"
+        title="Toggle spoilers"
+      >
+        <span class="key">Intel:</span>
+        <span class="mode">REDACTED</span>
+      </button>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <AttributionFooter sourceUrl={sourceUrl} />
+    <SearchOverlay />
+    <TabBar active={activeTab} />
+
+    <script>
+      import { initSpoilerToggle, initSpoilerBlocks } from '../scripts/spoiler';
+      import { initSearch } from '../scripts/search';
+      initSpoilerToggle();
+      initSpoilerBlocks();
+      initSearch();
+
+      if ('serviceWorker' in navigator && !import.meta.env.DEV) {
+        window.addEventListener('load', () => {
+          void navigator.serviceWorker.register(
+            import.meta.env.BASE_URL.replace(/\/?$/, '/') + 'sw.js',
+          );
+        });
+      }
+    </script>
+  </body>
+</html>

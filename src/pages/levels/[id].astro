@@ -1,0 +1,235 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CaseFileHeader from '../../components/CaseFileHeader.astro';
+import DifficultyBadge from '../../components/DifficultyBadge.astro';
+import SpoilerBlock from '../../components/SpoilerBlock.astro';
+import ChecklistPanel from '../../components/ChecklistPanel.astro';
+import PrevNextNav from '../../components/PrevNextNav.astro';
+import {
+  dangerColorVar,
+  entityById,
+  heroOf,
+  itemById,
+  levelById,
+  levels,
+  mapsOf,
+  prevNext,
+} from '../../lib/data';
+import { imageUrl, resolveHtml, withBase } from '../../lib/url';
+import type { Level } from '../../types';
+
+export function getStaticPaths() {
+  return levels.map((l) => ({ params: { id: l.id }, props: { level: l } }));
+}
+
+const { level } = Astro.props as { level: Level };
+const hero = heroOf(level);
+const maps = mapsOf(level);
+const { prev, next } = prevNext(level.id);
+
+const relEntities = level.entities.map((id) => entityById.get(id)).filter(Boolean);
+const relItems = level.items.map((id) => itemById.get(id)).filter(Boolean);
+const exits = level.exits.map((id) => levelById.get(id)).filter(Boolean);
+const entrances = level.entrances.map((id) => levelById.get(id)).filter(Boolean);
+
+// checklist items: one per "Part N" heading in the walkthrough
+const parts = [...(level.walkthroughHtml ?? '').matchAll(/<h3>(.*?)<\/h3>/g)]
+  .map((m) => m[1]!.replace(/<[^>]+>/g, '').trim())
+  .filter(Boolean);
+const checklist = [
+  ...parts.map((p, i) => ({ id: `part-${i + 1}`, label: p })),
+  { id: 'escape', label: next ? `Escape to ${next.name}` : 'Escape the level' },
+];
+
+const fileTag = `FGWK-${level.id.toUpperCase()} · ${level.kind === 'main' ? `ROUTE ${String(level.order).padStart(2, '0')}` : level.kind.toUpperCase()}`;
+---
+
+<BaseLayout
+  title={level.subtitle ? `${level.name} — ${level.subtitle}` : level.name}
+  description={level.summary}
+  activeTab="levels"
+  sourceUrl={level.sourceUrl}
+>
+  <CaseFileHeader code={level.name} sub={level.subtitle} fileTag={fileTag}>
+    <DifficultyBadge label={level.difficultyLabel} fill />
+    {level.part && <span class="badge" style="--badge-c:var(--ink-soft)">PART {level.part}</span>}
+    {level.kind === 'secret' && <span class="badge" style="--badge-c:var(--class-deadzone)">SECRET</span>}
+    {(level.kind === 'upcoming' || level.kind === 'nonplayable') && (
+      <span class="badge" style="--badge-c:var(--ink-soft)">FILE PENDING</span>
+    )}
+  </CaseFileHeader>
+
+  {
+    hero && (
+      <img
+        class="hero"
+        src={imageUrl(hero.file)}
+        alt={`Photograph of ${level.name}`}
+        width={hero.width}
+        height={hero.height}
+        decoding="async"
+      />
+    )
+  }
+
+  {level.summary && <p class="lede">{level.summary}</p>}
+
+  <section class="panel">
+    <span class="panel-label">At a glance</span>
+    <dl class="kv">
+      <div>
+        <dt>Survival</dt>
+        <span class="dots"></span>
+        <dd>{level.difficultyLabel}</dd>
+      </div>
+      {
+        level.sanity && (
+          <div>
+            <dt>Sanity</dt>
+            <span class="dots" />
+            <dd>{level.sanity}</dd>
+          </div>
+        )
+      }
+      {
+        level.hazards.map((h) => (
+          <div>
+            <dt>Hazard</dt>
+            <span class="dots" />
+            <dd>{h}</dd>
+          </div>
+        ))
+      }
+      {
+        entrances.length > 0 && (
+          <div>
+            <dt>From</dt>
+            <span class="dots" />
+            <dd>
+              {entrances.map((e, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href={withBase(`levels/${e!.id}/`)}>{e!.name}</a>
+                </>
+              ))}
+            </dd>
+          </div>
+        )
+      }
+      {
+        exits.length > 0 && (
+          <div>
+            <dt>Exits to</dt>
+            <span class="dots" />
+            <dd>
+              {exits.map((e, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href={withBase(`levels/${e!.id}/`)}>{e!.name}</a>
+                </>
+              ))}
+            </dd>
+          </div>
+        )
+      }
+    </dl>
+
+    {
+      relEntities.length > 0 && (
+        <>
+          <span class="panel-label" style="margin-top:14px">Threat assessment</span>
+          <div class="rail">
+            {relEntities.map((e) => (
+              <a
+                class="chip"
+                href={withBase(`entities/${e!.id}/`)}
+                style={`border-color:${dangerColorVar(e!.dangerLabel)}`}
+              >
+                {e!.name}
+              </a>
+            ))}
+          </div>
+        </>
+      )
+    }
+    {
+      relItems.length > 0 && (
+        <>
+          <span class="panel-label" style="margin-top:6px">Supplies on record</span>
+          <div class="rail">
+            {relItems.map((i) => (
+              <a class="chip" href={withBase(`items/${i!.id}/`)}>
+                {i!.name}
+              </a>
+            ))}
+          </div>
+        </>
+      )
+    }
+  </section>
+
+  {
+    level.appearanceHtml && (
+      <section>
+        <h2>Appearance</h2>
+        <div set:html={resolveHtml(level.appearanceHtml)} />
+      </section>
+    )
+  }
+
+  {
+    level.walkthroughHtml && (
+      <section>
+        <h2>Objective</h2>
+        <SpoilerBlock label="WALKTHROUGH">
+          <div set:html={resolveHtml(level.walkthroughHtml)} />
+        </SpoilerBlock>
+      </section>
+    )
+  }
+
+  {
+    maps.length > 0 && (
+      <section>
+        <h2>Recovered maps</h2>
+        <SpoilerBlock label="MAP INTEL">
+          {maps.map((m) => (
+            <figure>
+              <img
+                src={imageUrl(m.file)}
+                alt={m.caption ?? `Map of ${level.name}`}
+                width={m.width}
+                height={m.height}
+                loading="lazy"
+                decoding="async"
+              />
+              {m.caption && <figcaption>{m.caption}</figcaption>}
+            </figure>
+          ))}
+        </SpoilerBlock>
+      </section>
+    )
+  }
+
+  {
+    level.extraSections.map((s) => (
+      <section>
+        <h2>{s.title}</h2>
+        <div set:html={resolveHtml(s.html)} />
+      </section>
+    ))
+  }
+
+  {level.kind !== 'upcoming' && level.kind !== 'nonplayable' && (
+    <ChecklistPanel levelId={level.id} items={checklist} />
+  )}
+
+  <PrevNextNav prev={prev} next={next} />
+
+  <script>
+    import { initChecklist } from '../../scripts/checklist';
+    import { initSwipeNav } from '../../scripts/swipe';
+    initChecklist();
+    initSwipeNav();
+  </script>
+</BaseLayout>

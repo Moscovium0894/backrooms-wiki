@@ -1,0 +1,35 @@
+---
+import type { Level } from '../types';
+import { withBase } from '../lib/url';
+
+interface Props {
+  prev: Level | null;
+  next: Level | null;
+}
+const { prev, next } = Astro.props;
+---
+
+{
+  (prev || next) && (
+    <nav class="prevnext" aria-label="Adjacent levels">
+      {prev ? (
+        <a class="pn pn--prev" href={withBase(`levels/${prev.id}/`)} data-nav-prev>
+          <span class="pn-dir">← Prev</span>
+          <span class="pn-name">{prev.name}</span>
+          {prev.subtitle && <span class="pn-sub">{prev.subtitle}</span>}
+        </a>
+      ) : (
+        <span class="pn pn--void" />
+      )}
+      {next ? (
+        <a class="pn pn--next" href={withBase(`levels/${next.id}/`)} data-nav-next>
+          <span class="pn-dir">Next →</span>
+          <span class="pn-name">{next.name}</span>
+          {next.subtitle && <span class="pn-sub">{next.subtitle}</span>}
+        </a>
+      ) : (
+        <span class="pn pn--void" />
+      )}
+    </nav>
+  )
+}

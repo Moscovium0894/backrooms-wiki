@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntityCard from '../../components/EntityCard.astro';
+import { entities } from '../../lib/data';
+
+// most dangerous first, then alphabetical
+const rank: Record<string, number> = {
+  'very deadly': 0,
+  deadly: 1,
+  dangerous: 2,
+  high: 2,
+  moderate: 3,
+  low: 4,
+  harmless: 5,
+  friendly: 5,
+  'cannot harm you': 5,
+};
+const sorted = [...entities].sort((a, b) => {
+  const ra = rank[a.dangerLabel.toLowerCase()] ?? 3.5;
+  const rb = rank[b.dangerLabel.toLowerCase()] ?? 3.5;
+  return ra - rb || a.name.localeCompare(b.name);
+});
+---
+
+<BaseLayout title="Entities" activeTab="entities">
+  <h1 class="visually-hidden">Entities</h1>
+  <div class="case-header">
+    <p class="filecode">THREAT REGISTRY · {entities.length} KNOWN ENTITIES</p>
+    <h2 style="border:0;margin:0" class="code">Entities</h2>
+  </div>
+  <div class="card-grid">
+    {sorted.map((e) => <EntityCard entity={e} />)}
+  </div>
+</BaseLayout>

@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CaseFileHeader from '../../components/CaseFileHeader.astro';
+import { guides, levelById } from '../../lib/data';
+import { resolveHtml, withBase } from '../../lib/url';
+import type { Guide } from '../../types';
+
+export function getStaticPaths() {
+  return guides.map((g) => ({ params: { id: g.id }, props: { guide: g } }));
+}
+
+const { guide } = Astro.props as { guide: Guide };
+const related = guide.relatedLevelIds
+  .map((id) => levelById.get(id))
+  .filter(Boolean)
+  .slice(0, 12);
+---
+
+<BaseLayout
+  title={guide.title}
+  description={guide.summary}
+  activeTab="guides"
+  sourceUrl={guide.sourceUrl}
+>
+  <CaseFileHeader code={guide.title} fileTag={`FIELD DOCUMENT · ${guide.id.toUpperCase()}`} />
+
+  {
+    guide.sections.map((s) => (
+      <section>
+        {s.title && <h2>{s.title}</h2>}
+        <div set:html={resolveHtml(s.html)} />
+      </section>
+    ))
+  }
+
+  {
+    related.length > 0 && (
+      <section class="panel">
+        <span class="panel-label">Related level files</span>
+        <div class="rail">
+          {related.map((l) => (
+            <a class="chip" href={withBase(`levels/${l!.id}/`)}>
+              {l!.name}
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

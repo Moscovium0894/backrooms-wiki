@@ -1,0 +1,49 @@
+---
+import { withBase } from '../lib/url';
+
+interface Props {
+  active?: 'map' | 'levels' | 'entities' | 'progress' | 'guides';
+}
+const { active } = Astro.props;
+
+const tabs = [
+  { key: 'map', href: withBase(''), label: 'Map' },
+  { key: 'levels', href: withBase('levels/'), label: 'Levels' },
+  { key: 'entities', href: withBase('entities/'), label: 'Entities' },
+  { key: 'progress', href: withBase('progress/'), label: 'Log' },
+] as const;
+
+const icons: Record<string, string> = {
+  map: '<circle cx="12" cy="4.5" r="2.5"/><circle cx="12" cy="19.5" r="2.5"/><circle cx="19" cy="12" r="2.2"/><path d="M12 7v10M13.8 6.2 17.4 10M13.8 17.8l3.6-3.8"/>',
+  levels:
+    '<rect x="5" y="3" width="14" height="18" rx="1"/><path d="M15.5 12.6v1.8"/><path d="M5 21h14"/>',
+  entities:
+    '<path d="M3 12s3.5-5.5 9-5.5S21 12 21 12s-3.5 5.5-9 5.5S3 12 3 12Z"/><circle cx="12" cy="12" r="2.4"/>',
+  search: '<circle cx="10.8" cy="10.8" r="6.3"/><path d="m15.6 15.6 4.9 4.9"/>',
+  progress:
+    '<rect x="4" y="4" width="16" height="16" rx="1"/><path d="m8 12.5 2.8 2.8L16.5 9"/>',
+};
+---
+
+<nav class="tabbar" aria-label="Sections">
+  {
+    tabs.slice(0, 3).map((t) => (
+      <a href={t.href} class={active === t.key ? 'active' : undefined} aria-current={active === t.key ? 'page' : undefined}>
+        <svg viewBox="0 0 24 24" aria-hidden="true" stroke-linecap="round" stroke-linejoin="round" set:html={icons[t.key]} />
+        <span>{t.label}</span>
+      </a>
+    ))
+  }
+  <button id="tab-search" type="button" aria-label="Search (press /)">
+    <svg viewBox="0 0 24 24" aria-hidden="true" stroke-linecap="round" stroke-linejoin="round" set:html={icons.search} />
+    <span>Search</span>
+  </button>
+  {
+    tabs.slice(3).map((t) => (
+      <a href={t.href} class={active === t.key ? 'active' : undefined} aria-current={active === t.key ? 'page' : undefined}>
+        <svg viewBox="0 0 24 24" aria-hidden="true" stroke-linecap="round" stroke-linejoin="round" set:html={icons[t.key]} />
+        <span>{t.label}</span>
+      </a>
+    ))
+  }
+</nav>

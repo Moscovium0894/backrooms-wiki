@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Offline">
+  <div class="case-header">
+    <p class="filecode">CONNECTION LOST</p>
+    <h1 class="code">No signal in this level</h1>
+  </div>
+  <p class="lede">
+    This page isn’t cached yet and the network is unreachable. Pages you’ve
+    visited before are stored for offline use — head back and try one of those.
+  </p>
+  <p><a class="btn" href="javascript:history.back()">← Go back</a></p>
+</BaseLayout>

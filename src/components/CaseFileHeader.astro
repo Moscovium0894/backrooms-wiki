@@ -1,0 +1,19 @@
+---
+// `LEVEL 0 // "THE LOBBY"` case-file heading with meta badges in a slot.
+
+interface Props {
+  code: string; // "Level 0"
+  sub?: string | null; // "The Lobby"
+  fileTag?: string; // small mono file reference line
+}
+const { code, sub, fileTag } = Astro.props;
+---
+
+<div class="case-header">
+  {fileTag && <p class="filecode">{fileTag}</p>}
+  <h1 class="code">
+    {code}
+    {sub && <span class="quoted">{' // '}&ldquo;{sub}&rdquo;</span>}
+  </h1>
+  <div class="meta-row"><slot /></div>
+</div>

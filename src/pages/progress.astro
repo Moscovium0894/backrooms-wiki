@@ -1,0 +1,176 @@
+---
+// Expedition log: completion overview, export/import, reset.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProgressRing from '../components/ProgressRing.astro';
+import { mainPath, secretLevels } from '../lib/data';
+
+const embed = {
+  main: mainPath.map((l) => ({ id: l.id, name: l.name, sub: l.subtitle })),
+  secret: secretLevels.map((l) => ({ id: l.id, name: l.name, sub: l.subtitle })),
+};
+---
+
+<BaseLayout title="Progress" activeTab="progress">
+  <div class="case-header">
+    <p class="filecode">EXPEDITION LOG · PERSONNEL FILE</p>
+    <h1 class="code">My Progress</h1>
+  </div>
+
+  <section class="panel">
+    <span class="panel-label">Route completion</span>
+    <div class="progress-hero">
+      <ProgressRing size={92} id="overall-ring" />
+      <div>
+        <p class="progress-big" id="overall-count">— / —</p>
+        <p class="progress-sub">MAIN ROUTE LEVELS CLEARED</p>
+        <p class="progress-sub" id="secret-count">— SECRET FILES FOUND</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <span class="panel-label">Cleared level files</span>
+    <ul class="cleared-list" id="cleared-list" role="list">
+      <li class="cleared-empty">NOTHING CLEARED YET. THE LOBBY AWAITS.</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <span class="panel-label">Transfer record — move progress between devices</span>
+    <p class="progress-note">
+      Progress lives only in this browser. Copy the record below to move it, or paste a
+      record from another device and apply it.
+    </p>
+    <textarea
+      id="transfer-box"
+      class="transfer-box"
+      rows="4"
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck="false"
+      aria-label="Progress record JSON"></textarea>
+    <div class="transfer-actions">
+      <button id="btn-export" class="btn btn--ghost" type="button">Export</button>
+      <button id="btn-copy" class="btn btn--ghost" type="button">Copy</button>
+      <button id="btn-share" class="btn btn--ghost" type="button" hidden>Share</button>
+      <button id="btn-import" class="btn" type="button">Apply record</button>
+    </div>
+    <p class="transfer-status" id="transfer-status" role="status"></p>
+    <button id="btn-reset" class="btn btn--hazard" type="button" style="width:100%;margin-top:14px">
+      Burn the record — reset all progress
+    </button>
+  </section>
+
+  <script type="application/json" id="progress-data" set:html={JSON.stringify(embed)} />
+
+  <script>
+    import { load, replaceStore, subscribe, type Store } from '../scripts/progress';
+
+    type Row = { id: string; name: string; sub: string | null };
+    const data = JSON.parse(
+      document.getElementById('progress-data')?.textContent ?? '{"main":[],"secret":[]}',
+    ) as { main: Row[]; secret: Row[] };
+
+    const ring = document.getElementById('overall-ring');
+    const overall = document.getElementById('overall-count');
+    const secretEl = document.getElementById('secret-count');
+    const list = document.getElementById('cleared-list');
+
+    const fmt = (iso?: string) => {
+      if (!iso) return '';
+      const d = new Date(iso);
+      return isNaN(d.getTime())
+        ? ''
+        : d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    };
+
+    function paint() {
+      const store = load();
+      const doneMain = data.main.filter((l) => store.levels[l.id]?.done);
+      const doneSecret = data.secret.filter((l) => store.levels[l.id]?.done);
+      if (overall) overall.textContent = `${doneMain.length} / ${data.main.length}`;
+      if (secretEl)
+        secretEl.textContent = `${doneSecret.length} / ${data.secret.length} SECRET FILES FOUND`;
+      ring?.style.setProperty(
+        '--frac',
+        data.main.length ? String(doneMain.length / data.main.length) : '0',
+      );
+      if (list) {
+        const all = [...doneMain, ...doneSecret];
+        list.innerHTML = all.length
+          ? all
+              .map((l) => {
+                const at = fmt(store.levels[l.id]?.completedAt);
+                return `<li><span class="cleared-name">${l.name}${l.sub ? ` — ${l.sub}` : ''}</span><span class="dots"></span><span class="cleared-date">${at || 'CLEARED'}</span></li>`;
+              })
+              .join('')
+          : '<li class="cleared-empty">NOTHING CLEARED YET. THE LOBBY AWAITS.</li>';
+      }
+    }
+
+    paint();
+    subscribe(paint);
+
+    // transfer record
+    const box = document.getElementById('transfer-box') as HTMLTextAreaElement;
+    const status = document.getElementById('transfer-status')!;
+    const say = (msg: string) => {
+      status.textContent = msg;
+      window.setTimeout(() => {
+        if (status.textContent === msg) status.textContent = '';
+      }, 4000);
+    };
+
+    document.getElementById('btn-export')?.addEventListener('click', () => {
+      box.value = JSON.stringify(load());
+      say('RECORD EXPORTED BELOW.');
+    });
+
+    document.getElementById('btn-copy')?.addEventListener('click', async () => {
+      if (!box.value) box.value = JSON.stringify(load());
+      try {
+        await navigator.clipboard.writeText(box.value);
+        say('COPIED TO CLIPBOARD.');
+      } catch {
+        box.select();
+        say('SELECT + COPY MANUALLY.');
+      }
+    });
+
+    const shareBtn = document.getElementById('btn-share');
+    if (shareBtn && 'share' in navigator) {
+      shareBtn.hidden = false;
+      shareBtn.addEventListener('click', () => {
+        void navigator.share({
+          title: 'Backrooms Field Manual — progress record',
+          text: box.value || JSON.stringify(load()),
+        }).catch(() => {});
+      });
+    }
+
+    document.getElementById('btn-import')?.addEventListener('click', () => {
+      try {
+        const parsed = JSON.parse(box.value) as Store;
+        if (parsed.version !== 1 || typeof parsed.levels !== 'object' || !parsed.levels) {
+          say('NOT A VALID RECORD.');
+          return;
+        }
+        if (!window.confirm('Overwrite this device’s progress with the pasted record?')) return;
+        replaceStore({
+          version: 1,
+          spoilers: parsed.spoilers === 'full' ? 'full' : 'light',
+          levels: parsed.levels,
+        });
+        say('RECORD APPLIED.');
+      } catch {
+        say('NOT A VALID RECORD.');
+      }
+    });
+
+    document.getElementById('btn-reset')?.addEventListener('click', () => {
+      if (!window.confirm('Reset ALL progress on this device?')) return;
+      replaceStore({ version: 1, spoilers: load().spoilers, levels: {} });
+      say('RECORD BURNED.');
+    });
+  </script>
+</BaseLayout>

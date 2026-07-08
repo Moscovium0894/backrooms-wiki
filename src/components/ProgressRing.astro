@@ -1,0 +1,21 @@
+---
+// SVG progress ring. Fill fraction is driven by the CSS var --frac (0..1)
+// on the root element; checklist.ts / progress page update it live.
+
+interface Props {
+  size?: number;
+  id?: string;
+  label?: string;
+}
+const { size = 64, id, label } = Astro.props;
+const r = 26;
+const c = (2 * Math.PI * r).toFixed(2);
+---
+
+<span class="ring" id={id} style={`--c:${c};width:${size}px;height:${size}px`} data-ring>
+  <svg viewBox="0 0 64 64" aria-hidden="true">
+    <circle class="ring-track" cx="32" cy="32" r={r}></circle>
+    <circle class="ring-fill" cx="32" cy="32" r={r}></circle>
+  </svg>
+  <span class="ring-text" data-ring-text>{label ?? ''}</span>
+</span>

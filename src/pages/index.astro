@@ -1,0 +1,44 @@
+---
+// Home — the route map. Dark frame, fluorescent flicker, paper map nodes.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RouteMap from '../components/RouteMap.astro';
+import BottomSheet from '../components/BottomSheet.astro';
+import { mainPath, secretLevels } from '../lib/data';
+---
+
+<BaseLayout title="Route Map" activeTab="map" dark>
+  <div class="flicker" aria-hidden="true"></div>
+
+  <div class="map-head">
+    <p class="filecode">INCIDENT WALL · ROUTE THROUGH THE BACKROOMS</p>
+    <h1 class="code">Route Map</h1>
+    <p class="map-stats">
+      <span id="map-count" data-total={mainPath.length}>0 / {mainPath.length}</span>
+      LEVELS CLEARED · {secretLevels.length} SECRET FILES
+    </p>
+  </div>
+
+  <RouteMap />
+  <BottomSheet />
+
+  <script>
+    import { initMap } from '../scripts/map';
+    import { load, subscribe } from '../scripts/progress';
+
+    initMap();
+
+    const count = document.getElementById('map-count');
+    const mapData = document.getElementById('map-data');
+    const mainIds: string[] = mapData
+      ? (JSON.parse(mapData.textContent ?? '{}').mainIds ?? [])
+      : [];
+    const paintCount = () => {
+      if (!count) return;
+      const store = load();
+      const done = mainIds.filter((id) => store.levels[id]?.done).length;
+      count.textContent = `${done} / ${mainIds.length}`;
+    };
+    paintCount();
+    subscribe(paintCount);
+  </script>
+</BaseLayout>

@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+---
+
+<BaseLayout title="File not found">
+  <div class="case-header">
+    <p class="filecode">ERROR 404 · FILE MISSING</p>
+    <h1 class="code">You noclipped out of the manual</h1>
+  </div>
+  <p class="lede">
+    There’s no page at this address. The file may have been moved, renamed, or
+    it never existed in the first place. Don’t trust the walls.
+  </p>
+  <p><a class="btn" href={withBase('')}>← Back to the route map</a></p>
+</BaseLayout>

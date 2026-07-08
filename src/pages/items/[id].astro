@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CaseFileHeader from '../../components/CaseFileHeader.astro';
+import { heroOf, items, levelById } from '../../lib/data';
+import { imageUrl, resolveHtml, withBase } from '../../lib/url';
+import type { Item } from '../../types';
+
+export function getStaticPaths() {
+  return items.map((i) => ({ params: { id: i.id }, props: { item: i } }));
+}
+
+const { item } = Astro.props as { item: Item };
+const hero = heroOf(item);
+const foundIn = item.foundInLevels.map((id) => levelById.get(id)).filter(Boolean);
+---
+
+<BaseLayout
+  title={item.name}
+  description={item.summary}
+  activeTab="entities"
+  sourceUrl={item.sourceUrl}
+>
+  <CaseFileHeader code={item.name} fileTag={`SUPPLY FILE · ${item.id.toUpperCase()}`}>
+    <span class="badge badge--fill" style="--badge-c:var(--info)">{item.rarity}</span>
+  </CaseFileHeader>
+
+  {
+    hero && (
+      <img
+        class="hero"
+        src={imageUrl(hero.file)}
+        alt={`Photograph of ${item.name}`}
+        width={hero.width}
+        height={hero.height}
+        decoding="async"
+      />
+    )
+  }
+
+  {item.summary && <p class="lede">{item.summary}</p>}
+
+  {
+    foundIn.length > 0 && (
+      <section class="panel">
+        <span class="panel-label">Found in</span>
+        <div class="rail">
+          {foundIn.map((l) => (
+            <a class="chip" href={withBase(`levels/${l!.id}/`)}>
+              {l!.name}
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    item.sections.map((s) => (
+      <section>
+        <h2>{s.title}</h2>
+        <div set:html={resolveHtml(s.html)} />
+      </section>
+    ))
+  }
+</BaseLayout>

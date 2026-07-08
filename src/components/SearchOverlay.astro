@@ -1,0 +1,23 @@
+---
+// Full-screen search overlay shell. Opened by the tab-bar Search button or `/`.
+// All behaviour lives in src/scripts/search.ts.
+---
+
+<div id="search-overlay" class="search-overlay" hidden>
+  <div class="search-top">
+    <label class="visually-hidden" for="search-input">Search the manual</label>
+    <input
+      id="search-input"
+      type="search"
+      placeholder="LEVELS / ENTITIES / ITEMS…"
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck="false"
+      enterkeyhint="search"
+    />
+    <button id="search-close" class="btn btn--ghost" type="button">Cancel</button>
+  </div>
+  <div id="search-results" class="search-results" role="listbox" aria-label="Search results">
+    <p class="search-hint">RETRIEVING INDEX…</p>
+  </div>
+</div>

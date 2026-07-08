@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { items, thumbOf } from '../../lib/data';
+import { imageUrl, withBase } from '../../lib/url';
+
+const RARITY_ORDER = ['common', 'uncommon', 'rare', 'epic', 'legendary'];
+const sorted = [...items].sort((a, b) => {
+  const ra = RARITY_ORDER.indexOf(a.rarity.toLowerCase());
+  const rb = RARITY_ORDER.indexOf(b.rarity.toLowerCase());
+  return (ra === -1 ? 99 : ra) - (rb === -1 ? 99 : rb) || a.name.localeCompare(b.name);
+});
+---
+
+<BaseLayout title="Items" activeTab="entities">
+  <h1 class="visually-hidden">Items</h1>
+  <div class="case-header">
+    <p class="filecode">SUPPLY REGISTRY · {items.length} CATALOGUED ITEMS</p>
+    <h2 style="border:0;margin:0" class="code">Items</h2>
+  </div>
+  <div class="card-grid">
+    {
+      sorted.map((i) => {
+        const thumb = thumbOf(i);
+        return (
+          <a class="card" href={withBase(`items/${i.id}/`)}>
+            {thumb ? (
+              <img
+                class="thumb"
+                src={imageUrl(thumb.file)}
+                alt=""
+                width={thumb.width}
+                height={thumb.height}
+                loading="lazy"
+                decoding="async"
+              />
+            ) : (
+              <span class="thumb thumb--empty">No photograph on file</span>
+            )}
+            <span class="card-body">
+              <span class="card-title">{i.name}</span>
+              {i.summary && <span class="card-sub">{i.summary}</span>}
+              <span class="card-meta">
+                <span class="badge" style="--badge-c:var(--info)">{i.rarity}</span>
+              </span>
+            </span>
+          </a>
+        );
+      })
+    }
+  </div>
+</BaseLayout>

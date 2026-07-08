@@ -1,0 +1,23 @@
+{
+  "name": "backrooms-field-manual",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Companion field manual for Escape the Backrooms (Fancy Games)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/finalize_sw.mjs",
+    "preview": "astro preview",
+    "fetch": "python3 scripts/fetch_wiki.py",
+    "validate": "python3 scripts/validate_data.py",
+    "icons": "node scripts/make_icons.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0",
+    "typescript": "^5.5.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

@@ -1,0 +1,39 @@
+---
+// Per-level objective checklist. Persisted to localStorage via checklist.ts;
+// completing everything flips the level to CLEARED (stamp + map state).
+
+import ProgressRing from './ProgressRing.astro';
+
+interface Props {
+  levelId: string;
+  items: { id: string; label: string }[];
+}
+const { levelId, items } = Astro.props;
+---
+
+<section class="panel checklist" data-checklist={levelId} data-total={items.length}>
+  <span class="panel-label">Escape log</span>
+  <div class="checklist-head">
+    <ProgressRing size={56} />
+    <div class="checklist-status">
+      <span class="count" data-check-count>0 / {items.length}</span>
+      <span class="stamp checklist-stamp" data-stamp hidden>Cleared</span>
+    </div>
+  </div>
+  <ul class="checklist-items" role="list">
+    {
+      items.map((it) => (
+        <li>
+          <label class="check-row">
+            <input type="checkbox" data-check={it.id} />
+            <span class="box" aria-hidden="true" />
+            <span class="check-label">{it.label}</span>
+          </label>
+        </li>
+      ))
+    }
+  </ul>
+  <button class="btn btn--ghost checklist-all" type="button" data-mark-all>
+    Mark level cleared
+  </button>
+</section>
