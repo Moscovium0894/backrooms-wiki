@@ -1,14 +1,29 @@
 # Backrooms Field Manual
 
-A fast, mobile-first companion web app for **Escape the Backrooms**
-(Fancy Games, Steam) — browse levels, follow spoiler-gated walkthroughs, look
-up entities, and track your progress. Styled as a field manual recovered from
-inside the Backrooms.
+**Live: https://moscovium0894.github.io/backrooms-wiki/**
 
-Static Astro site, no backend. Progress lives in your browser (localStorage)
-with JSON export/import. Content is scraped from the
-[Escape the Backrooms Wiki](https://escapethebackrooms.fandom.com) into clean
-JSON (see [LICENSE-CONTENT.md](LICENSE-CONTENT.md)).
+A fast, mobile-first companion web app for **Escape the Backrooms**
+(Fancy Games, Steam), styled as a field manual recovered from inside the
+Backrooms. Static Astro site, no backend; content scraped from the
+[Escape the Backrooms Wiki](https://escapethebackrooms.fandom.com)
+(see [LICENSE-CONTENT.md](LICENSE-CONTENT.md)).
+
+Highlights:
+
+- **Route map** — vertical subway-style map of all 27 main levels + secret
+  branches; traveled path paints green, the current leg animates, secrets
+  stay "?" until discovered, press-and-hold marks a level cleared
+- **Level case-files** — at-a-glance dossier, spoiler-redacted walkthroughs
+  and maps (tap-to-reveal), expandable threat rows, escape-log checklists
+  with a CLEARED stamp, per-level death tally and private field notes
+- **Threat registry** — DO/DON'T survival cards, danger filters, a personal
+  bestiary of sighted entities
+- **Progress log** — stats, per-content-drop bars, a canvas-drawn expedition
+  report card for sharing, and progress transfer via JSON or a single link
+- **Feels like an app** — home-screen installable, works offline mid-game,
+  fuzzy search (`/`), swipe navigation, hover states on desktop
+- **Self-updating** — a nightly workflow re-scrapes the wiki and redeploys
+  only when validated content changed
 
 ## Develop
 
