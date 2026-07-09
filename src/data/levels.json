@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 43,
-  "fetchedAt": "2026-07-08T16:30:31+00:00",
+  "fetchedAt": "2026-07-09T07:34:05+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -493,7 +493,7 @@
     "flashlight"
    ],
    "kind": "main",
-   "leadHtml": null,
+   "leadHtml": "<p><i>\"Now this level is something directly out of childhood nightmares. And now nightmares too.\"</i>\n</p><p><small>- Fancy in his 1st Escape the Backrooms Devlog</small>\n</p>",
    "name": "Level 2",
    "order": 3,
    "part": null,
@@ -618,7 +618,7 @@
    "walkthroughHtml": "<h3>Part 1: East Substation</h3>\n<p>Once you first spawn in, you will find yourself in a very long hallway, and at the end are locked bars. These bars lead to <a href=\"#APP#/levels/level-4/\">Level 4</a>, so you will need to unlock them in order to escape. There is a box next to the locked bars containing a list of Fuse Boxes that must be turned on. The entrance door to the rest of the level will be locked at first but will open when you get near the box. You will then find yourself in the first zone, the east substation. In this zone, you must go around and look for Fuse Boxes. Enable all 3 of the Fuse Boxes in this zone, and more locked bars at the entrance of zone 1 will open allowing you to move to the second zone.\n</p>\n<h4>The Normal Fuse Box</h4>\n<p>All you have to do is flip all of the switches, and it will be enabled.\n</p>\n<h3>Part 2: West Substation</h3>\n<p>The closed bars at the start of zone 1 lead to this big room with red and white bricks, and 2 more closed-off bars, however the one at the start will be open. These bars lead to zone 2, the west substation. zone 2 is much darker and dangerous than the first zone, and once again you must find 3 Fuse Boxes and turn them on. After travelling for a bit, you will come across a hallway. But before you get the chance to open the door in this hall, a <a href=\"#APP#/entities/hound/\">Hound</a> will come up and start chasing you, so make sure you have a <a href=\"#APP#/items/flashlight/\">Flashlight</a> out to blind it. There are only 2 <a href=\"#APP#/entities/hound/\">Hounds</a> in this zone, so it's not that hard.\n</p>\n<h3>Part 3: Generator</h3>\n<p>Zone 3 known as Generator is the most dangerous zone of them all. After turning on all 3 of the Fuse Boxes in zone 2, the other bars in the big room will be open. The third zone is very dark, so make sure you have a <a href=\"#APP#/items/flashlight/\">Flashlight</a> out to see. The first room in zone 3 will already have a <a href=\"#APP#/entities/hound/\">Hound</a>. <a href=\"#APP#/entities/hound/\">Hounds</a> aren't the only danger in this zone, because a new hazard is introduced which are simply puddles with electricity in them. All you have to do to avoid them is to just not step in them. Simple as that. What makes the zone even harder is that the Fuse Boxes are now puzzles. There are only 2 kinds of puzzles though, which include:\n</p>\n<h4>Triway</h4>\n<p>This puzzle involves a bunch of electricity connectors which have 3 fuses on each one and all of the connectors form a hexagon shape. Every one of the fuse colors are different, but there's only 3 colors they can be which include green, blue, and red. You can turn the connectors and if 2 of the same fuse colors are aiming at each other, electricity will form. The goal is to get them all to match up.\n</p>\n<h4>Colored Wires</h4>\n<p>This puzzle is much simpler and easier than Triway. On the left side, there will be a bunch of wires, and they are each labelled with different colors. The colors include green, blue, red, and yellow. On the right side lies what the wires must be connected to. Connect the correct colors with each one and that's it.\n</p>\n<h3>Part 4: All of the Fuse Boxes Finally on</h3>\n<p>After turning on all of the Fuse Boxes in zone 3, the bars from the start of the level will be open, and you will be able to get to <a href=\"#APP#/levels/level-4/\">Level 4</a>.\n</p>"
   },
   {
-   "appearanceHtml": "<p>Level 4 is an abandoned office building with little trace of people. <a href=\"#APP#/guides/sanity/\">Sanity</a> doesn't drop in this level, making it a good place to stay at. There's also lightning that will strike outside frequently in the level.\n</p>",
+   "appearanceHtml": "<p>Level 4 is an abandoned office building with little trace of people. <a href=\"#APP#/guides/sanity/\">Sanity</a> doesn't drop in this level, making it a good place to stay at. There are multiple rooms, with standard office cubicles. Most rooms are locked, though. There's also lightning that will strike outside frequently in the level.\n</p>",
    "difficulty": 0,
    "difficultyLabel": "Class 0",
    "entities": [

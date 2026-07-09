@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-08T16:28:58+00:00",
+  "fetchedAt": "2026-07-09T07:34:05+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1250,7 +1250,7 @@
      "title": "Location"
     },
     {
-     "html": "<p>The Scratcher will roam around <a href=\"#APP#/levels/the-end/\">The End</a> randomly. It also doesn't have eyes, making it Blind. If you make noise around it, it will figure out you're there and become faster than you. It will start chasing you and the only thing you can do at that point is hide underneath one of the 2 Tables in the Level. After a few Seconds of being underneath the Table, it will go away. You can also use a Fire Alarm to distract it. There are 2 in the Level, and once turning one on, the Scratcher will go towards the noise. Once it makes it to the Fire Alarm, it will go back to roaming around <a href=\"#APP#/levels/the-end/\">The End</a>.\n</p>",
+     "html": "<p>The Scratcher will roam around <a href=\"#APP#/levels/the-end/\">The End</a> randomly. It also doesn't have eyes, making it Blind. If you make noise around it, it will figure out you're there and become faster than you. It will start chasing you and the only thing you can do at that point is hide underneath one of the 2 Tables in the Level. After a few Seconds of being underneath the Table, it will go away. You can also use a Fire Alarm to distract it. There are 2 in the Level, and once turning one on, the Scratcher will go towards the noise. Once it makes it to the Fire Alarm, it will go back to roaming around <a href=\"#APP#/levels/the-end/\">The End</a>. Once you collect all of the Tapes and put them into the Computer, the Scratcher will ignore you, and after a few Seconds, it will dissappear and The Orb will spawn.\n</p>",
      "title": "Behavior"
     },
     {

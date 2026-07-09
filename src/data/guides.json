@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 15,
-  "fetchedAt": "2026-07-08T16:28:58+00:00",
+  "fetchedAt": "2026-07-09T07:34:05+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -404,7 +404,7 @@
      "title": "Wrong Door"
     },
     {
-     "html": "<figure> \t<img src=\"#IMG#/images/guides/endings/body-4.png\" alt=\"The Pink House Ending\" width=\"640\" height=\"360\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p>The path to get this ending is:\n</p>\n<ul><li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li>Ending</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li></ul>\n<h3>The Ending</h3>\n<p>After coming across the gas at the end of <a href=\"#APP#/levels/level-974/\">Level 974</a>, the player wakes up in a much cleaner <a href=\"#APP#/levels/level-974/\">Level 974</a>, and then the door opens when Kitty comes in and moves around until he leaves the room.\n</p>",
+     "html": "<figure> \t<img src=\"#IMG#/images/guides/endings/body-4.png\" alt=\"The Pink House Ending\" width=\"640\" height=\"360\"> \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t</figcaption> </figure>\n<p>The path to get this ending is:\n</p>\n<ul><li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li>Ending</li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li></ul>\n<h3>The Ending</h3>\n<p>After coming across the gas at the end of <a href=\"#APP#/levels/level-974/\">Level 974</a>, the player wakes up in a much cleaner <a href=\"#APP#/levels/level-974/\">Level 974</a>, and then the door opens when <a href=\"#APP#/entities/mr-kitty/\">Mr. Kitty</a> comes in and moves around until he does a hand motion and leaves the room.\n</p>",
      "title": "The Pink House"
     },
     {
