@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 43,
-  "fetchedAt": "2026-07-09T07:34:05+00:00",
+  "fetchedAt": "2026-07-10T07:31:35+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -126,7 +126,7 @@
     "chainsaw"
    ],
    "kind": "main",
-   "leadHtml": "<p><i>\"What is this place? I need to find a way to get out of here...\"</i>\n</p><p><small>- The Player at the start of the Level</small>\n\n</p>",
+   "leadHtml": "<p><i>\"Mind uh, checking for anyone's still vacuuming that backroom?\"</i>\n</p><p><small>- The other Wanderer in the intro</small>\n\n</p>",
    "name": "Level 0",
    "order": 0,
    "part": null,

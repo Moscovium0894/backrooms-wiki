@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-09T07:34:05+00:00",
+  "fetchedAt": "2026-07-10T07:31:35+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -60,7 +60,7 @@
      "title": "Tips & Advice"
     },
     {
-     "html": "<h3>Do's</h3>\n<ul><li>Hide in houses as soon as you see the sun going down.</li>\n<li>Turn off the Lights in a house at night.</li>\n<li>Move quickly through the Level.</li>\n<li>If in a Truck, stay near the front of it to avoid being killed. This may not always work.</li>\n<li>If playing with 3-4 players, split up with 2 players per house since there are only 3 hiding spots.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Stay outside after the sun goes down.</li>\n<li>Stand around in the houses at night due to Animations being able to break into houses.</li>\n<li>Stay near the exit door of a Truck.</li>\n<li>Keep the Lights on in a house at night.</li>\n<li>Go into the same house if you're playing with 3-4 players.</li></ul>",
+     "html": "<h3>Do's</h3>\n<ul><li>Hide in houses as soon as you see the sun going down.</li>\n<li>Turn off the Lights in a house at night.</li>\n<li>Move quickly through the Level.</li>\n<li>If in a Truck, stay near the driver's seat to avoid being killed. This may not always work.</li>\n<li>If playing with 3-4 players, split up with 2 players per house since there are only 3 hiding spots.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Stay outside after the sun goes down.</li>\n<li>Stand around in the houses at night due to Animations being able to break into houses.</li>\n<li>Stay near the exit door of a Truck.</li>\n<li>Keep the Lights on in a house at night.</li>\n<li>Go into the same house if you're playing with 3-4 players.</li>\n<li>Run around in a house at night, the Animations will figure out you're in the house.</li></ul>",
      "title": "Do's & Don'ts"
     },
     {
