@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-19T06:27:30+00:00",
+  "fetchedAt": "2026-07-20T06:42:48+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1684,28 +1684,35 @@
   },
   {
    "dangerLabel": "Unknown",
-   "id": "unknown-bird-entity",
+   "id": "unknown-dark-entity",
    "images": [
     {
-     "file": "entities/unknown-bird-entity/hero.png",
+     "file": "entities/unknown-dark-entity/hero.png",
      "height": 365,
      "role": "hero",
      "sourceFile": "File:Giant Bird Entity.png",
      "width": 247
     },
     {
-     "file": "entities/unknown-bird-entity/thumb.png",
+     "file": "entities/unknown-dark-entity/thumb.png",
      "height": 365,
      "role": "thumb",
      "sourceFile": "File:Giant Bird Entity.png",
      "width": 247
+    },
+    {
+     "file": "entities/unknown-dark-entity/body-3.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail.jpg",
+     "width": 640
     }
    ],
    "levels": [],
-   "name": "Unknown Bird Entity",
+   "name": "Unknown Dark Entity",
    "sections": [
     {
-     "html": "<p>The entity appears to be a dark, giant human-sized creature with glowing blue eyes. It also has two really long fingers on its hand.\n</p>",
+     "html": "<p>The entity appears to be a dark, giant human-sized creature with glowing blue eyes and something on its head. It also has two really long fingers on its hand.\n</p>",
      "title": "Appearance"
     },
     {
@@ -1717,11 +1724,15 @@
      "title": "Behavior"
     },
     {
-     "html": "<h3>Speculation</h3>\n<ul><li>There are a couple possibilities on what this entity is:\n<ul><li>The first and strongest possibility is <a href=\"https://backrooms-wiki.wikidot.com/entity-18\" rel=\"noopener nofollow\" target=\"_blank\">The Beast of Level 5</a>, which has a few points:\n<ul><li>Fancy was in <a href=\"#APP#/levels/level-5/\">Level 5</a> where it appeared, the main level the beast resides in on the Backrooms Wikidot.</li>\n<li>Its head kind of looks like the head of the beast when you look at just the head.</li>\n<li>The new level Fancy mentioned might be <a href=\"https://backrooms-wiki.wikidot.com/level-5-1\" rel=\"noopener nofollow\" target=\"_blank\">Level 5.1</a>, since if it's being added to the game, it would make sense that that's what would lead to the beast's addition.\n<ul><li>To add to the level being Level 5.1, Fancy only said one part of the level's name, \"Level\". And it doesn't sound unrealistic for a level like that to be Fancy's favorite of the new levels.</li></ul></li></ul></li>\n<li>Another possibility is for the entity to be a <a href=\"http://backrooms-mghc.wikidot.com/entity-47\" rel=\"noopener nofollow\" target=\"_blank\">Strangler</a> as they both share the following features:\n<ul><li>Both creatures have large beaks, snakelike appendages, and are hunched over.</li></ul></li></ul></li>\n<li>It somewhat resembles a bird with a beak and a tongue, although it's hard to tell exactly what it is.</li></ul>",
+     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td>June 19, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">I Spent a 4 YEARS Turning the Backrooms into a GAME...</a>\n<p><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=409s\" rel=\"noopener nofollow\" target=\"_blank\">Video scene</a>\n</p>\n</td>\n<td><img src=\"#IMG#/images/entities/unknown-dark-entity/body-3.jpg\" alt=\"I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>As Fancy is mentioning his favorite new level in the next update, the entity appears for a second in the back.\n</td></tr></tbody></table>",
+     "title": "History"
+    },
+    {
+     "html": "<h3>Speculation</h3>\n<ul><li>There are a couple possibilities on what this entity is:\n<ul><li>The first and strongest possibility is <a href=\"https://backrooms-wiki.wikidot.com/entity-18\" rel=\"noopener nofollow\" target=\"_blank\">The Beast of Level 5</a>, which has a few points:\n<ul><li>Fancy was in Level 5 where it appeared, the main level the beast resides in on the Backrooms Wikidot.</li>\n<li>Its head kind of looks like the head of the beast when you look at just the head.</li>\n<li>It looks like it might be wearing a suit or some sort of clothing when looking at the back of it.</li>\n<li>If the beast is the entity, then the level Fancy was saying is his favorite in the update might be <a href=\"https://backrooms-wiki.wikidot.com/level-5-1\" rel=\"noopener nofollow\" target=\"_blank\">Level 5.1</a>, since if it's being added to the game, it would make sense that that's what would lead to the beast's addition.\n<ul><li>To add to the level being Level 5.1, it doesn't sound unrealistic for a level like Level 5.1 to be Fancy's favorite of the new levels.</li></ul></li></ul></li>\n<li>The second biggest possibility is a <a href=\"http://backrooms-mghc.wikidot.com/entity-47\" rel=\"noopener nofollow\" target=\"_blank\">Strangler</a> due to a few points and the entity and Stranglers both sharing some features:\n<ul><li>Both creatures have large beaks, snakelike appendages, and are hunched over.</li>\n<li>If the Strangler is the entity, then the level Fancy was saying is his favorite in the update might be <a href=\"http://backrooms-mghc.wikidot.com/level-58-1\" rel=\"noopener nofollow\" target=\"_blank\">Level 58.1</a>, since that is the main level Stranglers reside in.</li>\n<li>One thing that goes against the possibility of it being a Strangler is that it and its parent level is archived outside of the Backrooms Wikidot where it originates, as entity 47 on the Wikidot is now an entity known as <a href=\"https://backrooms-wiki.wikidot.com/entity-47\" rel=\"noopener nofollow\" target=\"_blank\">Teddy</a>, so it's unclear if Fancy would end up finding the entity because everything within the game seems to come from the Backrooms Wikidot and Fandom wiki.</li></ul></li>\n<li>The third possibility is an updated version of <a href=\"#APP#/entities/jerry/\">Jerry</a>, which has some points for it.\n<ul><li>It somewhat resembles a bird with a beak and a tongue, although it's hard to tell exactly what it is.</li>\n<li>If Jerry was changed to work with the game, this entity is probably how it would be done.</li>\n<li>Its eye color is blue just like Jerry's feathers, although its eyes in Fancy's <a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ\" rel=\"noopener nofollow\" target=\"_blank\">7th</a> Escape the Backrooms devlog were red.</li>\n<li>If Jerry is the entity, then the level Fancy was saying is his favorite in the update might be <a href=\"https://backrooms-wiki.wikidot.com/trimmed:level-274\" rel=\"noopener nofollow\" target=\"_blank\">Level 274</a>, since that is the main level Jerry resides in.</li></ul></li></ul></li></ul>",
      "title": "Trivia"
     }
    ],
-   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Unknown_Bird_Entity",
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Unknown_Dark_Entity",
    "species": "N/A",
    "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.",
    "survival": null
