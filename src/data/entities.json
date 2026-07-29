@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 28,
-  "fetchedAt": "2026-07-28T06:23:04+00:00",
+  "fetchedAt": "2026-07-29T06:28:52+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -601,11 +601,11 @@
    "name": "Hound",
    "sections": [
     {
-     "html": "<p>Hounds are Skinny Humanoid Dogs with medium length black hair going down on both sides of their head and black eyes with white pupils.\n</p>",
+     "html": "<p>Hounds are skinny humanoid dogs with medium length black hair going down on both sides of their head and black eyes with white pupils.\n</p>",
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-3/\">Level 3</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5</a></li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li></ul>",
      "title": "Location"
     },
     {
@@ -621,8 +621,12 @@
      "title": "Do's & Don'ts"
     },
     {
-     "html": "<table>\n<caption><b>Update History for The Hound</b>\n</caption>\n<tbody><tr>\n<td>Part 2\n</td>\n<td>Added the Hound.\n</td></tr>\n<tr>\n<td>Hotfix 3\n</td>\n<td>Nerfed Hounds by allowing you to stun them multiple times.\n</td></tr>\n<tr>\n<td>Hotfix 4\n</td>\n<td>Nerfed Hounds even more in Easy/Normal mode.\n<p>Fixed an issue where Hounds wouldn’t be stunned sometimes.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix 5\n</td>\n<td>Made the Hound sounds more consistent.\n<p>Made Hounds move much slower in Easy mode.\nStopped Hounds from no-clipping into walls when turning around.\nFixed a bug where Hounds sometimes didn’t stop.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix 6\n</td>\n<td>Slightly decreased the Hound stun cooldown in normal mode.\n<p>Made it so Hounds won’t camp doors as often.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix 7\n</td>\n<td>Fixed a bug where Hounds wouldn’t play any sounds if the host is dead.\n</td></tr></tbody></table>",
-     "title": "History"
+     "html": "<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>A Hound panting.\n</td>\n<td>hound_painedpanting_loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 3 sounds that plays when a Hound notices a player.\n</td>\n<td>hound_alertgrowl1\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 3 sounds that plays when a Hound notices a player.\n</td>\n<td>hound_alertgrowl2\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 3 sounds that plays when a Hound notices a player.\n</td>\n<td>hound_alertgrowl3\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A Hound chasing a player.\n</td>\n<td>hound_chaseloop1a\n</td></tr>\n<tr>\n<td>\n</td>\n<td>Another sound of a Hound chasing a player.\n</td>\n<td>hound_chaseloop1a\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 3 sounds that plays when a Hound is blinded by a <a href=\"#APP#/items/flashlight/\">Flashlight</a>.\n</td>\n<td>hound_blinded1\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 3 sounds that plays when a Hound is blinded by a <a href=\"#APP#/items/flashlight/\">Flashlight</a>.\n</td>\n<td>hound_blinded2\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 3 sounds that plays when a Hound is blinded by a <a href=\"#APP#/items/flashlight/\">Flashlight</a>.\n</td>\n<td>hound_blinded3\n</td></tr>\n<tr>\n<td>N/A\n</td>\n<td>The 1st part of the Hound's jumpscare.\n</td>\n<td>hound_kill1\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The 2nd part of the Hound's jumpscare.\n</td>\n<td>hound_kill2\n</td></tr></tbody></table>",
+     "title": "Audio"
+    },
+    {
+     "html": "<table>\n<tbody><tr>\n<td>Part 2\n</td>\n<td>Added the Hound.\n</td></tr>\n<tr>\n<td>Hotfix 3\n</td>\n<td>Nerfed Hounds by allowing you to stun them multiple times.\n</td></tr>\n<tr>\n<td>Hotfix 4\n</td>\n<td>Nerfed Hounds even more in Easy/Normal mode.\n<p>Fixed an issue where Hounds wouldn’t be stunned sometimes.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix 5\n</td>\n<td>Made the Hound sounds more consistent.\n<p>Made Hounds move much slower in Easy mode.\nStopped Hounds from no-clipping into walls when turning around.\nFixed a bug where Hounds sometimes didn’t stop.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix 6\n</td>\n<td>Slightly decreased the Hound stun cooldown in normal mode.\n<p>Made it so Hounds won’t camp doors as often.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix 7\n</td>\n<td>Fixed a bug where Hounds wouldn’t play any sounds if the host is dead.\n</td></tr></tbody></table>",
+     "title": "Update History"
     },
     {
      "html": "<ul><li>Fancy nerfed the hounds 4 times between January 13th, 2023, and January 15th, 2023, because of players always reporting that they were too hard.</li>\n<li>There are only 3 Hounds that will disappear.</li>\n<li>ins0mic made the Hound lines by making rabid muscle man noises in a paper towel tube and then distorting it a bit.</li></ul>",
@@ -631,7 +635,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Hound",
    "species": "Humanoid Dog",
-   "summary": "Hounds are Skinny Humanoid Dogs with medium length black hair going down on both sides of their head and black eyes with white pupils.",
+   "summary": "Hounds are skinny humanoid dogs with medium length black hair going down on both sides of their head and black eyes with white pupils.",
    "survival": {
     "donts": [
      "Try to outrun the Hounds (this can work sometimes, but not always so don't take the risk if you're not that good)",
@@ -1336,11 +1340,11 @@
      "title": "Do's & Don'ts"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>A Skin-Stealer chasing a player.\n</td>\n<td>skinstealer_chaseloop\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>A Skin-Stealer saying \"Uh, hello?\".\n</td>\n<td>skinstealure1\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A Skin-Stealer saying \"Excuse me?\".\n</td>\n<td>skinstealure2\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A Skin-Stealer saying \"Hey, hey!\".\n</td>\n<td>skinstealure3\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A Skin-Stealer chasing a player.\n</td>\n<td>skinstealer_chaseloop\n</td></tr></tbody></table>",
      "title": "Audio"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<td>Part 2\n</td>\n<td>Added the Skin-Stealer.\n</td></tr>\n<tr>\n<td>Hotfix 6\n</td>\n<td>Fixed skin stealers being able to hear you through walls\n</td></tr>\n<tr>\n<td>VR Update\n</td>\n<td>Fixed a bug where 2 skin stealers would spawn if you were the host.\n</td></tr>\n<tr>\n<td>Part 3\n</td>\n<td>Added Skin-Stealers to <a href=\"#APP#/levels/level-8/\">Level 8</a>.\n</td></tr>\n<tr>\n<td>Part 4\n</td>\n<td>Added Skin-Stealers to <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> and the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<td>Part 2\n</td>\n<td>Added the Skin-Stealer.\n</td></tr>\n<tr>\n<td>Hotfix 6\n</td>\n<td>Fixed skin stealers being able to hear you through walls\n</td></tr>\n<tr>\n<td>VR Update\n</td>\n<td>Fixed a bug where 2 skin stealers would spawn if you were the host.\n</td></tr>\n<tr>\n<td>Part 3\n</td>\n<td>Added Skin-Stealers to <a href=\"#APP#/levels/level-8/\">Level 8</a>.\n</td></tr>\n<tr>\n<td>Part 4\n</td>\n<td>Added Skin-Stealers to <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> and the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Added footstep sounds to the Skin-Stealer.\n</td></tr></tbody></table>",
      "title": "Update History"
     }
    ],
@@ -1436,7 +1440,11 @@
      "title": "Do's & Don'ts"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added The Smiler.\n</td></tr>\n<tr>\n<td>Part 2\n</td>\n<td>Changed Smilers to be floating faces in <a href=\"#APP#/levels/level-1/\">Level 1</a> and changed Smiler behavior slightly.\n</td></tr>\n<tr>\n<td>Part 4\n</td>\n<td>Added Smilers to <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> in the <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> area, <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>, and in the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Smiler faces now appear glitchy and slightly distorted and all Smilers have foggy bodies surrounding the face.\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>One of the 2 sounds that can play when a Smiler breaks a lightbulb in <a href=\"#APP#/levels/level-2/\">Level 2</a>, and <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a>.\n</td>\n<td>Bulb_Break_1\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 2 sounds that can play when a Smiler breaks a lightbulb in <a href=\"#APP#/levels/level-2/\">Level 2</a>, and <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a>.\n</td>\n<td>Bulb_Break_2\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A Smiler chasing a player in <a href=\"#APP#/levels/level-2/\">Level 2</a> and <a href=\"#APP#/levels/level-exclamation/\">Level !</a>. <b>WARNING: LOUD!</b>\n</td>\n<td>Creature_Chasing_Full\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 2 Smiler jumpscare sounds. <b>WARNING: LOUD!</b>\n</td>\n<td>Smiler_1\n</td></tr>\n<tr>\n<td>\n</td>\n<td>One of the 2 Smiler jumpscare sounds. <b>WARNING: LOUD!</b>\n</td>\n<td>Smiler_2\n</td></tr></tbody></table>",
+     "title": "Audio"
+    },
+    {
+     "html": "<table>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added Smilers.\n</td></tr>\n<tr>\n<td>Part 2\n</td>\n<td>Changed Smilers to be floating faces in <a href=\"#APP#/levels/level-1/\">Level 1</a> and changed Smiler behavior slightly.\n</td></tr>\n<tr>\n<td>Part 4\n</td>\n<td>Added Smilers to <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> in the <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> area, <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>, and in the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Smiler faces now appear glitchy and slightly distorted and all Smilers have foggy bodies surrounding the face.\n</td></tr></tbody></table>",
      "title": "Update History"
     },
     {
