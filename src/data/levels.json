@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-08-11T05:02:22+00:00",
+  "fetchedAt": "2026-08-12T05:28:08+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -4416,7 +4416,7 @@
    "walkthroughHtml": "<h3>Part 1: The Van</h3>\n<p>Once you get to the Layer from <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>, you must have a <a href=\"#APP#/items/camera/\">Camera</a> with you, and you must find a Damaged Van in the Level. Once you find it, take a Picture of it and the Photo on the <a href=\"#APP#/items/camera/\">Camera</a> will change to the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>.\n</p>\n<h3>Part 2: The Bacteria</h3>\n<p>Once you've taken a Photo of the Van, you must take a Photo of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>. A good way of doing this is by getting the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> to spot you and hide in a Locker. When the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> walks away, get out of the Locker and get a Photo of it. Once you have taken a Photo of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>, you can go to the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer to continue <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</p>"
   },
   {
-   "appearanceHtml": "<p>bruce's [Redacted] appears to be some sort of pink-colored building with various things such as posters, chairs, and wall art. The level has a shark mascot themed around it known as \"Bruce\". \n</p>",
+   "appearanceHtml": "<p>Level 421 is a children's hospital with various things such as posters, chairs, and wall art. The level has a shark mascot themed around it known as \"Bruce\". A <a href=\"#APP#/levels/the-m-e-g-base/\">M.E.G. Base</a> resembling area has also been seen associated with this level, but it's unknown how it will connect to it. \n</p>",
    "difficulty": null,
    "difficultyLabel": "Unknown",
    "entities": [],
@@ -4425,7 +4425,7 @@
    "exitsRaw": "N/A",
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\tN/A",
+     "html": "<h3>Added in</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\t<a href=\"https://backrooms-wiki.wikidot.com/level-421\" rel=\"noopener nofollow\" target=\"_blank\">Level 421 - Plastic Mariana</a>",
      "title": "Production"
     },
     {
@@ -4433,15 +4433,15 @@
      "title": "Mission"
     },
     {
-     "html": "<p>N/A\n</p>",
+     "html": "<p>Three items have been seen to be apart of this level. These items include:\n</p>\n<table>\n<tbody><tr>\n<th><b>Model</b>\n</th>\n<th><b>Icon</b>\n</th>\n<th><b>Name</b>\n</th>\n<th><b>How many can be found</b>\n</th>\n<th><b>Where they can be found</b>\n</th></tr>\n<tr>\n<td><img src=\"#IMG#/images/levels/level-421/body-2.png\" alt=\"New Flashlight\" width=\"81\" height=\"299\">\n</td>\n<td><img src=\"#IMG#/images/levels/level-421/body-3.png\" alt=\"New Flashlight Icon\" width=\"640\" height=\"640\">\n</td>\n<td><a href=\"#APP#/items/flashlight/\">Flashlight</a>\n</td>\n<td>N/A\n</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><img src=\"#IMG#/images/levels/level-421/body-4.png\" alt=\"New Energy\" width=\"388\" height=\"204\">\n</td>\n<td><img src=\"#IMG#/images/levels/level-421/body-5.png\" alt=\"New Energy Bar Icon\" width=\"640\" height=\"640\">\n</td>\n<td><a href=\"#APP#/items/energy-bar/\">Energy Bar</a>\n</td>\n<td>N/A\n</td>\n<td>N/A\n</td></tr>\n<tr>\n<td><img src=\"#IMG#/images/levels/level-421/body-6.png\" alt=\"New Juice\" width=\"232\" height=\"700\">\n</td>\n<td>\n</td>\n<td><a href=\"#APP#/items/juice/\">Juice</a>\n</td>\n<td>N/A\n</td>\n<td>N/A\n</td></tr></tbody></table>",
      "title": "Items"
     },
     {
-     "html": "<p>N/A\n</p>",
+     "html": "<p>Only one entity has been mentioned to be here, being ball pit balls.\n</p>",
      "title": "Entities"
     },
     {
-     "html": "<p>N/A\n</p>",
+     "html": "<p>Three objects have been seen to be in the level so far. These objects include:\n</p>\n<table>\n<tbody><tr>\n<th><b>Object</b>\n</th>\n<th><b>Name</b>\n</th>\n<th><b>How many can be found</b>\n</th>\n<th><b>Where they can be found</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>Doors\n</td>\n<td>N/A (2 seen so far)\n</td>\n<td>N/A\n</td></tr>\n<tr>\n<td>\n</td>\n<td>Computer\n</td>\n<td>N/A (1 seen so far)\n</td>\n<td>N/A\n</td></tr>\n<tr>\n<td>\n</td>\n<td>Storage Shelves\n</td>\n<td>N/A (1 seen so far)\n</td>\n<td>N/A\n</td></tr></tbody></table>",
      "title": "Objects"
     },
     {
@@ -4449,50 +4449,82 @@
      "title": "Entrances & Exits"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td>July 30, 2026\n</td>\n<td><a href=\"https://discord.gg/fancygames\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms Discord Server</a>\n</td>\n<td><img src=\"#IMG#/images/levels/bruce-apostrophe-s-redacted/body-3.png\" alt=\"Unknown Shark Mascot Level Teaser 1\" width=\"640\" height=\"378\">\n<p><img src=\"#IMG#/images/levels/bruce-apostrophe-s-redacted/hero.png\" alt=\"Unknown Shark Mascot Level Teaser 2\" width=\"800\" height=\"446\">\n</p>\n</td>\n<td>Two work in progress images of the level were revealed by Liam from Secret Mode with the caption,\n<p>\"Endless... Suffocating...\n</p><p>ẅ̶̃̈́̚é̴̄͑̌l̴̬̩̙̐c̴̏̓̽͊ŏ̷̍̀̐m̷̧̝̜̈́è̷̓̌̓ ̸͑̒̿̒t̵͒̈́̂͝o bru̍̔̕c̴̛̔̈̕e̸̍̾̊͘'̴͛̈́͗̀s̷̈ [̨R̷̛͊̐̕e̸͗̀̑dǎc̴̈̿̾͠t̴̊̐́ed]̵̈̔̋̍\".\n</p>\n</td></tr>\n<tr>\n<td>July 30, 2026\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms TikTok account</a><br><a href=\"https://www.tiktok.com/@escapethebackroomsgame/photo/7668305144546594070\" rel=\"noopener nofollow\" target=\"_blank\">Photos</a>\n</td>\n<td><img src=\"#IMG#/images/levels/bruce-apostrophe-s-redacted/body-3.png\" alt=\"Unknown Shark Mascot Level Teaser 1\" width=\"640\" height=\"378\">\n<p><img src=\"#IMG#/images/levels/bruce-apostrophe-s-redacted/hero.png\" alt=\"Unknown Shark Mascot Level Teaser 2\" width=\"800\" height=\"446\">\n</p>\n</td>\n<td>The same two pictures that were previously teased on the discord server were shown along with Backrooms ambience as the sound, and a slightly different caption,\n<p>\"Endless. Suffocating.\n</p><p>ẅ̶̃̈́̚é̴̄͑̌l̴̬̩̙̐c̴̏̓̽͊ŏ̷̍̀̐m̷̧̝̜̈́è̷̓̌̓ ̸͑̒̿̒t̵͒̈́̂͝o bru̍̔̕c̴̛̔̈̕e̸̍̾̊͘'̴͛̈́͗̀s̷̈ [̨R̷̛͊̐̕e̸͗̀̑dǎc̴̈̿̾͠t̴̊̐́ed]̵̈̔̋̍\".\n</p>\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td>July 30, 2026\n</td>\n<td><a href=\"https://discord.gg/fancygames\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms Discord Server</a>\n</td>\n<td><br>\n</td>\n<td>Two work in progress images of the level were revealed by Liam from Secret Mode with the caption,\n<p>\"Endless... Suffocating...\n</p><p>ẅ̶̃̈́̚é̴̄͑̌l̴̬̩̙̐c̴̏̓̽͊ŏ̷̍̀̐m̷̧̝̜̈́è̷̓̌̓ ̸͑̒̿̒t̵͒̈́̂͝o bru̍̔̕c̴̛̔̈̕e̸̍̾̊͘'̴͛̈́͗̀s̷̈ [̨R̷̛͊̐̕e̸͗̀̑dǎc̴̈̿̾͠t̴̊̐́ed]̵̈̔̋̍\".\n</p>\n</td></tr>\n<tr>\n<td>July 30, 2026\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms TikTok account</a><br><a href=\"https://www.tiktok.com/@escapethebackroomsgame/photo/7668305144546594070\" rel=\"noopener nofollow\" target=\"_blank\">Photos</a>\n</td>\n<td><br>\n</td>\n<td>The same two pictures that were previously teased on the discord server were shown in a swapped order along with Backrooms ambience as the sound, and a slightly different caption,\n<p>\"Endless. Suffocating.\n</p><p>ẅ̶̃̈́̚é̴̄͑̌l̴̬̩̙̐c̴̏̓̽͊ŏ̷̍̀̐m̷̧̝̜̈́è̷̓̌̓ ̸͑̒̿̒t̵͒̈́̂͝o bru̍̔̕c̴̛̔̈̕e̸̍̾̊͘'̴͛̈́͗̀s̷̈ [̨R̷̛͊̐̕e̸͗̀̑dǎc̴̈̿̾͠t̴̊̐́ed]̵̈̔̋̍\".\n</p>\n</td></tr>\n<tr>\n<td>August 11, 2026\n</td>\n<td><a href=\"https://discord.gg/fancygames\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms Discord Server</a>\n</td>\n<td><br><img src=\"#IMG#/images/levels/level-421/hero.png\" alt=\"Bruce4\" width=\"800\" height=\"450\"><br><br>\n</td>\n<td>On the Escape the Backrooms four-year anniversary, four more work in progress pictures of the level were shown with the caption,\n<p>\"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\n</p><p>Level 421 - coming soon.\" which revealed the level name for the first time.\n</p>\n</td></tr>\n<tr>\n<td>August 11, 2026\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms TikTok account</a><br><a href=\"https://www.tiktok.com/@escapethebackroomsgame/photo/7672433177159339286\" rel=\"noopener nofollow\" target=\"_blank\">Photos</a>\n</td>\n<td><br><br><br><img src=\"#IMG#/images/levels/level-421/hero.png\" alt=\"Bruce4\" width=\"800\" height=\"450\">\n</td>\n<td>The same four pictures that were previously teased on the discord server were shown in a swapped order along with the same Backrooms ambience from the TikTok photos of the first two teaser images as the sound, and \"Level 421 - coming soon\" as the title and the description as the same description of the level from the Discord server announcement.\n</td></tr></tbody></table>",
      "title": "History"
     },
     {
-     "html": "<h3>The level</h3>\n<ul><li>Out of all the current upcoming levels, this one has the second most amount of information about it, having two pictures revealed of it.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the most amount of information about it, having some information revealed about it and a look at two rooms, the <a href=\"#APP#/levels/unknown-dark-level/\">Unknown Dark Level</a> as the one with the third most amount of information about it, only having a blurred picture, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is, if it's this level or one of the other new ones coming and was only mentioned.</li></ul></li>\n<li>The bottom text of the posters in the level are hard to read, but the top text says \"SMILE!\".</li>\n<li>A caged off area has a sign that reads, \"Bruce's ???? ?? Center\".\n<ul><li>Behind this area also appears to be a pool, which would make sense for a place like this.</li>\n<li>There's a possibility that could be what the rest of the the caption apart of the level teaser that cuts it off at Bruce's, since that's how it starts.</li></ul></li>\n<li>Wall art from the liminal room in <a href=\"#APP#/levels/the-bunker/\">the Bunker</a> can be seen in the level.</li></ul>\n<h3>Speculation</h3>\n<ul><li>It is unclear if this is an original level, or a level based on one from one of the Backrooms wikis, but if it is based on a Backrooms level, there's a chance it could be <a href=\"https://backrooms-wiki.wikidot.com/level-43\" rel=\"noopener nofollow\" target=\"_blank\">Level 43 - Water World</a> due to the aquatic theming and a suggestion from the Escape the Backrooms <a href=\"https://escapethebackrooms-feedback-aw27qjpn.featureupvote.com/\" rel=\"noopener nofollow\" target=\"_blank\">Feature Upvote</a> suggesting Level 43, considering that quite a lot of fixes and changes have actually come to the game from the feature upvote although for now, there is no certainty.</li></ul>",
+     "html": "<h3>The level</h3>\n<ul><li>Out of all the current upcoming levels, this one has the second most amount of information about it, having a bunch of pictures of it.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the most amount of information about it, having some information revealed about it, a look at two rooms and having been discussed in Fancy's <a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">13th</a> Escape the Backrooms Devlog, the <a href=\"#APP#/levels/unknown-dark-level/\">Unknown Dark Level</a> as the one with the third most amount of information about it, only having a blurred picture, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is, if it's this level or one of the other new ones coming and was only mentioned.</li></ul></li>\n<li>This is currently the only numerical level known to be coming to the game in the next update.</li>\n<li>The bottom text of the posters in the level is hard to read from what has been seen of them, but the top text says \"SMILE!\".</li>\n<li>A caged off area has a sign that reads, \"Bruce's Discovery Center\" with the letters DI and O being missing.</li>\n<li>Wall art from the liminal room in <a href=\"#APP#/levels/the-bunker/\">the Bunker</a> can be seen in the level.</li>\n<li>In the M.E.G. base resembling area, the ball pit balls can be seen sorted out into the colors red and green, with numbers above labelling the red as 1 and the green as 3. Another one can be seen past that but the balls it contains is unknown. The other two ball colors seen in the level include blue and yellow, so both of those colors are likely there.\n<ul><li>The green should be labelled as 2 since it's the second one in the row.</li></ul></li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>A description of the level that explains the level's lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>\n<h3>Community</h3>\n<ul><li>So far, only Secret Mode has shown or discussed this level before.</li>\n<li>When the level was first revealed, the caption \"Endless... Suffocating.../Endless. Suffocating.\" accompanied it, and the title of \"Bruce's Discovery Center\" was hidden as \"bruce's [Redacted]\".\n<ul><li>In the first teaser image of the level, the title could be seen on a sign in a caged area, but it was distant, making it hard to tell what it said.</li>\n<li>Before the level was revealed to be Level 421, there was only one indication on the level being Level 421, which was the endless suffocating caption, since it seems to be referring to the fact that the level is an endless ball pit.</li></ul></li>\n<li>The teaser images apart of the level name reveal are titled, \"Plastic_Mariana_17a_w_WIP\", \"Plastic_Mariana_2a_w_WIP\", \"Plastic_Mariana_20a_w_WIP\", \"Plastic_Mariana_5a_w_WIP\" in order. The most notable part about them being, \"Plastic_Mariana\" which is the sub-name of the level that this one is based on.</li>\n<li>If you brighten the teaser images apart of the level name reveal, more of the level can be seen.\n<ul><li>In the caged off area image, a hallway with more chairs on the left side, windows from the caged off area on the left, and a wooden door and a further down corridor on the right can be seen.</li>\n<li>In the dark room with stairs image, there's a single ball pit ball that's on the left of the Bruce statue, and what's past the corridor below the stairs includes a blue arch block and what appears to be another door or some sort of corridor.</li></ul></li></ul>\n<h3>Level inspiration</h3>\n<ul><li>This level is based on the Backrooms level, \"<a href=\"https://backrooms-wiki.wikidot.com/level-421\" rel=\"noopener nofollow\" target=\"_blank\">Level 421 - Plastic Mariana</a>\" from the Backrooms wikidot.\n<ul><li>The children's hospital and Bruce mascot parts of the level seem to be original, as they are not apart of the original level.</li></ul></li></ul>",
      "title": "Trivia"
     }
    ],
    "hazards": [],
-   "id": "bruce-apostrophe-s-redacted",
+   "id": "level-421",
    "images": [
     {
-     "file": "levels/bruce-apostrophe-s-redacted/hero.png",
-     "height": 446,
+     "file": "levels/level-421/hero.png",
+     "height": 450,
      "role": "hero",
-     "sourceFile": "File:Unknown Shark Mascot Level Teaser 2.png",
+     "sourceFile": "File:Bruce4.png",
      "width": 800
     },
     {
-     "file": "levels/bruce-apostrophe-s-redacted/thumb.png",
-     "height": 178,
+     "file": "levels/level-421/thumb.png",
+     "height": 180,
      "role": "thumb",
-     "sourceFile": "File:Unknown Shark Mascot Level Teaser 2.png",
+     "sourceFile": "File:Bruce4.png",
      "width": 320
     },
     {
-     "file": "levels/bruce-apostrophe-s-redacted/body-3.png",
-     "height": 378,
+     "file": "levels/level-421/body-2.png",
+     "height": 299,
      "role": "body",
-     "sourceFile": "File:Unknown Shark Mascot Level Teaser 1.png",
+     "sourceFile": "File:New Flashlight.png",
+     "width": 81
+    },
+    {
+     "file": "levels/level-421/body-3.png",
+     "height": 640,
+     "role": "body",
+     "sourceFile": "File:New Flashlight Icon.png",
      "width": 640
+    },
+    {
+     "file": "levels/level-421/body-4.png",
+     "height": 204,
+     "role": "body",
+     "sourceFile": "File:New Energy.png",
+     "width": 388
+    },
+    {
+     "file": "levels/level-421/body-5.png",
+     "height": 640,
+     "role": "body",
+     "sourceFile": "File:New Energy Bar Icon.png",
+     "width": 640
+    },
+    {
+     "file": "levels/level-421/body-6.png",
+     "height": 700,
+     "role": "body",
+     "sourceFile": "File:New Juice.png",
+     "width": 232
     }
    ],
-   "items": [],
+   "items": [
+    "flashlight",
+    "energy-bar",
+    "juice"
+   ],
    "kind": "upcoming",
-   "leadHtml": "<b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>\n\n<b>\"So the next level i'm going to add is Le-Hold up what's this?\"</b>\n<p>The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.<b></b>\n</p>\n\n<p><i>This page is meant to be titled \"bruce's [Redacted]\" but due to how Fandom works, it instead has to be titled \"Bruce's Redacted\".</i>\n</p>\n\n<p><i>\"Endless... Suffocating...\"</i>\n</p><p><small>- Liam from Secret Mode on Discord revealing the level.</small>\n</p>",
-   "name": "Bruce's Redacted",
+   "leadHtml": "<b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>\n\n<p><i>\"Endless... Suffocating...\"</i>\n</p><p><small>- Liam from Secret Mode on Discord revealing the level.</small>\n</p>",
+   "name": "Level 421",
    "order": null,
    "part": null,
    "sanity": null,
    "secretParentId": null,
-   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Bruce's_Redacted",
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Level_421",
    "subtitle": null,
-   "summary": "bruce's [Redacted] appears to be some sort of pink-colored building with various things such as posters, chairs, and wall art. The level has a shark mascot themed around it known as \"Bruce\".",
+   "summary": "Level 421 is a children's hospital with various things such as posters, chairs, and wall art. The level has a shark mascot themed around it known as \"Bruce\". A M.E.G. Base resembling area has also been seen associated with this level, but it's unknown how it will connect to it.",
    "walkthroughHtml": null
   },
   {
@@ -4536,7 +4568,7 @@
      "title": "History"
     },
     {
-     "html": "<h3>The level</h3>\n<ul><li>Out of all the upcoming levels, this one has the most amount of information about it, having some information revealed about it and a look at two rooms.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/bruce-apostrophe-s-redacted/\">bruce's [Redacted]</a> as the one with the second most amount of information about it, having two pictures revealed of it, the <a href=\"#APP#/levels/unknown-dark-level/\">Unknown Dark Level</a> as the one with the third most amount of information about it, only having a blurred picture, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is and was only mentioned.</li></ul></li>\n<li>In Fancy's 13th Escape the Backrooms devlog, it was said that the level is a class variable danger level, which means the actual danger of the level is uncertain. No level in the game so far has ever been a class variable, however.</li></ul>\n<h3>Production facts</h3>\n<ul><li>The highlighted wiki text when Fancy explained this level in his 13th Escape the Backrooms devlog reads, \"<b>The Afterparty</b> appears to be an abandoned series of party rooms. Popped balloons, deflated balloons, unpopped balloons, and birthday cakes can be found all around the level.\". What Fancy said is, \"which appears to be an abandoned series of party rooms with balloons and birthday cakes found all around.\".</li>\n<li>In Fancy's 13th Escape the Backrooms devlog, Fancy described the party rooms as \"super liminal rooms with tables that kind of remind you of the ones you'd see at a party\".</li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>In Fancy's 13th Escape the Backrooms devlog, Fancy said the lore of this level is that \"after the Partygoers won the Fun War, they threw the craziest party in Backrooms history\" and that \"word around the Backrooms is that the Partygoers really know how to have a good time.\". Right after this in that same devlog, a montage plays of the Partygoers partying in the <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> arcade sector, <a href=\"#APP#/levels/level-52/\">Level 52</a> and The Afterparty while the song \"<a href=\"https://www.youtube.com/watch?v=NWCNpCHeMf0\" rel=\"noopener nofollow\" target=\"_blank\">BACK2BACK</a>\" plays.</li></ul>\n<h3>Level inspiration</h3>\n<ul><li>This level is based on the Backrooms level \"The Afterparty\".</li></ul>",
+     "html": "<h3>The level</h3>\n<ul><li>Out of all the upcoming levels, this one has the most amount of information about it, having some information revealed about it and a look at two rooms.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/level-421/\">Level 421</a> as the one with the second most amount of information about it, having six work in progress pictures revealed of it and a description of the level but it hasn't been discussed in a devlog yet, the <a href=\"#APP#/levels/unknown-dark-level/\">Unknown Dark Level</a> as the one with the third most amount of information about it, only having a blurred picture, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is and was only mentioned.</li></ul></li>\n<li>In Fancy's 13th Escape the Backrooms devlog, it was said that the level is a class variable danger level, which means the actual danger of the level is uncertain. No level in the game so far has ever been a class variable, however.</li></ul>\n<h3>Production facts</h3>\n<ul><li>The highlighted wiki text when Fancy explained this level in his 13th Escape the Backrooms devlog reads, \"<b>The Afterparty</b> appears to be an abandoned series of party rooms. Popped balloons, deflated balloons, unpopped balloons, and birthday cakes can be found all around the level.\". What Fancy said is, \"which appears to be an abandoned series of party rooms with balloons and birthday cakes found all around.\".</li>\n<li>In Fancy's 13th Escape the Backrooms devlog, Fancy described the party rooms as \"super liminal rooms with tables that kind of remind you of the ones you'd see at a party\".</li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>In Fancy's 13th Escape the Backrooms devlog, Fancy said the lore of this level is that \"after the Partygoers won the Fun War, they threw the craziest party in Backrooms history\" and that \"word around the Backrooms is that the Partygoers really know how to have a good time.\". Right after this in that same devlog, a montage plays of the Partygoers partying in the <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> arcade sector, <a href=\"#APP#/levels/level-52/\">Level 52</a> and The Afterparty while the song \"<a href=\"https://www.youtube.com/watch?v=NWCNpCHeMf0\" rel=\"noopener nofollow\" target=\"_blank\">BACK2BACK</a>\" plays.</li></ul>\n<h3>Level inspiration</h3>\n<ul><li>This level is based on the Backrooms level \"The Afterparty\".</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -4616,7 +4648,7 @@
      "title": "History"
     },
     {
-     "html": "<h3>The Level</h3>\n<ul><li>Out of all the upcoming levels, this one has the third most amount of information about it, only having a blurred picture.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the most amount of information about it, having some information revealed about it and a look at two rooms, <a href=\"#APP#/levels/bruce-apostrophe-s-redacted/\">bruce's [Redacted]</a> as the one with the second most amount of information about it, having two pictures revealed of it, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is and was only mentioned.</li></ul></li></ul>",
+     "html": "<h3>The Level</h3>\n<ul><li>Out of all the upcoming levels, this one has the third most amount of information about it, only having a blurred picture.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the most amount of information about it, having some information revealed about it and a look at two rooms, <a href=\"#APP#/levels/level-421/\">Level 421</a> as the one with the second most amount of information about it, having six work in progress pictures revealed of it and a description of the level but it hasn't been discussed in a devlog yet, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is and was only mentioned.</li></ul></li></ul>",
      "title": "Trivia"
     }
    ],
