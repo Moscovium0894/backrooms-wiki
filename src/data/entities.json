@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 28,
-  "fetchedAt": "2026-08-20T04:31:01+00:00",
+  "count": 29,
+  "fetchedAt": "2026-08-21T04:33:13+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -252,6 +252,52 @@
      "Run away and don't look back until you can't hear it anymore."
     ]
    }
+  },
+  {
+   "dangerLabel": "Unknown",
+   "id": "ball-pit-balls",
+   "images": [
+    {
+     "file": "entities/ball-pit-balls/hero.png",
+     "height": 333,
+     "role": "hero",
+     "sourceFile": "File:Ball pit balls.png",
+     "width": 385
+    },
+    {
+     "file": "entities/ball-pit-balls/thumb.png",
+     "height": 277,
+     "role": "thumb",
+     "sourceFile": "File:Ball pit balls.png",
+     "width": 320
+    }
+   ],
+   "levels": [
+    "level-421"
+   ],
+   "name": "Ball Pit Balls",
+   "sections": [
+    {
+     "html": "<p>Ball Pit Balls appear to be plastic polymer balls found in ball pits that are apparently sentient. They come in the colors red, blue, green, and yellow.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This entity will be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Behavior"
+    },
+    {
+     "html": "<h3>The entity</h3>\n<ul><li>White ball pit balls can also been seen in the Level 421 trailer, but it's unclear if they were even intentional.</li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>A description of Level 421 that explains the level and ball pit balls lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Ball_Pit_Balls",
+   "species": "Inanimate object",
+   "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.",
+   "survival": null
   },
   {
    "dangerLabel": "Minimal",
@@ -1236,6 +1282,7 @@
    ],
    "levels": [
     "level-1",
+    "level-421",
     "the-end"
    ],
    "name": "Scratcher",
@@ -1249,7 +1296,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/the-end/\">The End</a></li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<h3>In-game</h3>\n<ul><li><a href=\"#APP#/levels/the-end/\">The End</a></li></ul>\n<h3>Upcoming</h3>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
      "title": "Location"
     },
     {
@@ -1265,7 +1312,7 @@
      "title": "Tips & Advice"
     },
     {
-     "html": "<ul><li>On the Backrooms Fandom Wiki, the Scratcher doesn't exist in The End.</li>\n<li>In the Game's Release, the Scratcher had a different Model which was nearly the same but it was not twitchy and was completely black. The Model was changed in Part 2.</li></ul>",
+     "html": "<ul><li>On the Backrooms Fandom Wiki, the Scratcher doesn't exist in The End.</li>\n<li>In the Game's Release, the Scratcher had a different model which was nearly the same but it was not twitchy and was completely black. The model was changed in Part 2.</li>\n<li>The Scratcher will be found in <a href=\"#APP#/levels/level-421/\">Level 421</a> when it releases but in a very damaged state, which might mean it comes directly from <a href=\"#APP#/levels/the-end/\">The End</a>.</li></ul>",
      "title": "Trivia"
     }
    ],
