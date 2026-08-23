@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-08-22T04:27:17+00:00",
+  "fetchedAt": "2026-08-23T04:31:42+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -3397,6 +3397,10 @@
      "title": "Entrances & Exits"
     },
     {
+     "html": "<table>\n<tbody><tr>\n<th><b>Icon</b>\n</th>\n<th><b>Name</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td><img src=\"#IMG#/images/levels/level-974/body-1.png\" alt=\"974 Achievement\" width=\"46\" height=\"47\">\n</td>\n<td>Escape Level 974\n</td>\n<td>Find the exit in Level 974.\n</td></tr></tbody></table>",
+     "title": "Achievements"
+    },
+    {
      "html": "<h3>Ambience</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout Level 974.\n</td>\n<td>level974_loop\n</td></tr></tbody></table>",
      "title": "Audio"
     },
@@ -3425,6 +3429,13 @@
      "role": "thumb",
      "sourceFile": "File:Level 974.png",
      "width": 320
+    },
+    {
+     "file": "levels/level-974/body-1.png",
+     "height": 47,
+     "role": "body",
+     "sourceFile": "File:974 Achievement.png",
+     "width": 46
     }
    ],
    "items": [
@@ -3564,6 +3575,10 @@
      "title": "Entrances & Exits"
     },
     {
+     "html": "<table>\n<tbody><tr>\n<th><b>Icon</b>\n</th>\n<th><b>Name</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td><img src=\"#IMG#/images/levels/overgrowth/body-2.png\" alt=\"Deathslides achievement\" width=\"48\" height=\"48\">\n</td>\n<td>Escape the Death Slides\n</td>\n<td>Find the exit in the Death Slides\n</td></tr></tbody></table>",
+     "title": "Achievements"
+    },
+    {
      "html": "<h3>Entities</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>When a <a href=\"#APP#/entities/bacteria/\">Bacteria</a> spots a player.\n</td>\n<td>ChaseLoop_Start\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A <a href=\"#APP#/entities/bacteria/\">Bacteria</a> chasing a player.\n</td>\n<td>chaseloop__1_\n</td></tr>\n<tr>\n<td>\n</td>\n<td>A <a href=\"#APP#/entities/bacteria/\">Bacteria's</a> jumpscare. <b>WARNING: LOUD!</b>\n</td>\n<td>BacteriaJumpscare\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The <a href=\"#APP#/entities/bone-thief/\">Bone Thief's</a> Jumpscare.\n</td>\n<td>WAV_UI_Fast_Breathing\n</td></tr>\n<tr>\n<td>TBA\n</td>\n<td>A passed-out <a href=\"#APP#/entities/wanderer/\">Wanderer</a> breathing.\n</td>\n<td>TBA\n</td></tr>\n<tr>\n<td>TBA\n</td>\n<td>A passed-out <a href=\"#APP#/entities/wanderer/\">Wanderer</a> being put down a Death Slide.\n</td>\n<td>TBA\n</td></tr></tbody></table>\n<h3>Objects</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>The lever that opens the gates to the rest of the level being pulled.\n</td>\n<td>S_Lever_1\n</td></tr>\n<tr>\n<td>TBA\n</td>\n<td>The sound of the gates that lead to the rest of the level opening.\n</td>\n<td>TBA\n</td></tr>\n<tr>\n<td>TBA\n</td>\n<td>The fan that lies inside a non-disarmed Slide.\n</td>\n<td>TBA\n</td></tr></tbody></table>\n<h3>Ambience</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout Overgrowth.\n</td>\n<td>PLSNC_ND_LOW_Pallid_Ray_LOOP_1\n</td></tr></tbody></table>",
      "title": "Audio"
     },
@@ -3599,6 +3614,13 @@
      "role": "map",
      "sourceFile": "File:Overgrowth map.png",
      "width": 504
+    },
+    {
+     "file": "levels/overgrowth/body-2.png",
+     "height": 48,
+     "role": "body",
+     "sourceFile": "File:Deathslides achievement.png",
+     "width": 48
     }
    ],
    "items": [
@@ -3787,6 +3809,10 @@
      "title": "Entrances & Exits"
     },
     {
+     "html": "<table>\n<tbody><tr>\n<th><b>Icon</b>\n</th>\n<th><b>Name</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td><img src=\"#IMG#/images/levels/the-grassrooms/body-1.png\" alt=\"Grassrooms Achievement\" width=\"47\" height=\"47\">\n</td>\n<td>Escape the Grassrooms\n</td>\n<td>Find the exit in the Grassrooms.\n</td></tr></tbody></table>",
+     "title": "Achievements"
+    },
+    {
      "html": "<h3>Ambience</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout The Grassrooms.\n</td>\n<td>level94day_loop\n</td></tr></tbody></table>",
      "title": "Audio"
     },
@@ -3815,6 +3841,13 @@
      "role": "thumb",
      "sourceFile": "File:The Grassrooms.png",
      "width": 320
+    },
+    {
+     "file": "levels/the-grassrooms/body-1.png",
+     "height": 47,
+     "role": "body",
+     "sourceFile": "File:Grassrooms Achievement.png",
+     "width": 47
     }
    ],
    "items": [
@@ -4461,7 +4494,7 @@
      "title": "History"
     },
     {
-     "html": "<h3>The level</h3>\n<ul><li>Out of all the current upcoming levels, this one has the most amount of information about it, having a trailer, a bunch of pictures, and a release date for it.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the second most amount of information about it, having some information revealed about it, a look at two rooms and having been discussed in Fancy's <a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">13th</a> Escape the Backrooms Devlog, the <a href=\"#APP#/levels/unknown-dark-level/\">Unknown Dark Level</a> as the one with the third most amount of information about it, only having a blurred picture, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is, if it's this level or one of the other new ones coming and was only mentioned.</li></ul></li>\n<li>This level will be the first one to release on its own.\n<ul><li>This goes against what Fancy said in his <a href=\"https://www.youtube.com/watch?v=_S2EXOKlo_c\" rel=\"noopener nofollow\" target=\"_blank\">4th</a> Devlog, where he stated that he was initially going to release the new levels one by one but decided against it due to not wanting players to play the game for a tiny bit more and then have to wait again and the new levels having been very complete.</li></ul></li>\n<li>This level has a dedicated trailer for it.\n<ul><li>This is currently the only level to have its own trailer.</li></ul></li>\n<li>A caged off area has a sign that reads, \"Bruce's Discovery Center\" with the letters DI and O being missing.</li>\n<li>Wall art from the liminal room in <a href=\"#APP#/levels/the-bunker/\">the Bunker</a> can be seen in the level.</li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>A description of the level that explains the level's lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>\n<h3>Community</h3>\n<ul><li>So far, only Secret Mode has shown or discussed this level before.</li>\n<li>When the level was first revealed, the caption \"Endless... Suffocating.../Endless. Suffocating.\" accompanied it, and the title of \"Bruce's Discovery Center\" was hidden as \"bruce's [Redacted]\".\n<ul><li>In the first teaser image of the level, the title could be seen on a sign in a caged area, but it was distant, making it hard to tell what it said.</li>\n<li>Before the level was revealed to be Level 421, there was only one indication on the level being Level 421, which was the endless suffocating caption, since it seems to be referring to the fact that the level is an endless ball pit.</li></ul></li>\n<li>The teaser images apart of the level name reveal are titled, \"Plastic_Mariana_17a_w_WIP\", \"Plastic_Mariana_2a_w_WIP\", \"Plastic_Mariana_20a_w_WIP\", \"Plastic_Mariana_5a_w_WIP\" in order. The most notable part about them being, \"Plastic_Mariana\", the sub-name of the level.</li>\n<li>If you brighten the teaser images apart of the level name reveal, more of the level can be seen.\n<ul><li>In the caged off area image, a hallway with more chairs on the left side, windows from the caged off area on the left, and a wooden door and a further down corridor on the right can be seen.</li>\n<li>In the dark room with stairs image, there's a single ball pit ball that's on the left of the Bruce statue, and what's past the corridor below the stairs includes a blue arch block and what appears to be another door or some sort of corridor.</li></ul></li></ul>\n<h3>Level inspiration</h3>\n<ul><li>This level is based on the Backrooms level, \"<a href=\"https://backrooms-wiki.wikidot.com/level-421\" rel=\"noopener nofollow\" target=\"_blank\">Level 421 - Plastic Mariana</a>\" from the Backrooms wikidot.\n<ul><li>The children's hospital and Bruce mascot parts of the level seem to be original, as they are not apart of the original level.</li></ul></li></ul>",
+     "html": "<h3>The level</h3>\n<ul><li>Out of all the current upcoming levels, this one has the most amount of information about it, having a trailer, a bunch of pictures, and a release date for it.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the second most amount of information about it, having some information revealed about it, a look at two rooms and having been discussed in Fancy's <a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">13th</a> Escape the Backrooms Devlog, the <a href=\"#APP#/levels/unknown-dark-level/\">Unknown Dark Level</a> as the one with the third most amount of information about it, only having a blurred picture, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is, if it's this level or one of the other new ones coming and was only mentioned.</li></ul></li>\n<li>This level will be the first one to release on its own.\n<ul><li>This goes against what Fancy said in his <a href=\"https://www.youtube.com/watch?v=_S2EXOKlo_c\" rel=\"noopener nofollow\" target=\"_blank\">4th</a> Devlog, where he stated that he was initially going to release the new levels one by one but decided against it due to not wanting players to play the game for a tiny bit more and then have to wait again and the new levels having been very complete.</li></ul></li>\n<li>This level has a dedicated <a href=\"https://www.youtube.com/watch?v=KCjQmW-4Rro\" rel=\"noopener nofollow\" target=\"_blank\">trailer</a> for it.\n<ul><li>This is currently the only level to have its own trailer.</li></ul></li>\n<li>A caged off area has a sign that reads, \"Bruce's Discovery Center\" with the letters DI and O being missing.</li>\n<li>Wall art from the liminal room in <a href=\"#APP#/levels/the-bunker/\">the Bunker</a> can be seen in the level.</li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>A description of the level that explains the level's lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>\n<h3>Community</h3>\n<ul><li>So far, only Secret Mode has shown or discussed this level before.</li>\n<li>When the level was first revealed, the caption \"Endless... Suffocating.../Endless. Suffocating.\" accompanied it, and the title of \"Bruce's Discovery Center\" was hidden as \"bruce's [Redacted]\".\n<ul><li>In the first teaser image of the level, the title could be seen on a sign in a caged area, but it was distant, making it hard to tell what it said.</li>\n<li>Before the level was revealed to be Level 421, there was only one indication on the level being Level 421, which was the endless suffocating caption, since it seems to be referring to the fact that the level is an endless ball pit.</li></ul></li>\n<li>The teaser images apart of the level name reveal are titled, \"Plastic_Mariana_17a_w_WIP\", \"Plastic_Mariana_2a_w_WIP\", \"Plastic_Mariana_20a_w_WIP\", \"Plastic_Mariana_5a_w_WIP\" in order. The most notable part about them being, \"Plastic_Mariana\", the sub-name of the level.</li>\n<li>If you brighten the teaser images apart of the level name reveal, more of the level can be seen.\n<ul><li>In the caged off area image, a hallway with more chairs on the left side, windows from the caged off area on the left, and a wooden door and a further down corridor on the right can be seen.</li>\n<li>In the dark room with stairs image, there's a single ball pit ball that's on the left of the Bruce statue, and what's past the corridor below the stairs includes a blue arch block and what appears to be another door or some sort of corridor.</li></ul></li></ul>\n<h3>Level inspiration</h3>\n<ul><li>This level is based on the Backrooms level, \"<a href=\"https://backrooms-wiki.wikidot.com/level-421\" rel=\"noopener nofollow\" target=\"_blank\">Level 421 - Plastic Mariana</a>\" from the Backrooms wikidot.\n<ul><li>The children's hospital and Bruce mascot parts of the level seem to be original, as they are not apart of the original level.</li></ul></li></ul>",
      "title": "Trivia"
     }
    ],
