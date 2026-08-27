@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-08-26T04:34:24+00:00",
+  "fetchedAt": "2026-08-27T14:56:45+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -3521,7 +3521,7 @@
    ],
    "items": [],
    "kind": "secret",
-   "leadHtml": "<b>\"Now I'm not gonna spoil which part of the game it's in\"</b>\n<p>This page documents recently released content that has only been in the game for less than two weeks, which means it contains spoilers for said thing. View the page at your own risk.<b><br></b><i></i>\n</p>\n\n<p><i>\"We're not gonna talk about what's behind this door.\"</i>\n</p><p><small>- Fancy in his 13th Escape the Backrooms Devlog</small>\n</p>",
+   "leadHtml": "<b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>\n\n<p><i>\"We're not gonna talk about what's behind this door.\"</i>\n</p><p><small>- Fancy in his 13th Escape the Backrooms Devlog</small>\n</p>",
    "name": "Level You Cheated",
    "order": null,
    "part": null,
@@ -4450,86 +4450,6 @@
    "walkthroughHtml": "<h3>Part 1: The Van</h3>\n<p>Once you get to the Layer from <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>, you must have a <a href=\"#APP#/items/camera/\">Camera</a> with you, and you must find a Damaged Van in the Level. Once you find it, take a Picture of it and the Photo on the <a href=\"#APP#/items/camera/\">Camera</a> will change to the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>.\n</p>\n<h3>Part 2: The Bacteria</h3>\n<p>Once you've taken a Photo of the Van, you must take a Photo of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>. A good way of doing this is by getting the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> to spot you and hide in a Locker. When the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> walks away, get out of the Locker and get a Photo of it. Once you have taken a Photo of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>, you can go to the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer to continue <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</p>"
   },
   {
-   "appearanceHtml": "<p>This level appears to be either a parking lot, a highway lit up with many streetlights, or something else due to the fact that it it hard to tell. The level seems to take place at night.\n</p>",
-   "difficulty": null,
-   "difficultyLabel": "Unknown",
-   "entities": [],
-   "entrances": [],
-   "exits": [],
-   "exitsRaw": "N/A",
-   "extraSections": [
-    {
-     "html": "<h3>Added in</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\tN/A",
-     "title": "Production"
-    },
-    {
-     "html": "<p>N/A\n</p>",
-     "title": "Mission"
-    },
-    {
-     "html": "<p>N/A\n</p>",
-     "title": "Items"
-    },
-    {
-     "html": "<p>N/A\n</p>",
-     "title": "Entities"
-    },
-    {
-     "html": "<p>N/A\n</p>",
-     "title": "Objects"
-    },
-    {
-     "html": "<h3>Entrances</h3>\n<ul><li>N/A</li></ul>\n<h3>Exits</h3>\n<ul><li>N/A</li></ul>",
-     "title": "Entrances & Exits"
-    },
-    {
-     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td>June 19, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">I Spent a 4 YEARS Turning the Backrooms into a GAME...</a><br><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=404s\" rel=\"noopener nofollow\" target=\"_blank\">Video scene</a>\n</td>\n<td><img src=\"#IMG#/images/levels/unknown-dark-level/body-3.jpg\" alt=\"I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>A blurred image of the level makes an appearance when Fancy discusses that he and the team have already started working on more new levels.\n</td></tr></tbody></table>",
-     "title": "History"
-    },
-    {
-     "html": "<h3>The Level</h3>\n<ul><li>Out of all the upcoming levels, this one has the third most amount of information about it, only having a blurred picture.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/level-421/\">Level 421</a> as the one with the most amount of information about it, having a trailer, a bunch of pictures, and a release date for it, <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the second most amount of information about it, having some information revealed about it and a look at two rooms, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is and was only mentioned.</li></ul></li></ul>",
-     "title": "Trivia"
-    }
-   ],
-   "hazards": [],
-   "id": "unknown-dark-level",
-   "images": [
-    {
-     "file": "levels/unknown-dark-level/hero.png",
-     "height": 450,
-     "role": "hero",
-     "sourceFile": "File:Fancystreetlevel.png",
-     "width": 800
-    },
-    {
-     "file": "levels/unknown-dark-level/thumb.png",
-     "height": 180,
-     "role": "thumb",
-     "sourceFile": "File:Fancystreetlevel.png",
-     "width": 320
-    },
-    {
-     "file": "levels/unknown-dark-level/body-3.jpg",
-     "height": 360,
-     "role": "body",
-     "sourceFile": "File:I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail.jpg",
-     "width": 640
-    }
-   ],
-   "items": [],
-   "kind": "other",
-   "leadHtml": "<b>\"Now I'm not gonna spoil which part of the game it's in\"</b>\n<p>This page documents recently released content that has only been in the game for less than two weeks, which means it contains spoilers for said thing. View the page at your own risk.<b><br></b><i></i>\n</p>\n\n<b>\"So the next level i'm going to add is Le-Hold up what's this?\"</b>\n<p>The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.<b></b>\n</p>\n\n<p><i>\"we've already started working on even more new levels\"</i>\n</p><p><small>- Fancy in his <a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">13th</a> Escape the Backrooms Devlog.</small>\n</p>",
-   "name": "Unknown Dark Level",
-   "order": null,
-   "part": null,
-   "sanity": null,
-   "secretParentId": null,
-   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Unknown_Dark_Level",
-   "subtitle": null,
-   "summary": "This level appears to be either a parking lot, a highway lit up with many streetlights, or something else due to the fact that it it hard to tell. The level seems to take place at night.",
-   "walkthroughHtml": null
-  },
-  {
    "appearanceHtml": "<p>Level 421 is a children's hospital with various things such as posters, chairs, and wall art. The level has a shark mascot themed around it known as \"Bruce\". A <a href=\"#APP#/levels/the-m-e-g-base/\">M.E.G. Base</a> resembling area has also been seen associated with this level with ball pit balls sorted into colors, but it's unknown how it will connect to it. \n</p>",
    "difficulty": null,
    "difficultyLabel": "Unknown",
@@ -4728,6 +4648,86 @@
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Afterparty",
    "subtitle": null,
    "summary": "The Afterparty is a series of abandoned and minimalistic party rooms with various party things such as cake and Balloons scattered throughout.",
+   "walkthroughHtml": null
+  },
+  {
+   "appearanceHtml": "<p>This level appears to be either a parking lot, a highway lit up with many streetlights, or something else due to the fact that it it hard to tell. The level seems to take place at night.\n</p>",
+   "difficulty": null,
+   "difficultyLabel": "Unknown",
+   "entities": [],
+   "entrances": [],
+   "exits": [],
+   "exitsRaw": "N/A",
+   "extraSections": [
+    {
+     "html": "<h3>Added in</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\tN/A",
+     "title": "Production"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Mission"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Items"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Entities"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Objects"
+    },
+    {
+     "html": "<h3>Entrances</h3>\n<ul><li>N/A</li></ul>\n<h3>Exits</h3>\n<ul><li>N/A</li></ul>",
+     "title": "Entrances & Exits"
+    },
+    {
+     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th></tr>\n<tr>\n<td>June 19, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">I Spent a 4 YEARS Turning the Backrooms into a GAME...</a><br><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=404s\" rel=\"noopener nofollow\" target=\"_blank\">Video scene</a>\n</td>\n<td><img src=\"#IMG#/images/levels/unknown-dark-level/body-3.jpg\" alt=\"I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>A blurred image of the level makes an appearance when Fancy discusses that he and the team have already started working on more new levels.\n</td></tr></tbody></table>",
+     "title": "History"
+    },
+    {
+     "html": "<h3>The Level</h3>\n<ul><li>Out of all the upcoming levels, this one has the third most amount of information about it, only having a blurred picture.\n<ul><li>The other upcoming levels include <a href=\"#APP#/levels/level-421/\">Level 421</a> as the one with the most amount of information about it, having a trailer, a bunch of pictures, and a release date for it, <a href=\"#APP#/levels/the-afterparty/\">The Afterparty</a> as the one with the second most amount of information about it, having some information revealed about it and a look at two rooms, and Level ??? as the one with the least amount of information about it, because it's not even known for sure what the level is and was only mentioned.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "hazards": [],
+   "id": "unknown-dark-level",
+   "images": [
+    {
+     "file": "levels/unknown-dark-level/hero.png",
+     "height": 450,
+     "role": "hero",
+     "sourceFile": "File:Fancystreetlevel.png",
+     "width": 800
+    },
+    {
+     "file": "levels/unknown-dark-level/thumb.png",
+     "height": 180,
+     "role": "thumb",
+     "sourceFile": "File:Fancystreetlevel.png",
+     "width": 320
+    },
+    {
+     "file": "levels/unknown-dark-level/body-3.jpg",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail.jpg",
+     "width": 640
+    }
+   ],
+   "items": [],
+   "kind": "upcoming",
+   "leadHtml": "<b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>\n\n<b>\"So the next level i'm going to add is Le-Hold up what's this?\"</b>\n<p>The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.<b></b>\n</p>\n\n<p><i>\"we've already started working on even more new levels\"</i>\n</p><p><small>- Fancy in his <a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">13th</a> Escape the Backrooms Devlog.</small>\n</p>",
+   "name": "Unknown Dark Level",
+   "order": null,
+   "part": null,
+   "sanity": null,
+   "secretParentId": null,
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Unknown_Dark_Level",
+   "subtitle": null,
+   "summary": "This level appears to be either a parking lot, a highway lit up with many streetlights, or something else due to the fact that it it hard to tell. The level seems to take place at night.",
    "walkthroughHtml": null
   }
  ]
