@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 24,
-  "fetchedAt": "2026-08-27T14:56:45+00:00",
+  "count": 25,
+  "fetchedAt": "2026-08-28T15:52:01+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -89,6 +89,7 @@
   {
    "foundInLevels": [
     "level-1",
+    "level-421",
     "overgrowth",
     "level-3",
     "level-4",
@@ -176,7 +177,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
      "title": "Location"
     },
     {
@@ -184,7 +185,7 @@
      "title": "Use"
     },
     {
-     "html": "<ul><li>Almond Water was apparently crafted in <a href=\"#APP#/levels/level-37/\">The Poolrooms</a>, which is mentioned on the can.</li>\n<li>Almond Water is the only Item in the game with a Common rarity.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Almond Water can be found, likely due to the fact that it's the only secret level that drains <a href=\"#APP#/guides/sanity/\">Sanity</a>.</li>\n<li>Almond Water can be found in cans that are about 13.5 cm high and about 5.2 cm wide. For comparison: a 250ml Redbull Energy can has exactly (maybe a few millimeters off) these measurements, whereas the Almond Water cans look similar in size and width to exactly this kind of can.</li></ul>",
+     "html": "<ul><li>Almond Water was apparently crafted in <a href=\"#APP#/levels/level-37/\">The Poolrooms</a>, which is mentioned on the can.</li>\n<li>Prior to Patch 1.4, Almond Water was the only Item in the game with a Common rarity.</li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> is the only secret level where Almond Water can be found, likely due to the fact that it's the only secret level that drains <a href=\"#APP#/guides/sanity/\">Sanity</a>.</li>\n<li>Almond Water can be found in cans that are about 13.5 cm high and about 5.2 cm wide. For comparison: a 250ml Redbull Energy can has exactly (maybe a few millimeters off) these measurements, whereas the Almond Water cans look similar in size and width to exactly this kind of can.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -564,6 +565,7 @@
   },
   {
    "foundInLevels": [
+    "level-421",
     "overgrowth",
     "level-3",
     "level-4",
@@ -655,7 +657,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:  \n</p>\n<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "html": "<p>This Item can be found in:  \n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 - Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/the-manilla-room/\">The Manilla Room</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
      "title": "Location"
     },
     {
@@ -822,6 +824,7 @@
     "level-0",
     "level-1",
     "the-bunker",
+    "level-421",
     "overgrowth",
     "level-2",
     "level-3",
@@ -901,7 +904,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-2/\">Level 2 - Pipe Dreams</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-37-2/\">Level 37.2 - Dark Poolrooms</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-0/\">Level 0</a></li>\n<li><a href=\"#APP#/levels/level-1/\">Level 1 - Habitable Zone</a></li>\n<li><a href=\"#APP#/levels/the-bunker/\">The Bunker</a></li>\n<li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-2/\">Level 2 - Pipe Dreams</a></li>\n<li><a href=\"#APP#/levels/level-3/\">Level 3 Electrical Station</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a></li>\n<li><a href=\"#APP#/levels/level-94/\">Level 94</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-974/\">Level 974</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-37-2/\">Level 37.2 - Dark Poolrooms</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
      "title": "Location"
     },
     {
@@ -914,6 +917,7 @@
   },
   {
    "foundInLevels": [
+    "level-421",
     "level-fun-plus",
     "level-8",
     "level-fun"
@@ -997,7 +1001,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a> (blue)</li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a> (all colors)</li></ul>",
      "title": "Location"
     },
     {
@@ -1014,6 +1018,7 @@
   },
   {
    "foundInLevels": [
+    "level-421",
     "overgrowth",
     "level-4",
     "level-5",
@@ -1030,11 +1035,20 @@
     "level-fun-plus",
     "level-52",
     "level-55-1",
+    "level-3",
+    "level-37",
+    "level-37-2",
+    "level-0",
     "the-hub",
     "abandoned-outpost",
+    "level-3999",
     "level-0-1",
+    "level-exclamation-tilde-exclamation",
+    "level-1",
+    "level-2",
     "level-exclamation",
     "the-end",
+    "level-9223372036854775807",
     "level-94"
    ],
    "id": "juice",
@@ -1095,7 +1109,7 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
+     "html": "<p>This Item can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li>\n<li><a href=\"#APP#/levels/overgrowth/\">Overgrowth</a></li>\n<li><a href=\"#APP#/levels/level-4/\">Level 4 - Abandoned Office</a></li>\n<li><a href=\"#APP#/levels/level-5/\">Level 5 - Terror Hotel</a></li>\n<li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/level-6/\">Level 6 - Lights Out</a></li>\n<li><a href=\"#APP#/levels/level-7/\">Level 7 - Thalassophobia</a></li>\n<li><a href=\"#APP#/levels/level-8/\">Level 8 - Cave System</a></li>\n<li><a href=\"#APP#/levels/level-0-11/\">Level 0.11</a></li>\n<li><a href=\"#APP#/levels/level-9/\">Level 9 - Darkened Suburbs</a></li>\n<li><a href=\"#APP#/levels/level-10/\">Level 10</a></li>\n<li><a href=\"#APP#/levels/level-0-2/\">Level 0.2</a></li>\n<li><a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a></li>\n<li><a href=\"#APP#/levels/level-188/\">Level 188</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li><a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li></ul>",
      "title": "Location"
     },
     {
@@ -1103,7 +1117,7 @@
      "title": "Use"
     },
     {
-     "html": "<p>In some Levels, the Speed Boost is slightly different. Because Juice sets your Speed to a specific value (rather than increasing it by a percentage), the Speed Boost lasts longer or shorter depending on what Level or location you're in.\n</p>\n<ul><li>50%: Level 52</li>\n<li>35%: Level 3, Level 37, Level 6, Level 37.2</li>\n<li>22.7%: Level 0, <a href=\"#APP#/levels/the-hub/\">The Hub</a>, Level 4, Level 5, Level 7, Level 8, Level 0.11, <a href=\"#APP#/levels/level-9/\">Level 9</a>, <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>, Level 3999, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, Level !~!, Level 188, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>12.5%: Level 1, Level 2, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, <a href=\"#APP#/levels/the-end/\">The End</a>, Level 9223372036854775807, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
+     "html": "<p>In some Levels, the Speed Boost is slightly different. Because Juice sets your Speed to a specific value (rather than increasing it by a percentage), the Speed Boost lasts longer or shorter depending on what Level or location you're in.\n</p>\n<ul><li>50%: <a href=\"#APP#/levels/level-52/\">Level 52</a></li>\n<li>35%: <a href=\"#APP#/levels/level-3/\">Level 3</a>, <a href=\"#APP#/levels/level-37/\">Level 37</a>, <a href=\"#APP#/levels/level-6/\">Level 6</a>, <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a></li>\n<li>22.7%: <a href=\"#APP#/levels/level-0/\">Level 0</a>, <a href=\"#APP#/levels/the-hub/\">The Hub</a>, <a href=\"#APP#/levels/level-4/\">Level 4</a>, <a href=\"#APP#/levels/level-5/\">Level 5</a>, <a href=\"#APP#/levels/level-7/\">Level 7</a>, <a href=\"#APP#/levels/level-8/\">Level 8</a>, <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a>, <a href=\"#APP#/levels/level-9/\">Level 9</a>, <a href=\"#APP#/levels/abandoned-outpost/\">Abandoned Outpost</a>, <a href=\"#APP#/levels/level-3999/\">Level 3999</a>, <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a>, <a href=\"#APP#/levels/the-snackrooms/\">The Snackrooms</a>, <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>, <a href=\"#APP#/levels/level-188/\">Level 188</a>, <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a></li>\n<li>12.5%: <a href=\"#APP#/levels/level-1/\">Level 1</a>, <a href=\"#APP#/levels/level-2/\">Level 2</a>, <a href=\"#APP#/levels/level-fun/\">Level Fun</a>, <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, <a href=\"#APP#/levels/the-end/\">The End</a>, <a href=\"#APP#/levels/level-9223372036854775807/\">Level 9223372036854775807</a>, <a href=\"#APP#/levels/level-94/\">Level 94</a>, <a href=\"#APP#/levels/level-10/\">Level 10</a>, <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li></ul>",
      "title": "Speed Boost"
     },
     {
@@ -1390,6 +1404,80 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Moth_Jelly",
    "summary": "Gives you a temporary speed and stamina boost"
+  },
+  {
+   "foundInLevels": [
+    "level-421",
+    "overgrowth"
+   ],
+   "id": "plastic-ball-2",
+   "images": [
+    {
+     "caption": "Model",
+     "file": "items/plastic-ball-2/hero.png",
+     "height": 124,
+     "role": "hero",
+     "sourceFile": "File:Plastic Ball Model.png",
+     "width": 123
+    },
+    {
+     "file": "items/plastic-ball-2/thumb.png",
+     "height": 124,
+     "role": "thumb",
+     "sourceFile": "File:Plastic Ball Model.png",
+     "width": 123
+    },
+    {
+     "caption": "Icon",
+     "file": "items/plastic-ball-2/gallery-1.png",
+     "height": 640,
+     "role": "gallery",
+     "sourceFile": "File:Plastic Ball Icon.png",
+     "width": 640
+    },
+    {
+     "caption": "Other Balls",
+     "file": "items/plastic-ball-2/gallery-2.png",
+     "height": 308,
+     "role": "gallery",
+     "sourceFile": "File:Ball pit balls.png",
+     "width": 358
+    }
+   ],
+   "name": "Plastic Ball",
+   "rarity": "Common",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOther Balls\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/hero.png\" alt=\"Model\" width=\"123\" height=\"124\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/gallery-2.png\" alt=\"Other Balls\" width=\"358\" height=\"308\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Plastic Ball"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_PlasticBall\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tBallPit_InventoryItem_Blue\n\n<p><b>Plastic Balls</b> are an entity and item in Escape the Backrooms. They appear to be ball pit balls.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Plastic Balls appear to be plastic polymer balls found in ball pits that are apparently sentient. They come in the colors red, green, blue, and yellow. As an item, they only come in blue.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>Plastic balls can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player throws the ball, which can be re-picked up and thrown again.\n</p>\n<h3>Purpose</h3>\n<p>The purpose of the balls is to throw them into the basketball hoops in the basketball hoop room in the Plastic Mariana of Level 421 and the one basketball hoop in the Bruce's Discovery Center area. If a ball gets into a hoop in the basketball hoop room, the light above it will shine. Make all four lights shine, and the exit to <a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> will unlock.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<p>While plastic balls do not behave since they are just plastic balls that are only sentient, a white ball pit snake exists in the Plastic Mariana of Level 421, which means the balls change their color to white to show the snake being there. It roams around the balls aimlessly and will lead to a circle once all four lighthouse lights are on that must be walked into by a player to get to the basketball hoop room to escape Level 421. A ball pit snake might also be present in the fourth plastic ball chamber in the M.E.G. base in Level 421, as its different color changing balls changing to show a line shape.\n</p>",
+     "title": "Behavior"
+    },
+    {
+     "html": "<h3>Lore &amp; theories</h3>\n<ul><li>A description of Level 421 that explains the level and the balls lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>This is the only thing that confirms the ball pit balls as entities.</li>\n<li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Plastic_Ball",
+   "summary": "A colourful, round, throwable ball."
   },
   {
    "foundInLevels": [

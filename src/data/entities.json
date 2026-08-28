@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 29,
-  "fetchedAt": "2026-08-27T14:56:45+00:00",
+  "count": 30,
+  "fetchedAt": "2026-08-28T15:52:01+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -254,52 +254,6 @@
    }
   },
   {
-   "dangerLabel": "Unknown",
-   "id": "ball-pit-balls",
-   "images": [
-    {
-     "file": "entities/ball-pit-balls/hero.png",
-     "height": 333,
-     "role": "hero",
-     "sourceFile": "File:Ball pit balls.png",
-     "width": 385
-    },
-    {
-     "file": "entities/ball-pit-balls/thumb.png",
-     "height": 277,
-     "role": "thumb",
-     "sourceFile": "File:Ball pit balls.png",
-     "width": 320
-    }
-   ],
-   "levels": [
-    "level-421"
-   ],
-   "name": "Ball Pit Balls",
-   "sections": [
-    {
-     "html": "<p>Ball Pit Balls appear to be plastic polymer balls found in ball pits that are apparently sentient. They come in the colors red, blue, green, and yellow.\n</p>",
-     "title": "Appearance"
-    },
-    {
-     "html": "<p>This entity will be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
-     "title": "Location"
-    },
-    {
-     "html": "<p>N/A\n</p>",
-     "title": "Behavior"
-    },
-    {
-     "html": "<h3>The entity</h3>\n<ul><li>A lone blue ball can be seen in multiple areas when brightening the dark room with the stairs and in the Level 421 <a href=\"https://www.youtube.com/watch?v=KCjQmW-4Rro\" rel=\"noopener nofollow\" target=\"_blank\">trailer</a>, although whether this is the same ball or there's meaning to it is uncertain.\n<ul><li>Two blue balls can also be seen nearby in the \"NEW LEVEL\" trailer shot.</li>\n<li>In the shot showing a player throwing a ball into a basketball hoop, the ball is blue. This might mean the lone blue balls exclusively can be picked up and thrown.</li></ul></li>\n<li>There will be a mechanic to throw the balls into basketball hoops, which can be seen in the Level 421 trailer.</li>\n<li>White balls can be seen in the Level 421 trailer in the giant ball pit room, but it's unclear if they were even intentional.</li></ul>\n<h3>Lore &amp; theories</h3>\n<ul><li>A description of Level 421 that explains the level and the balls lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>This is the only thing that confirms the ball pit balls as entities.</li>\n<li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>",
-     "title": "Trivia"
-    }
-   ],
-   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Ball_Pit_Balls",
-   "species": "Inanimate object",
-   "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.",
-   "survival": null
-  },
-  {
    "dangerLabel": "Minimal",
    "id": "bone-thief",
    "images": [
@@ -470,7 +424,7 @@
      "title": "Location"
     },
     {
-     "html": "<h3>Stalker Faceling</h3>\n<p>At the start of Level 10, as you're walking down the road, a Faceling will try to sneak up behind you and get you. In order to make it go back into the Wheat, you must stare at it, and it will run off back into the Wheat. It will continue to attempt to get you until you arrive at the barn, and it doesn't make any sound too, so keep watch for it. If it manages to get to you, it will kidnap you and take you into the Wheat.\n</p>\n<h3>Farmer Faceling</h3>\n<p>As you are turning on the Windmills in <a href=\"#APP#/levels/level-10/\">Level 10</a>, a Faceling with a <a href=\"#APP#/items/chainsaw/\">Chainsaw</a> will be after you. Once it finds you, it will turn on its <a href=\"#APP#/items/chainsaw/\">Chainsaw</a> and start chasing you. Even if you manage to lose it, it will still be after you.\n</p>",
+     "html": "<h3>Stalker Faceling</h3>\n<p>At the start of <a href=\"#APP#/levels/level-10/\">Level 10</a>, as you're walking down the road, a Faceling will try to sneak up behind you and get you. In order to make it go back into the Wheat, you must stare at it, and it will run off back into the Wheat. It will continue to attempt to get you until you arrive at the barn, and it doesn't make any sound too, so keep watch for it. If it manages to get to you, it will kidnap you and take you into the Wheat.\n</p>\n<h3>Farmer Faceling</h3>\n<p>As you are turning on the Windmills in <a href=\"#APP#/levels/level-10/\">Level 10</a>, a Faceling with a <a href=\"#APP#/items/chainsaw/\">Chainsaw</a> will be after you. Once it finds you, it will turn on its <a href=\"#APP#/items/chainsaw/\">Chainsaw</a> and start chasing you. Even if you manage to lose it, it will still be after you.\n</p>",
      "title": "Behavior"
     },
     {
@@ -603,7 +557,7 @@
      "title": "Do's & Don'ts"
     },
     {
-     "html": "<table>\n<caption>\n</caption>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added to Level 1\n</td></tr>\n<tr>\n<td>Part 2\n</td>\n<td>Removed from level 1\n</td></tr></tbody></table>",
+     "html": "<table>\n<caption>\n</caption>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added to <a href=\"#APP#/levels/level-1/\">Level 1</a>\n</td></tr>\n<tr>\n<td>Part 2\n</td>\n<td>Removed from level 1\n</td></tr></tbody></table>",
      "title": "History"
     }
    ],
@@ -721,11 +675,11 @@
    "name": "Hydrolitis Plague",
    "sections": [
     {
-     "html": "<p>The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in Level 37 and in some of the water in Level 37.2. It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it. \n</p>",
+     "html": "<p>The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in <a href=\"#APP#/levels/level-37/\">Level 37</a> and in some of the water in <a href=\"#APP#/levels/level-37-2/\">Level 37.2</a>. It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it. \n</p>",
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li>Level 37</li>\n<li>Level 37.2</li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-37/\">Level 37</a></li>\n<li><a href=\"#APP#/levels/level-37-2/\">Level 37.2</a></li></ul>",
      "title": "Location"
     },
     {
@@ -743,7 +697,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Hydrolitis_Plague",
    "species": "Bacteria-Like Plague",
-   "summary": "The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in Level 37 and in some of the water in Level 37.2. It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it.",
+   "summary": "The Hydrolitis Plague is a bacteria-like plague that can be found in the Dark-Tiled Rooms in Level 37 and in some of the water in Level 37.2 . It is extremely dangerous, so stay away from it, and use the Floatie Boat to get past it. Symptoms of the Hydrolitis Plague include pain and fever and there's no cure for it.",
    "survival": {
     "donts": [
      "Enter it upon seeing it."
@@ -1071,11 +1025,11 @@
      "title": "Location"
     },
     {
-     "html": "<p>Party Hosts can be found throughout the Funhouse Sector and once they spot you, the <a href=\"#APP#/entities/partygoer/\">Partygoers</a> will leave their rooms and start hunting the player. Simply hide underneath a Table and they will go back to their rooms. Throw a <a href=\"#APP#/items/firework/\">Firework</a> at a Party Host to kill it. \n</p>",
+     "html": "<p>Party Hosts can be found throughout the Funhouse Sector and once they spot you, the Partygoers will leave their rooms and start hunting the player. Simply hide underneath a Table and they will go back to their rooms. Throw a <a href=\"#APP#/items/firework/\">Firework</a> at a Party Host to kill it. \n</p>",
      "title": "Behavior"
     },
     {
-     "html": "<h3>Do's</h3>\n<ul><li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> directly at them from a safe distance to kill them and not kill yourself from the blast.</li>\n<li>Kill them so you can proceed through the Funhouse Sector.</li>\n<li>Take note of the closest Table to hide under when one alerts the <a href=\"#APP#/entities/partygoer/\">Partygoers</a> of your location.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Stand still when spotted, they will always alert the <a href=\"#APP#/entities/partygoer/\">Partygoers</a>.</li>\n<li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> when too close to them.</li>\n<li>Stand out in the open with no intent of hiding or killing one, <a href=\"#APP#/entities/partygoer/\">Partygoers</a> will come after you.</li></ul>",
+     "html": "<h3>Do's</h3>\n<ul><li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> directly at them from a safe distance to kill them and not kill yourself from the blast.</li>\n<li>Kill them so you can proceed through the Funhouse Sector.</li>\n<li>Take note of the closest Table to hide under when one alerts the Partygoers of your location.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Stand still when spotted, they will always alert the Partygoers.</li>\n<li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> when too close to them.</li>\n<li>Stand out in the open with no intent of hiding or killing one, Partygoers will come after you.</li></ul>",
      "title": "Do's & Don'ts"
     },
     {
@@ -1088,7 +1042,7 @@
    "summary": "Party Hosts are cakes with bright green icing with an Eyeball in the middle. The color of the eye is blue. Party Hosts are immobile and will always be on the wall or the ceiling.",
    "survival": {
     "donts": [
-     "Stand still when spotted, they will always alert the Partygoers .",
+     "Stand still when spotted, they will always alert the Partygoers.",
      "Throw a Firework when too close to them.",
      "Stand out in the open with no intent of hiding or killing one, Partygoers will come after you."
     ],
@@ -1145,11 +1099,11 @@
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li>Level !</li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li>Level 52</li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-fun/\">Level Fun</a></li>\n<li><a href=\"#APP#/levels/level-exclamation/\">Level !</a></li>\n<li><a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a></li>\n<li><a href=\"#APP#/levels/level-52/\">Level 52</a></li></ul>",
      "title": "Location"
     },
     {
-     "html": "<h3>Level Fun</h3>\n<p>They will stay standing still looking in a certain direction. If you get too close to one, or one of the Partygoers spots you, all of the nearest Partygoers (along with the one you got too close to) will chase you down. At that point, your only hope is to either hide underneath a Table or run all the way to the exit without getting caught. After you hide, all the Partygoers will return to their original spots. You can also get their attention by popping a bunch of Balloons on a Table.\n</p>\n<h3>Level !</h3>\n<p>In Level !, there is a pack of 6 Partygoers that will be in front of <a href=\"#APP#/entities/smiler/\">The Giant Smiler</a> in the back, and they simply just chase you in this Level. When the player runs through the side hall, one of the partygoers will follow you down the hall and rejoin the group when you exit the hall.\n</p>\n<h3>Level Fun+</h3>\n<h4>The Party &amp; Arcade Sector</h4>\n<p>In the Party Sector in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, 3 Partygoers will walk around the area. If one spots you, it will start chasing you. Simply just hide underneath a Table to avoid it. In the dark area of the Arcade Sector, there will only be one Partygoer, and he won't be able to spot you unless you get too close.\n</p>\n<h4>The Funhouse Sector</h4>\n<p>In the Funhouse Sector in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, in every room there will be steel doors. If the Party Host in the room spots you or after some time, all of the Partygoers will leave the room and start chasing the player. Simply hide underneath a Table and they will retreat back to the room.\n</p>\n<h3>Level 52</h3>\n<p>In Level 52, you must follow the <a href=\"#APP#/entities/partypooper/\">Partypooper</a> and if he crouches, you must too because it means a Partygoer is nearby. The Partygoers won't move, and if you don't crouch, the Partygoers will come after you and will kill the <a href=\"#APP#/entities/partypooper/\">Partypooper</a> first if you are farther from him.\n</p>",
+     "html": "<h3>Level Fun</h3>\n<p>They will stay standing still looking in a certain direction. If you get too close to one, or one of the Partygoers spots you, all of the nearest Partygoers (along with the one you got too close to) will chase you down. At that point, your only hope is to either hide underneath a Table or run all the way to the exit without getting caught. After you hide, all the Partygoers will return to their original spots. You can also get their attention by popping a bunch of Balloons on a Table.\n</p>\n<h3>Level !</h3>\n<p>In <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, there is a pack of 6 Partygoers that will be in front of <a href=\"#APP#/entities/smiler/\">The Giant Smiler</a> in the back, and they simply just chase you in this Level. When the player runs through the side hall, one of the partygoers will follow you down the hall and rejoin the group when you exit the hall.\n</p>\n<h3>Level Fun+</h3>\n<h4>The Party &amp; Arcade Sector</h4>\n<p>In the Party Sector in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, 3 Partygoers will walk around the area. If one spots you, it will start chasing you. Simply just hide underneath a Table to avoid it. In the dark area of the Arcade Sector, there will only be one Partygoer, and he won't be able to spot you unless you get too close.\n</p>\n<h4>The Funhouse Sector</h4>\n<p>In the Funhouse Sector in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>, in every room there will be steel doors. If the Party Host in the room spots you or after some time, all of the Partygoers will leave the room and start chasing the player. Simply hide underneath a Table and they will retreat back to the room.\n</p>\n<h3>Level 52</h3>\n<p>In <a href=\"#APP#/levels/level-52/\">Level 52</a>, you must follow the Partypooper and if he crouches, you must too because it means a Partygoer is nearby. The Partygoers won't move, and if you don't crouch, the Partygoers will come after you and will kill the Partypooper first if you are farther from him.\n</p>",
      "title": "Behavior"
     },
     {
@@ -1253,11 +1207,81 @@
    }
   },
   {
+   "dangerLabel": "Harmless",
+   "id": "plastic-ball",
+   "images": [
+    {
+     "file": "entities/plastic-ball/hero.png",
+     "height": 124,
+     "role": "hero",
+     "sourceFile": "File:Plastic Ball Model.png",
+     "width": 123
+    },
+    {
+     "file": "entities/plastic-ball/thumb.png",
+     "height": 124,
+     "role": "thumb",
+     "sourceFile": "File:Plastic Ball Model.png",
+     "width": 123
+    },
+    {
+     "file": "entities/plastic-ball/body-1.png",
+     "height": 640,
+     "role": "body",
+     "sourceFile": "File:Plastic Ball Icon.png",
+     "width": 640
+    },
+    {
+     "file": "entities/plastic-ball/body-2.png",
+     "height": 308,
+     "role": "body",
+     "sourceFile": "File:Ball pit balls.png",
+     "width": 358
+    }
+   ],
+   "levels": [],
+   "name": "Plastic Ball",
+   "sections": [
+    {
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOther Balls\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/hero.png\" alt=\"Model\" width=\"123\" height=\"124\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/body-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/body-2.png\" alt=\"Other Balls\" width=\"358\" height=\"308\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "title": "Plastic Ball"
+    },
+    {
+     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_PlasticBall\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tBallPit_InventoryItem_Blue\n\n<p><b>Plastic Balls</b> are an entity and item in Escape the Backrooms. They appear to be ball pit balls.\n</p>",
+     "title": "Files"
+    },
+    {
+     "html": "<p>Plastic Balls appear to be plastic polymer balls found in ball pits that are apparently sentient. They come in the colors red, green, blue, and yellow. As an item, they only come in blue.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>Plastic balls can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, the player throws the ball, which can be re-picked up and thrown again.\n</p>\n<h3>Purpose</h3>\n<p>The purpose of the balls is to throw them into the basketball hoops in the basketball hoop room in the Plastic Mariana of Level 421 and the one basketball hoop in the Bruce's Discovery Center area. If a ball gets into a hoop in the basketball hoop room, the light above it will shine. Make all four lights shine, and the exit to <a href=\"#APP#/levels/overgrowth/\">Overgrowth</a> will unlock.\n</p>",
+     "title": "Use"
+    },
+    {
+     "html": "<p>While plastic balls do not behave since they are just plastic balls that are only sentient, a white ball pit snake exists in the Plastic Mariana of Level 421, which means the balls change their color to white to show the snake being there. It roams around the balls aimlessly and will lead to a circle once all four lighthouse lights are on that must be walked into by a player to get to the basketball hoop room to escape Level 421. A ball pit snake might also be present in the fourth plastic ball chamber in the M.E.G. base in Level 421, as its different color changing balls changing to show a line shape.\n</p>",
+     "title": "Behavior"
+    },
+    {
+     "html": "<h3>Lore &amp; theories</h3>\n<ul><li>A description of Level 421 that explains the level and the balls lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>This is the only thing that confirms the ball pit balls as entities.</li>\n<li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Plastic_Ball",
+   "species": null,
+   "summary": "Plastic Balls appear to be plastic polymer balls found in ball pits that are apparently sentient. They come in the colors red, green, blue, and yellow. As an item, they only come in blue.",
+   "survival": null
+  },
+  {
    "dangerLabel": "Moderate",
    "id": "scratcher",
    "images": [
     {
-     "caption": "Current",
+     "caption": "Normal",
      "file": "entities/scratcher/hero.png",
      "height": 262,
      "role": "hero",
@@ -1272,8 +1296,16 @@
      "width": 243
     },
     {
-     "caption": "Former",
+     "caption": "Damaged variant",
      "file": "entities/scratcher/gallery-1.png",
+     "height": 727,
+     "role": "gallery",
+     "sourceFile": "File:Damaged Scratcher.png",
+     "width": 591
+    },
+    {
+     "caption": "Former",
+     "file": "entities/scratcher/gallery-2.png",
      "height": 331,
      "role": "gallery",
      "sourceFile": "File:Old Scratcher.png",
@@ -1288,19 +1320,19 @@
    "name": "Scratcher",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/hero.png\" alt=\"Current\" width=\"243\" height=\"262\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-1.png\" alt=\"Former\" width=\"500\" height=\"331\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNormal\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tDamaged variant\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/hero.png\" alt=\"Normal\" width=\"243\" height=\"262\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-1.png\" alt=\"Damaged variant\" width=\"591\" height=\"727\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-2.png\" alt=\"Former\" width=\"500\" height=\"331\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Scratcher"
     },
     {
-     "html": "<p>The Scratcher is a skinny gray humanoid with red glowing eyes. It crawls on all fours and has disproportionately large hands and legs. The Scratcher also lacks facial features.\n</p>",
+     "html": "<p>Scratchers are skinny gray humanoids with red glowing eyes. They crawl on all fours and have disproportionately large hands and legs. Scratchers also lack facial features. In Level 421, the Scratchers appear damaged with bandages around them and blood on their skin.\n</p>",
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<h3>In-game</h3>\n<ul><li><a href=\"#APP#/levels/the-end/\">The End</a></li></ul>\n<h3>Upcoming</h3>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "html": "<p>This Entity can be found in:\n</p>\n<h3>In-game</h3>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a> (2)</li>\n<li><a href=\"#APP#/levels/the-end/\">The End</a> (1)</li></ul>",
      "title": "Location"
     },
     {
-     "html": "<p>The Scratcher will roam around <a href=\"#APP#/levels/the-end/\">The End</a> randomly. It also doesn't have eyes, making it Blind. If you make noise around it, it will figure out you're there and become faster than you. It will start chasing you and the only thing you can do at that point is hide underneath one of the 2 Tables in the Level. After a few Seconds of being underneath the Table, it will go away. You can also use a Fire Alarm to distract it. There are 2 in the Level, and once turning one on, the Scratcher will go towards the noise. Once it makes it to the Fire Alarm, it will go back to roaming around <a href=\"#APP#/levels/the-end/\">The End</a>. Once you collect all of the Tapes and put them into the Computer, the Scratcher will ignore you, and after a few Seconds, it will dissappear and The Orb will spawn.\n</p>",
+     "html": "<p>Scratchers roam around randomly. They don't have eyes, making them blind. If you make noise around one, it will figure out you're there and become faster than you. If it's chasing you, the only thing you can do at that point is hide. In <a href=\"#APP#/levels/the-end/\">The End</a>, you can underneath one of the 2 Tables, and in <a href=\"#APP#/levels/level-421/\">Level 421</a>, you can hide underneath a Stretcher or in the ballpit right by a Basketball Hoop in the Bruce's Discovery Center area of the level. After a few seconds of hiding, it will go away. You can also use a Fire Alarm to distract it, but they are exclusive to <a href=\"#APP#/levels/the-end/\">The End</a>. There are 2 in the Level, and once turning one on, the Scratcher will go towards the noise. Once it makes it to the Fire Alarm, it will go back to roaming around <a href=\"#APP#/levels/the-end/\">The End</a>. Once you collect all of the Tapes and put them into the Computer, the Scratcher will ignore you, and after a few Seconds, it will dissappear and The Orb will spawn.\n</p>",
      "title": "Behavior"
     },
     {
@@ -1312,13 +1344,13 @@
      "title": "Tips & Advice"
     },
     {
-     "html": "<ul><li>On the Backrooms Fandom Wiki, the Scratcher doesn't exist in The End.</li>\n<li>In the Game's Release, the Scratcher had a different model which was nearly the same but it was not twitchy and was completely black. The model was changed in Part 2.</li>\n<li>The Scratcher will be found in <a href=\"#APP#/levels/level-421/\">Level 421</a> when it releases but in a very damaged state, which might mean it comes directly from <a href=\"#APP#/levels/the-end/\">The End</a>.</li></ul>",
+     "html": "<ul><li>On the Backrooms Fandom Wiki, the Scratcher doesn't exist in The End.</li>\n<li>In the Game's Release, the Scratcher had a different model which was nearly the same but it was not twitchy and was completely black. The model was changed in Part 2.</li></ul>",
      "title": "Trivia"
     }
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Scratcher",
    "species": "Quadrupedal Grey Humanoid",
-   "summary": "The Scratcher is a skinny gray humanoid with red glowing eyes. It crawls on all fours and has disproportionately large hands and legs. The Scratcher also lacks facial features.",
+   "summary": "Scratchers are skinny gray humanoids with red glowing eyes. They crawl on all fours and have disproportionately large hands and legs. Scratchers also lack facial features. In Level 421, the Scratchers appear damaged with bandages around them and blood on their skin.",
    "survival": {
     "donts": [
      "Walk or Run near it.",
@@ -1331,6 +1363,56 @@
      "Crouch and get near a wall if it gets close."
     ]
    }
+  },
+  {
+   "dangerLabel": "Moderate",
+   "id": "shark",
+   "images": [
+    {
+     "file": "entities/shark/hero.png",
+     "height": 703,
+     "role": "hero",
+     "sourceFile": "File:Shark.png",
+     "width": 800
+    },
+    {
+     "file": "entities/shark/thumb.png",
+     "height": 281,
+     "role": "thumb",
+     "sourceFile": "File:Shark.png",
+     "width": 320
+    }
+   ],
+   "levels": [
+    "level-421"
+   ],
+   "name": "Shark",
+   "sections": [
+    {
+     "html": "<figure>\n\t\n\t\t<img src=\"#IMG#/images/entities/shark/hero.png\" alt=\"Shark\" width=\"800\" height=\"703\">\n\t\t\n\t\n\t<figcaption>The shark seen at the end of the Level 421 trailer.</figcaption>\n</figure>",
+     "title": "Shark"
+    },
+    {
+     "html": "<p>The shark simply appears to be a ginormous shark from the real world that swims in the Plastic Mariana of <a href=\"#APP#/levels/level-421/\">Level 421</a>. It seems to be a monstrous form of Level 421's mascot \"Bruce\".\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>The shark swims through the <a href=\"#APP#/items/plastic-ball-2/\">Plastic Balls</a> in the Plastic Mariana of <a href=\"#APP#/levels/level-421/\">Level 421</a> with its sail be seen above the balls. Sometimes, its sail will go down into the balls, meaning a player can only determine where it's at through sound and the movement of the balls. The shark cannot kill anyone when its sail is under the balls. If the shark figures out where a player is if they're on the balls, it will start swimming towards them. If a player runs into the shark, the shark will kill them.\n</p>",
+     "title": "Behavior"
+    },
+    {
+     "html": "<ul><li>The shark has a lot of similarities to <a href=\"#APP#/entities/the-thing-on-level-7/\">The Thing on Level 7</a>.\n<ul><li>They're both aquatic creatures that swim.</li>\n<li>They both attack a player from underneath.</li>\n<li>The idea that the shark can start swimming towards a player is an unused idea for the Thing on Level 7.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Shark",
+   "species": "Giant Shark",
+   "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.",
+   "survival": null
   },
   {
    "dangerLabel": "Deadly",
@@ -1479,7 +1561,7 @@
      "title": "Locations"
     },
     {
-     "html": "<h3>Level 1</h3>\n<p>In the garage on the 4th floor in Level 1, every now and then the lights flicker, and shortly after the flicker, they completely turn off. When the lights are off, Smilers will spawn everywhere, and if you aren't in the halls which are the only area with lights when the lights turn off, all of the Smilers within the darkness will start to chase players down, in which they must get back to the light to prevent the Smilers from reaching them. Act quick however, because they are faster than a <a href=\"#APP#/entities/wanderer/\">Wanderer</a>.\n</p>\n<h3>Chasing</h3>\n<p>In <a href=\"#APP#/levels/level-2/\">Level 2</a> and <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, at certain points in each level, there are Smilers that will chase you or your teammates down. The Smiler in <a href=\"#APP#/levels/level-2/\">Level 2</a> will chase you if you're travelling in either direction of the hallway once your almost out of the darkness. It will also break any active light it goes underneath. The Smiler in <a href=\"#APP#/levels/level-exclamation/\">Level !</a> will chase you once all your teammates enter the hallway.\n</p>\n<h3>Roaming</h3>\n<p>In the <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> area in <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> and in the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> layer of <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>, there are tons of Smilers that roam around aimlessly, and the ones in <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> break any light they go underneath temporarily. They will chase a <a href=\"#APP#/entities/wanderer/\">Wanderer</a> if they see one, and they can be fended off using a <a href=\"#APP#/items/flashlight/\">Flashlight</a> or a <a href=\"#APP#/items/camera/\">Camera</a> if you're in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> by shining their lights at the Smiler.\n</p>\n<h3>Level !~!</h3>\n<p>When running through the dangerous hotel of <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>, be sure to take the right way, because if you take the wrong way, a Smiler will come out of that wrong hallway and chase you down. If it's triggered, there is no escaping it.\n</p>",
+     "html": "<h3>Level 1</h3>\n<p>In the garage on the 4th floor in <a href=\"#APP#/levels/level-1/\">Level 1</a>, every now and then the lights flicker, and shortly after the flicker, they completely turn off. When the lights are off, Smilers will spawn everywhere, and if you aren't in the halls which are the only area with lights when the lights turn off, all of the Smilers within the darkness will start to chase players down, in which they must get back to the light to prevent the Smilers from reaching them. Act quick however, because they are faster than a <a href=\"#APP#/entities/wanderer/\">Wanderer</a>.\n</p>\n<h3>Chasing</h3>\n<p>In <a href=\"#APP#/levels/level-2/\">Level 2</a> and <a href=\"#APP#/levels/level-exclamation/\">Level !</a>, at certain points in each level, there are Smilers that will chase you or your teammates down. The Smiler in <a href=\"#APP#/levels/level-2/\">Level 2</a> will chase you if you're travelling in either direction of the hallway once your almost out of the darkness. It will also break any active light it goes underneath. The Smiler in <a href=\"#APP#/levels/level-exclamation/\">Level !</a> will chase you once all your teammates enter the hallway.\n</p>\n<h3>Roaming</h3>\n<p>In the <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> area in <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> and in the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> layer of <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>, there are tons of Smilers that roam around aimlessly, and the ones in <a href=\"#APP#/levels/level-0-1/\">Level 0.1</a> break any light they go underneath temporarily. They will chase a <a href=\"#APP#/entities/wanderer/\">Wanderer</a> if they see one, and they can be fended off using a <a href=\"#APP#/items/flashlight/\">Flashlight</a> or a <a href=\"#APP#/items/camera/\">Camera</a> if you're in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> by shining their lights at the Smiler.\n</p>\n<h3>Level !~!</h3>\n<p>When running through the dangerous hotel of <a href=\"#APP#/levels/level-exclamation-tilde-exclamation/\">Level !~!</a>, be sure to take the right way, because if you take the wrong way, a Smiler will come out of that wrong hallway and chase you down. If it's triggered, there is no escaping it.\n</p>",
      "title": "Behavior"
     },
     {
@@ -1767,7 +1849,9 @@
      "width": 640
     }
    ],
-   "levels": [],
+   "levels": [
+    "level-421"
+   ],
    "name": "Unknown Dark Entity",
    "sections": [
     {
@@ -1846,7 +1930,7 @@
      "title": "Location"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added the Wanderer.\n</td></tr>\n<tr>\n<td>Hotfix #1\n</td>\n<td>Fixed an issue with getting stuck on <a href=\"#APP#/levels/level-exclamation/\">Level !</a> at the last door.\n<p>Fixed an issue with players being able to enter some doors to escape the horde in <a href=\"#APP#/levels/level-exclamation/\">Level !</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #2\n</td>\n<td>Added an option to hide your body.\n<p>Fixed an issue with players jumping out of windows in the <a href=\"#APP#/levels/level-37/\">Poolrooms</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #3\n</td>\n<td>Nerfed <a href=\"#APP#/entities/hound/\">Hounds</a> by allowing you to stun them multiple times.\n</td></tr>\n<tr>\n<td>Hotfix #5\n</td>\n<td>Fixed player counts always showing 1 in the server list.\n</td></tr>\n<tr>\n<td>Hotfix #6\n</td>\n<td>Fixed a bug where incorrect fuseboxes would show for some players.\n<p>Fixed a glitch where 2 people could climb a <a href=\"#APP#/items/rope/\">Rope</a> at once.\n</p><p>Added a hint for players to sneak near <a href=\"#APP#/entities/wretch/\">Wretches</a>.\n</p><p>Added a hint for players to use Valves to stop <a href=\"#APP#/entities/female-deathmoth/\">Moths</a>.\n</p><p>Fixed <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealers</a> being able to hear you through walls.\n</p><p>Prevented players from jumping on top of Roller Coaster carts.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #7\n</td>\n<td>Stopped players from getting killed while on the rope in <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n<p>Fixed an issue where players would have different props in the Office.\n</p><p>Fixed an issue where players would have different keys spawned.\n</p><p>Fixed a bug where players would still lose <a href=\"#APP#/guides/sanity/\">sanity</a> after going down the poolrooms slide.\n</p><p>Fixed a bug where players were spawning at the exit in <a href=\"#APP#/levels/level-6/\">Level 6</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #8\n</td>\n<td>Fixed a bug where players would sometimes crash if they used items and weren't the host.\n</td></tr>\n<tr>\n<td>Hotfix #9\n</td>\n<td>Fixed a bug that showed black bars in the main menu for some players.\n</td></tr>\n<tr>\n<td>VR Update\n</td>\n<td>Both VR and desktop players can seamlessly play in the same lobby.\n<p>Fixed a bug where you could walk through a wall in the <a href=\"#APP#/levels/level-5/\">Hotel</a> lobby.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #11\n</td>\n<td>Fixed an issue where holding a scanner gave you 3 arms.\n<p>Fixed a bug that would make players stuck in spectator mode if the game was restarted.\n</p><p>Hopefully maybe fixed the input issue causing players to delete config files in VR.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #12\n</td>\n<td>Fixed an issue where going <a href=\"#APP#/levels/level-7/\">underwater</a> with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> around the barriers made you fall under the map.\n</td></tr>\n<tr>\n<td>Hotfix #14\n</td>\n<td>Fixed a bug where you would lose sanity in Level 188 in Easy mode.\n<p>Fixed a bug where you wouldn't get <a href=\"#APP#/guides/achievements/\">achievements</a> for certain levels.\nFixed an issue where connected players with high ping couldn't see windmill lights in <a href=\"#APP#/levels/level-10/\">Level 10</a> when restarting a game.\n</p><p>Fixed a bug where players wouldn't spawn at their last checkpoint in level 10.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #15\n</td>\n<td>Added a lighthouse to Level 7 that helps guide players where to go.\n<p>Fixed a bug where connected players with high ping couldn't hear <a href=\"#APP#/entities/faceling/\">Facelings</a>.\n</p><p>Fixed a bug where players could swim really fast by sprinting right before entering water.\n</p><p>Fixed an issue where players would lose sanity with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> on.\n</p><p>Fixed a bug in <a href=\"#APP#/levels/the-manilla-room/\">the manilla room</a> where players sometimes wouldn't continue to the next level.\n</p><p>Fixed a bug where VR players couldn't enter the code to access a locker.\n</p><p>Fixed an issue where moths would chase players if they dropped off a rock in the <a href=\"#APP#/levels/level-8/\">Cave System</a>.\n</p><p>Fixed an issue where players couldn't close a door if it was locked.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #16\n</td>\n<td>Fixed an issue where players could skip <a href=\"#APP#/levels/level-10/\">Level 10</a>.\n</td></tr>\n<tr>\n<td>Hotfix #19\n</td>\n<td>Fixed an issue where <a href=\"#APP#/items/walkie-talkie/\">walkie talkie</a> physics would affect players.\n<p>Fixed an issue where players would die if every player didn't no-clip at the same time.\n</p><p>Fixed an issue where the current equipped item wouldn't be in a player's hand when starting a level if they weren't the host.\n</p><p>Fixed an issue where the voice chat icon wouldn't show on the player's screen if they weren't the host.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #20\n</td>\n<td>Added notes to help out players on some puzzles.\n<p>Fixed an issue where players could fly around the pitfalls.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #21\n</td>\n<td>Fixed an issue where new players couldn't join lobbies after games were ended.\n</td></tr>\n<tr>\n<td>Hotfix #22\n</td>\n<td>Fixed an issue where the error message would show when players were kicked.\n</td></tr>\n<tr>\n<td>Christmas Event\n</td>\n<td>Added the ability to create lobbies with 8 players.\n</td></tr>\n<tr>\n<td>Silent Patch #2\n</td>\n<td>Made 2nd <a href=\"#APP#/entities/clump/\">clump</a> chase the player if they run to it instead of the boarded up door.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Added a new retextured model for player Wanderers and a new model for any other Wanderer aside from a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a> disguise.\n<p>Added a new jumping animation for players.\nAny Wanderer that isn't a player now has a completely new model.\nIf playing with other people, they can now see other players holding and using Items.\nAdded a new <a href=\"#APP#/items/flashlight/\">Flashlight</a> holding animation seen out of 1st person view.\n</p>\n</td></tr>\n<tr>\n<td>Winter Wanderer\n</td>\n<td>Added 11 new player outfits to select – eight festive themed outfits, along with red, blue, and green versions of the default Wanderer outfit\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<td>Release\n</td>\n<td>Added the Wanderer.\n</td></tr>\n<tr>\n<td>Hotfix #1\n</td>\n<td>Fixed an issue with getting stuck on <a href=\"#APP#/levels/level-exclamation/\">Level !</a> at the last door.\n<p>Fixed an issue with players being able to enter some doors to escape the horde in <a href=\"#APP#/levels/level-exclamation/\">Level !</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #2\n</td>\n<td>Added an option to hide your body.\n<p>Fixed an issue with players jumping out of windows in the <a href=\"#APP#/levels/level-37/\">Poolrooms</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #3\n</td>\n<td>Nerfed <a href=\"#APP#/entities/hound/\">Hounds</a> by allowing you to stun them multiple times.\n</td></tr>\n<tr>\n<td>Hotfix #5\n</td>\n<td>Fixed player counts always showing 1 in the server list.\n</td></tr>\n<tr>\n<td>Hotfix #6\n</td>\n<td>Fixed a bug where incorrect fuseboxes would show for some players.\n<p>Fixed a glitch where 2 people could climb a <a href=\"#APP#/items/rope/\">Rope</a> at once.\n</p><p>Added a hint for players to sneak near <a href=\"#APP#/entities/wretch/\">Wretches</a>.\n</p><p>Added a hint for players to use Valves to stop <a href=\"#APP#/entities/female-deathmoth/\">Moths</a>.\n</p><p>Fixed <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealers</a> being able to hear you through walls.\n</p><p>Prevented players from jumping on top of Roller Coaster carts.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #7\n</td>\n<td>Stopped players from getting killed while on the rope in <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n<p>Fixed an issue where players would have different props in the Office.\n</p><p>Fixed an issue where players would have different keys spawned.\n</p><p>Fixed a bug where players would still lose <a href=\"#APP#/guides/sanity/\">sanity</a> after going down the poolrooms slide.\n</p><p>Fixed a bug where players were spawning at the exit in <a href=\"#APP#/levels/level-6/\">Level 6</a>.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #8\n</td>\n<td>Fixed a bug where players would sometimes crash if they used items and weren't the host.\n</td></tr>\n<tr>\n<td>Hotfix #9\n</td>\n<td>Fixed a bug that showed black bars in the main menu for some players.\n</td></tr>\n<tr>\n<td>VR Update\n</td>\n<td>Both VR and desktop players can seamlessly play in the same lobby.\n<p>Fixed a bug where you could walk through a wall in the <a href=\"#APP#/levels/level-5/\">Hotel</a> lobby.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #11\n</td>\n<td>Fixed an issue where holding a <a href=\"#APP#/items/lidar-scanner/\">scanner</a> gave you 3 arms.\n<p>Fixed a bug that would make players stuck in spectator mode if the game was restarted.\n</p><p>Hopefully maybe fixed the input issue causing players to delete config files in VR.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #12\n</td>\n<td>Fixed an issue where going <a href=\"#APP#/levels/level-7/\">underwater</a> with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> around the barriers made you fall under the map.\n</td></tr>\n<tr>\n<td>Hotfix #14\n</td>\n<td>Fixed a bug where you would lose sanity in <a href=\"#APP#/levels/level-188/\">Level 188</a> in Easy mode.\n<p>Fixed a bug where you wouldn't get <a href=\"#APP#/guides/achievements/\">achievements</a> for certain levels.\nFixed an issue where connected players with high ping couldn't see windmill lights in <a href=\"#APP#/levels/level-10/\">Level 10</a> when restarting a game.\n</p><p>Fixed a bug where players wouldn't spawn at their last checkpoint in level 10.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #15\n</td>\n<td>Added a lighthouse to Level 7 that helps guide players where to go.\n<p>Fixed a bug where connected players with high ping couldn't hear <a href=\"#APP#/entities/faceling/\">Facelings</a>.\n</p><p>Fixed a bug where players could swim really fast by sprinting right before entering water.\n</p><p>Fixed an issue where players would lose sanity with a <a href=\"#APP#/items/diving-helmet/\">diving helmet</a> on.\n</p><p>Fixed a bug in <a href=\"#APP#/levels/the-manilla-room/\">the manilla room</a> where players sometimes wouldn't continue to the next level.\n</p><p>Fixed a bug where VR players couldn't enter the code to access a locker.\n</p><p>Fixed an issue where moths would chase players if they dropped off a rock in the <a href=\"#APP#/levels/level-8/\">Cave System</a>.\n</p><p>Fixed an issue where players couldn't close a door if it was locked.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #16\n</td>\n<td>Fixed an issue where players could skip <a href=\"#APP#/levels/level-10/\">Level 10</a>.\n</td></tr>\n<tr>\n<td>Hotfix #19\n</td>\n<td>Fixed an issue where <a href=\"#APP#/items/walkie-talkie/\">walkie talkie</a> physics would affect players.\n<p>Fixed an issue where players would die if every player didn't no-clip at the same time.\n</p><p>Fixed an issue where the current equipped item wouldn't be in a player's hand when starting a level if they weren't the host.\n</p><p>Fixed an issue where the voice chat icon wouldn't show on the player's screen if they weren't the host.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #20\n</td>\n<td>Added notes to help out players on some puzzles.\n<p>Fixed an issue where players could fly around the pitfalls.\n</p>\n</td></tr>\n<tr>\n<td>Hotfix #21\n</td>\n<td>Fixed an issue where new players couldn't join lobbies after games were ended.\n</td></tr>\n<tr>\n<td>Hotfix #22\n</td>\n<td>Fixed an issue where the error message would show when players were kicked.\n</td></tr>\n<tr>\n<td>Christmas Event\n</td>\n<td>Added the ability to create lobbies with 8 players.\n</td></tr>\n<tr>\n<td>Silent Patch #2\n</td>\n<td>Made 2nd <a href=\"#APP#/entities/clump/\">clump</a> chase the player if they run to it instead of the boarded up door.\n</td></tr>\n<tr>\n<td>Version 1.0\n</td>\n<td>Added a new retextured model for player Wanderers and a new model for any other Wanderer aside from a <a href=\"#APP#/entities/skin-stealer/\">Skin-Stealer</a> disguise.\n<p>Added a new jumping animation for players.\nAny Wanderer that isn't a player now has a completely new model.\nIf playing with other people, they can now see other players holding and using Items.\nAdded a new <a href=\"#APP#/items/flashlight/\">Flashlight</a> holding animation seen out of 1st person view.\n</p>\n</td></tr>\n<tr>\n<td>Winter Wanderer\n</td>\n<td>Added 11 new player outfits to select – eight festive themed outfits, along with red, blue, and green versions of the default Wanderer outfit\n</td></tr></tbody></table>",
      "title": "Update History"
     },
     {

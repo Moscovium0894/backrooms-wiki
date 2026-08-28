@@ -1,13 +1,13 @@
 {
- "fetchedAt": "2026-08-27T14:56:45+00:00",
+ "fetchedAt": "2026-08-28T15:52:01+00:00",
  "source": "https://escapethebackrooms.fandom.com",
  "sourceName": "Escape the Backrooms Wiki",
  "license": "CC BY-SA 3.0",
  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
  "counts": {
   "levels": 44,
-  "entities": 29,
-  "items": 24,
+  "entities": 30,
+  "items": 25,
   "guides": 16
  }
 }
