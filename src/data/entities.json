@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 30,
-  "fetchedAt": "2026-08-28T15:52:01+00:00",
+  "fetchedAt": "2026-08-29T10:39:26+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1405,14 +1405,28 @@
      "title": "Behavior"
     },
     {
-     "html": "<ul><li>The shark has a lot of similarities to <a href=\"#APP#/entities/the-thing-on-level-7/\">The Thing on Level 7</a>.\n<ul><li>They're both aquatic creatures that swim.</li>\n<li>They both attack a player from underneath.</li>\n<li>The idea that the shark can start swimming towards a player is an unused idea for the Thing on Level 7.</li></ul></li></ul>",
+     "html": "<h3>Do's</h3>\n<ul><li>Get to each lighthouse as fast as possible.</li>\n<li>Get onto the closest structure if it starts chasing you.</li>\n<li>Start running if you hear it.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Explore the Plastic Mariana not knowing where it is.</li>\n<li>Walk into the sail.</li></ul>",
+     "title": "Do's & Don'ts"
+    },
+    {
+     "html": "<ul><li>The shark has a lot of similarities to <a href=\"#APP#/entities/the-thing-on-level-7/\">The Thing on Level 7</a>.\n<ul><li>They're both aquatic creatures that swim.</li>\n<li>They both attack a player from underneath.</li>\n<li>The idea that something of the shark can be seen above the balls and that the shark can start swimming towards a player are unused ideas for the Thing on Level 7.</li></ul></li></ul>",
      "title": "Trivia"
     }
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Shark",
    "species": "Giant Shark",
    "summary": "\"So the next level i'm going to add is Le-Hold up what's this?\" The topic of this page does not have an official name! So, to make sure the page at least has a title, a conjectural title is in place until an official name is revealed.",
-   "survival": null
+   "survival": {
+    "donts": [
+     "Explore the Plastic Mariana not knowing where it is.",
+     "Walk into the sail."
+    ],
+    "dos": [
+     "Get to each lighthouse as fast as possible.",
+     "Get onto the closest structure if it starts chasing you.",
+     "Start running if you hear it."
+    ]
+   }
   },
   {
    "dangerLabel": "Deadly",
