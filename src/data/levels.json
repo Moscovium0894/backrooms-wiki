@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-09-06T08:17:21+00:00",
+  "fetchedAt": "2026-09-07T08:49:11+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1420,6 +1420,10 @@
      "title": "Drawers"
     },
     {
+     "html": "<p>Do: Look at the clouds to know when its turning night, Stay near houses and Trucks for when it's turning night time, Go to the closest house instead of a further one, Every once in a while, look behind you in the castle, <a href=\"#APP#/entities/the-animated-king/\">Animated King</a>, Stay near the rollercoaster.\n</p><p>Don't: Never look up, wander away from houses and Trucks, Think you can make it to that next house instead of going for the closer one, stay outside during night, forget to turn off the lights, go to the corners of the castle, Not listen at all for the <a href=\"#APP#/entities/the-animated-king/\">Animated King</a>, Never look behind you.\n</p>",
+     "title": "Do's And Don'ts"
+    },
+    {
      "html": "<p>Items in this level are difficult to find, but you can still find some things. These items include:\n</p>\n<ul><li><a href=\"#APP#/items/almond-water/\">Almond Water</a> (found in Drawers and around Trucks)</li>\n<li><a href=\"#APP#/items/liquid-pain/\">Liquid Pain</a> (found in the <a href=\"#APP#/entities/the-animated-king/\">Animated King</a> boss)</li>\n<li><a href=\"#APP#/items/flashlight/\">Flashlight</a> (found in the <a href=\"#APP#/entities/the-animated-king/\">Animated King</a> boss on a Table)</li></ul>",
      "title": "Items"
     },
@@ -1685,7 +1689,7 @@
      "title": "Audio"
     },
     {
-     "html": "<ul><li>This was the last level in the game in Part 2.\n<ul><li>Once getting downstairs in the starting house, there would be a boat at the front door, and the player would have to touch it.   Then, a cutscene would play of the player rowing away in the boat. Then, the credits would roll.</li></ul></li></ul>\n<ul><li>At one point, it was possible to see the box and loading zone for <a href=\"#APP#/levels/the-hub/\">The Hub</a> out a window on the first floor of the house. The Hub teleport now unloads from the game when the player walks through the doorway at the very end of the staircase in the starting house (proven with the UUU Client).</li>\n<li>This Level came as a surprise to most players since it was never mentioned or shown in Fancy's videos until after Part 2 released and Fancy showed this Level as a sneak peek for a new Level in Part 3 before Part 2 released on his Discord Server.</li>\n<li>In Fancy's first Devlog, he said that making the Backrooms levels in order would get repetitive and a lot of the levels are pretty boring, mentioning <a href=\"#APP#/levels/level-6/\">Level 6</a>, Level 7, and <a href=\"#APP#/levels/level-10/\">Level 10</a>. Ironically though, all three of these levels have still ended up in the game.</li>\n<li>When this level was added in Part 2, there were only 3 houses.</li>\n<li>The Note on this level shows a drawing of the original model of <a href=\"#APP#/entities/the-thing-on-level-7/\">The Thing on Level 7</a>.</li></ul>",
+     "html": "<ul><li>This was the last level in the game in Part 2.\n<ul><li>Once getting downstairs in the starting house, there would be a boat at the front door, and the player would have to touch it.   Then, a cutscene would play of the player rowing away in the boat. Then, the credits would roll.</li></ul></li>\n<li>Thalassophobia is the fear of the ocean, which is why the entire level is an ocean with floating houses.</li>\n<li>At one point, it was possible to see the box and loading zone for <a href=\"#APP#/levels/the-hub/\">The Hub</a> out a window on the first floor of the house. The Hub teleport now unloads from the game when the player walks through the doorway at the very end of the staircase in the starting house (proven with the UUU Client).</li>\n<li>This Level came as a surprise to most players since it was never mentioned or shown in Fancy's videos until after Part 2 released and Fancy showed this Level as a sneak peek for a new Level in Part 3 before Part 2 released on his Discord Server.</li>\n<li>In Fancy's first Devlog, he said that making the Backrooms levels in order would get repetitive and a lot of the levels are pretty boring, mentioning <a href=\"#APP#/levels/level-6/\">Level 6</a>, Level 7, and <a href=\"#APP#/levels/level-10/\">Level 10</a>. Ironically though, all three of these levels have still ended up in the game.</li>\n<li>When this level was added in Part 2, there were only 3 houses.</li>\n<li>The Note on this level shows a drawing of the original model of <a href=\"#APP#/entities/the-thing-on-level-7/\">The Thing on Level 7</a>.</li></ul>",
      "title": "Trivia"
     }
    ],
