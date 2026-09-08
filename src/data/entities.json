@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 30,
-  "fetchedAt": "2026-09-07T08:49:11+00:00",
+  "count": 32,
+  "fetchedAt": "2026-09-08T08:30:25+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -821,6 +821,66 @@
    "survival": null
   },
   {
+   "dangerLabel": "Friendly",
+   "id": "light-snake",
+   "images": [
+    {
+     "file": "entities/light-snake/hero.png",
+     "height": 311,
+     "role": "hero",
+     "sourceFile": "File:Light Snake.png",
+     "width": 489
+    },
+    {
+     "file": "entities/light-snake/thumb.png",
+     "height": 204,
+     "role": "thumb",
+     "sourceFile": "File:Light Snake.png",
+     "width": 320
+    }
+   ],
+   "levels": [
+    "level-421"
+   ],
+   "name": "Light Snake",
+   "sections": [
+    {
+     "html": "<p>The Light Snake is an entity that changes the colors of the plastic balls to white in the Plastic Mariana of <a href=\"#APP#/levels/level-421/\">Level 421</a> to show where it's at, although it can't be seen on the paths players have walked through due to it only being seen on the balls that can be pushed that cover the lower inactive ones. The shape the white balls form resembles a long line like a snake.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This entity can be found in:  \n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>The Light Snake resides in the Plastic Mariana of <a href=\"#APP#/levels/level-421/\">Level 421</a>. It will aimlessly move through the balls and it doesn't do anything at first. If all four lighthouse lights are on, the Light Snake will form a circle and the rest of the snake will lead to it. If a player goes into the circle, they will noclip into the basketball hoop room of <a href=\"#APP#/levels/level-421/\">Level 421</a>. \n</p>",
+     "title": "Behavior"
+    },
+    {
+     "html": "<h3>Do's</h3>\n<ul><li>Turn on the lighthouses.</li>\n<li>Follow the Light Snake when all the lighthouses are on.</li>\n<li>Go into the Light Snake's circle when it appears.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Follow it without having turned on all four lighthouses if you're playing solo.</li>\n<li>Stay near it if <a href=\"#APP#/entities/bruce/\">Bruce</a> is near or chasing you.</li></ul>",
+     "title": "Do's & Don'ts"
+    },
+    {
+     "html": "<ul><li>Another Light Snake might be present in the fourth plastic ball chamber in the M.E.G. base in <a href=\"#APP#/levels/level-421/\">Level 421</a>, as its different color changing balls changing to show a line shape and it functions the exact same just with a different color, although this is unconfirmed.\n<ul><li>Something that proves this even more is from a <a href=\"https://www.tiktok.com/@escapethebackroomsgame/video/7680665282326842627\" rel=\"noopener nofollow\" target=\"_blank\">video</a> on the Escape the Backrooms TikTok account, in which the changing color of the balls is white for some reason.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Light_Snake",
+   "species": "Plastic Balls",
+   "summary": "The Light Snake is an entity that changes the colors of the plastic balls to white in the Plastic Mariana of Level 421 to show where it's at, although it can't be seen on the paths players have walked through due to it only being seen on the balls that can be pushed that cover the lower inactive ones.",
+   "survival": {
+    "donts": [
+     "Follow it without having turned on all four lighthouses if you're playing solo.",
+     "Stay near it if Bruce is near or chasing you."
+    ],
+    "dos": [
+     "Turn on the lighthouses.",
+     "Follow the Light Snake when all the lighthouses are on.",
+     "Go into the Light Snake's circle when it appears."
+    ]
+   }
+  },
+  {
    "dangerLabel": "Moderate",
    "id": "lighthead",
    "images": [
@@ -922,6 +982,55 @@
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Male_Deathmoth",
    "species": "Moths",
    "summary": "Male Deathmoths are a much smaller species of greyish moths. The Male Deathmoths do not attack the Player.",
+   "survival": null
+  },
+  {
+   "dangerLabel": "Harmless",
+   "id": "mini-bruce",
+   "images": [
+    {
+     "file": "entities/mini-bruce/hero.png",
+     "height": 603,
+     "role": "hero",
+     "sourceFile": "File:Shark Statue.png",
+     "width": 374
+    },
+    {
+     "file": "entities/mini-bruce/thumb.png",
+     "height": 516,
+     "role": "thumb",
+     "sourceFile": "File:Shark Statue.png",
+     "width": 320
+    },
+    {
+     "file": "entities/mini-bruce/body-2.png",
+     "height": 360,
+     "role": "body",
+     "sourceFile": "File:Level 421 Background.png",
+     "width": 640
+    }
+   ],
+   "levels": [
+    "level-421"
+   ],
+   "name": "Mini-Bruce",
+   "sections": [
+    {
+     "html": "<p>Mini-Bruce is a average-sized statue resembling the mascot of <a href=\"#APP#/levels/level-421/\">Level 421</a> known as Bruce. It has cartoony eyes, pointy teeth, tiny fins, and their body goes down to where the tail of a shark would be. Some are found on the ground, while others are found on some sort of object.\n</p>",
+     "title": "Appearance"
+    },
+    {
+     "html": "<p>This entity can be found in:  \n</p>\n<ul><li><a href=\"#APP#/levels/level-421/\">Level 421 - Plastic Mariana</a></li></ul>",
+     "title": "Location"
+    },
+    {
+     "html": "<p>\nMini-Bruces don't move and don't cause any sort of harm, but they make a menacing sound when nearby one, and they look at players whenever they aren't looking. </p><figure><img src=\"#IMG#/images/entities/mini-bruce/body-2.png\" alt=\"Level 421 Background\" width=\"640\" height=\"360\"><figcaption></figcaption></figure>",
+     "title": "Behavior"
+    }
+   ],
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Mini-Bruce",
+   "species": "Statue",
+   "summary": "Mini-Bruce is a average-sized statue resembling the mascot of Level 421 known as Bruce. It has cartoony eyes, pointy teeth, tiny fins, and their body goes down to where the tail of a shark would be. Some are found on the ground, while others are found on some sort of object.",
    "survival": null
   },
   {
@@ -1038,7 +1147,7 @@
      "title": "Audio"
     },
     {
-     "html": "<ul><li>The current Mr. Kitty model hasn't always been the case. The original Mr. Kitty model was very different and appeared to be a lot more humanoid. Everybody ended up hating it because it didn't look like Mr. Kitty in the original Lore, so Fancy changed it to a more lore accurate model. The model was changed again when Fancy redesigned Level 974 and Mr. Kitty was changed to not look like an untextured stickman.</li>\n<li>Fancy first made a joke Mr. Kitty model when he was making Mr. Kitty to show people that he's good at modeling Entities just to make a not so good model. Afterwards, he made the original Mr. Kitty model.</li>\n<li>Mr. Kitty has the loudest jumpscare in the entire game.</li>\n<li>In the Backrooms lore, Mr. Kitty is just referred to as Kitty, but while Mr. Kitty isn't named in-game, Fancy has only called him Kitty once with all the other times being Mr. Kitty.</li></ul>",
+     "html": "<ul><li>Mr. Kitty has the loudest jumpscare in the entire game.</li>\n<li>Mr. Kitty is currently the only entity that appears in an <a href=\"#APP#/guides/endings/\">Ending</a> cutscene.</li>\n<li>The current Mr. Kitty model hasn't always been the case. The original Mr. Kitty model was very different and appeared to be a lot more humanoid. Everybody ended up hating it because it didn't look like Mr. Kitty in the original Lore, so Fancy changed it to a more lore accurate model. The model was changed again when Fancy redesigned Level 974 and Mr. Kitty was changed to not look like an untextured stickman.</li>\n<li>Fancy first made a joke Mr. Kitty model when he was making Mr. Kitty to show people that he's good at modeling Entities just to make a not so good model. Afterwards, he made the original Mr. Kitty model.</li>\n<li>In the Backrooms lore, Mr. Kitty is just referred to as Kitty, but while Mr. Kitty isn't named in-game, Fancy has only called him Kitty once with all the other times being Mr. Kitty.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -1328,11 +1437,11 @@
      "title": "Use"
     },
     {
-     "html": "<p>While plastic balls do not behave since they are just plastic balls that are only sentient, a white Light Snake exists in the Plastic Mariana of Level 421, which means the balls change their color to white to show the snake being there. It roams around the balls aimlessly and will lead to a circle once all four lighthouse lights are on that must be walked into by a player to get to the basketball hoop room to escape Level 421. A Light Snake might also be present in the fourth plastic ball chamber in the M.E.G. base in Level 421, as its different color changing balls changing to show a line shape.\n</p>",
+     "html": "<p>While plastic balls do not behave since they are just plastic balls that are only sentient, a white <a href=\"#APP#/entities/light-snake/\">Light Snake</a> exists in the Plastic Mariana of Level 421, which means the balls change their color to white to show the snake being there. It roams around the balls aimlessly and will lead to a circle once all four lighthouse lights are on that must be walked into by a player to get to the basketball hoop room to escape Level 421. A Light Snake might also be present in the fourth plastic ball chamber in the M.E.G. base in Level 421, as its different color changing balls changing to show a line shape.\n</p>",
      "title": "Behavior"
     },
     {
-     "html": "<h3>Lore &amp; theories</h3>\n<ul><li>A description of Level 421 that explains the level and the balls lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>This is the only thing that confirms the ball pit balls that aren't the Light Snake as entities.</li>\n<li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>",
+     "html": "<h3>Lore &amp; theories</h3>\n<ul><li>A description of Level 421 that explains the level and the balls lore was given with the level name reveal, \"The M.E.G were researching a new entity - a living, sentient, plastic polymer ball. Now it's escaped into a children's hospital, and a no-clip zone has been located inside Bruce's Discovery Centre. Where will it lead?\".\n<ul><li>This is the only thing that confirms the ball pit balls that aren't the <a href=\"#APP#/entities/light-snake/\">Light Snake</a> as entities.</li>\n<li>In this description, Center is spelled as \"Centre\", due to Secret Mode being an England studio.</li></ul></li></ul>",
      "title": "Trivia"
     }
    ],
@@ -1820,7 +1929,7 @@
      "title": "Audio"
     },
     {
-     "html": "<ul><li>The first Note in Level 7 has the appearance of The Original Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a>.</li>\n<li>The Angler Fish Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a> model is a free marketplace asset named SM_AnglerFish.</li>\n<li>The reason Fancy added The Original Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a> was because rowing in a Boat for hours on end would be pretty boring.</li>\n<li>The original model of the Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a> was quickly changed to the current one due to community feedback saying it should be larger.</li></ul>",
+     "html": "<ul><li>The first Note in Level 7 has the appearance of The Original Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a>.</li>\n<li>The Angler Fish Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a> model is a free marketplace asset named SM_AnglerFish.</li>\n<li>The reason Fancy added The Original Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a> was because rowing in a Boat for hours on end would be pretty boring.</li>\n<li>The original model of the Thing on <a href=\"#APP#/levels/level-7/\">Level 7</a> was quickly changed to the angler fish one due to community feedback saying it should be larger.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -2002,7 +2111,7 @@
      "title": "Do's & Don'ts"
     },
     {
-     "html": "<ul><li>In <a href=\"#APP#/levels/level-188/\">Level 188</a>, Window entities will only spawn behind windows that have views of the courtyard.</li></ul>",
+     "html": "<ul><li>In <a href=\"#APP#/levels/level-188/\">Level 188</a>, Window entities will only spawn behind windows that have views of the courtyard.</li>\n<li>Prior to Version 1.0, Window entities could only be found in <a href=\"#APP#/levels/level-188/\">Level 188</a>, however this was changed when they were added into <a href=\"#APP#/levels/level-4/\">Level 4</a> in Version 1.0.</li></ul>",
      "title": "Trivia"
     }
    ],
