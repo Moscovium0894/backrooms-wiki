@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-09-18T08:41:44+00:00",
+  "fetchedAt": "2026-09-19T08:27:43+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1145,7 +1145,7 @@
    "walkthroughHtml": "<p>When you first spawn in, you will find yourself in a room with no way to get back to <a href=\"#APP#/levels/level-fun/\">Level Fun</a>. Leave this room, and you will find yourself at the square entrances. Go right here, and then you'll be at the intersection. At this intersection, go right again, and after going through a wavy room, you will be in the sewer dungeon. At this sewer dungeon, go forward, and then you'll be in the second wavy room. This room connects to the exit room, which is a room that has 2 life savers and a very short <a href=\"#APP#/levels/level-exclamation/\">Red Hallway</a>. Enter this <a href=\"#APP#/levels/level-exclamation/\">Red Hallway</a> to get to <a href=\"#APP#/levels/level-exclamation/\">Level !</a>.\n</p>"
   },
   {
-   "appearanceHtml": "<p>Level ! is a long hospital hallway with red lights and the loud sound of hospital sirens in all directions. The hallway is fairly short, with various objects such as hospital equipment and beds scattered that block your way.\n</p>",
+   "appearanceHtml": "<p>Level ! is a long hospital hallway with red lights, multiple repeating exit signs above and the loud sound of hospital sirens in all directions. The hallway is fairly short, with various objects such as hospital equipment and beds scattered that block your way.\n</p>",
    "difficulty": 5,
    "difficultyLabel": "Class 5",
    "entities": [
