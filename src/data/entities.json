@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-09-21T09:29:30+00:00",
+  "fetchedAt": "2026-09-22T08:59:29+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1689,7 +1689,7 @@
      "title": "Behavior"
     },
     {
-     "html": "<h3>Level 1</h3>\n<h4>Do's</h4>\n<ul><li>Try to stay in the light.</li>\n<li>Run when the lights turn on.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Stay or go into the area while the lights are turned off.</li>\n<li>Try to outrun the Smilers, they are faster than you.</li></ul>\n<h3>Chasing</h3>\n<h4>Do's</h4>\n<ul><li>Run without looking back.</li>\n<li>Run the entire time.</li>\n<li>Hop if you are more advanced.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Stop running while being chased.</li></ul>\n<h3>Level !~!</h3>\n<h4>Do's</h4>\n<ul><li>Enter the correct hallways.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Enter the wrong hallways.</li>\n<li>Try to run back to the correct hallway, it will always reach you because it's also faster than you.</li></ul>\n<h3>Roaming</h3>\n<h4>Do's</h4>\n<ul><li>Turn on a <a href=\"#APP#/items/flashlight/\">Flashlight</a> or a <a href=\"#APP#/items/camera/\">Camera</a> if in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> and shine it at them.</li>\n<li>Keep your distance when turning on a <a href=\"#APP#/items/flashlight/\">Flashlight</a> to make sure they don't kill you before they do.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Let them get too close to you.</li>\n<li>Run around a corner before peeking or slowly passing it.</li></ul>",
+     "html": "<h3>Level 1</h3>\n<h4>Do's</h4>\n<ul><li>Try to stay in the light.</li>\n<li>Run when the lights turn on.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Stay or go into the area while the lights are turned off.</li>\n<li>Try to outrun the Smilers, they are faster than you.</li></ul>\n<h3>Chasing</h3>\n<h4>Do's</h4>\n<ul><li>Run without looking back.</li>\n<li>Run the entire time.</li>\n<li>Hop if you are more advanced.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Stop running while being chased.</li></ul>\n<h3>Level !~!</h3>\n<h4>Do's</h4>\n<ul><li>Enter the correct hallways.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Enter the wrong hallways.</li>\n<li>Try to run back to the correct hallway, it will always reach you because it's also faster than you.</li></ul>\n<h3>Roaming</h3>\n<h4>Do's</h4>\n<ul><li>Turn on a <a href=\"#APP#/items/flashlight/\">Flashlight</a> or a <a href=\"#APP#/items/camera/\">Camera</a> if in <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a> and shine it at them.</li>\n<li>Keep your distance when turning on a <a href=\"#APP#/items/flashlight/\">Flashlight</a> to make sure they don't kill you.</li></ul>\n<h4>Don'ts</h4>\n<ul><li>Let them get too close to you.</li>\n<li>Run around a corner before peeking or slowly passing it.</li></ul>",
      "title": "Do's & Don'ts"
     },
     {
