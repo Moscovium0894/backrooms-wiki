@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-09-26T09:00:05+00:00",
+  "fetchedAt": "2026-09-27T09:43:47+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1139,7 +1139,7 @@
      "title": "Behavior"
     },
     {
-     "html": "<h3>Do's</h3>\n<ul><li>Keep your eyes on him.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Look away from him if he's nearby or right next to you.</li>\n<li>Roam around <a href=\"#APP#/levels/level-974/\">Level 974</a> without knowing where he is for too long.</li>\n<li>Carelessly lock yourself in a room thinking he won’t reach you, he can always spawn behind you to kill you and he can open doors.</li></ul>",
+     "html": "<h3>Do's</h3>\n<ul><li>Keep your eyes on him.</li>\n<li>Keep your back to a wall at all times, so he can't appear behind you.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Look away from him if he's nearby or right next to you.</li>\n<li>Roam around <a href=\"#APP#/levels/level-974/\">Level 974</a> without knowing where he is for too long.</li>\n<li>Carelessly lock yourself in a room thinking he won’t reach you, he can always spawn behind you to kill you and he can open doors.</li></ul>",
      "title": "Do's & Don'ts"
     },
     {
@@ -1147,7 +1147,7 @@
      "title": "Audio"
     },
     {
-     "html": "<ul><li>Mr. Kitty has the loudest jumpscare in the entire game.</li>\n<li>Mr. Kitty is currently the only entity that appears in an <a href=\"#APP#/guides/endings/\">Ending</a> cutscene.</li>\n<li>The current Mr. Kitty model hasn't always been the case. The original Mr. Kitty model was very different and appeared to be a lot more humanoid. Everybody ended up hating it because it didn't look like Mr. Kitty in the original Lore, so Fancy changed it to a more lore accurate model. The model was changed again when Fancy redesigned Level 974 and Mr. Kitty was changed to not look like an untextured stickman.</li>\n<li>Fancy first made a joke Mr. Kitty model when he was making Mr. Kitty to show people that he's good at modeling Entities just to make a not so good model. Afterwards, he made the original Mr. Kitty model.</li>\n<li>In the Backrooms lore, Mr. Kitty is just referred to as Kitty, but while Mr. Kitty isn't named in-game, Fancy has only called him Kitty once with all the other times being Mr. Kitty.</li></ul>",
+     "html": "<ul><li>Mr. Kitty has the loudest jumpscare in the entire game.</li>\n<li>Mr. Kitty is currently the only entity that appears in an <a href=\"#APP#/guides/endings/\">Ending</a> cutscene.</li>\n<li>The current Mr. Kitty model hasn't always been the case. The original Mr. Kitty model was very different and appeared to be a lot more humanoid. Everybody ended up hating it because it didn't look like Mr. Kitty in the original Lore, so Fancy changed it to a more lore accurate model. The model was changed again when Fancy redesigned Level 974 and Mr. Kitty was changed to not look like an untextured stickman.</li>\n<li>Fancy first made a joke Mr. Kitty model when he was making Mr. Kitty to show people that he's good at modeling Entities just to make a not so good model. Afterwards, he made the original Mr. Kitty model.</li>\n<li>In the Backrooms lore, Mr. Kitty is just referred to as Kitty, but while Mr. Kitty isn't named in-game, Fancy has only called him Kitty once with all the other times being Mr. Kitty.</li>\n<li>In the Backrooms lore, Kitty is never hostile, instead simply following around <a href=\"#APP#/entities/wanderer/\">Wanderers</a> who are in possession of items it finds cute and keeping them safe in its house until they give it their cute item, at which point they fall asleep and wake up on another safe level. It is possible that Mr. Kitty's name was changed to differentiate it from the lore-accurate, non-hostile Kitty.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -1161,7 +1161,8 @@
      "Carelessly lock yourself in a room thinking he won’t reach you, he can always spawn behind you to kill you and he can open doors."
     ],
     "dos": [
-     "Keep your eyes on him."
+     "Keep your eyes on him.",
+     "Keep your back to a wall at all times, so he can't appear behind you."
     ]
    }
   },
