@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-09-27T09:43:47+00:00",
+  "fetchedAt": "2026-09-28T10:22:17+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1147,7 +1147,7 @@
      "title": "Audio"
     },
     {
-     "html": "<ul><li>Mr. Kitty has the loudest jumpscare in the entire game.</li>\n<li>Mr. Kitty is currently the only entity that appears in an <a href=\"#APP#/guides/endings/\">Ending</a> cutscene.</li>\n<li>The current Mr. Kitty model hasn't always been the case. The original Mr. Kitty model was very different and appeared to be a lot more humanoid. Everybody ended up hating it because it didn't look like Mr. Kitty in the original Lore, so Fancy changed it to a more lore accurate model. The model was changed again when Fancy redesigned Level 974 and Mr. Kitty was changed to not look like an untextured stickman.</li>\n<li>Fancy first made a joke Mr. Kitty model when he was making Mr. Kitty to show people that he's good at modeling Entities just to make a not so good model. Afterwards, he made the original Mr. Kitty model.</li>\n<li>In the Backrooms lore, Mr. Kitty is just referred to as Kitty, but while Mr. Kitty isn't named in-game, Fancy has only called him Kitty once with all the other times being Mr. Kitty.</li>\n<li>In the Backrooms lore, Kitty is never hostile, instead simply following around <a href=\"#APP#/entities/wanderer/\">Wanderers</a> who are in possession of items it finds cute and keeping them safe in its house until they give it their cute item, at which point they fall asleep and wake up on another safe level. It is possible that Mr. Kitty's name was changed to differentiate it from the lore-accurate, non-hostile Kitty.</li></ul>",
+     "html": "<ul><li>Mr. Kitty has the loudest jumpscare in the entire game.</li>\n<li>Mr. Kitty is currently the only entity that appears in an <a href=\"#APP#/guides/endings/\">Ending</a> cutscene.</li>\n<li>The current Mr. Kitty model hasn't always been the case. The original Mr. Kitty model was very different and appeared to be a lot more humanoid. Everybody ended up hating it because it didn't look like Mr. Kitty in the original Lore, so Fancy changed it to a more lore accurate model. The model was changed again when Fancy redesigned Level 974 and Mr. Kitty was changed to not look like an untextured stickman.</li>\n<li>Fancy first made a joke Mr. Kitty model when he was making Mr. Kitty to show people that he's good at modeling Entities just to make a not so good model. Afterwards, he made the original Mr. Kitty model.</li>\n<li>In the Backrooms lore, Mr. Kitty is just referred to as Kitty, but while Mr. Kitty isn't named in-game, Fancy has only called him Kitty once with all the other times being Mr. Kitty.</li>\n<li>In the Backrooms lore, Kitty is never hostile, instead simply following around <a href=\"#APP#/entities/wanderer/\">Wanderers</a> who are in possession of items it finds cute and keeping them safe in its house until they give it their cute item, at which point they fall asleep and wake up on another safe level.</li>\n<li>It is possible that Mr. Kitty's name was changed to differentiate it from the lore-accurate, non-hostile Kitty, although this name was first said in Fancy's 3rd Devlog when nothing was known about his behavior, so it's unclear.</li></ul>",
      "title": "Trivia"
     }
    ],
@@ -1200,11 +1200,11 @@
      "title": "Location"
     },
     {
-     "html": "<p>Party Hosts can be found throughout the Funhouse Sector and once they spot you, the Partygoers will leave their rooms and start hunting the player. Simply hide underneath a Table and they will go back to their rooms. Throw a <a href=\"#APP#/items/firework/\">Firework</a> at a Party Host to kill it. \n</p>",
+     "html": "<p>Party Hosts can be found throughout the Funhouse Sector and simply just stare at you. Throwing a <a href=\"#APP#/items/firework/\">Firework</a> at a Party Host will kill it. This must be done for every Party Host in the Sector to progress in <a href=\"#APP#/levels/level-fun-plus/\">Level Fun+</a>. \n</p>",
      "title": "Behavior"
     },
     {
-     "html": "<h3>Do's</h3>\n<ul><li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> directly at them from a safe distance to kill them and not kill yourself from the blast.</li>\n<li>Kill them so you can proceed through the Funhouse Sector.</li>\n<li>Take note of the closest Table to hide under when one alerts the Partygoers of your location.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Stand still when spotted, they will always alert the Partygoers.</li>\n<li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> when too close to them.</li>\n<li>Stand out in the open with no intent of hiding or killing one, Partygoers will come after you.</li></ul>",
+     "html": "<h3>Do's</h3>\n<ul><li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> directly at them from a safe distance to kill them and not kill yourself from the blast.</li>\n<li>Kill them so you can proceed through the Funhouse Sector.</li>\n<li>Take note of the closest Table to hide under when you're about to kill one.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Throw a <a href=\"#APP#/items/firework/\">Firework</a> when too close to them.</li>\n<li>Stand out in the open with no intent of hiding or killing one, Partygoers will come after you.</li></ul>",
      "title": "Do's & Don'ts"
     },
     {
@@ -1217,14 +1217,13 @@
    "summary": "Party Hosts are cakes with bright green icing with an Eyeball in the middle. The color of the eye is blue. Party Hosts are immobile and will always be on the wall or the ceiling.",
    "survival": {
     "donts": [
-     "Stand still when spotted, they will always alert the Partygoers.",
      "Throw a Firework when too close to them.",
      "Stand out in the open with no intent of hiding or killing one, Partygoers will come after you."
     ],
     "dos": [
      "Throw a Firework directly at them from a safe distance to kill them and not kill yourself from the blast.",
      "Kill them so you can proceed through the Funhouse Sector.",
-     "Take note of the closest Table to hide under when one alerts the Partygoers of your location."
+     "Take note of the closest Table to hide under when you're about to kill one."
     ]
    }
   },
