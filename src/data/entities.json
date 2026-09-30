@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-09-29T10:18:49+00:00",
+  "fetchedAt": "2026-09-30T10:10:46+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -2111,7 +2111,7 @@
      "title": "Do's & Don'ts"
     },
     {
-     "html": "<ul><li>In <a href=\"#APP#/levels/level-188/\">Level 188</a>, Window entities will only spawn behind windows that have views of the courtyard.</li>\n<li>Prior to Version 1.0, Window entities could only be found in <a href=\"#APP#/levels/level-188/\">Level 188</a>, however this was changed when they were added into <a href=\"#APP#/levels/level-4/\">Level 4</a> in Version 1.0.</li></ul>",
+     "html": "<ul><li>In <a href=\"#APP#/levels/level-188/\">Level 188</a>, Window entities will only spawn behind windows that have views of the courtyard.</li>\n<li>Prior to Version 1.0, Window entities could only be found in <a href=\"#APP#/levels/level-188/\">Level 188</a>, however this was changed when they were added into <a href=\"#APP#/levels/level-4/\">Level 4</a> in Version 1.0.</li>\n<li>In the Backrooms lore, Windows are formed on windows (and occasionally walls) when nearby <a href=\"#APP#/entities/wanderer/\">Wanderers</a> are overwhelmed by a desire to escape their current location. When newly formed, they are difficult to distinguish from normal windows and only show a shadowy presence within after they have consumed a Wanderer. If the Window entities in the game are lore-accurate, then it can be assumed that every single one of them has consumed a Wanderer at some point in the past.</li></ul>",
      "title": "Trivia"
     }
    ],
