@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 25,
-  "fetchedAt": "2026-09-30T10:10:46+00:00",
+  "fetchedAt": "2026-10-01T10:39:00+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -752,7 +752,10 @@
   },
   {
    "foundInLevels": [
-    "level-7"
+    "level-7",
+    "level-6",
+    "level-0-2",
+    "level-55-1"
    ],
    "id": "flare-gun",
    "images": [
@@ -800,7 +803,7 @@
      "title": "Files"
     },
     {
-     "html": "<p>Flare Guns are orange guns that shoots flares to clear out fog.\n</p>",
+     "html": "<p>Flare Guns are orange guns that shoots Flares to show your location in the fog.\n</p>",
      "title": "Appearance"
     },
     {
@@ -808,11 +811,11 @@
      "title": "Location"
     },
     {
-     "html": "<h3>Using the Item</h3>\n<p>Upon using, a Flare is shot out of the gun.\n</p>\n<h3>Purpose</h3>\n<p>The purpose of Flare Guns is for 2 or more players so you can let your teammates know where you're at using one, since the Flare shot out of the gun can be seen in the fog.\n</p>",
+     "html": "<h3>Using the Item</h3>\n<p>Upon using, a Flare is shot out of the gun.\n</p>\n<h3>Purpose</h3>\n<p>The purpose of Flare Guns is for 2 or more players so you can let your teammates know where you're at using one, since the Flare shot out of the gun can be seen in the fog. The Flare Gun does not run out of Flares or need to be reloaded, but does have a brief cooldown period of a few seconds before it can be fired again.\n</p>",
      "title": "Use"
     },
     {
-     "html": "<ul><li>When The Flare Gun was first shown in Fancy's 6th Devlog, it had a Rarity of Epic, however this was changed for unknown reasons.</li></ul>",
+     "html": "<ul><li>The Flare Gun does give off light in dark areas, but does not make for a reliable light source due to the light it gives off having a small range and not lasting long, as well as it requiring time to be ready for firing again.</li>\n<li>If fired in the maze of <a href=\"#APP#/levels/level-6/\">Level 6</a>, the Flare Gun will briefly illuminate the player who fired it, but nothing around them.</li>\n<li>Despite technically being a light source, the Flare Gun will not kill the <a href=\"#APP#/entities/smiler/\">Smilers</a> in <a href=\"#APP#/levels/level-0-2/\">Level 0.2</a> or <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.</li>\n<li>When The Flare Gun was first shown in Fancy's 6th Devlog, it had a Rarity of Epic, however this was changed for unknown reasons.</li></ul>",
      "title": "Trivia"
     }
    ],
