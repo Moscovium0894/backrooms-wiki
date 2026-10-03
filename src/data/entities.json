@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-10-02T10:13:31+00:00",
+  "fetchedAt": "2026-10-03T09:35:49+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1281,12 +1281,8 @@
      "title": "Behavior"
     },
     {
-     "html": "<p>Partygoers have the ability to talk, and you can hear them when in certain parts of <a href=\"#APP#/levels/level-fun/\">Level Fun</a>. Even if there aren't actually any of them around, you can still hear them, for example at the locked Blue Door or if you get all the Partygoers stuck at the Fun Room and you go back into the area where you heard it originally you will still hear it even though the Partygoers aren't there. They have 5 Lines, and they say their Lines in a specific order.\n</p>\n<ul><li>It's a party, come to play.</li>\n<li>You're missing out on the party.</li>\n<li>We can have so much fun.</li>\n<li>We have a cake, come try it.</li>\n<li>There is arcade games.</li></ul>\n<figure> \t \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t\t\t<p>Audio</p> \t\t \t</figcaption> </figure>",
+     "html": "<p>Partygoers have the ability to talk, and you can hear them when in certain parts of <a href=\"#APP#/levels/level-fun/\">Level Fun</a>. Even if there aren't actually any of them around, you can still hear them, for example at the locked Blue Door or if you get all the Partygoers stuck at the Fun Room and you go back into the area where you heard it originally you will still hear it even though the Partygoers aren't there. They have 5 Lines, and they say their Lines in a specific order.\n</p>\n<ul><li>It's a party, come to cake and</li>\n\n<li>You're missing out on 67</li>\n<li>We can have so neg</li>\n<li>We have a cake, 67</li>\n<li>nn venire senno sg</li></ul>\n<h3>Do's</h3>\n<ul><li>Crouch when trying to get around one.</li>\n<li>If spotted, run for the nearest Table and crouch underneath it.</li>\n<li>Peek around a corner before going.</li>\n<li>Distract them, if you are playing in Multiplayer.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Walk/sprint behind or near it.</li>\n<li>Pop a Balloon Cluster with no intention of getting under a Table.</li>\n<li>Trigger a chase without knowing where the nearest Table is.</li>\n<li>Touch them while standing up.</li>\n<li>Run around a corner before peeking.</li></ul>",
      "title": "Talking"
-    },
-    {
-     "html": "<h3>Do's</h3>\n<ul><li>Crouch when trying to get around one.</li>\n<li>If spotted, run for the nearest Table and crouch underneath it.</li>\n<li>Peek around a corner before going.</li>\n<li>Distract them, if you are playing in Multiplayer.</li></ul>\n<h3>Don'ts</h3>\n<ul><li>Walk/sprint behind or near it.</li>\n<li>Pop a Balloon Cluster with no intention of getting under a Table.</li>\n<li>Trigger a chase without knowing where the nearest Table is.</li>\n<li>Touch them while standing up.</li>\n<li>Run around a corner before peeking.</li></ul>",
-     "title": "Do's & Don'ts"
     },
     {
      "html": "<p>As long as one's not facing you, it won't come after you. If it's impossible to go around without it seeing you, get them to chase you by popping a Balloon or making it see you, then hide under a Table. This will most likely turn it around.\n</p>",
