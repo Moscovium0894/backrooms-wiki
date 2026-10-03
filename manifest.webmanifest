@@ -1,0 +1,21 @@
+{
+  "name": "Backrooms Field Manual",
+  "short_name": "Backrooms",
+  "description": "Companion field manual for Escape the Backrooms: levels, walkthroughs, entities, progress.",
+  "start_url": "/backrooms-wiki/",
+  "scope": "/backrooms-wiki/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e8e2ce",
+  "theme_color": "#14120c",
+  "icons": [
+    { "src": "/backrooms-wiki/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/backrooms-wiki/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    {
+      "src": "/backrooms-wiki/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
