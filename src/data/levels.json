@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-10-12T11:31:58+00:00",
+  "fetchedAt": "2026-10-13T11:21:12+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -2966,18 +2966,18 @@
    "id": "level-fun-plus",
    "images": [
     {
-     "file": "levels/level-fun-plus/hero.jpg",
-     "height": 495,
+     "file": "levels/level-fun-plus/hero.png",
+     "height": 128,
      "role": "hero",
-     "sourceFile": "File:Level Fun+.jpg",
-     "width": 800
+     "sourceFile": "File:Level Fun+ Render.png",
+     "width": 128
     },
     {
-     "file": "levels/level-fun-plus/thumb.jpg",
-     "height": 198,
+     "file": "levels/level-fun-plus/thumb.png",
+     "height": 128,
      "role": "thumb",
-     "sourceFile": "File:Level Fun+.jpg",
-     "width": 320
+     "sourceFile": "File:Level Fun+ Render.png",
+     "width": 128
     },
     {
      "file": "levels/level-fun-plus/map-1.png",
@@ -3301,7 +3301,7 @@
      "title": "Entrances & Exits"
     },
     {
-     "html": "<h3>Ambience</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout Level 421.\n</td>\n<td>Ambi_Roomtone_02_Loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout the Bruce's Discovery Center area of Level 421 along with the main ambience.\n</td>\n<td>Ambi_Roomtone_03_Loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays when nearby a <a href=\"#APP#/entities/mini-bruce/\">Mini-Bruce</a>.\n</td>\n<td>youcheated_loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout the Plastic Mariana area of Level 421 along with the main ambience.\n</td>\n<td>Darkness_Ambience\n</td></tr></tbody></table>",
+     "html": "<h3>Ambience</h3>\n<table>\n<tbody><tr>\n<th><b>Audio</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>File Name</b>\n</th></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout Level 421.\n</td>\n<td>Ambi_Roomtone_02_Loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout the Bruce's Discovery Center area of Level 421 along with the main ambience.\n</td>\n<td>Ambi_Roomtone_03_Loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays when nearby a <a href=\"#APP#/entities/mini-bruce/\">Mini-Bruce</a>.\n</td>\n<td>youcheated_loop\n</td></tr>\n<tr>\n<td>\n</td>\n<td>The ambience that plays throughout the Plastic Mariana area of Level 421 along with the main ambience and the Bruce's Discovery Center ambience.\n</td>\n<td>Darkness_Ambience\n</td></tr></tbody></table>",
      "title": "Audio"
     },
     {
@@ -4432,7 +4432,7 @@
    "images": [],
    "items": [],
    "kind": "joke",
-   "leadHtml": "<b>\"I'm definitely not going to add this to my game.\"</b> \n<p>This page is about content that was planned to be in the game but was scrapped due to various reasons.'\n</p>\n<p><i>\"And my personal favorite, Level Zero Point McDonald's Sign, which is literally just a McDonald's inside of the Backrooms.\"</i>\n</p><p><small>- Fancy in his 5th Devlog</small>\n</p>",
+   "leadHtml": "<p><i>\"And my personal favorite, Level Zero Point McDonald's Sign, which is literally just a McDonald's inside of the Backrooms.\"</i>\n</p><p><small>- Fancy in his 5th Devlog</small>\n</p>",
    "name": "Level 0.〽",
    "order": null,
    "part": null,
