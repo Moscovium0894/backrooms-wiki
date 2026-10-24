@@ -1,0 +1,1 @@
+import{t as d,i as g}from"./progress.DRstuqxw.js";const t=document.querySelector("[data-sighted-toggle]");if(t){const e=t.dataset.sightedToggle,i=()=>{const s=g(e);t.setAttribute("aria-pressed",String(s)),t.textContent=s?"✓ Sighted":"◉ Mark sighted"};t.addEventListener("click",()=>{d(e),i()}),i()}
