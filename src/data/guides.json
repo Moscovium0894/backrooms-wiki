@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 16,
-  "fetchedAt": "2026-10-27T09:31:11+00:00",
+  "count": 15,
+  "fetchedAt": "2026-10-28T10:13:40+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -671,39 +671,6 @@
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Sanity",
    "summary": "Sanity is a mechanic in Escape the Backrooms. It involves slowly going insane.",
    "title": "Sanity"
-  },
-  {
-   "id": "gamemodes",
-   "images": [
-    {
-     "file": "guides/gamemodes/body-1.webp",
-     "height": 203,
-     "role": "body",
-     "sourceFile": "File:Spoiler Content Image.gif",
-     "width": 360
-    }
-   ],
-   "relatedLevelIds": [
-    "level-0",
-    "level-fun"
-   ],
-   "sections": [
-    {
-     "html": "<figure><img src=\"#IMG#/images/guides/gamemodes/body-1.webp\" alt=\"Spoiler Content Image\" width=\"360\" height=\"203\"><figcaption></figcaption></figure><b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>\n\n<p><b>Gamemodes</b> are an upcoming feature in Escape the Backrooms.\n</p>",
-     "title": null
-    },
-    {
-     "html": "<p>Gamemodes will be different ways to play the game. Currently, there are 3 Gamemodes that have been mentioned, being Hide and Seek, Survival, and Infection.\n</p>",
-     "title": "Information"
-    },
-    {
-     "html": "<h3>Hide and Seek</h3>\n<p>In Hide and Seek, players are put into a Level (which there might only be <a href=\"#APP#/levels/level-0/\">Level 0</a>) and one player is randomly chosen to be the Entity in the Level and must kill all the players to win. The last person alive is the winner. There will also be a mechanic to punch someone which will stun them for a period of time.\n</p>\n<h3>Survival</h3>\n<p>In Survival, a dozen players are thrown into a random Level and must escape the Level. If someone dies, they lose however the people who survive can go to the next Level. The last person alive wins. This Gamemode might also have the punching mechanic since Fancy mentioned players slapping each other.\n</p>\n<h3>Infection</h3>\n<p>Infection was briefly mentioned, however what was shown is simple. If you die to an Entity, you become the Entity. Not much else is known other than this might be <a href=\"#APP#/levels/level-fun/\">Level Fun</a> exclusive since in the original lore, <a href=\"#APP#/entities/partygoer/\">Partygoers</a> can turn other people into <a href=\"#APP#/entities/partygoer/\">Partygoers</a> which would make sense since Fancy showed <a href=\"#APP#/levels/level-fun/\">Level Fun</a> when mentioning this Gamemode.\n</p>",
-     "title": "Gamemodes"
-    }
-   ],
-   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/Gamemodes",
-   "summary": "\"Then I suggest looking away because this is what it looks like in-game.\" This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!",
-   "title": "Gamemodes"
   },
   {
    "id": "controls",
