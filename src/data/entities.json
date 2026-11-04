@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-11-03T11:33:24+00:00",
+  "fetchedAt": "2026-11-04T11:49:03+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1336,7 +1336,8 @@
     "level-52",
     "level-55-1",
     "level-fun-plus",
-    "level-you-cheated"
+    "level-you-cheated",
+    "the-afterparty"
    ],
    "name": "Partypooper",
    "sections": [
@@ -1759,11 +1760,11 @@
      "title": "The Animated King"
     },
     {
-     "html": "<p>The Animated King is a plastic clown with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the Boss Entity of <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n</p>",
+     "html": "<p>The Animated King is a clown made of plastic with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the boss entity of <a href=\"#APP#/levels/level-94/\">Level 94</a>.\n</p>",
      "title": "Appearance"
     },
     {
-     "html": "<p>This Entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-94/\">Level 94</a></li></ul>",
+     "html": "<p>This entity can be found in:\n</p>\n<ul><li><a href=\"#APP#/levels/level-94/\">Level 94</a></li></ul>",
      "title": "Location"
     },
     {
@@ -1785,7 +1786,7 @@
    ],
    "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/The_Animated_King",
    "species": "Clown Humanoid",
-   "summary": "The Animated King is a plastic clown with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the Boss Entity of Level 94 .",
+   "summary": "The Animated King is a clown made of plastic with green hair, red gloves, a purple and yellow clown outfit, and some green clown shoes. It is the boss entity of Level 94 .",
    "survival": {
     "donts": [
      "Stay still for long periods of time.",
