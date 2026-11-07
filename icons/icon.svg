@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Backrooms Field Manual app icon: wall-yellow room, dark doorway, L0 tag -->
+  <rect width="512" height="512" rx="96" fill="#14120c"/>
+  <rect x="40" y="40" width="432" height="432" rx="64" fill="#b8a248"/>
+  <!-- wallpaper stripes -->
+  <g fill="#a68f3c">
+    <rect x="40" y="120" width="432" height="18"/>
+    <rect x="40" y="210" width="432" height="18"/>
+    <rect x="40" y="300" width="432" height="18"/>
+    <rect x="40" y="390" width="432" height="18"/>
+  </g>
+  <!-- doorway -->
+  <rect x="196" y="150" width="120" height="322" fill="#14120c"/>
+  <rect x="206" y="160" width="100" height="312" fill="#1e1b12"/>
+  <!-- fluorescent slab -->
+  <rect x="150" y="74" width="212" height="26" rx="6" fill="#e8e2ce"/>
+  <!-- file tag -->
+  <g font-family="Menlo, monospace" font-weight="bold" text-anchor="middle">
+    <text x="256" y="264" font-size="92" fill="#e8e2ce">L0</text>
+  </g>
+</svg>
