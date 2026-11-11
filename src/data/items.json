@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 25,
-  "fetchedAt": "2026-11-10T12:01:47+00:00",
+  "fetchedAt": "2026-11-11T11:38:12+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -243,11 +243,11 @@
    "rarity": "Epic",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/hero.png\" alt=\"Model\" width=\"223\" height=\"515\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-2.png\" alt=\"Former Model\" width=\"130\" height=\"260\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-3.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/hero.png\" alt=\"Model\" width=\"223\" height=\"515\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-2.png\" alt=\"Former Model\" width=\"130\" height=\"260\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/bug-spray/gallery-3.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Bug Spray"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_BugSpray\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_BugSpray\n\n<p><b>Bug Spray</b> is an Item in Escape the Backrooms. It appears to be a spray can.\n</p>",
+     "html": "<h3>File Name</h3>\n\tBP_Item_BugSpray\n\n\t\t<h3>Icon Name</h3>\n\tT_UI_Inv_Icon_BugSpray\n\n<p><b>Bug Spray</b> is an Item in Escape the Backrooms. It appears to be a spray can.\n</p>",
      "title": "Files"
     },
     {
@@ -390,11 +390,11 @@
    "rarity": "Epic",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/hero.png\" alt=\"Model\" width=\"729\" height=\"213\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/gallery-2.png\" alt=\"Former Icon\" width=\"120\" height=\"120\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/hero.png\" alt=\"Model\" width=\"729\" height=\"213\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/chainsaw/gallery-2.png\" alt=\"Former Icon\" width=\"120\" height=\"120\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Chainsaw"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Chainsaws</b> are an Item in Escape the Backrooms. It appears to simply be a Chainsaw.\n</p>",
+     "html": "<h3>File Name</h3>\n\tN/A\n\n\t\t<h3>Icon Name</h3>\n\tN/A\n\n<p><b>Chainsaws</b> are an Item in Escape the Backrooms. It appears to simply be a Chainsaw.\n</p>",
      "title": "Files"
     },
     {
@@ -645,11 +645,11 @@
    "rarity": "Uncommon",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/hero.png\" alt=\"Model\" width=\"388\" height=\"204\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-2.png\" alt=\"Former Model\" width=\"350\" height=\"161\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-3.png\" alt=\"Former Icon\" width=\"149\" height=\"147\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/hero.png\" alt=\"Model\" width=\"388\" height=\"204\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-2.png\" alt=\"Former Model\" width=\"350\" height=\"161\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/energy-bar/gallery-3.png\" alt=\"Former Icon\" width=\"149\" height=\"147\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Energy Bar"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tBP_EnergyBar\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_EnergyBar\n\n<p><b>Energy Bars</b> are an Item in Escape the Backrooms. It appears to be a chocolate bar.\n</p>",
+     "html": "<h3>File Name</h3>\n\tBP_EnergyBar\n\n\t\t<h3>Icon Name</h3>\n\tT_UI_Inv_Icon_EnergyBar\n\n<p><b>Energy Bars</b> are an Item in Escape the Backrooms. It appears to be a chocolate bar.\n</p>",
      "title": "Files"
     },
     {
@@ -723,11 +723,11 @@
    "rarity": "Epic",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/hero.png\" alt=\"Model\" width=\"285\" height=\"325\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/hero.png\" alt=\"Model\" width=\"285\" height=\"325\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/firework/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"149\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Firework"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Fireworks</b> are an Item in Escape the Backrooms. It appears to be a red Firework.\n</p>",
+     "html": "<h3>File Name</h3>\n\tN/A\n\n\t\t<h3>Icon Name</h3>\n\tN/A\n\n<p><b>Fireworks</b> are an Item in Escape the Backrooms. It appears to be a red Firework.\n</p>",
      "title": "Files"
     },
     {
@@ -1836,11 +1836,11 @@
    "rarity": "Epic",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/hero.png\" alt=\"Model\" width=\"144\" height=\"294\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/gallery-2.png\" alt=\"Former Icon\" width=\"149\" height=\"150\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/hero.png\" alt=\"Model\" width=\"144\" height=\"294\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/walkie-talkie/gallery-2.png\" alt=\"Former Icon\" width=\"149\" height=\"150\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Walkie Talkie"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Walkie Talkies</b> are an Item in Escape the Backrooms. It appears to simply be a Walkie Talkie.\n</p>",
+     "html": "<h3>File Name</h3>\n\tN/A\n\n\t\t<h3>Icon Name</h3>\n\tN/A\n\n<p><b>Walkie Talkies</b> are an Item in Escape the Backrooms. It appears to simply be a Walkie Talkie.\n</p>",
      "title": "Files"
     },
     {
@@ -1886,11 +1886,11 @@
    "rarity": "Unknown",
    "sections": [
     {
-     "html": "<figure>\n\t\n\t\t<img src=\"#IMG#/images/items/wax-bar/hero.jpg\" alt=\"WaxBarLol\" width=\"800\" height=\"533\">\n\t\t\n\t\n\t<figcaption>What a Wax Bar Item might look like</figcaption>\n</figure>",
+     "html": "<figure>\n\t\n\t\t<img src=\"#IMG#/images/items/wax-bar/hero.jpg\" alt=\"WaxBarLol\" width=\"800\" height=\"533\">\n\t\n\t<figcaption>What a Wax Bar Item might look like</figcaption>\n</figure>",
      "title": "Wax Bar"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tWax_bar (Moth Jelly name)\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_WaxBar (Moth Jelly name)\n\n<p><b>The Wax Bar</b> is the name of what was once believed to be an upcoming Item in Escape the Backrooms.\n</p>",
+     "html": "<h3>File Name</h3>\n\tWax_bar (Moth Jelly name)\n\n\t\t<h3>Icon Name</h3>\n\tT_UI_Inv_Icon_WaxBar (Moth Jelly name)\n\n<p><b>The Wax Bar</b> is the name of what was once believed to be an upcoming Item in Escape the Backrooms.\n</p>",
      "title": "Files"
     },
     {

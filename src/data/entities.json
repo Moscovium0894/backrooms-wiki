@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-11-10T12:01:47+00:00",
+  "fetchedAt": "2026-11-11T11:38:12+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -40,7 +40,7 @@
    "name": "Animation",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHostile\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNeutral\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/animation/hero.png\" alt=\"Hostile\" width=\"103\" height=\"247\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/animation/gallery-1.png\" alt=\"Neutral\" width=\"508\" height=\"1022\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHostile\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNeutral\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/animation/hero.png\" alt=\"Hostile\" width=\"103\" height=\"247\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/animation/gallery-1.png\" alt=\"Neutral\" width=\"508\" height=\"1022\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Animation"
     },
     {
