@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-11-11T11:38:12+00:00",
+  "fetchedAt": "2026-11-12T12:03:33+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -206,7 +206,7 @@
    "name": "Bacteria",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/bacteria/hero.png\" alt=\"Current\" width=\"482\" height=\"672\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/bacteria/gallery-1.png\" alt=\"Former\" width=\"506\" height=\"742\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/bacteria/hero.png\" alt=\"Current\" width=\"482\" height=\"672\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/bacteria/gallery-1.png\" alt=\"Former\" width=\"506\" height=\"742\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Bacteria"
     },
     {
@@ -1123,7 +1123,7 @@
    "name": "Mr. Kitty",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOriginal\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/mr-kitty/hero.png\" alt=\"Current\" width=\"210\" height=\"499\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/mr-kitty/gallery-1.png\" alt=\"Former\" width=\"224\" height=\"720\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/mr-kitty/gallery-2.png\" alt=\"Original\" width=\"216\" height=\"464\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOriginal\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/mr-kitty/hero.png\" alt=\"Current\" width=\"210\" height=\"499\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/mr-kitty/gallery-1.png\" alt=\"Former\" width=\"224\" height=\"720\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/mr-kitty/gallery-2.png\" alt=\"Original\" width=\"216\" height=\"464\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Mr. Kitty"
     },
     {
@@ -1418,11 +1418,11 @@
    "name": "Plastic Ball",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOther Balls\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/hero.png\" alt=\"Model\" width=\"123\" height=\"124\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/body-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/body-2.png\" alt=\"Other Balls\" width=\"358\" height=\"308\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOther Balls\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/hero.png\" alt=\"Model\" width=\"123\" height=\"124\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/body-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/plastic-ball/body-2.png\" alt=\"Other Balls\" width=\"358\" height=\"308\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Plastic Ball"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_PlasticBall\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tBallPit_InventoryItem_Blue\n\n<p><b>Plastic Balls</b> are an entity and item in Escape the Backrooms. They appear to be ball pit balls.\n</p>",
+     "html": "<h3>File Name</h3>\n\tBP_Item_PlasticBall\n\n\t\t<h3>Icon Name</h3>\n\tBallPit_InventoryItem_Blue\n\n<p><b>Plastic Balls</b> are an entity and item in Escape the Backrooms. They appear to be ball pit balls.\n</p>",
      "title": "Files"
     },
     {
@@ -2045,7 +2045,7 @@
    "name": "Wanderer",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent (Default Suit)\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/wanderer/hero.png\" alt=\"Current (Default Suit)\" width=\"348\" height=\"716\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/wanderer/gallery-1.png\" alt=\"Former\" width=\"326\" height=\"604\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent (Default Suit)\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/wanderer/hero.png\" alt=\"Current (Default Suit)\" width=\"348\" height=\"716\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/wanderer/gallery-1.png\" alt=\"Former\" width=\"326\" height=\"604\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Wanderer"
     },
     {

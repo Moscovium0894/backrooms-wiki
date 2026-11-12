@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-11-11T11:38:12+00:00",
+  "fetchedAt": "2026-11-12T12:03:33+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -292,7 +292,7 @@
    "exitsRaw": null,
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 2\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=_S2EXOKlo_c&amp;t=376s\" rel=\"noopener nofollow\" target=\"_blank\">4</a>\n\n<p><b>The Hub</b> is a Level in Escape the Backrooms. It appears to be an underground tunnel.\n</p>",
+     "html": "<h3>Added in</h3>\n\tPart 2\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=_S2EXOKlo_c&amp;t=376s\" rel=\"noopener nofollow\" target=\"_blank\">4</a>\n\n<p><b>The Hub</b> is a Level in Escape the Backrooms. It appears to be an underground tunnel.\n</p>",
      "title": "Production"
     },
     {
@@ -371,7 +371,7 @@
    ],
    "items": [],
    "kind": "main",
-   "leadHtml": "<p><i>This article is about the level titled \"The Hub\". You might be looking for The Hub (Mode).</i>\n</p>\n\n<p><i>\"<u>itheardyou</u>\"</i>\n</p><p><small>- The Note in The M.E.G. Base</small>\n\n</p>",
+   "leadHtml": "<p><i>This article is about the level titled \"The Hub\". You might be looking for The Hub (Mode).</i>\n</p>\n\n<p><i>\"<u>itheardyou</u>\"</i>\n</p><p><small>- The Note in The M.E.G. Base</small>\n</p>",
    "name": "The Hub",
    "order": 2,
    "part": 2,
@@ -633,11 +633,11 @@
    "exitsRaw": "Level 5",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tAbandoned Office\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 4 resembles an empty office building, though it is almost completely devoid of furniture. Some rooms on this level has windows, though most of them have been completely blacked out. Any windows that have not been blacked out are considered traps and should be avoided at all costs.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 1 - Minimal Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 0 - No Sanity Risk",
+     "html": "<h3>File name</h3>\n\tAbandoned Office\n\n\t\t<h3>Description</h3>\n\tLevel 4 resembles an empty office building, though it is almost completely devoid of furniture. Some rooms on this level has windows, though most of them have been completely blacked out. Any windows that have not been blacked out are considered traps and should be avoided at all costs.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 1 - Minimal Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 0 - No Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 2\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=_S2EXOKlo_c&amp;t=133s\" rel=\"noopener nofollow\" target=\"_blank\">4</a>",
+     "html": "<h3>Added in</h3>\n\tPart 2\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=_S2EXOKlo_c&amp;t=133s\" rel=\"noopener nofollow\" target=\"_blank\">4</a>",
      "title": "Production"
     },
     {
@@ -752,15 +752,15 @@
    "exitsRaw": "Level 2",
    "extraSections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tThe Main Hall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tThe Hotel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tThe Boiler Room\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-5/hero.png\" alt=\"The Main Hall\" width=\"800\" height=\"430\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-5/gallery-1.jpg\" alt=\"The Hotel\" width=\"640\" height=\"358\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-5/gallery-2.jpg\" alt=\"The Boiler Room\" width=\"640\" height=\"345\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tThe Main Hall\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tThe Hotel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tThe Boiler Room\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-5/hero.png\" alt=\"The Main Hall\" width=\"800\" height=\"430\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-5/gallery-1.jpg\" alt=\"The Hotel\" width=\"640\" height=\"358\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-5/gallery-2.jpg\" alt=\"The Boiler Room\" width=\"640\" height=\"345\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Terror Hotel"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tTerror Hotel\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 5 is a hotel complex, with many rooms and halls. This level itself seems to have been constructed in the 1930s, with furniture dating back to 1920.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 2 - Moderate Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 3 - Extreme Sanity Risk",
+     "html": "<h3>File name</h3>\n\tTerror Hotel\n\n\t\t<h3>Description</h3>\n\tLevel 5 is a hotel complex, with many rooms and halls. This level itself seems to have been constructed in the 1930s, with furniture dating back to 1920.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 2 - Moderate Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 3 - Extreme Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 2\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=wCGYcj7xRVg&amp;t=39s\" rel=\"noopener nofollow\" target=\"_blank\">5</a>",
+     "html": "<h3>Added in</h3>\n\tPart 2\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=wCGYcj7xRVg&amp;t=39s\" rel=\"noopener nofollow\" target=\"_blank\">5</a>",
      "title": "Production"
     },
     {
@@ -1161,11 +1161,11 @@
    "exitsRaw": "The End",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tRun for your Life!\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tRun for your Life! is fairly uncomplicated in appearance and layout, though that does not take away from the ever-present danger here. The level consists entirely of one long, narrow hallway reminiscent of hallways commonly found inside modern hospitals.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 5 - Extreme Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 0 - No Sanity Risk",
+     "html": "<h3>File name</h3>\n\tRun for your Life!\n\n\t\t<h3>Description</h3>\n\tRun for your Life! is fairly uncomplicated in appearance and layout, though that does not take away from the ever-present danger here. The level consists entirely of one long, narrow hallway reminiscent of hallways commonly found inside modern hospitals.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 5 - Extreme Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 0 - No Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tRelease\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=kawym8ZwhwA&amp;t=313s\" rel=\"noopener nofollow\" target=\"_blank\">2</a>\n\n\t\n\t\t<h3>Release level selector description</h3>\n\t\n\tThe most dangerous level in the Backrooms due to the amount of entities that chase you.",
+     "html": "<h3>Added in</h3>\n\tRelease\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=kawym8ZwhwA&amp;t=313s\" rel=\"noopener nofollow\" target=\"_blank\">2</a>\n\n\t\t<h3>Release level selector description</h3>\n\tThe most dangerous level in the Backrooms due to the amount of entities that chase you.",
      "title": "Production"
     },
     {
@@ -2926,11 +2926,11 @@
    "exitsRaw": "Level 52",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tNone\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tNone\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tNone\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tNone",
+     "html": "<h3>File name</h3>\n\tNone\n\n\t\t<h3>Description</h3>\n\tNone\n\n\t\t<h3>Survival Difficulty</h3>\n\tNone\n\n\t\t<h3>Sanity Danger</h3>\n\tNone",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t9",
+     "html": "<h3>Added in</h3>\n\tPart 4\n\n\t\t<h3>Made in Devlog</h3>\n\t9",
      "title": "Production"
     },
     {
@@ -3546,7 +3546,7 @@
    "exitsRaw": "The Bunker",
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tVersion 1.0\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=gws9cNEapIw&amp;t=261s\" rel=\"noopener nofollow\" target=\"_blank\">3</a> (former)<br><a href=\"https://www.youtube.com/watch?v=vXKwQXCD_jc&amp;t=131s\" rel=\"noopener nofollow\" target=\"_blank\">11</a> (current)\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 974 - Kitty's House",
+     "html": "<h3>Added in</h3>\n\tVersion 1.0\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=gws9cNEapIw&amp;t=261s\" rel=\"noopener nofollow\" target=\"_blank\">3</a> (former)<br><a href=\"https://www.youtube.com/watch?v=vXKwQXCD_jc&amp;t=131s\" rel=\"noopener nofollow\" target=\"_blank\">11</a> (current)\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 974 - Kitty's House",
      "title": "Production"
     },
     {
@@ -3616,7 +3616,7 @@
     "flashlight"
    ],
    "kind": "secret",
-   "leadHtml": "<p><i>\"DON'T TAKE YOUR EYES OFF HiM!\"</i>\n</p><p><small>- The Note at the start of the Level</small>\n\n</p>",
+   "leadHtml": "<p><i>\"DON'T TAKE YOUR EYES OFF HiM!\"</i>\n</p><p><small>- The Note at the start of the Level</small>\n</p>",
    "name": "Level 974",
    "order": null,
    "part": null,
@@ -4177,7 +4177,7 @@
    "exitsRaw": "Level 0.2",
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t5 (former)\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 0.1 - The Danger Zone",
+     "html": "<h3>Added in</h3>\n\tPart 4\n\n\t\t<h3>Made in Devlog</h3>\n\t5 (former)\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 0.1 - The Danger Zone",
      "title": "Production"
     },
     {

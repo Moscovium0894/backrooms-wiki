@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 25,
-  "fetchedAt": "2026-11-11T11:38:12+00:00",
+  "fetchedAt": "2026-11-12T12:03:33+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -165,11 +165,11 @@
    "rarity": "Common",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHalloween (2023-2024)\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/hero.png\" alt=\"Model\" width=\"220\" height=\"418\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-2.png\" alt=\"Halloween (2023-2024)\" width=\"260\" height=\"388\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-3.png\" alt=\"Former Model\" width=\"153\" height=\"266\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/body-1.png\" alt=\"Former Icon\" width=\"148\" height=\"151\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tHalloween (2023-2024)\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Model\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/hero.png\" alt=\"Model\" width=\"220\" height=\"418\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-2.png\" alt=\"Halloween (2023-2024)\" width=\"260\" height=\"388\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/gallery-3.png\" alt=\"Former Model\" width=\"153\" height=\"266\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/almond-water/body-1.png\" alt=\"Former Icon\" width=\"148\" height=\"151\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Almond Water"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tAlmond_Water_Can_with_texture\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_Can\n\n<p><b>Almond Water</b> is an Item in Escape the Backrooms. It appears to be a can with a drink in it.\n</p>",
+     "html": "<h3>File Name</h3>\n\tAlmond_Water_Can_with_texture\n\n\t\t<h3>Icon Name</h3>\n\tT_UI_Inv_Icon_Can\n\n<p><b>Almond Water</b> is an Item in Escape the Backrooms. It appears to be a can with a drink in it.\n</p>",
      "title": "Files"
     },
     {
@@ -1442,11 +1442,11 @@
    "rarity": "Common",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOther Balls\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/hero.png\" alt=\"Model\" width=\"123\" height=\"124\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/gallery-2.png\" alt=\"Other Balls\" width=\"358\" height=\"308\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tOther Balls\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/hero.png\" alt=\"Model\" width=\"123\" height=\"124\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/plastic-ball-2/gallery-2.png\" alt=\"Other Balls\" width=\"358\" height=\"308\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Plastic Ball"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tBP_Item_PlasticBall\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tBallPit_InventoryItem_Blue\n\n<p><b>Plastic Balls</b> are an entity and item in Escape the Backrooms. They appear to be ball pit balls.\n</p>",
+     "html": "<h3>File Name</h3>\n\tBP_Item_PlasticBall\n\n\t\t<h3>Icon Name</h3>\n\tBallPit_InventoryItem_Blue\n\n<p><b>Plastic Balls</b> are an entity and item in Escape the Backrooms. They appear to be ball pit balls.\n</p>",
      "title": "Files"
     },
     {
@@ -1568,7 +1568,7 @@
    "rarity": "Unknown",
    "sections": [
     {
-     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><br>\n<b>Spray Paint</b> is an Upcoming Item in Escape the Backrooms. It appears to be a spray can.\n</p>",
+     "html": "<h3>File Name</h3>\n\tN/A\n\n\t\t<h3>Icon Name</h3>\n\tN/A\n\n<p><br>\n<b>Spray Paint</b> is an Upcoming Item in Escape the Backrooms. It appears to be a spray can.\n</p>",
      "title": "Files"
     },
     {
