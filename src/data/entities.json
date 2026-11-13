@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-11-12T12:03:33+00:00",
+  "fetchedAt": "2026-11-13T11:47:10+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1265,7 +1265,7 @@
    "name": "Partygoer",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/partygoer/hero.png\" alt=\"Current\" width=\"210\" height=\"525\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/partygoer/gallery-1.png\" alt=\"Former\" width=\"404\" height=\"617\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/partygoer/hero.png\" alt=\"Current\" width=\"210\" height=\"525\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/partygoer/gallery-1.png\" alt=\"Former\" width=\"404\" height=\"617\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Partygoer"
     },
     {
@@ -1281,7 +1281,7 @@
      "title": "Behavior"
     },
     {
-     "html": "<p>Partygoers have the ability to speak, and you can hear them when in certain parts of <a href=\"#APP#/levels/level-fun/\">Level Fun</a>. Even if there aren't actually any of them around, you can still hear them, for example at the locked Blue Door or if you get all the Partygoers stuck at the Fun Room and you go back into the area where you heard it originally you will still hear it even though the Partygoers aren't there. They have 5 Lines, and they say their Lines in a specific order.\n</p>\n<ul><li>It's a party, come to play.</li>\n<li>You're missing out on the party.</li>\n<li>We can have so much fun.</li>\n<li>We have a cake, come try it.</li>\n<li>There is arcade games.</li></ul>\n<figure> \t \t \t<figcaption> \t\t \t\t\t \t\t \t\t \t\t \t\t\t<p>Audio</p> \t\t \t</figcaption> </figure>",
+     "html": "<p>Partygoers have the ability to speak, and you can hear them when in certain parts of <a href=\"#APP#/levels/level-fun/\">Level Fun</a>. Even if there aren't actually any of them around, you can still hear them, for example at the locked Blue Door or if you get all the Partygoers stuck at the Fun Room and you go back into the area where you heard it originally you will still hear it even though the Partygoers aren't there. They have 5 Lines, and they say their Lines in a specific order.\n</p>\n<ul><li>It's a party, come to play.</li>\n<li>You're missing out on the party.</li>\n<li>We can have so much fun.</li>\n<li>We have a cake, come try it.</li>\n<li>There is arcade games.</li></ul>\n<figure> \t \t \t<figcaption> \t\t\t \t\t\t<p>Audio</p> \t</figcaption> </figure>",
      "title": "Voice Lines"
     },
     {
@@ -1495,7 +1495,7 @@
    "name": "Scratcher",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNormal\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tInjured variant\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/hero.png\" alt=\"Normal\" width=\"243\" height=\"262\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-1.png\" alt=\"Injured variant\" width=\"591\" height=\"727\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-2.png\" alt=\"Former\" width=\"500\" height=\"331\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNormal\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tInjured variant\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/hero.png\" alt=\"Normal\" width=\"243\" height=\"262\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-1.png\" alt=\"Injured variant\" width=\"591\" height=\"727\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/scratcher/gallery-2.png\" alt=\"Former\" width=\"500\" height=\"331\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Scratcher"
     },
     {
@@ -1906,7 +1906,7 @@
    "name": "The Thing on Level 7",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tViper Fish\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAngler Fish\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/the-thing-on-level-7/hero.png\" alt=\"Viper Fish\" width=\"562\" height=\"444\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/the-thing-on-level-7/gallery-1.png\" alt=\"Angler Fish\" width=\"640\" height=\"738\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/the-thing-on-level-7/gallery-2.png\" alt=\"Former\" width=\"607\" height=\"333\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tViper Fish\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAngler Fish\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/the-thing-on-level-7/hero.png\" alt=\"Viper Fish\" width=\"562\" height=\"444\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/the-thing-on-level-7/gallery-1.png\" alt=\"Angler Fish\" width=\"640\" height=\"738\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/the-thing-on-level-7/gallery-2.png\" alt=\"Former\" width=\"607\" height=\"333\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "The Thing on Level 7"
     },
     {

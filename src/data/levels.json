@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 44,
-  "fetchedAt": "2026-11-12T12:03:33+00:00",
+  "fetchedAt": "2026-11-13T11:47:10+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -24,15 +24,15 @@
    "exitsRaw": "Level 1 / Level 0.11",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 0\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 0 is a non-linear space, resembling the back rooms of a retail outlet. Similar to its previous form, all rooms in level 0 appear uniform and share superficial features such as yellowed wallpaper, damp carpets, and inconsistently places fluorescent lighting. However, no two rooms within the Level are identical.",
+     "html": "<h3>Name</h3>\n\tLevel 0\n\n\t\t<h3>Description</h3>\n\tLevel 0 is a non-linear space, resembling the back rooms of a retail outlet. Similar to its previous form, all rooms in level 0 appear uniform and share superficial features such as yellowed wallpaper, damp carpets, and inconsistently places fluorescent lighting. However, no two rooms within the Level are identical.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel 0\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 0 is a non-linear space, resembling the back rooms of a retail outlet. Similar to its previous form, all rooms in level 0 appear uniform and share superficial features such as yellowed wallpaper, damp carpets, and inconsistently places fluorescent lighting. However, no two rooms within the Level are identical.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 1 - Minimal Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 0 - No Sanity Risk",
+     "html": "<h3>File name</h3>\n\tLevel 0\n\n\t\t<h3>Description</h3>\n\tLevel 0 is a non-linear space, resembling the back rooms of a retail outlet. Similar to its previous form, all rooms in level 0 appear uniform and share superficial features such as yellowed wallpaper, damp carpets, and inconsistently places fluorescent lighting. However, no two rooms within the Level are identical.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 1 - Minimal Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 0 - No Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tRelease\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=M8OBKHk7Daw&amp;t=53s\" rel=\"noopener nofollow\" target=\"_blank\">1</a>\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 0 - The Lobby\n\n\t\n\t\t<h3>Release level selector description</h3>\n\t\n\tA seemingly infinite non-linear space, resembling the back rooms of a retail outlet.",
+     "html": "<h3>Added in</h3>\n\tRelease\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=M8OBKHk7Daw&amp;t=53s\" rel=\"noopener nofollow\" target=\"_blank\">1</a>\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 0 - The Lobby\n\n\t\t<h3>Release level selector description</h3>\n\tA seemingly infinite non-linear space, resembling the back rooms of a retail outlet.",
      "title": "Production"
     },
     {
@@ -126,7 +126,7 @@
     "chainsaw"
    ],
    "kind": "main",
-   "leadHtml": "<p><i>\"Mind uh, checking for anyone's still vacuuming that backroom?\"</i>\n</p><p><small>- The other Wanderer in the intro</small>\n\n</p>",
+   "leadHtml": "<p><i>\"Mind uh, checking for anyone's still vacuuming that backroom?\"</i>\n</p><p><small>- The other Wanderer in the intro</small>\n</p>",
    "name": "Level 0",
    "order": 0,
    "part": null,
@@ -912,11 +912,11 @@
    "exitsRaw": "Level 37",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel Fun\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tM.E.G. Notice: The information on this level has been removed as it has been vandalized by the Partygoers. They have breached the credential system and any information here should not be trusted.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 0 - No danger at all ;)\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 1 - Minimal Sanity Risk",
+     "html": "<h3>File name</h3>\n\tLevel Fun\n\n\t\t<h3>Description</h3>\n\tM.E.G. Notice: The information on this level has been removed as it has been vandalized by the Partygoers. They have breached the credential system and any information here should not be trusted.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 0 - No danger at all ;)\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 1 - Minimal Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tRelease\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=M8OBKHk7Daw&amp;t=367s\" rel=\"noopener nofollow\" target=\"_blank\">1</a>\n\n\t\n\t\t<h3>Release level selector description</h3>\n\t\n\tA party room filled with partygoers on every corner. Don't upset the host.",
+     "html": "<h3>Added in</h3>\n\tRelease\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=M8OBKHk7Daw&amp;t=367s\" rel=\"noopener nofollow\" target=\"_blank\">1</a>\n\n\t\t<h3>Release level selector description</h3>\n\tA party room filled with partygoers on every corner. Don't upset the host.",
      "title": "Production"
     },
     {
@@ -1266,15 +1266,15 @@
    "exitsRaw": "Level 94",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tThe End\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tThe End creates the illusion of escaping the Backrooms. The layout of this level consists of a modern library, with the main area in the center decorated with letters spelling 'the end'. Wanderers who enter this level will experience complete silence, with some areas measuring at -6.2dB.",
+     "html": "<h3>Name</h3>\n\tThe End\n\n\t\t<h3>Description</h3>\n\tThe End creates the illusion of escaping the Backrooms. The layout of this level consists of a modern library, with the main area in the center decorated with letters spelling 'the end'. Wanderers who enter this level will experience complete silence, with some areas measuring at -6.2dB.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tThe End\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tThe End creates the illusion of escaping the Backrooms. The layout of this level consists of a modern library, with the main area in the center decorated with letters spelling 'the end'. Wanderers who enter this level will experience complete silence, with some areas measuring at -6.2dB.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 2 - Moderate Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 1 - Minimal Sanity Risk",
+     "html": "<h3>File name</h3>\n\tThe End\n\n\t\t<h3>Description</h3>\n\tThe End creates the illusion of escaping the Backrooms. The layout of this level consists of a modern library, with the main area in the center decorated with letters spelling 'the end'. Wanderers who enter this level will experience complete silence, with some areas measuring at -6.2dB.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 2 - Moderate Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 1 - Minimal Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tRelease\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=kawym8ZwhwA&amp;t=407s\" rel=\"noopener nofollow\" target=\"_blank\">2</a>\n\n\t\n\t\t<h3>Release level selector description</h3>\n\t\n\tAn abandoned bookstore that contains an exit...or does it?",
+     "html": "<h3>Added in</h3>\n\tRelease\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=kawym8ZwhwA&amp;t=407s\" rel=\"noopener nofollow\" target=\"_blank\">2</a>\n\n\t\t<h3>Release level selector description</h3>\n\tAn abandoned bookstore that contains an exit...or does it?",
      "title": "Production"
     },
     {
@@ -1371,7 +1371,7 @@
     "energy-bar"
    ],
    "kind": "main",
-   "leadHtml": "<p><i>\"I don't think that thing can see me. I just need to stay quiet...\"</i>\n</p><p><small>- The Player at the start of the Level</small>\n\n</p>",
+   "leadHtml": "<p><i>\"I don't think that thing can see me. I just need to stay quiet...\"</i>\n</p><p><small>- The Player at the start of the Level</small>\n</p>",
    "name": "The End",
    "order": 10,
    "part": null,
@@ -1653,15 +1653,15 @@
    "exitsRaw": "Level 8",
    "extraSections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSurface\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tUnderwater\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-7/hero.png\" alt=\"Surface\" width=\"800\" height=\"430\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-7/gallery-1.jpg\" alt=\"Underwater\" width=\"640\" height=\"341\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSurface\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tUnderwater\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-7/hero.png\" alt=\"Surface\" width=\"800\" height=\"430\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/levels/level-7/gallery-1.jpg\" alt=\"Underwater\" width=\"640\" height=\"341\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Thalassophobia"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tThalassophobia\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 7 is an impossibly large ocean that seems to stretch infinitely in all directions. Despite the absence of fixed light sources within the level, a dim natural light is present across the level. Detailed exploration of this ocean is sparse due to the extreme danger and amount of preparation it requires to navigate.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 4 - Extreme Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 1 - Minimal Sanity Risk",
+     "html": "<h3>File name</h3>\n\tThalassophobia\n\n\t\t<h3>Description</h3>\n\tLevel 7 is an impossibly large ocean that seems to stretch infinitely in all directions. Despite the absence of fixed light sources within the level, a dim natural light is present across the level. Detailed exploration of this ocean is sparse due to the extreme danger and amount of preparation it requires to navigate.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 4 - Extreme Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 1 - Minimal Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 3\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t6",
+     "html": "<h3>Added in</h3>\n\tPart 3\n\n\t\t<h3>Made in Devlog</h3>\n\t6",
      "title": "Production"
     },
     {
@@ -1753,7 +1753,7 @@
     "energy-bar"
    ],
    "kind": "main",
-   "leadHtml": "<p><i>\"BEWARE OF THE THiNG\"</i>\n</p><p><small>- The Note at the start of Level 7</small>\n\n</p>",
+   "leadHtml": "<p><i>\"BEWARE OF THE THiNG\"</i>\n</p><p><small>- The Note at the start of Level 7</small>\n</p>",
    "name": "Level 7",
    "order": 13,
    "part": 3,
@@ -2004,15 +2004,15 @@
    "exitsRaw": "Level 10",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tDarkened Suburbs\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 9 is a suburban area at night with many houses that vary in design and size. There have been reports of an outbreak in the M.E.G. base located in the level but it cannot be confirmed.",
+     "html": "<h3>Name</h3>\n\tDarkened Suburbs\n\n\t\t<h3>Description</h3>\n\tLevel 9 is a suburban area at night with many houses that vary in design and size. There have been reports of an outbreak in the M.E.G. base located in the level but it cannot be confirmed.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel 9\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 9 is a suburban area at night with many houses that vary in design and size. There have been reports of an outbreak in the M.E.G. base located in the level but it cannot be confirmed.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 5 - Extreme Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 3 - Extreme Sanity Risk",
+     "html": "<h3>File name</h3>\n\tLevel 9\n\n\t\t<h3>Description</h3>\n\tLevel 9 is a suburban area at night with many houses that vary in design and size. There have been reports of an outbreak in the M.E.G. base located in the level but it cannot be confirmed.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 5 - Extreme Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 3 - Extreme Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 3\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ&amp;t=17s\" rel=\"noopener nofollow\" target=\"_blank\">7</a>\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 9 - The Suburbs",
+     "html": "<h3>Added in</h3>\n\tPart 3\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ&amp;t=17s\" rel=\"noopener nofollow\" target=\"_blank\">7</a>\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 9 - The Suburbs",
      "title": "Production"
     },
     {
@@ -2690,15 +2690,15 @@
    "exitsRaw": "Level 37.2 Level You Cheated",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 188\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 188 is a large complex of interior spaces with a courtyard that contains many windows, some of which have open curtains with views of what appear to be other levels.",
+     "html": "<h3>Name</h3>\n\tLevel 188\n\n\t\t<h3>Description</h3>\n\tLevel 188 is a large complex of interior spaces with a courtyard that contains many windows, some of which have open curtains with views of what appear to be other levels.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel 188\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 188 is a large complex of interior spaces with a courtyard that contains many windows, some of which have open curtains with views of what appear to be other levels.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 4 - Severe Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 2 - Moderate Sanity Risk",
+     "html": "<h3>File name</h3>\n\tLevel 188\n\n\t\t<h3>Description</h3>\n\tLevel 188 is a large complex of interior spaces with a courtyard that contains many windows, some of which have open curtains with views of what appear to be other levels.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 4 - Severe Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 2 - Moderate Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ&amp;t=327s\" rel=\"noopener nofollow\" target=\"_blank\">7</a> (<a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> area)<br>10 (full level)\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 188 - The Windows",
+     "html": "<h3>Added in</h3>\n\tPart 4\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ&amp;t=327s\" rel=\"noopener nofollow\" target=\"_blank\">7</a> (<a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> area)<br>10 (full level)\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 188 - The Windows",
      "title": "Production"
     },
     {
@@ -3059,15 +3059,15 @@
    "exitsRaw": "Level 55.1",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 52\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 52 is a infinite school consisting of hallways, cafeterias, and classrooms similar to a school in the frontrooms.",
+     "html": "<h3>Name</h3>\n\tLevel 52\n\n\t\t<h3>Description</h3>\n\tLevel 52 is a infinite school consisting of hallways, cafeterias, and classrooms similar to a school in the frontrooms.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel 52\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 52 is a infinite school consisting of hallways, cafeterias, and classrooms similar to a school in the frontrooms.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 2 - Moderate Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 1 - Minimal Sanity Risk",
+     "html": "<h3>File name</h3>\n\tLevel 52\n\n\t\t<h3>Description</h3>\n\tLevel 52 is a infinite school consisting of hallways, cafeterias, and classrooms similar to a school in the frontrooms.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 2 - Moderate Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 1 - Minimal Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t10\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 52 - The School Halls",
+     "html": "<h3>Added in</h3>\n\tPart 4\n\n\t\t<h3>Made in Devlog</h3>\n\t10\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 52 - The School Halls",
      "title": "Production"
     },
     {
@@ -3308,11 +3308,11 @@
    "exitsRaw": "Overgrowth",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 421\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 421 is known for the Plastic Mariana, hidden somewhere deep down. The maze of hallways holds the secrets to unlocking the trench below.",
+     "html": "<h3>Name</h3>\n\tLevel 421\n\n\t\t<h3>Description</h3>\n\tLevel 421 is known for the Plastic Mariana, hidden somewhere deep down. The maze of hallways holds the secrets to unlocking the trench below.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPatch 1.4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\tN/A",
+     "html": "<h3>Added in</h3>\n\tPatch 1.4\n\n\t\t<h3>Made in Devlog</h3>\n\tN/A",
      "title": "Production"
     },
     {
@@ -3436,11 +3436,11 @@
    "exitsRaw": "The Bunker",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 922\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 9223372036854775807 is an incredibly tall, dark, spiral staircase surrounded by walls, and is currently undetermined in size. nobody has been able to reach the top, so it leads many to believe that it's infinite.",
+     "html": "<h3>Name</h3>\n\tLevel 922\n\n\t\t<h3>Description</h3>\n\tLevel 9223372036854775807 is an incredibly tall, dark, spiral staircase surrounded by walls, and is currently undetermined in size. nobody has been able to reach the top, so it leads many to believe that it's infinite.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tRelease\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=kawym8ZwhwA&amp;t=454s\" rel=\"noopener nofollow\" target=\"_blank\">2</a>\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 9223372036854775807 - The True Final Level\n\n\t\n\t\t<h3>Release level selector description</h3>\n\t\n\tAlthough most would say the Backrooms are infinite, those who know about this level would disagree.",
+     "html": "<h3>Added in</h3>\n\tRelease\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=kawym8ZwhwA&amp;t=454s\" rel=\"noopener nofollow\" target=\"_blank\">2</a>\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 9223372036854775807 - The True Final Level\n\n\t\t<h3>Release level selector description</h3>\n\tAlthough most would say the Backrooms are infinite, those who know about this level would disagree.",
      "title": "Production"
     },
     {
@@ -3832,7 +3832,7 @@
    "exitsRaw": null,
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tVersion 1.0\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=115s\" rel=\"noopener nofollow\" target=\"_blank\">13</a>",
+     "html": "<h3>Added in</h3>\n\tVersion 1.0\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=115s\" rel=\"noopener nofollow\" target=\"_blank\">13</a>",
      "title": "Production"
     },
     {
@@ -4053,11 +4053,11 @@
    "exitsRaw": null,
    "extraSections": [
     {
-     "html": "<h3>Owned by</h3>\n\t\n\tM.E.G.\n\n\t\n\t\t<h3>Other names</h3>\n\t\n\tAbandoned M.E.G. base (fancy)<br>The Abandoned Outpost (Liam from Secret Mode)<br>Part 2 of <a href=\"#APP#/levels/level-9/\">Level 9</a> (Secret Mode)<br>The MEG Basement (Secret Mode)<br>Abandoned Base (Secret Mode)<br>The Laboratory (projector video)<br>Lab (game files)<br>Basement (game files)\n\n\t\n\t\t<h3>Connected to</h3>\n\t\n\t<a href=\"#APP#/levels/level-9/\">Level 9</a>",
+     "html": "<h3>Owned by</h3>\n\tM.E.G.\n\n\t\t<h3>Other names</h3>\n\tAbandoned M.E.G. base (fancy)<br>The Abandoned Outpost (Liam from Secret Mode)<br>Part 2 of <a href=\"#APP#/levels/level-9/\">Level 9</a> (Secret Mode)<br>The MEG Basement (Secret Mode)<br>Abandoned Base (Secret Mode)<br>The Laboratory (projector video)<br>Lab (game files)<br>Basement (game files)\n\n\t\t<h3>Connected to</h3>\n\t<a href=\"#APP#/levels/level-9/\">Level 9</a>",
      "title": "Base information"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 3\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ&amp;t=226s\" rel=\"noopener nofollow\" target=\"_blank\">7</a>\n\n<figure>\n\t\n\t\t<img src=\"#IMG#/images/levels/abandoned-outpost/body-3.png\" alt=\"The Abandoned Outpost Map\" width=\"640\" height=\"473\">\n\t\t\n\t\n\t<figcaption>A map of Abandoned Outpost.</figcaption>\n</figure>\n\n<p><br>\n<b>Abandoned Outpost</b> is a base in Escape the Backrooms. It appears to be a lab where Wretches were studied by M.E.G.\n</p>",
+     "html": "<h3>Added in</h3>\n\tPart 3\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=aFX6-Td1MUQ&amp;t=226s\" rel=\"noopener nofollow\" target=\"_blank\">7</a>\n\n<figure>\n\t\n\t\t<img src=\"#IMG#/images/levels/abandoned-outpost/body-3.png\" alt=\"The Abandoned Outpost Map\" width=\"640\" height=\"473\">\n\t\n\t<figcaption>A map of Abandoned Outpost.</figcaption>\n</figure>\n\n<p><br>\n<b>Abandoned Outpost</b> is a base in Escape the Backrooms. It appears to be a lab where Wretches were studied by M.E.G.\n</p>",
      "title": "Production"
     },
     {
@@ -4383,7 +4383,7 @@
    "exitsRaw": "Level 0.11",
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 3\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tThe Manila Room",
+     "html": "<h3>Added in</h3>\n\tPart 3\n\n\t\t<h3>Made in Devlog</h3>\n\tN/A\n\n\t\t<h3>Based on Backrooms level</h3>\n\tThe Manila Room",
      "title": "Production"
     },
     {
@@ -4454,7 +4454,7 @@
    "exitsRaw": "N/A",
    "extraSections": [
     {
-     "html": "<h3>Description</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tN/A",
+     "html": "<h3>Description</h3>\n\tN/A\n\n\t\t<h3>Survival Difficulty</h3>\n\tN/A\n\n\t\t<h3>Sanity Danger</h3>\n\tN/A",
      "title": "Document in the M.E.G. Base"
     },
     {
@@ -4636,7 +4636,7 @@
    "exitsRaw": "N/A",
    "extraSections": [
     {
-     "html": "<h3>Added in</h3>\n\t\n\tN/A (Update releases December 2026)\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=31s\" rel=\"noopener nofollow\" target=\"_blank\">13</a>",
+     "html": "<h3>Added in</h3>\n\tN/A (Update releases December 2026)\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=31s\" rel=\"noopener nofollow\" target=\"_blank\">13</a>",
      "title": "Production"
     },
     {
@@ -4660,7 +4660,7 @@
      "title": "Entrances & Exits"
     },
     {
-     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>Source</b>\n</th></tr>\n<tr>\n<td>June 19, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">I Spent a 4 YEARS Turning the Backrooms into a GAME...</a>\n</td>\n<td><img src=\"#IMG#/images/levels/the-afterparty/body-3.jpg\" alt=\"I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>Fancy discussed a few things about the level in this devlog.\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=31s\" rel=\"noopener nofollow\" target=\"_blank\">Video scene (YouTube)</a>\n</td></tr>\n<tr>\n<td>October 1, 2026\n</td>\n<td><a href=\"https://store.steampowered.com/news/app/1943950/view/692022026548805864?l=english\" rel=\"noopener nofollow\" target=\"_blank\">Steam post</a>\n</td>\n<td>N/A\n</td>\n<td>It is revealed that something will be announced for Escape the Backrooms at <a href=\"https://iii-initiative.com/en/\" rel=\"noopener nofollow\" target=\"_blank\">The Triple-i Initiative</a>.\n</td>\n<td><a href=\"https://store.steampowered.com/news/app/1943950/view/692022026548805864?l=english\" rel=\"noopener nofollow\" target=\"_blank\">Post (Steam)</a>\n</td></tr>\n<tr>\n<td>October 8, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=LVlyMMWeXfQ\" rel=\"noopener nofollow\" target=\"_blank\">The Triple-i Initiative October 2026</a>\n</td>\n<td><img src=\"#IMG#/images/levels/the-afterparty/body-4.jpg\" alt=\"Escape the Backrooms - After Party Update Trailer Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>A trailer for the release date of The Afterparty and more unconfirmed new levels was released during <a href=\"https://iii-initiative.com/en/\" rel=\"noopener nofollow\" target=\"_blank\">The Triple-i Initiative</a>.\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=csuzytGT-G0\" rel=\"noopener nofollow\" target=\"_blank\">Trailer (YouTube)</a>\n</td></tr>\n<tr>\n<td>November 3rd, 2026\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms TikTok account</a>\n</td>\n<td>N/A\n</td>\n<td>New images of presumably The Afterparty are shown throughout the video with the level under the name \"Level [REDACTED]\".\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame/video/7703983291015236886\" rel=\"noopener nofollow\" target=\"_blank\">Video (TikTok)</a>\n</td></tr></tbody></table>",
+     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>Source</b>\n</th></tr>\n<tr>\n<td>June 19, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA\" rel=\"noopener nofollow\" target=\"_blank\">I Spent a 4 YEARS Turning the Backrooms into a GAME...</a>\n</td>\n<td><img src=\"#IMG#/images/levels/the-afterparty/body-3.jpg\" alt=\"I Spent a 4 YEARS Turning the Backrooms into a GAME... Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>Fancy discussed a few things about the level in this devlog.\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=vgVEkrmMycA&amp;t=31s\" rel=\"noopener nofollow\" target=\"_blank\">Video scene (YouTube)</a>\n</td></tr>\n<tr>\n<td>October 1, 2026\n</td>\n<td><a href=\"https://store.steampowered.com/news/app/1943950/view/692022026548805864?l=english\" rel=\"noopener nofollow\" target=\"_blank\">Steam post</a>\n</td>\n<td>N/A\n</td>\n<td>It is revealed that something will be announced for Escape the Backrooms at <a href=\"https://iii-initiative.com/en/\" rel=\"noopener nofollow\" target=\"_blank\">The Triple-i Initiative</a>.\n</td>\n<td><a href=\"https://store.steampowered.com/news/app/1943950/view/692022026548805864?l=english\" rel=\"noopener nofollow\" target=\"_blank\">Post (Steam)</a>\n</td></tr>\n<tr>\n<td>October 8, 2026\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=LVlyMMWeXfQ\" rel=\"noopener nofollow\" target=\"_blank\">The Triple-i Initiative October 2026</a>\n</td>\n<td><img src=\"#IMG#/images/levels/the-afterparty/body-4.jpg\" alt=\"Escape the Backrooms - After Party Update Trailer Thumbnail\" width=\"640\" height=\"360\">\n</td>\n<td>A trailer for the release date of The Afterparty and more unconfirmed new levels was released during <a href=\"https://iii-initiative.com/en/\" rel=\"noopener nofollow\" target=\"_blank\">The Triple-i Initiative</a>.\n</td>\n<td><a href=\"https://www.youtube.com/watch?v=csuzytGT-G0\" rel=\"noopener nofollow\" target=\"_blank\">Trailer (YouTube)</a>\n</td></tr>\n<tr>\n<td>November 3rd, 2026\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms TikTok account</a>\n</td>\n<td>N/A\n</td>\n<td>New images of presumably The Afterparty are shown throughout the video with the level under the name \"Level [REDACTED]\".\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame/video/7703983291015236886\" rel=\"noopener nofollow\" target=\"_blank\">Video (TikTok)</a>\n</td></tr>\n<tr>\n<td>November 10th, 2026\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame\" rel=\"noopener nofollow\" target=\"_blank\">Escape the Backrooms TikTok account</a>\n</td>\n<td>N/A\n</td>\n<td>More new footage of presumably The Afterparty was shown throughout the video with the level still under the name \"Level [REDACTED]\".\n</td>\n<td><a href=\"https://www.tiktok.com/@escapethebackroomsgame/video/7706544215823584534\" rel=\"noopener nofollow\" target=\"_blank\">Video (TikTok)</a>\n</td></tr></tbody></table>",
      "title": "History"
     },
     {
