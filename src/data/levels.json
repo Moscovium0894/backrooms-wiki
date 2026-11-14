@@ -1,7 +1,7 @@
 {
  "$meta": {
-  "count": 44,
-  "fetchedAt": "2026-11-13T11:47:10+00:00",
+  "count": 46,
+  "fetchedAt": "2026-11-14T11:10:23+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -1785,11 +1785,11 @@
    "exitsRaw": "Level 0 / Level 9",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tCave System\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 8 is made of huge caverns and small cave systems that twist and turn like normal underground systems.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 5 - Extreme Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 3 - Extreme Sanity Risk",
+     "html": "<h3>File name</h3>\n\tCave System\n\n\t\t<h3>Description</h3>\n\tLevel 8 is made of huge caverns and small cave systems that twist and turn like normal underground systems.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 5 - Extreme Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 3 - Extreme Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 3\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t6",
+     "html": "<h3>Added in</h3>\n\tPart 3\n\n\t\t<h3>Made in Devlog</h3>\n\t6",
      "title": "Production"
     },
     {
@@ -2469,11 +2469,11 @@
    "exitsRaw": "Level !~!",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tSnackrooms\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tThe Snackrooms are a completely safe level that resembles a bar from the 1600s and contains many supplies for wanderers.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 0 - No Danger\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 0 - No Sanity Risk",
+     "html": "<h3>File name</h3>\n\tSnackrooms\n\n\t\t<h3>Description</h3>\n\tThe Snackrooms are a completely safe level that resembles a bar from the 1600s and contains many supplies for wanderers.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 0 - No Danger\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 0 - No Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t8",
+     "html": "<h3>Added in</h3>\n\tPart 4\n\n\t\t<h3>Made in Devlog</h3>\n\t8",
      "title": "Production"
     },
     {
@@ -3171,15 +3171,15 @@
    "exitsRaw": "The Bunker",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 55.1\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 55.1 is a massive room that contains a tunnel in it that leads to various sublevels.  The level was first spotted on a satelite image, but was later confirmed to not exist in the frontrooms.",
+     "html": "<h3>Name</h3>\n\tLevel 55.1\n\n\t\t<h3>Description</h3>\n\tLevel 55.1 is a massive room that contains a tunnel in it that leads to various sublevels.  The level was first spotted on a satelite image, but was later confirmed to not exist in the frontrooms.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel 55.1",
+     "html": "<h3>File name</h3>\n\tLevel 55.1",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 4\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t9",
+     "html": "<h3>Added in</h3>\n\tPart 4\n\n\t\t<h3>Made in Devlog</h3>\n\t9",
      "title": "Production"
     },
     {
@@ -3723,11 +3723,11 @@
    "exitsRaw": "The Grassrooms",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tOvergrowth\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tOvergrowth is an unknown sublevel of <a href=\"#APP#/levels/level-0/\">Level 0</a> that is rumored to be the where the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> entity first evolved and also contains The Death Slides.",
+     "html": "<h3>Name</h3>\n\tOvergrowth\n\n\t\t<h3>Description</h3>\n\tOvergrowth is an unknown sublevel of <a href=\"#APP#/levels/level-0/\">Level 0</a> that is rumored to be the where the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> entity first evolved and also contains The Death Slides.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tVersion 1.0\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=ypDh7l1tCm0&amp;t=222s\" rel=\"noopener nofollow\" target=\"_blank\">12</a>",
+     "html": "<h3>Added in</h3>\n\tVersion 1.0\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=ypDh7l1tCm0&amp;t=222s\" rel=\"noopener nofollow\" target=\"_blank\">12</a>",
      "title": "Production"
     },
     {
@@ -3950,11 +3950,11 @@
    "exitsRaw": "The Bunker",
    "extraSections": [
     {
-     "html": "<h3>File name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tN/A",
+     "html": "<h3>File name</h3>\n\tN/A\n\n\t\t<h3>Description</h3>\n\tN/A\n\n\t\t<h3>Survival Difficulty</h3>\n\tN/A\n\n\t\t<h3>Sanity Danger</h3>\n\tN/A",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tVersion 1.0\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=vXKwQXCD_jc&amp;t=34s\" rel=\"noopener nofollow\" target=\"_blank\">11</a>\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 369 - Comely",
+     "html": "<h3>Added in</h3>\n\tVersion 1.0\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=vXKwQXCD_jc&amp;t=34s\" rel=\"noopener nofollow\" target=\"_blank\">11</a>\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 369 - Comely",
      "title": "Production"
     },
     {
@@ -4029,7 +4029,7 @@
     "knife"
    ],
    "kind": "secret",
-   "leadHtml": "<p><i>\"DON'T STAY STiLL!\"</i>\n</p><p><small>- The Note at the start of the Level</small>\n\n</p>",
+   "leadHtml": "<p><i>\"DON'T STAY STiLL!\"</i>\n</p><p><small>- The Note at the start of the Level</small>\n</p>",
    "name": "The Grassrooms",
    "order": null,
    "part": null,
@@ -4621,6 +4621,166 @@
    "subtitle": null,
    "summary": "None",
    "walkthroughHtml": "<h3>Part 1: The Van</h3>\n<p>Once you get to the Layer from <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>, you must have a <a href=\"#APP#/items/camera/\">Camera</a> with you, and you must find a Damaged Van in the Level. Once you find it, take a Picture of it and the Photo on the <a href=\"#APP#/items/camera/\">Camera</a> will change to the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>.\n</p>\n<h3>Part 2: The Bacteria</h3>\n<p>Once you've taken a Photo of the Van, you must take a Photo of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>. A good way of doing this is by getting the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> to spot you and hide in a Locker. When the <a href=\"#APP#/entities/bacteria/\">Bacteria</a> walks away, get out of the Locker and get a Photo of it. Once you have taken a Photo of the <a href=\"#APP#/entities/bacteria/\">Bacteria</a>, you can go to the <a href=\"#APP#/levels/level-0-11/\">Level 0.11</a> Layer to continue <a href=\"#APP#/levels/level-55-1/\">Level 55.1</a>.\n</p>"
+  },
+  {
+   "appearanceHtml": "<p>██25 appears to be a modern looking location with a room full of doors and windows, and an area with a sloped gate that leads up to another area and a message that reads \"Relax You're Here Forever\".\n</p>",
+   "difficulty": null,
+   "difficultyLabel": "Unknown",
+   "entities": [],
+   "entrances": [],
+   "exits": [],
+   "exitsRaw": "N/A",
+   "extraSections": [
+    {
+     "html": "<h3>Added in</h3>\n\tN/A (Apart of the \"After Party Update\")\n\n\t\t<h3>Made in Devlog</h3>\n\tN/A",
+     "title": "Production"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Mission"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Items"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Entities"
+    },
+    {
+     "html": "<p>Only two objects have been seen to be in this level. These objects are:\n</p>\n<ul><li>Doors</li>\n<li>Note</li></ul>",
+     "title": "Objects"
+    },
+    {
+     "html": "<h3>Entrances</h3>\n<ul><li>N/A</li></ul>\n<h3>Exits</h3>\n<ul><li>N/A</li></ul>",
+     "title": "Entrances & Exits"
+    },
+    {
+     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>Source</b>\n</th></tr>\n<tr>\n<td>November 13, 2026\n</td>\n<td>NEW LEVEL TEASERS -  After Party Update Steam post\n</td>\n<td><img src=\"#IMG#/images/levels/full-block-full-block-25/body-2.png\" alt=\"NEW LEVEL TEASERS - After Party Update\" width=\"272\" height=\"151\">\n</td>\n<td>The level was revealed for the first time with two pictures, and the reveal that it will be apart of the \"After Party Update\".\n</td>\n<td><a href=\"https://store.steampowered.com/news/app/1943950/view/684144535690806175\" rel=\"noopener nofollow\" target=\"_blank\">Post (Steam)</a>\n</td></tr></tbody></table>",
+     "title": "History"
+    },
+    {
+     "html": "<h3>The level</h3>\n<ul><li>A look at the doors room of the level from another angle can be seen on the cover of the Steam post where the level was announced, which reveals that there's a pool in the middle of it.</li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "hazards": [],
+   "id": "full-block-full-block-25",
+   "images": [
+    {
+     "file": "levels/full-block-full-block-25/hero.webp",
+     "height": 450,
+     "role": "hero",
+     "sourceFile": "File:██25 Teaser GIF 2.gif",
+     "width": 800
+    },
+    {
+     "file": "levels/full-block-full-block-25/thumb.webp",
+     "height": 180,
+     "role": "thumb",
+     "sourceFile": "File:██25 Teaser GIF 2.gif",
+     "width": 320
+    },
+    {
+     "file": "levels/full-block-full-block-25/body-2.png",
+     "height": 151,
+     "role": "body",
+     "sourceFile": "File:NEW LEVEL TEASERS - After Party Update.png",
+     "width": 272
+    }
+   ],
+   "items": [],
+   "kind": "upcoming",
+   "leadHtml": "<b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>",
+   "name": "██25",
+   "order": null,
+   "part": null,
+   "sanity": null,
+   "secretParentId": null,
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/██25",
+   "subtitle": null,
+   "summary": "██25 appears to be a modern looking location with a room full of doors and windows, and an area with a sloped gate that leads up to another area and a message that reads \"Relax You're Here Forever\".",
+   "walkthroughHtml": null
+  },
+  {
+   "appearanceHtml": "<p>████████ Winter ████████ appears to be an outside environment at night with a red sky, snow covering the ground, and a gas station within the snowy fields.\n</p>",
+   "difficulty": null,
+   "difficultyLabel": "Unknown",
+   "entities": [],
+   "entrances": [],
+   "exits": [],
+   "exitsRaw": "N/A",
+   "extraSections": [
+    {
+     "html": "<h3>Added in</h3>\n\tN/A (Apart of the \"After Party Update\")\n\n\t\t<h3>Made in Devlog</h3>\n\tN/A",
+     "title": "Production"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Mission"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Items"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Entities"
+    },
+    {
+     "html": "<p>N/A\n</p>",
+     "title": "Objects"
+    },
+    {
+     "html": "<h3>Entrances</h3>\n<ul><li>N/A</li></ul>\n<h3>Exits</h3>\n<ul><li>N/A</li></ul>",
+     "title": "Entrances & Exits"
+    },
+    {
+     "html": "<table>\n<tbody><tr>\n<th><b>Date</b>\n</th>\n<th><b>Origin</b>\n</th>\n<th><b>Image</b>\n</th>\n<th><b>Description</b>\n</th>\n<th><b>Source</b>\n</th></tr>\n<tr>\n<td>November 13, 2026\n</td>\n<td>NEW LEVEL TEASERS -  After Party Update Steam post\n</td>\n<td><img src=\"#IMG#/images/levels/full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block-winter-full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block/body-2.png\" alt=\"NEW LEVEL TEASERS - After Party Update\" width=\"272\" height=\"151\">\n</td>\n<td>The level was revealed for the first time with three pictures, and the reveal that it will be apart of the \"After Party Update\".\n</td>\n<td><a href=\"https://store.steampowered.com/news/app/1943950/view/684144535690806175\" rel=\"noopener nofollow\" target=\"_blank\">Post (Steam)</a>\n</td></tr></tbody></table>",
+     "title": "History"
+    },
+    {
+     "html": "<h3>The level</h3>\n<ul><li>A look at the gas station of the level from a closer angle can be seen on the cover of the Steam post where the level was announced.</li></ul>\n<h3>Production facts</h3>\n<ul><li>All three of the level teasers from the Steam post where the level was announced have a unreal engine error message at the top left corner.</li></ul>\n<h3>Inspiration</h3>\n<ul><li>It seems that this level is based on the Backrooms level \"<a href=\"https://backrooms-wiki.wikidot.com/level-298\" rel=\"noopener nofollow\" target=\"_blank\">Level 298: Winter Playpark</a>\" from the Backrooms wikidot.\n<ul><li>What proves this even further is the number of redacted boxes in the revealed name of the level matches the number of characters the full name of Level 298 has.</li>\n<li>The name Level 298 first appeared on the Lost in Transit cosmetic from the Character Select on a box.</li></ul></li></ul>",
+     "title": "Trivia"
+    }
+   ],
+   "hazards": [],
+   "id": "full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block-winter-full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block",
+   "images": [
+    {
+     "file": "levels/full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block-winter-full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block/hero.webp",
+     "height": 450,
+     "role": "hero",
+     "sourceFile": "File:████████ Winter ████████ Teaser GIF 2.gif",
+     "width": 800
+    },
+    {
+     "file": "levels/full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block-winter-full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block/thumb.webp",
+     "height": 180,
+     "role": "thumb",
+     "sourceFile": "File:████████ Winter ████████ Teaser GIF 2.gif",
+     "width": 320
+    },
+    {
+     "file": "levels/full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block-winter-full-block-full-block-full-block-full-block-full-block-full-block-full-block-full-block/body-2.png",
+     "height": 151,
+     "role": "body",
+     "sourceFile": "File:NEW LEVEL TEASERS - After Party Update.png",
+     "width": 272
+    }
+   ],
+   "items": [],
+   "kind": "upcoming",
+   "leadHtml": "<b>\"Then I suggest looking away because this is what it looks like in-game.\"</b>\n<p>This page is about an upcoming addition to Escape the Backrooms and contains spoilers, so be warned!<b></b>\n</p>",
+   "name": "████████ Winter ████████",
+   "order": null,
+   "part": null,
+   "sanity": null,
+   "secretParentId": null,
+   "sourceUrl": "https://escapethebackrooms.fandom.com/wiki/████████_Winter_████████",
+   "subtitle": null,
+   "summary": "████████ Winter ████████ appears to be an outside environment at night with a red sky, snow covering the ground, and a gas station within the snowy fields.",
+   "walkthroughHtml": null
   },
   {
    "appearanceHtml": "<p>The Afterparty is a series of abandoned and minimalistic party rooms with various party things such as cake, Balloons, and \"WE WON THE WAR\" messages scattered throughout.\n</p>",
