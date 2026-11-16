@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 46,
-  "fetchedAt": "2026-11-15T11:43:38+00:00",
+  "fetchedAt": "2026-11-16T12:19:02+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -2235,15 +2235,15 @@
    "exitsRaw": "Level 0.2",
    "extraSections": [
     {
-     "html": "<h3>Name</h3>\n\t\n\tLevel 3999\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 3999 is a seemingly infinite arcade. Not much is known about the level, but there have been rumors of wanderers being able to return to the Frontrooms from there.",
+     "html": "<h3>Name</h3>\n\tLevel 3999\n\n\t\t<h3>Description</h3>\n\tLevel 3999 is a seemingly infinite arcade. Not much is known about the level, but there have been rumors of wanderers being able to return to the Frontrooms from there.",
      "title": "The Hub mode information"
     },
     {
-     "html": "<h3>File name</h3>\n\t\n\tLevel 3999\n\n\t\n\t\t<h3>Description</h3>\n\t\n\tLevel 3999 is a seemingly infinite arcade. Not much is known about the level, but there have been rumors of wanderers being able to return to the Frontrooms from there.\n\n\t\n\t\t<h3>Survival Difficulty</h3>\n\t\n\tClass 0 - Safe\n\n\t\n\t\t<h3>Sanity Danger</h3>\n\t\n\tClass 0 - No Sanity Risk",
+     "html": "<h3>File name</h3>\n\tLevel 3999\n\n\t\t<h3>Description</h3>\n\tLevel 3999 is a seemingly infinite arcade. Not much is known about the level, but there have been rumors of wanderers being able to return to the Frontrooms from there.\n\n\t\t<h3>Survival Difficulty</h3>\n\tClass 0 - Safe\n\n\t\t<h3>Sanity Danger</h3>\n\tClass 0 - No Sanity Risk",
      "title": "Document in the M.E.G. Base"
     },
     {
-     "html": "<h3>Added in</h3>\n\t\n\tPart 3\n\n\t\n\t\t<h3>Made in Devlog</h3>\n\t\n\t<a href=\"https://www.youtube.com/watch?v=nPiM4Y5BPhM&amp;t=393s\" rel=\"noopener nofollow\" target=\"_blank\">8</a>\n\n\t\n\t\t<h3>Based on Backrooms level</h3>\n\t\n\tLevel 3999 - The Neon Paradise",
+     "html": "<h3>Added in</h3>\n\tPart 3\n\n\t\t<h3>Made in Devlog</h3>\n\t<a href=\"https://www.youtube.com/watch?v=nPiM4Y5BPhM&amp;t=393s\" rel=\"noopener nofollow\" target=\"_blank\">8</a>\n\n\t\t<h3>Based on Backrooms level</h3>\n\tLevel 3999 - The Neon Paradise",
      "title": "Production"
     },
     {
