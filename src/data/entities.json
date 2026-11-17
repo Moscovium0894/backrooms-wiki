@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-11-16T12:19:02+00:00",
+  "fetchedAt": "2026-11-17T12:42:51+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -341,7 +341,7 @@
    "name": "Bruce",
    "sections": [
     {
-     "html": "<figure>\n\t\n\t\t<img src=\"#IMG#/images/entities/bruce/hero.png\" alt=\"Shark\" width=\"800\" height=\"703\">\n\t\t\n\t\n\t<figcaption>Bruce seen at the end of the Level 421 trailer.</figcaption>\n</figure>",
+     "html": "<figure>\n\t\n\t\t<img src=\"#IMG#/images/entities/bruce/hero.png\" alt=\"Shark\" width=\"800\" height=\"703\">\n\t\n\t<figcaption>Bruce seen at the end of the Level 421 trailer.</figcaption>\n</figure>",
      "title": "Bruce"
     },
     {
