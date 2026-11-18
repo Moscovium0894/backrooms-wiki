@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 32,
-  "fetchedAt": "2026-11-17T12:42:51+00:00",
+  "fetchedAt": "2026-11-18T12:32:49+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -123,7 +123,7 @@
    "name": "Aranea Membri",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/aranea-membri/hero.png\" alt=\"Current\" width=\"560\" height=\"568\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/aranea-membri/gallery-1.png\" alt=\"Former\" width=\"596\" height=\"522\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCurrent\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/aranea-membri/hero.png\" alt=\"Current\" width=\"560\" height=\"568\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/aranea-membri/gallery-1.png\" alt=\"Former\" width=\"596\" height=\"522\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Aranea Membri"
     },
     {
@@ -477,7 +477,7 @@
    "name": "Faceling",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tStalker\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFarmer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/faceling/hero.png\" alt=\"Stalker\" width=\"500\" height=\"500\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/faceling/gallery-1.png\" alt=\"Farmer\" width=\"148\" height=\"241\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tStalker\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFarmer\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/faceling/hero.png\" alt=\"Stalker\" width=\"500\" height=\"500\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/entities/faceling/gallery-1.png\" alt=\"Farmer\" width=\"148\" height=\"241\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Faceling"
     },
     {

@@ -1,7 +1,7 @@
 {
  "$meta": {
   "count": 25,
-  "fetchedAt": "2026-11-17T12:42:51+00:00",
+  "fetchedAt": "2026-11-18T12:32:49+00:00",
   "license": "CC BY-SA 3.0",
   "source": "https://escapethebackrooms.fandom.com"
  },
@@ -540,11 +540,11 @@
    "rarity": "Unknown",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/hero.png\" alt=\"Model\" width=\"377\" height=\"603\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"152\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/hero.png\" alt=\"Model\" width=\"377\" height=\"603\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/diving-helmet/gallery-2.png\" alt=\"Former Icon\" width=\"150\" height=\"152\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Diving Helmet"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\tN/A\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tN/A\n\n<p><b>Diving Helmets</b> are an Item in Escape the Backrooms. It appears to be a standard Diving Helmet.\n</p>",
+     "html": "<h3>File Name</h3>\n\tN/A\n\n\t\t<h3>Icon Name</h3>\n\tN/A\n\n<p><b>Diving Helmets</b> are an Item in Escape the Backrooms. It appears to be a standard Diving Helmet.\n</p>",
      "title": "Files"
     },
     {
@@ -1368,11 +1368,11 @@
    "rarity": "Rare",
    "sections": [
     {
-     "html": "<ul>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/hero.png\" alt=\"Model\" width=\"336\" height=\"238\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/gallery-2.png\" alt=\"Former Icon\" width=\"151\" height=\"151\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</figure>",
+     "html": "<ul>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tModel\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tIcon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFormer Icon\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/hero.png\" alt=\"Model\" width=\"336\" height=\"238\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/gallery-1.png\" alt=\"Icon\" width=\"640\" height=\"640\">\n\t\t\t\t\t\n\t\t\t\t</figure>\n\t\t\t\n\t\t\t\n\t\t\t\t<figure>\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"#IMG#/images/items/moth-jelly/gallery-2.png\" alt=\"Former Icon\" width=\"151\" height=\"151\">\n\t\t\t\t\t\n\t\t\t\t</figure>",
      "title": "Moth Jelly"
     },
     {
-     "html": "<h3>File Name</h3>\n\t\n\t<a href=\"#APP#/items/wax-bar/\">Wax_bar</a>\n\n\t\n\t\t<h3>Icon Name</h3>\n\t\n\tT_UI_Inv_Icon_WaxBar\n\n<p><b>Moth Jelly</b> is an Item in Escape the Backrooms. It appears to be rectangular piece of purple jelly.\n</p>",
+     "html": "<h3>File Name</h3>\n\t<a href=\"#APP#/items/wax-bar/\">Wax_bar</a>\n\n\t\t<h3>Icon Name</h3>\n\tT_UI_Inv_Icon_WaxBar\n\n<p><b>Moth Jelly</b> is an Item in Escape the Backrooms. It appears to be rectangular piece of purple jelly.\n</p>",
      "title": "Files"
     },
     {
